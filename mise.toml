@@ -1,0 +1,10 @@
+[tools]
+node = "26"
+pnpm = "latest"
+
+[tasks]
+
+build = "pnpm build"
+dev = "pnpm dev"
+lint = "pnpm lint"
+format = "pnpm format"
