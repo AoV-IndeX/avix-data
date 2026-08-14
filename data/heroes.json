@@ -1,0 +1,1312 @@
+[
+  {
+    "heroId": "airi",
+    "roleId_1": "warrior",
+    "roleId_2": "assassin",
+    "laneId_1": "slayer",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Airi.webp",
+    "assetSplash": "heroes/splashes/Airi.webp"
+  },
+  {
+    "heroId": "aleister",
+    "roleId_1": "mage",
+    "roleId_2": "support",
+    "laneId_1": "mid",
+    "laneId_2": "roam",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Aleister.webp",
+    "assetSplash": "heroes/splashes/Aleister.webp"
+  },
+  {
+    "heroId": "alice",
+    "roleId_1": "support",
+    "roleId_2": null,
+    "laneId_1": "roam",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Alice.webp",
+    "assetSplash": "heroes/splashes/Alice.webp"
+  },
+  {
+    "heroId": "allain",
+    "roleId_1": "warrior",
+    "roleId_2": null,
+    "laneId_1": "slayer",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Allain.webp",
+    "assetSplash": "heroes/splashes/Allain.webp"
+  },
+  {
+    "heroId": "amily",
+    "roleId_1": "warrior",
+    "roleId_2": null,
+    "laneId_1": "slayer",
+    "laneId_2": "jungle",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Amily.webp",
+    "assetSplash": "heroes/splashes/Amily.webp"
+  },
+  {
+    "heroId": "annette",
+    "roleId_1": "mage",
+    "roleId_2": "support",
+    "laneId_1": "roam",
+    "laneId_2": "mid",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Annette.webp",
+    "assetSplash": "heroes/splashes/Annette.webp"
+  },
+  {
+    "heroId": "aoi",
+    "roleId_1": "assassin",
+    "roleId_2": null,
+    "laneId_1": "jungle",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Aoi.webp",
+    "assetSplash": "heroes/splashes/Aoi.webp"
+  },
+  {
+    "heroId": "arduin",
+    "roleId_1": "tank",
+    "roleId_2": null,
+    "laneId_1": "roam",
+    "laneId_2": "slayer",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Arduin.webp",
+    "assetSplash": "heroes/splashes/Arduin.webp"
+  },
+  {
+    "heroId": "arthur",
+    "roleId_1": "warrior",
+    "roleId_2": null,
+    "laneId_1": "slayer",
+    "laneId_2": "roam",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Arthur.webp",
+    "assetSplash": "heroes/splashes/Arthur.webp"
+  },
+  {
+    "heroId": "arum",
+    "roleId_1": "support",
+    "roleId_2": null,
+    "laneId_1": "roam",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Arum.webp",
+    "assetSplash": "heroes/splashes/Arum.webp"
+  },
+  {
+    "heroId": "astrid",
+    "roleId_1": "warrior",
+    "roleId_2": null,
+    "laneId_1": "slayer",
+    "laneId_2": "jungle",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Astrid.webp",
+    "assetSplash": "heroes/splashes/Astrid.webp"
+  },
+  {
+    "heroId": "ata",
+    "roleId_1": "warrior",
+    "roleId_2": "tank",
+    "laneId_1": "slayer",
+    "laneId_2": "roam",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Ata.webp",
+    "assetSplash": "heroes/splashes/Ata.webp"
+  },
+  {
+    "heroId": "aya",
+    "roleId_1": "support",
+    "roleId_2": null,
+    "laneId_1": "roam",
+    "laneId_2": "mid",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Aya.webp",
+    "assetSplash": "heroes/splashes/Aya.webp"
+  },
+  {
+    "heroId": "azzenka",
+    "roleId_1": "mage",
+    "roleId_2": null,
+    "laneId_1": "mid",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Azzenka.webp",
+    "assetSplash": "heroes/splashes/Azzenka.webp"
+  },
+  {
+    "heroId": "baldum",
+    "roleId_1": "tank",
+    "roleId_2": null,
+    "laneId_1": "roam",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Baldum.webp",
+    "assetSplash": "heroes/splashes/Baldum.webp"
+  },
+  {
+    "heroId": "bijan",
+    "roleId_1": "warrior",
+    "roleId_2": null,
+    "laneId_1": "slayer",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Bijan.webp",
+    "assetSplash": "heroes/splashes/Bijan.webp"
+  },
+  {
+    "heroId": "billow",
+    "roleId_1": "warrior",
+    "roleId_2": "assassin",
+    "laneId_1": "jungle",
+    "laneId_2": "slayer",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Billow.webp",
+    "assetSplash": "heroes/splashes/Billow.webp"
+  },
+  {
+    "heroId": "biron",
+    "roleId_1": "warrior",
+    "roleId_2": "tank",
+    "laneId_1": "slayer",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Biron.webp",
+    "assetSplash": "heroes/splashes/Biron.webp"
+  },
+  {
+    "heroId": "bolt_baron",
+    "roleId_1": "warrior",
+    "roleId_2": "mage",
+    "laneId_1": "slayer",
+    "laneId_2": "jungle",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Bolt_Baron.webp",
+    "assetSplash": "heroes/splashes/Bolt_Baron.webp"
+  },
+  {
+    "heroId": "bonnie",
+    "roleId_1": "mage",
+    "roleId_2": null,
+    "laneId_1": "mid",
+    "laneId_2": "roam",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Bonnie.webp",
+    "assetSplash": "heroes/splashes/Bonnie.webp"
+  },
+  {
+    "heroId": "bright",
+    "roleId_1": "assassin",
+    "roleId_2": "marksman",
+    "laneId_1": "jungle",
+    "laneId_2": "dragon",
+    "laneId_3": "slayer",
+    "assetAvatar": "heroes/avatars/Bright.webp",
+    "assetSplash": "heroes/splashes/Bright.webp"
+  },
+  {
+    "heroId": "butterfly",
+    "roleId_1": "warrior",
+    "roleId_2": "assassin",
+    "laneId_1": "jungle",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Butterfly.webp",
+    "assetSplash": "heroes/splashes/Butterfly.webp"
+  },
+  {
+    "heroId": "capheny",
+    "roleId_1": "marksman",
+    "roleId_2": null,
+    "laneId_1": "dragon",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Capheny.webp",
+    "assetSplash": "heroes/splashes/Capheny.webp"
+  },
+  {
+    "heroId": "celica",
+    "roleId_1": "marksman",
+    "roleId_2": null,
+    "laneId_1": "dragon",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Celica.webp",
+    "assetSplash": "heroes/splashes/Celica.webp"
+  },
+  {
+    "heroId": "charlotte",
+    "roleId_1": "warrior",
+    "roleId_2": null,
+    "laneId_1": "slayer",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Charlotte.webp",
+    "assetSplash": "heroes/splashes/Charlotte.webp"
+  },
+  {
+    "heroId": "chaugnar",
+    "roleId_1": "tank",
+    "roleId_2": "support",
+    "laneId_1": "roam",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Chaugnar.webp",
+    "assetSplash": "heroes/splashes/Chaugnar.webp"
+  },
+  {
+    "heroId": "cresht",
+    "roleId_1": "tank",
+    "roleId_2": "support",
+    "laneId_1": "roam",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Cresht.webp",
+    "assetSplash": "heroes/splashes/Cresht.webp"
+  },
+  {
+    "heroId": "darcy",
+    "roleId_1": "mage",
+    "roleId_2": null,
+    "laneId_1": "mid",
+    "laneId_2": "jungle",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Darcy.webp",
+    "assetSplash": "heroes/splashes/Darcy.webp"
+  },
+  {
+    "heroId": "dextra",
+    "roleId_1": "warrior",
+    "roleId_2": "tank",
+    "laneId_1": "slayer",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Dextra.webp",
+    "assetSplash": "heroes/splashes/Dextra.webp"
+  },
+  {
+    "heroId": "diaochan",
+    "roleId_1": "mage",
+    "roleId_2": null,
+    "laneId_1": "mid",
+    "laneId_2": "roam",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Diaochan.webp",
+    "assetSplash": "heroes/splashes/Diaochan.webp"
+  },
+  {
+    "heroId": "dirak",
+    "roleId_1": "mage",
+    "roleId_2": null,
+    "laneId_1": "mid",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Dirak.webp",
+    "assetSplash": "heroes/splashes/Dirak.webp"
+  },
+  {
+    "heroId": "dolia",
+    "roleId_1": "support",
+    "roleId_2": null,
+    "laneId_1": "roam",
+    "laneId_2": "mid",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Dolia.webp",
+    "assetSplash": "heroes/splashes/Dolia.webp"
+  },
+  {
+    "heroId": "dyadia",
+    "roleId_1": "mage",
+    "roleId_2": "support",
+    "laneId_1": "roam",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Dyadia.webp",
+    "assetSplash": "heroes/splashes/Dyadia.webp"
+  },
+  {
+    "heroId": "edras",
+    "roleId_1": "warrior",
+    "roleId_2": null,
+    "laneId_1": "slayer",
+    "laneId_2": "jungle",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Edras.webp",
+    "assetSplash": "heroes/splashes/Edras.webp"
+  },
+  {
+    "heroId": "elandorr",
+    "roleId_1": "marksman",
+    "roleId_2": null,
+    "laneId_1": "jungle",
+    "laneId_2": "dragon",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Elandorr.webp",
+    "assetSplash": "heroes/splashes/Elandorr.webp"
+  },
+  {
+    "heroId": "elsu",
+    "roleId_1": "marksman",
+    "roleId_2": null,
+    "laneId_1": "dragon",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Elsu.webp",
+    "assetSplash": "heroes/splashes/Elsu.webp"
+  },
+  {
+    "heroId": "enzo",
+    "roleId_1": "assassin",
+    "roleId_2": null,
+    "laneId_1": "roam",
+    "laneId_2": "jungle",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Enzo.webp",
+    "assetSplash": "heroes/splashes/Enzo.webp"
+  },
+  {
+    "heroId": "erin",
+    "roleId_1": "mage",
+    "roleId_2": "marksman",
+    "laneId_1": "dragon",
+    "laneId_2": "mid",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Erin.webp",
+    "assetSplash": "heroes/splashes/Erin.webp"
+  },
+  {
+    "heroId": "errol",
+    "roleId_1": "warrior",
+    "roleId_2": null,
+    "laneId_1": "jungle",
+    "laneId_2": "slayer",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Errol.webp",
+    "assetSplash": "heroes/splashes/Errol.webp"
+  },
+  {
+    "heroId": "fennik",
+    "roleId_1": "marksman",
+    "roleId_2": null,
+    "laneId_1": "dragon",
+    "laneId_2": "jungle",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Fennik.webp",
+    "assetSplash": "heroes/splashes/Fennik.webp"
+  },
+  {
+    "heroId": "florentino",
+    "roleId_1": "warrior",
+    "roleId_2": null,
+    "laneId_1": "slayer",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Florentino.webp",
+    "assetSplash": "heroes/splashes/Florentino.webp"
+  },
+  {
+    "heroId": "flowborn_f_mage",
+    "roleId_1": "mage",
+    "roleId_2": null,
+    "laneId_1": "mid",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Flowborn_F_Mage.webp",
+    "assetSplash": "heroes/splashes/Flowborn_F_Mage.webp"
+  },
+  {
+    "heroId": "flowborn_f_marksman",
+    "roleId_1": "marksman",
+    "roleId_2": null,
+    "laneId_1": "dragon",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Flowborn_F_Marksman.webp",
+    "assetSplash": "heroes/splashes/Flowborn_F_Marksman.webp"
+  },
+  {
+    "heroId": "flowborn_m_mage",
+    "roleId_1": "mage",
+    "roleId_2": null,
+    "laneId_1": "mid",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Flowborn_M_Mage.webp",
+    "assetSplash": "heroes/splashes/Flowborn_M_Mage.webp"
+  },
+  {
+    "heroId": "flowborn_m_marksman",
+    "roleId_1": "marksman",
+    "roleId_2": null,
+    "laneId_1": "dragon",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Flowborn_M_Marksman.webp",
+    "assetSplash": "heroes/splashes/Flowborn_M_Marksman.webp"
+  },
+  {
+    "heroId": "gildur",
+    "roleId_1": "warrior",
+    "roleId_2": "mage",
+    "laneId_1": "mid",
+    "laneId_2": "roam",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Gildur.webp",
+    "assetSplash": "heroes/splashes/Gildur.webp"
+  },
+  {
+    "heroId": "goverra",
+    "roleId_1": "mage",
+    "roleId_2": null,
+    "laneId_1": "mid",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Goverra.webp",
+    "assetSplash": "heroes/splashes/Goverra.webp"
+  },
+  {
+    "heroId": "grakk",
+    "roleId_1": "tank",
+    "roleId_2": "support",
+    "laneId_1": "roam",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Grakk.webp",
+    "assetSplash": "heroes/splashes/Grakk.webp"
+  },
+  {
+    "heroId": "hayate",
+    "roleId_1": "marksman",
+    "roleId_2": null,
+    "laneId_1": "dragon",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Hayate.webp",
+    "assetSplash": "heroes/splashes/Hayate.webp"
+  },
+  {
+    "heroId": "heino",
+    "roleId_1": "warrior",
+    "roleId_2": "mage",
+    "laneId_1": "mid",
+    "laneId_2": "slayer",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Heino.webp",
+    "assetSplash": "heroes/splashes/Heino.webp"
+  },
+  {
+    "heroId": "helen",
+    "roleId_1": "support",
+    "roleId_2": null,
+    "laneId_1": "roam",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Helen.webp",
+    "assetSplash": "heroes/splashes/Helen.webp"
+  },
+  {
+    "heroId": "iggy",
+    "roleId_1": "mage",
+    "roleId_2": null,
+    "laneId_1": "mid",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Iggy.webp",
+    "assetSplash": "heroes/splashes/Iggy.webp"
+  },
+  {
+    "heroId": "ignis",
+    "roleId_1": "mage",
+    "roleId_2": null,
+    "laneId_1": "mid",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Ignis.webp",
+    "assetSplash": "heroes/splashes/Ignis.webp"
+  },
+  {
+    "heroId": "ilumia",
+    "roleId_1": "mage",
+    "roleId_2": null,
+    "laneId_1": "mid",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Ilumia.webp",
+    "assetSplash": "heroes/splashes/Ilumia.webp"
+  },
+  {
+    "heroId": "ishar",
+    "roleId_1": "mage",
+    "roleId_2": null,
+    "laneId_1": "mid",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Ishar.webp",
+    "assetSplash": "heroes/splashes/Ishar.webp"
+  },
+  {
+    "heroId": "jinna",
+    "roleId_1": "mage",
+    "roleId_2": null,
+    "laneId_1": "mid",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Jinna.webp",
+    "assetSplash": "heroes/splashes/Jinna.webp"
+  },
+  {
+    "heroId": "kahlii",
+    "roleId_1": "mage",
+    "roleId_2": null,
+    "laneId_1": "mid",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Kahlii.webp",
+    "assetSplash": "heroes/splashes/Kahlii.webp"
+  },
+  {
+    "heroId": "kaine",
+    "roleId_1": "assassin",
+    "roleId_2": null,
+    "laneId_1": "jungle",
+    "laneId_2": "slayer",
+    "laneId_3": "roam",
+    "assetAvatar": "heroes/avatars/Kaine.webp",
+    "assetSplash": "heroes/splashes/Kaine.webp"
+  },
+  {
+    "heroId": "keera",
+    "roleId_1": "assassin",
+    "roleId_2": null,
+    "laneId_1": "jungle",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Keera.webp",
+    "assetSplash": "heroes/splashes/Keera.webp"
+  },
+  {
+    "heroId": "kilgroth",
+    "roleId_1": "warrior",
+    "roleId_2": null,
+    "laneId_1": "slayer",
+    "laneId_2": "jungle",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Kilgroth.webp",
+    "assetSplash": "heroes/splashes/Kilgroth.webp"
+  },
+  {
+    "heroId": "kriknak",
+    "roleId_1": "assassin",
+    "roleId_2": null,
+    "laneId_1": "jungle",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Kriknak.webp",
+    "assetSplash": "heroes/splashes/Kriknak.webp"
+  },
+  {
+    "heroId": "krixi",
+    "roleId_1": "mage",
+    "roleId_2": null,
+    "laneId_1": "mid",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Krixi.webp",
+    "assetSplash": "heroes/splashes/Krixi.webp"
+  },
+  {
+    "heroId": "krizzix",
+    "roleId_1": "support",
+    "roleId_2": null,
+    "laneId_1": "roam",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Krizzix.webp",
+    "assetSplash": "heroes/splashes/Krizzix.webp"
+  },
+  {
+    "heroId": "lauriel",
+    "roleId_1": "mage",
+    "roleId_2": null,
+    "laneId_1": "mid",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Lauriel.webp",
+    "assetSplash": "heroes/splashes/Lauriel.webp"
+  },
+  {
+    "heroId": "laville",
+    "roleId_1": "marksman",
+    "roleId_2": null,
+    "laneId_1": "dragon",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Laville.webp",
+    "assetSplash": "heroes/splashes/Laville.webp"
+  },
+  {
+    "heroId": "liliana",
+    "roleId_1": "assassin",
+    "roleId_2": "mage",
+    "laneId_1": "mid",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Liliana.webp",
+    "assetSplash": "heroes/splashes/Liliana.webp"
+  },
+  {
+    "heroId": "lindis",
+    "roleId_1": "marksman",
+    "roleId_2": null,
+    "laneId_1": "dragon",
+    "laneId_2": "jungle",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Lindis.webp",
+    "assetSplash": "heroes/splashes/Lindis.webp"
+  },
+  {
+    "heroId": "lorion",
+    "roleId_1": "mage",
+    "roleId_2": null,
+    "laneId_1": "mid",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Lorion.webp",
+    "assetSplash": "heroes/splashes/Lorion.webp"
+  },
+  {
+    "heroId": "lubu",
+    "roleId_1": "warrior",
+    "roleId_2": null,
+    "laneId_1": "slayer",
+    "laneId_2": "jungle",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Lubu.webp",
+    "assetSplash": "heroes/splashes/Lubu.webp"
+  },
+  {
+    "heroId": "lumburr",
+    "roleId_1": "tank",
+    "roleId_2": "support",
+    "laneId_1": "roam",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Lumburr.webp",
+    "assetSplash": "heroes/splashes/Lumburr.webp"
+  },
+  {
+    "heroId": "maloch",
+    "roleId_1": "warrior",
+    "roleId_2": "tank",
+    "laneId_1": "slayer",
+    "laneId_2": "roam",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Maloch.webp",
+    "assetSplash": "heroes/splashes/Maloch.webp"
+  },
+  {
+    "heroId": "marja",
+    "roleId_1": "warrior",
+    "roleId_2": "mage",
+    "laneId_1": "slayer",
+    "laneId_2": "jungle",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Marja.webp",
+    "assetSplash": "heroes/splashes/Marja.webp"
+  },
+  {
+    "heroId": "max",
+    "roleId_1": "warrior",
+    "roleId_2": "tank",
+    "laneId_1": "slayer",
+    "laneId_2": "jungle",
+    "laneId_3": "roam",
+    "assetAvatar": "heroes/avatars/Max.webp",
+    "assetSplash": "heroes/splashes/Max.webp"
+  },
+  {
+    "heroId": "mganga",
+    "roleId_1": "mage",
+    "roleId_2": null,
+    "laneId_1": "mid",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Mganga.webp",
+    "assetSplash": "heroes/splashes/Mganga.webp"
+  },
+  {
+    "heroId": "mina",
+    "roleId_1": "tank",
+    "roleId_2": "support",
+    "laneId_1": "roam",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Mina.webp",
+    "assetSplash": "heroes/splashes/Mina.webp"
+  },
+  {
+    "heroId": "ming",
+    "roleId_1": "support",
+    "roleId_2": null,
+    "laneId_1": "roam",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Ming.webp",
+    "assetSplash": "heroes/splashes/Ming.webp"
+  },
+  {
+    "heroId": "moren",
+    "roleId_1": "marksman",
+    "roleId_2": null,
+    "laneId_1": "dragon",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Moren.webp",
+    "assetSplash": "heroes/splashes/Moren.webp"
+  },
+  {
+    "heroId": "murad",
+    "roleId_1": "warrior",
+    "roleId_2": "assassin",
+    "laneId_1": "slayer",
+    "laneId_2": "jungle",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Murad.webp",
+    "assetSplash": "heroes/splashes/Murad.webp"
+  },
+  {
+    "heroId": "nakroth",
+    "roleId_1": "assassin",
+    "roleId_2": null,
+    "laneId_1": "jungle",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Nakroth.webp",
+    "assetSplash": "heroes/splashes/Nakroth.webp"
+  },
+  {
+    "heroId": "natalya",
+    "roleId_1": "mage",
+    "roleId_2": null,
+    "laneId_1": "mid",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Natalya.webp",
+    "assetSplash": "heroes/splashes/Natalya.webp"
+  },
+  {
+    "heroId": "omega",
+    "roleId_1": "tank",
+    "roleId_2": "support",
+    "laneId_1": "roam",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Omega.webp",
+    "assetSplash": "heroes/splashes/Omega.webp"
+  },
+  {
+    "heroId": "omen",
+    "roleId_1": "warrior",
+    "roleId_2": null,
+    "laneId_1": "slayer",
+    "laneId_2": "roam",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Omen.webp",
+    "assetSplash": "heroes/splashes/Omen.webp"
+  },
+  {
+    "heroId": "ormarr",
+    "roleId_1": "tank",
+    "roleId_2": null,
+    "laneId_1": "roam",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Ormarr.webp",
+    "assetSplash": "heroes/splashes/Ormarr.webp"
+  },
+  {
+    "heroId": "paine",
+    "roleId_1": "assassin",
+    "roleId_2": null,
+    "laneId_1": "jungle",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Paine.webp",
+    "assetSplash": "heroes/splashes/Paine.webp"
+  },
+  {
+    "heroId": "preyta",
+    "roleId_1": "mage",
+    "roleId_2": null,
+    "laneId_1": "mid",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Preyta.webp",
+    "assetSplash": "heroes/splashes/Preyta.webp"
+  },
+  {
+    "heroId": "qi",
+    "roleId_1": "warrior",
+    "roleId_2": "assassin",
+    "laneId_1": "slayer",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Qi.webp",
+    "assetSplash": "heroes/splashes/Qi.webp"
+  },
+  {
+    "heroId": "quillen",
+    "roleId_1": "assassin",
+    "roleId_2": null,
+    "laneId_1": "jungle",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Quillen.webp",
+    "assetSplash": "heroes/splashes/Quillen.webp"
+  },
+  {
+    "heroId": "raz",
+    "roleId_1": "assassin",
+    "roleId_2": "mage",
+    "laneId_1": "mid",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Raz.webp",
+    "assetSplash": "heroes/splashes/Raz.webp"
+  },
+  {
+    "heroId": "richter",
+    "roleId_1": "warrior",
+    "roleId_2": null,
+    "laneId_1": "slayer",
+    "laneId_2": "roam",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Richter.webp",
+    "assetSplash": "heroes/splashes/Richter.webp"
+  },
+  {
+    "heroId": "rouie",
+    "roleId_1": "mage",
+    "roleId_2": "support",
+    "laneId_1": "mid",
+    "laneId_2": "roam",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Rouie.webp",
+    "assetSplash": "heroes/splashes/Rouie.webp"
+  },
+  {
+    "heroId": "rourke",
+    "roleId_1": "warrior",
+    "roleId_2": "marksman",
+    "laneId_1": "jungle",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Rourke.webp",
+    "assetSplash": "heroes/splashes/Rourke.webp"
+  },
+  {
+    "heroId": "roxie",
+    "roleId_1": "warrior",
+    "roleId_2": "tank",
+    "laneId_1": "roam",
+    "laneId_2": "slayer",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Roxie.webp",
+    "assetSplash": "heroes/splashes/Roxie.webp"
+  },
+  {
+    "heroId": "ryoma",
+    "roleId_1": "warrior",
+    "roleId_2": "assassin",
+    "laneId_1": "slayer",
+    "laneId_2": "jungle",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Ryoma.webp",
+    "assetSplash": "heroes/splashes/Ryoma.webp"
+  },
+  {
+    "heroId": "sephera",
+    "roleId_1": "mage",
+    "roleId_2": "support",
+    "laneId_1": "mid",
+    "laneId_2": "roam",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Sephera.webp",
+    "assetSplash": "heroes/splashes/Sephera.webp"
+  },
+  {
+    "heroId": "sinestrea",
+    "roleId_1": "assassin",
+    "roleId_2": null,
+    "laneId_1": "jungle",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Sinestrea.webp",
+    "assetSplash": "heroes/splashes/Sinestrea.webp"
+  },
+  {
+    "heroId": "skud",
+    "roleId_1": "warrior",
+    "roleId_2": "tank",
+    "laneId_1": "slayer",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Skud.webp",
+    "assetSplash": "heroes/splashes/Skud.webp"
+  },
+  {
+    "heroId": "slimz",
+    "roleId_1": "marksman",
+    "roleId_2": null,
+    "laneId_1": "dragon",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Slimz.webp",
+    "assetSplash": "heroes/splashes/Slimz.webp"
+  },
+  {
+    "heroId": "stuart",
+    "roleId_1": "marksman",
+    "roleId_2": null,
+    "laneId_1": "dragon",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Stuart.webp",
+    "assetSplash": "heroes/splashes/Stuart.webp"
+  },
+  {
+    "heroId": "superman",
+    "roleId_1": "warrior",
+    "roleId_2": null,
+    "laneId_1": "slayer",
+    "laneId_2": "roam",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Superman.webp",
+    "assetSplash": "heroes/splashes/Superman.webp"
+  },
+  {
+    "heroId": "taara",
+    "roleId_1": "warrior",
+    "roleId_2": "tank",
+    "laneId_1": "slayer",
+    "laneId_2": "jungle",
+    "laneId_3": "roam",
+    "assetAvatar": "heroes/avatars/Taara.webp",
+    "assetSplash": "heroes/splashes/Taara.webp"
+  },
+  {
+    "heroId": "tachi",
+    "roleId_1": "warrior",
+    "roleId_2": null,
+    "laneId_1": "jungle",
+    "laneId_2": "slayer",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Tachi.webp",
+    "assetSplash": "heroes/splashes/Tachi.webp"
+  },
+  {
+    "heroId": "tamyn",
+    "roleId_1": "warrior",
+    "roleId_2": null,
+    "laneId_1": "jungle",
+    "laneId_2": "slayer",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Tamyn.webp",
+    "assetSplash": "heroes/splashes/Tamyn.webp"
+  },
+  {
+    "heroId": "teemee",
+    "roleId_1": "tank",
+    "roleId_2": "support",
+    "laneId_1": "roam",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Teemee.webp",
+    "assetSplash": "heroes/splashes/Teemee.webp"
+  },
+  {
+    "heroId": "telannas",
+    "roleId_1": "marksman",
+    "roleId_2": null,
+    "laneId_1": "dragon",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Telannas.webp",
+    "assetSplash": "heroes/splashes/Telannas.webp"
+  },
+  {
+    "heroId": "terri",
+    "roleId_1": "marksman",
+    "roleId_2": null,
+    "laneId_1": "dragon",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Terri.webp",
+    "assetSplash": "heroes/splashes/Terri.webp"
+  },
+  {
+    "heroId": "thane",
+    "roleId_1": "tank",
+    "roleId_2": null,
+    "laneId_1": "roam",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Thane.webp",
+    "assetSplash": "heroes/splashes/Thane.webp"
+  },
+  {
+    "heroId": "the_flash",
+    "roleId_1": "assassin",
+    "roleId_2": "mage",
+    "laneId_1": "mid",
+    "laneId_2": "slayer",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/The_Flash.webp",
+    "assetSplash": "heroes/splashes/The_Flash.webp"
+  },
+  {
+    "heroId": "thorne",
+    "roleId_1": "marksman",
+    "roleId_2": null,
+    "laneId_1": "dragon",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Thorne.webp",
+    "assetSplash": "heroes/splashes/Thorne.webp"
+  },
+  {
+    "heroId": "toro",
+    "roleId_1": "tank",
+    "roleId_2": "support",
+    "laneId_1": "roam",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Toro.webp",
+    "assetSplash": "heroes/splashes/Toro.webp"
+  },
+  {
+    "heroId": "tulen",
+    "roleId_1": "mage",
+    "roleId_2": null,
+    "laneId_1": "mid",
+    "laneId_2": "jungle",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Tulen.webp",
+    "assetSplash": "heroes/splashes/Tulen.webp"
+  },
+  {
+    "heroId": "valhein",
+    "roleId_1": "marksman",
+    "roleId_2": null,
+    "laneId_1": "dragon",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Valhein.webp",
+    "assetSplash": "heroes/splashes/Valhein.webp"
+  },
+  {
+    "heroId": "veera",
+    "roleId_1": "mage",
+    "roleId_2": null,
+    "laneId_1": "mid",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Veera.webp",
+    "assetSplash": "heroes/splashes/Veera.webp"
+  },
+  {
+    "heroId": "veres",
+    "roleId_1": "warrior",
+    "roleId_2": null,
+    "laneId_1": "slayer",
+    "laneId_2": "jungle",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Veres.webp",
+    "assetSplash": "heroes/splashes/Veres.webp"
+  },
+  {
+    "heroId": "violet",
+    "roleId_1": "marksman",
+    "roleId_2": null,
+    "laneId_1": "dragon",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Violet.webp",
+    "assetSplash": "heroes/splashes/Violet.webp"
+  },
+  {
+    "heroId": "volkath",
+    "roleId_1": "warrior",
+    "roleId_2": "assassin",
+    "laneId_1": "slayer",
+    "laneId_2": "jungle",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Volkath.webp",
+    "assetSplash": "heroes/splashes/Volkath.webp"
+  },
+  {
+    "heroId": "wiro",
+    "roleId_1": "warrior",
+    "roleId_2": "tank",
+    "laneId_1": "roam",
+    "laneId_2": "slayer",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Wiro.webp",
+    "assetSplash": "heroes/splashes/Wiro.webp"
+  },
+  {
+    "heroId": "wisp",
+    "roleId_1": "marksman",
+    "roleId_2": null,
+    "laneId_1": "dragon",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Wisp.webp",
+    "assetSplash": "heroes/splashes/Wisp.webp"
+  },
+  {
+    "heroId": "wonderwoman",
+    "roleId_1": "warrior",
+    "roleId_2": null,
+    "laneId_1": "jungle",
+    "laneId_2": "slayer",
+    "laneId_3": "roam",
+    "assetAvatar": "heroes/avatars/Wonderwoman.webp",
+    "assetSplash": "heroes/splashes/Wonderwoman.webp"
+  },
+  {
+    "heroId": "wukong",
+    "roleId_1": "warrior",
+    "roleId_2": "assassin",
+    "laneId_1": "jungle",
+    "laneId_2": "slayer",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Wukong.webp",
+    "assetSplash": "heroes/splashes/Wukong.webp"
+  },
+  {
+    "heroId": "xeniel",
+    "roleId_1": "tank",
+    "roleId_2": "support",
+    "laneId_1": "roam",
+    "laneId_2": "slayer",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Xeniel.webp",
+    "assetSplash": "heroes/splashes/Xeniel.webp"
+  },
+  {
+    "heroId": "yan",
+    "roleId_1": "warrior",
+    "roleId_2": null,
+    "laneId_1": "jungle",
+    "laneId_2": "slayer",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Yan.webp",
+    "assetSplash": "heroes/splashes/Yan.webp"
+  },
+  {
+    "heroId": "ybneth",
+    "roleId_1": "tank",
+    "roleId_2": null,
+    "laneId_1": "roam",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Ybneth.webp",
+    "assetSplash": "heroes/splashes/Ybneth.webp"
+  },
+  {
+    "heroId": "yena",
+    "roleId_1": "warrior",
+    "roleId_2": null,
+    "laneId_1": "slayer",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Yena.webp",
+    "assetSplash": "heroes/splashes/Yena.webp"
+  },
+  {
+    "heroId": "yorn",
+    "roleId_1": "marksman",
+    "roleId_2": null,
+    "laneId_1": "dragon",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Yorn.webp",
+    "assetSplash": "heroes/splashes/Yorn.webp"
+  },
+  {
+    "heroId": "yue",
+    "roleId_1": "mage",
+    "roleId_2": null,
+    "laneId_1": "mid",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Yue.webp",
+    "assetSplash": "heroes/splashes/Yue.webp"
+  },
+  {
+    "heroId": "zanis",
+    "roleId_1": "warrior",
+    "roleId_2": null,
+    "laneId_1": "slayer",
+    "laneId_2": "jungle",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Zanis.webp",
+    "assetSplash": "heroes/splashes/Zanis.webp"
+  },
+  {
+    "heroId": "zata",
+    "roleId_1": "assassin",
+    "roleId_2": "mage",
+    "laneId_1": "mid",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Zata.webp",
+    "assetSplash": "heroes/splashes/Zata.webp"
+  },
+  {
+    "heroId": "zephys",
+    "roleId_1": "warrior",
+    "roleId_2": "assassin",
+    "laneId_1": "jungle",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Zephys.webp",
+    "assetSplash": "heroes/splashes/Zephys.webp"
+  },
+  {
+    "heroId": "zill",
+    "roleId_1": "assassin",
+    "roleId_2": "mage",
+    "laneId_1": "jungle",
+    "laneId_2": "slayer",
+    "laneId_3": "mid",
+    "assetAvatar": "heroes/avatars/Zill.webp",
+    "assetSplash": "heroes/splashes/Zill.webp"
+  },
+  {
+    "heroId": "zip",
+    "roleId_1": "support",
+    "roleId_2": null,
+    "laneId_1": "roam",
+    "laneId_2": null,
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Zip.webp",
+    "assetSplash": "heroes/splashes/Zip.webp"
+  },
+  {
+    "heroId": "zuka",
+    "roleId_1": "warrior",
+    "roleId_2": "assassin",
+    "laneId_1": "jungle",
+    "laneId_2": "slayer",
+    "laneId_3": null,
+    "assetAvatar": "heroes/avatars/Zuka.webp",
+    "assetSplash": "heroes/splashes/Zuka.webp"
+  }
+]

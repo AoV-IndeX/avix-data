@@ -1,0 +1,281 @@
+[
+  {
+    "enchantmentId": "axeofsacrifice",
+    "categoryId": "veda",
+    "level": 1,
+    "number": 1,
+    "cooldown": "N/A",
+    "description": "Increases 3% Damage Dealt Increases 1% Damage Received (+1% for Ranged Heroes)",
+    "asset": "enchantments/A11_AxeofSacrifice.webp"
+  },
+  {
+    "enchantmentId": "manarefill",
+    "categoryId": "veda",
+    "level": 1,
+    "number": 2,
+    "cooldown": "5s",
+    "description": "Recovers 8% Mana when a Skill or Normal Attack hits an enemy",
+    "asset": "enchantments/A12_ManaRefill.webp"
+  },
+  {
+    "enchantmentId": "sacredbead",
+    "categoryId": "veda",
+    "level": 1,
+    "number": 3,
+    "cooldown": "N/A",
+    "description": "Gains 10% Cooldown Reduction for Ultimate only (subject to 40% CDR cap)",
+    "asset": "enchantments/A13_SacredBead.webp"
+  },
+  {
+    "enchantmentId": "blessing",
+    "categoryId": "veda",
+    "level": 2,
+    "number": 1,
+    "cooldown": "N/A",
+    "description": "Increases 16% Crit Chance from equipment Increases 8% Ability Power from equipment",
+    "asset": "enchantments/A21_Blessing.webp"
+  },
+  {
+    "enchantmentId": "holyverdict",
+    "categoryId": "veda",
+    "level": 2,
+    "number": 2,
+    "cooldown": "N/A",
+    "description": "Gains (18 - 60) Armor Pierce and Magic Pierce",
+    "asset": "enchantments/A22_HolyVerdict.webp"
+  },
+  {
+    "enchantmentId": "holysummoner",
+    "categoryId": "veda",
+    "level": 3,
+    "number": 1,
+    "cooldown": "10s",
+    "description": "Strike 3 consecutive Normal Attacks on an enemy will summon a Holy Spirit: Range: 9.5m Attack Speed: Equals to user's Attack Speed Power: True Damage = Target's 2% MaxHP Duration: 5s (Normal Attacks will replenish the duration)",
+    "asset": "enchantments/A31_HolySummoner.webp"
+  },
+  {
+    "enchantmentId": "holythunder",
+    "categoryId": "veda",
+    "level": 3,
+    "number": 2,
+    "cooldown": "12s",
+    "description": "Next Normal Attack / Skill on enemy will deal additionally ((80 + (Lv*8)(30% AP)) Magic Damage Use Normal Attack / Skill on enemy to reduce 1s Cooldown (0.5s interval)",
+    "asset": "enchantments/A32_HolyThunder.webp"
+  },
+  {
+    "enchantmentId": "sacredprotection",
+    "categoryId": "veda",
+    "level": 3,
+    "number": 3,
+    "cooldown": "30s",
+    "description": "Taking damage ≥ 30% Max HP within 3s will activate: Gains a Shield absorbs (400 + Lv*30) Damage (lasts 6s) Gains 20% Magic Life Steal (lasts 6s, Kill / Assist to extend by 3s)",
+    "asset": "enchantments/A33_SacredProtection.webp"
+  },
+  {
+    "enchantmentId": "devourer",
+    "categoryId": "lokheim",
+    "level": 1,
+    "number": 1,
+    "cooldown": "N/A",
+    "description": "Kill / Assist to restore 9% Max HP and 15% Max Mana",
+    "asset": "enchantments/B11_Devourer.webp"
+  },
+  {
+    "enchantmentId": "shadowblade",
+    "categoryId": "lokheim",
+    "level": 1,
+    "number": 2,
+    "cooldown": "N/A",
+    "description": "On using Movement / Charge Skill, gain 1 Shadow Blade stack (up to x3, lasts 4s) Next Normal Attack on enemy will consume all stacks, dealing an additional (30 + Lv*5 + 10% BonusAD) Physical Damage per stack",
+    "asset": "enchantments/B12_ShadowBlade.webp"
+  },
+  {
+    "enchantmentId": "raginginferno",
+    "categoryId": "lokheim",
+    "level": 1,
+    "number": 3,
+    "cooldown": "8s",
+    "description": "Next Normal Attack / Skill on enemy will deal an additional (50 + Lv*5 + (15% AP)) Magic Damage",
+    "asset": "enchantments/B13_RagingInferno.webp"
+  },
+  {
+    "enchantmentId": "deadlyclaw",
+    "categoryId": "lokheim",
+    "level": 2,
+    "number": 1,
+    "cooldown": "N/A",
+    "description": "Gains (10 - 38) Attack Damage Gains (15 - 57) Ability Power",
+    "asset": "enchantments/B21_DeadlyClaw.webp"
+  },
+  {
+    "enchantmentId": "bonecutter",
+    "categoryId": "lokheim",
+    "level": 2,
+    "number": 2,
+    "cooldown": "N/A",
+    "description": "Gains 12.5% Resistance",
+    "asset": "enchantments/B22_BoneCutter.webp"
+  },
+  {
+    "enchantmentId": "desperateduel",
+    "categoryId": "lokheim",
+    "level": 3,
+    "number": 1,
+    "cooldown": "N/A",
+    "description": "On striking an enemy with Normal Attack / Skill, gain 1 Desperate Duel stack (up to x10, lasts 3s) Each stack increases 2 Movement Speed At 10 stacks, restores 10% Lost HP, gains 15% Armor Pierce and Magic Pierce",
+    "asset": "enchantments/B31_DesperateDuel.webp"
+  },
+  {
+    "enchantmentId": "curseofdeath",
+    "categoryId": "lokheim",
+    "level": 3,
+    "number": 2,
+    "cooldown": "15s",
+    "description": "Normal Attacks / Skills will mark the target for 1.5s. At 3 marks will activate: Explode (40 + Lv*4 + 25%BonusAD + 15%BonusAP) Magic Damage within 2.5m from the target 1s later, explode Magic Damage = Target's 6% Lost HP (+1% per 100 AD / 200 AP) within the same area",
+    "asset": "enchantments/B32_CurseofDeath.webp"
+  },
+  {
+    "enchantmentId": "devilsawakening",
+    "categoryId": "lokheim",
+    "level": 3,
+    "number": 3,
+    "cooldown": "30s",
+    "description": "Activating Ultimate will immediately reduce Cooldown of Ultimate / Other Skills by 20% / 30% respectively",
+    "asset": "enchantments/B33_DevilsAwakening.webp"
+  },
+  {
+    "enchantmentId": "rivertreader",
+    "categoryId": "afata",
+    "level": 1,
+    "number": 1,
+    "cooldown": "While in River",
+    "description": "Gains 10 Movement Speed Gains 20 HP / 5s Gains 10 Mana / 5s",
+    "asset": "enchantments/C11_RiverTreader.webp"
+  },
+  {
+    "enchantmentId": "backstabbing",
+    "categoryId": "afata",
+    "level": 1,
+    "number": 2,
+    "cooldown": "10s",
+    "description": "After entering bushes, enhances next Normal Attack up to 4s after leaving the bush, dealing an additional True Damage = Target's 4% Current HP",
+    "asset": "enchantments/C12_Backstabbing.webp"
+  },
+  {
+    "enchantmentId": "towerblessing",
+    "categoryId": "afata",
+    "level": 1,
+    "number": 3,
+    "cooldown": "While within 6m of a tower",
+    "description": "+ 15% Resistance + 10% Damage Reduction",
+    "asset": "enchantments/C13_TowerBlessing.webp"
+  },
+  {
+    "enchantmentId": "regrowth",
+    "categoryId": "afata",
+    "level": 2,
+    "number": 1,
+    "cooldown": "N/A",
+    "description": "Increases 10% Healing and Shield Effects (+10% for Targets with HP ≤ 50%)",
+    "asset": "enchantments/C21_Regrowth.webp"
+  },
+  {
+    "enchantmentId": "naturesgift",
+    "categoryId": "afata",
+    "level": 2,
+    "number": 2,
+    "cooldown": "N/A",
+    "description": "Each nearby killed Minions or Wildlings grants a permanent Max HP buff (max 800) Minions: +8 Max HP each Small wildlings: +16 Max HP each Large wildlings: +24 Max HP each",
+    "asset": "enchantments/C22_NaturesGift.webp"
+  },
+  {
+    "enchantmentId": "naturesrage",
+    "categoryId": "afata",
+    "level": 3,
+    "number": 1,
+    "cooldown": "20s",
+    "description": "On striking an enemy with a Crowd Control Skill (except Slow, Immobilize, Silence) will activate: Burns Magic Damage = 2% Max HP to nearby enemies every 0.5s for 3s Reduce burned enemies' (30 + Lv*3) Magic Armor",
+    "asset": "enchantments/C31_NaturesRage.webp"
+  },
+  {
+    "enchantmentId": "explosiveshield",
+    "categoryId": "afata",
+    "level": 3,
+    "number": 2,
+    "cooldown": "10s",
+    "description": "On taking damage from enemy each second, gain 1 stack for 3s. At 4 stacks will activate: Creates a 4m Shockwave, dealing Magic Damage = 2% Max HP Restores 5% Max HP (+ 2% / enemy hit)",
+    "asset": "enchantments/C32_ExplosiveShield.webp"
+  },
+  {
+    "enchantmentId": "forestwanderer",
+    "categoryId": "afata",
+    "level": 3,
+    "number": 3,
+    "cooldown": "After exiting combat",
+    "description": "Enhances next Normal Attack: Reduces enemy's 30% Movement Speed for 1s, and marks them with a Stealth Energy Charge After 3s, detonates the Energy Charge, deals Magic Damage = Target's 8% Max HP",
+    "asset": "enchantments/C33_ForestWanderer.webp"
+  },
+  {
+    "enchantmentId": "markoffrost",
+    "categoryId": "leagueofhumans",
+    "level": 1,
+    "number": 1,
+    "cooldown": "Single Use",
+    "description": "Grants Impervious 4 minutes into the match Impervious: Activate: Supress yourself and become Untargetable for 1.5s, then gain a Shield absorbing (500 + Lv*40 + 50% AP) Damage for 1s",
+    "asset": "enchantments/D11_MarkOfFrost.webp"
+  },
+  {
+    "enchantmentId": "enhancedrestore",
+    "categoryId": "leagueofhumans",
+    "level": 1,
+    "number": 2,
+    "cooldown": "60s",
+    "description": "(Replace Restore with Enhanced Restore) Instantly restores around 660 HP and 210 Energy",
+    "asset": "enchantments/D12_EnhancedRestore.webp"
+  },
+  {
+    "enchantmentId": "arcanewhisper",
+    "categoryId": "leagueofhumans",
+    "level": 1,
+    "number": 3,
+    "cooldown": "N/A",
+    "description": "Gains 15% Cooldown Reduction on Talents",
+    "asset": "enchantments/D13_ArcaneWhisper.webp"
+  },
+  {
+    "enchantmentId": "minionkill",
+    "categoryId": "leagueofhumans",
+    "level": 2,
+    "number": 1,
+    "cooldown": "25s",
+    "description": "Next Normal Attack / Skill will instantly kill a minion (not applicable to Siege Minion and Super Minion) After accumulating 10 minion kills using this enchantment, receive 200 Gold and reset the counter",
+    "asset": "enchantments/D21_MinionKill.webp"
+  },
+  {
+    "enchantmentId": "gunslinger",
+    "categoryId": "leagueofhumans",
+    "level": 2,
+    "number": 2,
+    "cooldown": "Spawn with a Gunslinger stack",
+    "description": "Kill / Assist different enemy heroes to gain an additional stack (up to 5 additional stack) Each stack grants 8 Attack Damage and 12 Ability Power",
+    "asset": "enchantments/D22_Gunslinger.webp"
+  },
+  {
+    "enchantmentId": "alchemy",
+    "categoryId": "leagueofhumans",
+    "level": 3,
+    "number": 1,
+    "cooldown": "N/A",
+    "description": "Each 20s, gains 1 Alchemy stack (up to 3 stacks) Strike an Enemy / Tower to consume 1 stack and gain 16 Gold (max 800 Gold received)",
+    "asset": "enchantments/D31_Alchemy.webp"
+  },
+  {
+    "enchantmentId": "endlesscycle",
+    "categoryId": "leagueofhumans",
+    "level": 3,
+    "number": 2,
+    "cooldown": "100s (+ Lv*15)",
+    "description": "Grants Resurrect to instantly respawn at the altar (can only cast twice) After 12 mins into the match, exchange unused Resurrect for 300 Gold each (this is not optional)",
+    "asset": "enchantments/D32_EndlessCycle.webp"
+  }
+]
