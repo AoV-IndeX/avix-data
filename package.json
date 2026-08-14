@@ -12,7 +12,8 @@
     "lint": "biome lint .",
     "format": "biome format --write .",
     "typecheck": "tsc --noEmit",
-    "build": "tsc"
+    "build": "tsc",
+    "compile": "node --env-file=.env --import=tsx src/index.ts"
   },
   "keywords": [],
   "author": "",

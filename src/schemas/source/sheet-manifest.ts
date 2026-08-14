@@ -1,29 +1,34 @@
 import { z } from "zod";
 
-export const SheetManifestSchema = z.object({
-  key: z.string().min(1, "Key must not be empty."),
-  gid: z.string().min(1, "Gid must not be empty."),
-  headers: z.preprocess((val) => {
-    if (typeof val === "string") {
-      return val
-        .split("|")
-        .map((h) => h.trim())
-        .filter(Boolean);
-    }
-    return val;
-  }, z.array(z.string())),
-  enabled: z.preprocess((val) => {
-    if (typeof val === "string") {
-      const normalized = val.trim().toLowerCase();
+export const SheetManifestSchema = z
+  .object({
+    key: z.string().min(1, "Key must not be empty."),
+    gid: z.string().min(1, "GID must not be empty."),
 
-      if (normalized === "true") return true;
-      if (normalized === "false") return false;
-    }
-    if (typeof val === "boolean") {
+    headers: z.preprocess((val) => {
+      if (typeof val === "string") {
+        return val
+          .split("|")
+          .map((header) => header.trim())
+          .filter(Boolean);
+      }
+
       return val;
-    }
-    return val;
-  }, z.boolean()),
-});
+    }, z.array(z.string())),
 
-export type SheetManifest = z.infer<typeof SheetManifestSchema>;
+    enabled: z.preprocess((val) => {
+      if (typeof val === "string") {
+        return val.toLowerCase() === "true";
+      }
+
+      if (typeof val === "boolean") {
+        return val;
+      }
+
+      return false;
+    }, z.boolean()),
+  })
+  .refine((manifest) => !manifest.enabled || manifest.headers.length > 0, {
+    message: "Enabled tables must define at least one header.",
+    path: ["headers"],
+  });
