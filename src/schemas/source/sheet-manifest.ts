@@ -25,3 +25,5 @@ export const SheetManifestSchema = z.object({
     return val;
   }, z.boolean()),
 });
+
+export type SheetManifest = z.infer<typeof SheetManifestSchema>;
