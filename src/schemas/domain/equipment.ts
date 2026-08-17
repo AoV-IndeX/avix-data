@@ -5,6 +5,7 @@ export const EquipmentSchema = z.object({
   categoryId: z.string().min(1, "Category ID must not be empty."),
   level: z.number(),
   number: z.number(),
+  nameKey: z.string(),
   asset: z.string(),
 });
 

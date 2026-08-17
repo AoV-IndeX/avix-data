@@ -5,8 +5,9 @@ export const EnchantmentSchema = z.object({
   categoryId: z.string().min(1, "Category ID must not be empty."),
   level: z.number(),
   number: z.number(),
-  cooldown: z.string(),
-  description: z.string(),
+  usageKey: z.string(),
+  nameKey: z.string(),
+  descriptionKey: z.string(),
   asset: z.string(),
 });
 

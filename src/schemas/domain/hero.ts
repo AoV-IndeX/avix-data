@@ -7,6 +7,7 @@ export const HeroSchema = z.object({
   laneId_1: z.string().min(1, "Lane ID 1 must not be empty."),
   laneId_2: z.string().nullable(),
   laneId_3: z.string().nullable(),
+  nameKey: z.string(),
   assetAvatar: z.string(),
   assetSplash: z.string(),
 });
