@@ -9,6 +9,7 @@ const ENV_KEYS = [
   "ARCANA_WORKBOOK_URL",
   "ENCHANTMENT_WORKBOOK_URL",
   "TALENT_WORKBOOK_URL",
+  "I18N_WORKBOOK_URL",
 ] as const;
 
 export function validateEnvironment(): void {
@@ -43,6 +44,10 @@ export const WORKBOOKS: Record<string, WorkbookConfig> = Object.freeze({
   TALENT: {
     name: "Talent",
     baseUrl: process.env.TALENT_WORKBOOK_URL ?? "",
+  },
+  I18N: {
+    name: "I18N",
+    baseUrl: process.env.I18N_WORKBOOK_URL ?? "",
   },
 });
 
