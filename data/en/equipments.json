@@ -1,0 +1,906 @@
+[
+  {
+    "equipmentId": "short-sword",
+    "categoryId": "attack",
+    "level": 1,
+    "number": 1,
+    "name": "Short Sword",
+    "asset": "equipments/A101_SS_Short-Sword.webp"
+  },
+  {
+    "equipmentId": "dagger",
+    "categoryId": "attack",
+    "level": 1,
+    "number": 2,
+    "name": "Dagger",
+    "asset": "equipments/A102_DG_Dagger.webp"
+  },
+  {
+    "equipmentId": "gloves",
+    "categoryId": "attack",
+    "level": 1,
+    "number": 3,
+    "name": "Gloves",
+    "asset": "equipments/A103_GL_Gloves.webp"
+  },
+  {
+    "equipmentId": "bloodied-club",
+    "categoryId": "attack",
+    "level": 1,
+    "number": 4,
+    "name": "Bloodied Club",
+    "asset": "equipments/A104_BC_Bloodied-Club.webp"
+  },
+  {
+    "equipmentId": "chain-hammer",
+    "categoryId": "attack",
+    "level": 1,
+    "number": 5,
+    "name": "Chain Hammer",
+    "asset": "equipments/A105_CH_Chain-Hammer.webp"
+  },
+  {
+    "equipmentId": "cleaving-claymore",
+    "categoryId": "attack",
+    "level": 2,
+    "number": 1,
+    "name": "Cleaving Claymore",
+    "asset": "equipments/A201_CC_Cleaving-Claymore.webp"
+  },
+  {
+    "equipmentId": "arcane-hammer",
+    "categoryId": "attack",
+    "level": 2,
+    "number": 2,
+    "name": "Arcane Hammer",
+    "asset": "equipments/A202_AH_Arcane-Hammer.webp"
+  },
+  {
+    "equipmentId": "tempest-blades",
+    "categoryId": "attack",
+    "level": 2,
+    "number": 3,
+    "name": "Tempest Blades",
+    "asset": "equipments/A203_TB_Tempest-Blades.webp"
+  },
+  {
+    "equipmentId": "astral-spear",
+    "categoryId": "attack",
+    "level": 2,
+    "number": 4,
+    "name": "Astral Spear",
+    "asset": "equipments/A204_AS_Astral-Spear.webp"
+  },
+  {
+    "equipmentId": "shuriken",
+    "categoryId": "attack",
+    "level": 2,
+    "number": 5,
+    "name": "Shuriken",
+    "asset": "equipments/A205_SRK_Shuriken.webp"
+  },
+  {
+    "equipmentId": "bloodthirsty-blade",
+    "categoryId": "attack",
+    "level": 2,
+    "number": 6,
+    "name": "Bloodthirsty Blade",
+    "asset": "equipments/A206_BB_BloodthirstyBlade.webp"
+  },
+  {
+    "equipmentId": "chaos-bow",
+    "categoryId": "attack",
+    "level": 2,
+    "number": 7,
+    "name": "Chaos Bow",
+    "asset": "equipments/A207_CB_Chaos-Bow.webp"
+  },
+  {
+    "equipmentId": "uriels-brand",
+    "categoryId": "attack",
+    "level": 2,
+    "number": 8,
+    "name": "Uriel's Brand",
+    "asset": "equipments/A208_UB_Uriels-Brand.webp"
+  },
+  {
+    "equipmentId": "death-curse",
+    "categoryId": "attack",
+    "level": 2,
+    "number": 9,
+    "name": "Death Curse",
+    "asset": "equipments/A209_DC_Death-Curse.webp"
+  },
+  {
+    "equipmentId": "death-sickle",
+    "categoryId": "attack",
+    "level": 2,
+    "number": 10,
+    "name": "Death Sickle",
+    "asset": "equipments/A210_DS_Death-Sickle.webp"
+  },
+  {
+    "equipmentId": "bow-of-slaughter",
+    "categoryId": "attack",
+    "level": 2,
+    "number": 11,
+    "name": "Bow of Slaughter",
+    "asset": "equipments/A211_BoS_Bow-of-Slaughter.webp"
+  },
+  {
+    "equipmentId": "the-diminisher",
+    "categoryId": "attack",
+    "level": 2,
+    "number": 12,
+    "name": "The Diminisher",
+    "asset": "equipments/A212_TD_The-Diminisher.webp"
+  },
+  {
+    "equipmentId": "eclipsing-bow",
+    "categoryId": "attack",
+    "level": 2,
+    "number": 13,
+    "name": "Eclipsing Bow",
+    "asset": "equipments/A213_EB_Eclipsing-Bow.webp"
+  },
+  {
+    "equipmentId": "longinus-spear",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 1,
+    "name": "Longinus Spear",
+    "asset": "equipments/A301_LS_Longinus-Spear.webp"
+  },
+  {
+    "equipmentId": "fafnirs-talon",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 2,
+    "name": "Fafnir's Talon",
+    "asset": "equipments/A302_FT_Fafnirs-Talon.webp"
+  },
+  {
+    "equipmentId": "claves-sancti",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 3,
+    "name": "Claves Sancti",
+    "asset": "equipments/A303_CS_Claves-Sancti.webp"
+  },
+  {
+    "equipmentId": "muramasa",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 4,
+    "name": "Muramasa",
+    "asset": "equipments/A304_MR_Muramasa.webp"
+  },
+  {
+    "equipmentId": "the-beast",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 5,
+    "name": "The Beast",
+    "asset": "equipments/A305_TB_The-Beast.webp"
+  },
+  {
+    "equipmentId": "omni-arms",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 6,
+    "name": "Omni Arms",
+    "asset": "equipments/A306_OA_Omni-Arms.webp"
+  },
+  {
+    "equipmentId": "slikks-sting",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 7,
+    "name": "Slikk's Sting",
+    "asset": "equipments/A307_SS_Slikks-Sting.webp"
+  },
+  {
+    "equipmentId": "fenrirs-tooth",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 8,
+    "name": "Fenrir's Tooth",
+    "asset": "equipments/A308_FT_Fenrirs-Tooth.webp"
+  },
+  {
+    "equipmentId": "blitz-blade",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 9,
+    "name": "Blitz Blade",
+    "asset": "equipments/A309_BB_Blitz-Blade.webp"
+  },
+  {
+    "equipmentId": "devils-handshake",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 10,
+    "name": "Devil's Handshake",
+    "asset": "equipments/A310_DH_Devils-Handshake.webp"
+  },
+  {
+    "equipmentId": "rankbreaker",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 11,
+    "name": "Rankbreaker",
+    "asset": "equipments/A311_RB_Rankbreaker.webp"
+  },
+  {
+    "equipmentId": "frost-hammer",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 12,
+    "name": "Frost Hammer",
+    "asset": "equipments/A312_FH_FrostHammer.webp"
+  },
+  {
+    "equipmentId": "dawning-star",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 13,
+    "name": "Dawning Star",
+    "asset": "equipments/A313_DS_Dawning-Star.webp"
+  },
+  {
+    "equipmentId": "spell-tome",
+    "categoryId": "magic",
+    "level": 1,
+    "number": 1,
+    "name": "Spell Tome",
+    "asset": "equipments/B101_ST_Spell-Tome.webp"
+  },
+  {
+    "equipmentId": "lapis-ring",
+    "categoryId": "magic",
+    "level": 1,
+    "number": 2,
+    "name": "Lapis Ring",
+    "asset": "equipments/B102_LR_Lapis-Ring.webp"
+  },
+  {
+    "equipmentId": "pendant-of-faith",
+    "categoryId": "magic",
+    "level": 1,
+    "number": 3,
+    "name": "Pendant of Faith",
+    "asset": "equipments/B103_PoF_Pendant-of-Faith.webp"
+  },
+  {
+    "equipmentId": "ancient-scriptures",
+    "categoryId": "magic",
+    "level": 1,
+    "number": 4,
+    "name": "Ancient Scriptures",
+    "asset": "equipments/B104_AS_Ancient-Scriptures.webp"
+  },
+  {
+    "equipmentId": "magic-ring",
+    "categoryId": "magic",
+    "level": 1,
+    "number": 5,
+    "name": "Magic Ring",
+    "asset": "equipments/B105_MR_Magic-Ring.webp"
+  },
+  {
+    "equipmentId": "enchanted-scroll",
+    "categoryId": "magic",
+    "level": 2,
+    "number": 1,
+    "name": "Enchanted Scroll",
+    "asset": "equipments/B201_ES_Enchanted-Scroll.webp"
+  },
+  {
+    "equipmentId": "trick-blade",
+    "categoryId": "magic",
+    "level": 2,
+    "number": 2,
+    "name": "Trick Blade",
+    "asset": "equipments/B202_TB_Trick-Blade.webp"
+  },
+  {
+    "equipmentId": "spooky-mask",
+    "categoryId": "magic",
+    "level": 2,
+    "number": 3,
+    "name": "Spooky Mask",
+    "asset": "equipments/B203_SM_Spooky-Mask.webp"
+  },
+  {
+    "equipmentId": "phoenix-tear",
+    "categoryId": "magic",
+    "level": 2,
+    "number": 4,
+    "name": "Phoenix Tear",
+    "asset": "equipments/B204_PT_Phoenix-Tear.webp"
+  },
+  {
+    "equipmentId": "virtues-bracelet",
+    "categoryId": "magic",
+    "level": 2,
+    "number": 5,
+    "name": "Virtue's Bracelet",
+    "asset": "equipments/B205_VB_Virtues-Bracelet.webp"
+  },
+  {
+    "equipmentId": "vlads-impaler",
+    "categoryId": "magic",
+    "level": 2,
+    "number": 6,
+    "name": "Vlad's Impaler",
+    "asset": "equipments/B206_VI_Vlads-Impaler.webp"
+  },
+  {
+    "equipmentId": "staff-of-nuul",
+    "categoryId": "magic",
+    "level": 2,
+    "number": 7,
+    "name": "Staff of Nuul",
+    "asset": "equipments/B207_SoN_Staff-of-Nuul.webp"
+  },
+  {
+    "equipmentId": "virtues-necklace",
+    "categoryId": "magic",
+    "level": 2,
+    "number": 8,
+    "name": "Virtue's Necklace",
+    "asset": "equipments/B208_VN_Virtues-Necklace.webp"
+  },
+  {
+    "equipmentId": "astrolobe",
+    "categoryId": "magic",
+    "level": 2,
+    "number": 9,
+    "name": "Astrolobe",
+    "asset": "equipments/B209_AT_Astrolobe.webp"
+  },
+  {
+    "equipmentId": "evil-secrets",
+    "categoryId": "magic",
+    "level": 2,
+    "number": 10,
+    "name": "Evil Secrets",
+    "asset": "equipments/B210_ES_Evil-Secrets.webp"
+  },
+  {
+    "equipmentId": "tome-of-the-reaper",
+    "categoryId": "magic",
+    "level": 2,
+    "number": 11,
+    "name": "Tome of the Reaper",
+    "asset": "equipments/B211_TotR_Tome-of-the-Reaper.webp"
+  },
+  {
+    "equipmentId": "caranos-vow",
+    "categoryId": "magic",
+    "level": 2,
+    "number": 12,
+    "name": "Carano's Vow",
+    "asset": "equipments/B212_CV_CaranosVow.webp"
+  },
+  {
+    "equipmentId": "boomstick",
+    "categoryId": "magic",
+    "level": 3,
+    "number": 1,
+    "name": "Boomstick",
+    "asset": "equipments/B301_BS_Boomstick.webp"
+  },
+  {
+    "equipmentId": "hecates-diadem",
+    "categoryId": "magic",
+    "level": 3,
+    "number": 2,
+    "name": "Hecate's Diadem",
+    "asset": "equipments/B302_HD_Hecates-Diadem.webp"
+  },
+  {
+    "equipmentId": "orb-of-the-magi",
+    "categoryId": "magic",
+    "level": 3,
+    "number": 3,
+    "name": "Orb of the Magi",
+    "asset": "equipments/B303_OotM_Orb-of-the-Magi.webp"
+  },
+  {
+    "equipmentId": "rheas-blessing",
+    "categoryId": "magic",
+    "level": 3,
+    "number": 4,
+    "name": "Rhea's Blessing",
+    "asset": "equipments/B304_RB_Rheas-Blessing.webp"
+  },
+  {
+    "equipmentId": "zweihander",
+    "categoryId": "magic",
+    "level": 3,
+    "number": 5,
+    "name": "Zweihander",
+    "asset": "equipments/B305_Zw_Zweihander.webp"
+  },
+  {
+    "equipmentId": "frostys-revenge",
+    "categoryId": "magic",
+    "level": 3,
+    "number": 6,
+    "name": "Frosty's Revenge",
+    "asset": "equipments/B306_FR_Frostys-Revenge.webp"
+  },
+  {
+    "equipmentId": "beriths-agony",
+    "categoryId": "magic",
+    "level": 3,
+    "number": 7,
+    "name": "Berith's Agony",
+    "asset": "equipments/B307_BA_Beriths-Agony.webp"
+  },
+  {
+    "equipmentId": "apocalypse",
+    "categoryId": "magic",
+    "level": 3,
+    "number": 8,
+    "name": "Apocalypse",
+    "asset": "equipments/B308_Apo_Apocalypse.webp"
+  },
+  {
+    "equipmentId": "soaring-aura",
+    "categoryId": "magic",
+    "level": 3,
+    "number": 9,
+    "name": "Soaring Aura",
+    "asset": "equipments/B309_SA_Soaring-Aura.webp"
+  },
+  {
+    "equipmentId": "holy-of-holies",
+    "categoryId": "magic",
+    "level": 3,
+    "number": 10,
+    "name": "Holy of Holies",
+    "asset": "equipments/B310_HoH_Holy-of-Holies.webp"
+  },
+  {
+    "equipmentId": "arctic-orb",
+    "categoryId": "magic",
+    "level": 3,
+    "number": 11,
+    "name": "Arctic Orb",
+    "asset": "equipments/B311_AO_Arctic-Orb.webp"
+  },
+  {
+    "equipmentId": "frost-guard",
+    "categoryId": "magic",
+    "level": 3,
+    "number": 12,
+    "name": "Frost Guard",
+    "asset": "equipments/B312_FG_Frost-Guard.webp"
+  },
+  {
+    "equipmentId": "carano-robe",
+    "categoryId": "magic",
+    "level": 3,
+    "number": 13,
+    "name": "Carano Robe",
+    "asset": "equipments/B313_CR_CaranoRobe.webp"
+  },
+  {
+    "equipmentId": "ring-of-vitality",
+    "categoryId": "defense",
+    "level": 1,
+    "number": 1,
+    "name": "Ring of Vitality",
+    "asset": "equipments/C101_RoV_Ring-of-Vitality.webp"
+  },
+  {
+    "equipmentId": "light-armor",
+    "categoryId": "defense",
+    "level": 1,
+    "number": 2,
+    "name": "Light Armor",
+    "asset": "equipments/C102_LA_Light-Armor.webp"
+  },
+  {
+    "equipmentId": "gladiators-gauntlets",
+    "categoryId": "defense",
+    "level": 1,
+    "number": 3,
+    "name": "Gladiator's Gauntlets",
+    "asset": "equipments/C103_GG_Gladiators-Gauntlets.webp"
+  },
+  {
+    "equipmentId": "talisman-of-strength",
+    "categoryId": "defense",
+    "level": 1,
+    "number": 4,
+    "name": "Talisman of Strength",
+    "asset": "equipments/C104_ToS_Talisman-of-Strength.webp"
+  },
+  {
+    "equipmentId": "necklace-of-vitality",
+    "categoryId": "defense",
+    "level": 1,
+    "number": 5,
+    "name": "Necklace of Vitality",
+    "asset": "equipments/C105_NoV_Necklace-of-Vitality.webp"
+  },
+  {
+    "equipmentId": "greaves-of-protection",
+    "categoryId": "defense",
+    "level": 2,
+    "number": 1,
+    "name": "Greaves of Protection",
+    "asset": "equipments/C201_GoP_Greaves-of-Protection.webp"
+  },
+  {
+    "equipmentId": "heart-of-incubus",
+    "categoryId": "defense",
+    "level": 2,
+    "number": 2,
+    "name": "Heart of Incubus",
+    "asset": "equipments/C202_HoI_Heart-of-Incubus.webp"
+  },
+  {
+    "equipmentId": "belt-of-clarity",
+    "categoryId": "defense",
+    "level": 2,
+    "number": 3,
+    "name": "Belt of Clarity",
+    "asset": "equipments/C203_BoC_Belt-of-Clarity.webp"
+  },
+  {
+    "equipmentId": "platinum-gauntlets",
+    "categoryId": "defense",
+    "level": 2,
+    "number": 4,
+    "name": "Platinum Gauntlets",
+    "asset": "equipments/C204_PG_Platinum-Gauntlets.webp"
+  },
+  {
+    "equipmentId": "knights-plate",
+    "categoryId": "defense",
+    "level": 2,
+    "number": 5,
+    "name": "Knight's Plate",
+    "asset": "equipments/C205_KP_Knights-Plate.webp"
+  },
+  {
+    "equipmentId": "mail-of-pain",
+    "categoryId": "defense",
+    "level": 2,
+    "number": 6,
+    "name": "Mail of Pain",
+    "asset": "equipments/C206_MoP_Mail-of-Pain.webp"
+  },
+  {
+    "equipmentId": "hecules-madness",
+    "categoryId": "defense",
+    "level": 2,
+    "number": 7,
+    "name": "Hecule's Madness",
+    "asset": "equipments/C207_HM_Hecules-Madness.webp"
+  },
+  {
+    "equipmentId": "odins-will",
+    "categoryId": "defense",
+    "level": 2,
+    "number": 8,
+    "name": "Odin's Will",
+    "asset": "equipments/C208_OW_Odins-Will.webp"
+  },
+  {
+    "equipmentId": "mantle-of-ra",
+    "categoryId": "defense",
+    "level": 3,
+    "number": 1,
+    "name": "Mantle of Ra",
+    "asset": "equipments/C301_MoR_Mantle-of-Ra.webp"
+  },
+  {
+    "equipmentId": "shield-of-the-lost",
+    "categoryId": "defense",
+    "level": 3,
+    "number": 2,
+    "name": "Shield of the Lost",
+    "asset": "equipments/C302_SotL_Shield-of-the-Lost.webp"
+  },
+  {
+    "equipmentId": "the-aegis",
+    "categoryId": "defense",
+    "level": 3,
+    "number": 3,
+    "name": "The Aegis",
+    "asset": "equipments/C303_TA_The-Aegis.webp"
+  },
+  {
+    "equipmentId": "gaias-standard",
+    "categoryId": "defense",
+    "level": 3,
+    "number": 4,
+    "name": "Gaia's Standard",
+    "asset": "equipments/C304_GS_Gaias-Standard.webp"
+  },
+  {
+    "equipmentId": "medallion-of-troy",
+    "categoryId": "defense",
+    "level": 3,
+    "number": 5,
+    "name": "Medallion of Troy",
+    "asset": "equipments/C305_MoT_Medallion-of-Troy.webp"
+  },
+  {
+    "equipmentId": "hyogas-edge",
+    "categoryId": "defense",
+    "level": 3,
+    "number": 6,
+    "name": "Hyoga's Edge",
+    "asset": "equipments/C306_HE_Hyogas-Edge.webp"
+  },
+  {
+    "equipmentId": "blade-of-eternity",
+    "categoryId": "defense",
+    "level": 3,
+    "number": 7,
+    "name": "Blade of Eternity",
+    "asset": "equipments/C307_BoE_Blade-of-Eternity.webp"
+  },
+  {
+    "equipmentId": "frost-cape",
+    "categoryId": "defense",
+    "level": 3,
+    "number": 8,
+    "name": "Frost Cape",
+    "asset": "equipments/C308_FC_Frost-Cape.webp"
+  },
+  {
+    "equipmentId": "amulet-of-longetivity",
+    "categoryId": "defense",
+    "level": 3,
+    "number": 9,
+    "name": "Amulet of Longevity",
+    "asset": "equipments/C309_AoL_Amulet-of-Longetivity.webp"
+  },
+  {
+    "equipmentId": "rock-shield",
+    "categoryId": "defense",
+    "level": 3,
+    "number": 10,
+    "name": "Rock Shield",
+    "asset": "equipments/C310_RS_Rock-Shield.webp"
+  },
+  {
+    "equipmentId": "speed-boots",
+    "categoryId": "movement",
+    "level": 1,
+    "number": 1,
+    "name": "Speed Boots",
+    "asset": "equipments/D101_SB_Speed-Boots.webp"
+  },
+  {
+    "equipmentId": "sonic-boots",
+    "categoryId": "movement",
+    "level": 2,
+    "number": 1,
+    "name": "Sonic Boots",
+    "asset": "equipments/D201_SB_Sonic-Boots.webp"
+  },
+  {
+    "equipmentId": "gilded-greaves",
+    "categoryId": "movement",
+    "level": 2,
+    "number": 2,
+    "name": "Gilded Greaves",
+    "asset": "equipments/D202_GG_Gilded-Greaves.webp"
+  },
+  {
+    "equipmentId": "flashy-boots",
+    "categoryId": "movement",
+    "level": 2,
+    "number": 3,
+    "name": "Flashy Boots",
+    "asset": "equipments/D203_FB_Flashy-Boots.webp"
+  },
+  {
+    "equipmentId": "enchanted-kicks",
+    "categoryId": "movement",
+    "level": 2,
+    "number": 4,
+    "name": "Enchanted Kicks",
+    "asset": "equipments/D204_EK_Enchanted-Kicks.webp"
+  },
+  {
+    "equipmentId": "war-boots",
+    "categoryId": "movement",
+    "level": 2,
+    "number": 5,
+    "name": "War Boots",
+    "asset": "equipments/D205_WB_War-Boots.webp"
+  },
+  {
+    "equipmentId": "hermes-select",
+    "categoryId": "movement",
+    "level": 2,
+    "number": 6,
+    "name": "Hermes Select",
+    "asset": "equipments/D206_HS_Hermes-Select.webp"
+  },
+  {
+    "equipmentId": "kukri",
+    "categoryId": "jungling",
+    "level": 1,
+    "number": 1,
+    "name": "Kukri",
+    "asset": "equipments/E101_KR_Kukri.webp"
+  },
+  {
+    "equipmentId": "monsters-bane",
+    "categoryId": "jungling",
+    "level": 2,
+    "number": 1,
+    "name": "Monster's Bane",
+    "asset": "equipments/E201_MB_Monsters-Bane.webp"
+  },
+  {
+    "equipmentId": "gnoll-cleaver",
+    "categoryId": "jungling",
+    "level": 2,
+    "number": 2,
+    "name": "Gnoll Cleaver",
+    "asset": "equipments/E202_GC_Gnoll-Cleaver.webp"
+  },
+  {
+    "equipmentId": "mr-stabby",
+    "categoryId": "jungling",
+    "level": 2,
+    "number": 3,
+    "name": "Mr. Stabby",
+    "asset": "equipments/E203_MS_Mr.-Stabby.webp"
+  },
+  {
+    "equipmentId": "whispering-wind",
+    "categoryId": "jungling",
+    "level": 2,
+    "number": 4,
+    "name": "Whispering Wind",
+    "asset": "equipments/E204_WW_Whispering-Wind.webp"
+  },
+  {
+    "equipmentId": "lokis-curse",
+    "categoryId": "jungling",
+    "level": 3,
+    "number": 1,
+    "name": "Loki's Curse",
+    "asset": "equipments/E301_LC_Lokis-Curse.webp"
+  },
+  {
+    "equipmentId": "leviathan",
+    "categoryId": "jungling",
+    "level": 3,
+    "number": 2,
+    "name": "Leviathan",
+    "asset": "equipments/E302_LVT_Leviathan.webp"
+  },
+  {
+    "equipmentId": "soulreaver",
+    "categoryId": "jungling",
+    "level": 3,
+    "number": 3,
+    "name": "Soulreaver",
+    "asset": "equipments/E303_SR_Soulreaver.webp"
+  },
+  {
+    "equipmentId": "scorching-wind",
+    "categoryId": "jungling",
+    "level": 3,
+    "number": 4,
+    "name": "Scorching Wind",
+    "asset": "equipments/E304_SW_Scorching-Wind.webp"
+  },
+  {
+    "equipmentId": "elemental-gem",
+    "categoryId": "support",
+    "level": 1,
+    "number": 1,
+    "name": "Elemental Gem",
+    "asset": "equipments/G101_EG_ElementalGem.webp"
+  },
+  {
+    "equipmentId": "earth-gem",
+    "categoryId": "support",
+    "level": 2,
+    "number": 1,
+    "name": "Earth Gem",
+    "asset": "equipments/G201_EG_Earth-Gem.webp"
+  },
+  {
+    "equipmentId": "fire-gem",
+    "categoryId": "support",
+    "level": 2,
+    "number": 2,
+    "name": "Fire Gem",
+    "asset": "equipments/G202_FG_Fire-Gem.webp"
+  },
+  {
+    "equipmentId": "mother-earth-barrier",
+    "categoryId": "support",
+    "level": 3,
+    "number": 1,
+    "name": "Mother Earth: Barrier",
+    "asset": "equipments/G301_ME-B_Mother-Earth-Barrier.webp"
+  },
+  {
+    "equipmentId": "mother-earth-magic-eye",
+    "categoryId": "support",
+    "level": 3,
+    "number": 2,
+    "name": "Mother Earth: Magic Eye",
+    "asset": "equipments/G302_ME-ME_Mother-Earth-Magic-Eye.webp"
+  },
+  {
+    "equipmentId": "mother-earth-surge",
+    "categoryId": "support",
+    "level": 3,
+    "number": 3,
+    "name": "Mother Earth: Surge",
+    "asset": "equipments/G303_ME-S_Mother-Earth-Surge.webp"
+  },
+  {
+    "equipmentId": "mother-earth-cleansing",
+    "categoryId": "support",
+    "level": 3,
+    "number": 4,
+    "name": "Mother Earth: Cleansing",
+    "asset": "equipments/G304_ME-C_Mother-Earth-Cleansing.webp"
+  },
+  {
+    "equipmentId": "mother-earth-spout",
+    "categoryId": "support",
+    "level": 3,
+    "number": 5,
+    "name": "Mother Earth: Spout",
+    "asset": "equipments/G305_ME-SP_Mother-Earth-Spout.webp"
+  },
+  {
+    "equipmentId": "wildfire-barrier",
+    "categoryId": "support",
+    "level": 3,
+    "number": 6,
+    "name": "Wildfire: Barrier",
+    "asset": "equipments/G306_WF-B_Wildfire-Barrier.webp"
+  },
+  {
+    "equipmentId": "wildfire-magic-eye",
+    "categoryId": "support",
+    "level": 3,
+    "number": 7,
+    "name": "Wildfire: Magic Eye",
+    "asset": "equipments/G307_WF-ME_Wildfire-Magic-Eye.webp"
+  },
+  {
+    "equipmentId": "wildfire-surge",
+    "categoryId": "support",
+    "level": 3,
+    "number": 8,
+    "name": "Wildfire: Surge",
+    "asset": "equipments/G308_WF-S_Wildfire-Surge.webp"
+  },
+  {
+    "equipmentId": "wildfire-cleansing",
+    "categoryId": "support",
+    "level": 3,
+    "number": 9,
+    "name": "Wildfire: Cleansing",
+    "asset": "equipments/G309_WF-C_Wildfire-Cleansing.webp"
+  },
+  {
+    "equipmentId": "wildfire-spout",
+    "categoryId": "support",
+    "level": 3,
+    "number": 10,
+    "name": "Wildfire: Spout",
+    "asset": "equipments/G310_WF-SP_Wildfire-Spout.webp"
+  }
+]

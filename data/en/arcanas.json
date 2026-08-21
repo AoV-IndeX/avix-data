@@ -1,0 +1,236 @@
+[
+  {
+    "arcanaId": "red_wise",
+    "colorId": "red",
+    "name": "Wise",
+    "asset": "arcanas/red_Wise.webp",
+    "abilityPower": 5.3
+  },
+  {
+    "arcanaId": "red_samurai",
+    "colorId": "red",
+    "name": "Samurai",
+    "asset": "arcanas/red_Samurai.webp",
+    "attackDamage": 3.2
+  },
+  {
+    "arcanaId": "red_berserker",
+    "colorId": "red",
+    "name": "Berserker",
+    "asset": "arcanas/red_Berserker.webp",
+    "attackDamage": 2,
+    "physicalPierce": 3.6
+  },
+  {
+    "arcanaId": "red_bloodlust",
+    "colorId": "red",
+    "name": "Bloodlust",
+    "asset": "arcanas/red_Bloodlust.webp",
+    "attackDamage": 2.5,
+    "physicalLifesteal": 0.5
+  },
+  {
+    "arcanaId": "red_rampage",
+    "colorId": "red",
+    "name": "Rampage",
+    "asset": "arcanas/red_Rampage.webp",
+    "criticalRate": 0.7,
+    "criticalDamage": 3.6
+  },
+  {
+    "arcanaId": "red_guardian",
+    "colorId": "red",
+    "name": "Guardian",
+    "asset": "arcanas/red_Guardian.webp",
+    "attackSpeed": 1,
+    "physicalArmor": 2.3,
+    "maxHp": 33.7
+  },
+  {
+    "arcanaId": "red_nomad",
+    "colorId": "red",
+    "name": "Nomad",
+    "asset": "arcanas/red_Nomad.webp",
+    "abilityPower": 4.2,
+    "magicPierce": 2.4
+  },
+  {
+    "arcanaId": "red_sovereign",
+    "colorId": "red",
+    "name": "Sovereign",
+    "asset": "arcanas/red_Sovereign.webp",
+    "abilityPower": 4.2,
+    "attackSpeed": 0.6
+  },
+  {
+    "arcanaId": "red_savage",
+    "colorId": "red",
+    "name": "Savage",
+    "asset": "arcanas/red_Savage.webp",
+    "criticalRate": 1.6
+  },
+  {
+    "arcanaId": "red_blitz",
+    "colorId": "red",
+    "name": "Blitz",
+    "asset": "arcanas/red_Blitz.webp",
+    "attackSpeed": 1.6,
+    "criticalRate": 0.5
+  },
+  {
+    "arcanaId": "purple_colossus",
+    "colorId": "purple",
+    "name": "Colossus",
+    "asset": "arcanas/purple_Colossus.webp",
+    "maxHp": 75
+  },
+  {
+    "arcanaId": "purple_cleric",
+    "colorId": "purple",
+    "name": "Cleric",
+    "asset": "arcanas/purple_Cleric.webp",
+    "magicLifesteal": 1.6
+  },
+  {
+    "arcanaId": "purple_tyrant",
+    "colorId": "purple",
+    "name": "Tyrant",
+    "asset": "arcanas/purple_Tyrant.webp",
+    "criticalRate": 0.5,
+    "maxHp": 60
+  },
+  {
+    "arcanaId": "purple_reaper",
+    "colorId": "purple",
+    "name": "Reaper",
+    "asset": "arcanas/purple_Reaper.webp",
+    "physicalLifesteal": 1.6
+  },
+  {
+    "arcanaId": "purple_undying",
+    "colorId": "purple",
+    "name": "Undying",
+    "asset": "arcanas/purple_Undying.webp",
+    "maxHp": 60,
+    "hpRegen": 4.5
+  },
+  {
+    "arcanaId": "purple_crusader",
+    "colorId": "purple",
+    "name": "Crusader",
+    "asset": "arcanas/purple_Crusader.webp",
+    "physicalLifesteal": 1,
+    "magicArmor": 4.1
+  },
+  {
+    "arcanaId": "purple_vampire",
+    "colorId": "purple",
+    "name": "Vampire",
+    "asset": "arcanas/purple_Vampire.webp",
+    "abilityPower": 2.4,
+    "magicLifesteal": 1
+  },
+  {
+    "arcanaId": "purple_reliever",
+    "colorId": "purple",
+    "name": "Reliever",
+    "asset": "arcanas/purple_Reliever.webp",
+    "maxHp": 45,
+    "hpRegen": 5.2,
+    "movementSpeed": 0.4
+  },
+  {
+    "arcanaId": "purple_assassin",
+    "colorId": "purple",
+    "name": "Assassin",
+    "asset": "arcanas/purple_Assassin.webp",
+    "attackDamage": 1.6,
+    "movementSpeed": 1
+  },
+  {
+    "arcanaId": "purple_fairy",
+    "colorId": "purple",
+    "name": "Fairy",
+    "asset": "arcanas/purple_Fairy.webp",
+    "attackSpeed": 1,
+    "movementSpeed": 1
+  },
+  {
+    "arcanaId": "teal_bastion",
+    "colorId": "teal",
+    "name": "Bastion",
+    "asset": "arcanas/teal_Bastion.webp",
+    "physicalArmor": 9
+  },
+  {
+    "arcanaId": "teal_mythril",
+    "colorId": "teal",
+    "name": "Mythril",
+    "asset": "arcanas/teal_Mythril.webp",
+    "physicalArmor": 5,
+    "magicArmor": 5
+  },
+  {
+    "arcanaId": "teal_paladin",
+    "colorId": "teal",
+    "name": "Paladin",
+    "asset": "arcanas/teal_Paladin.webp",
+    "maxHp": 37.5,
+    "cooldownReduction": 0.6
+  },
+  {
+    "arcanaId": "teal_monarch",
+    "colorId": "teal",
+    "name": "Monarch",
+    "asset": "arcanas/teal_Monarch.webp",
+    "magicArmor": 9
+  },
+  {
+    "arcanaId": "teal_hexer",
+    "colorId": "teal",
+    "name": "Hexer",
+    "asset": "arcanas/teal_Hexer.webp",
+    "abilityPower": 2.4,
+    "cooldownReduction": 0.7
+  },
+  {
+    "arcanaId": "teal_dragoon",
+    "colorId": "teal",
+    "name": "Dragoon",
+    "asset": "arcanas/teal_Dragoon.webp",
+    "attackDamage": 0.9,
+    "physicalPierce": 6.4
+  },
+  {
+    "arcanaId": "teal_degenerate",
+    "colorId": "teal",
+    "name": "Degenerate",
+    "asset": "arcanas/teal_Degenerate.webp",
+    "attackSpeed": 0.6,
+    "magicPierce": 6.4
+  },
+  {
+    "arcanaId": "teal_templar",
+    "colorId": "teal",
+    "name": "Templar",
+    "asset": "arcanas/teal_Templar.webp",
+    "cooldownReduction": 1
+  },
+  {
+    "arcanaId": "teal_darksider",
+    "colorId": "teal",
+    "name": "Darksider",
+    "asset": "arcanas/teal_Darksider.webp",
+    "magicLifesteal": 0.7,
+    "physicalArmor": 5.9
+  },
+  {
+    "arcanaId": "teal_crusader",
+    "colorId": "teal",
+    "name": "Crusader",
+    "asset": "arcanas/teal_Crusader.webp",
+    "physicalArmor": 2.7,
+    "magicArmor": 2.7,
+    "cooldownReduction": 0.6
+  }
+]
