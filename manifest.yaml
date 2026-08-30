@@ -1,0 +1,7 @@
+dataVersion: 0.1.0
+
+release:
+  generatedAt: 2026-08-29T08:37:36Z
+
+source:
+  type: google-sheets
