@@ -14,6 +14,7 @@ import type { ManifestEntry } from "../manifest/types.js";
 import { normalizeRecord } from "../normalize/normalizer.js";
 import { parseTsv } from "../parse/tsv-parser.js";
 import { TABLE_DEFINITIONS } from "../schemas/schema-registry.js";
+import { TranslationRowSchema } from "../schemas/i18n/translation.js";
 
 export class CompileError extends Error {
   constructor(
@@ -118,18 +119,16 @@ async function compileWorkbookIntoMemory(
      *
      *   table:     11_i18n-heroes
      *   type:      i18n
-     *   parents:   1_heroes
+     *   parent:    1_heroes
      *   relations: nameKey
      *
      * They may have gid = null in a domain workbook because
      * the physical i18n table lives in the separate i18n workbook.
      */
-    const [parentTable] = entry.parents;
-
-    if (entry.type === "i18n" && entry.parents.length === 1 && parentTable !== undefined) {
+    if (entry.type === "i18n" && entry.parent !== null) {
       store.i18nLinks.push({
         i18nTable: entry.table,
-        parentTable,
+        parentTable: entry.parent,
         relations: entry.relations,
       });
     }
@@ -164,16 +163,17 @@ async function fetchAndValidateTable(
     });
   }
 
-  const definition = TABLE_DEFINITIONS[manifest.table];
+  const schema =
+    manifest.type === "i18n" ? TranslationRowSchema : TABLE_DEFINITIONS[manifest.table]?.schema;
 
-  if (definition === undefined) {
+  if (schema === undefined) {
     throw new CompileError(`No table definition mapped for table "${manifest.table}".`, {
       workbook: config.name,
       table: manifest.table,
     });
   }
 
-  if (definition.schema === null) {
+  if (schema === null) {
     throw new CompileError(`Schema for table "${manifest.table}" is not implemented.`, {
       workbook: config.name,
       table: manifest.table,
@@ -204,7 +204,7 @@ async function fetchAndValidateTable(
   for (const [index, row] of rows.entries()) {
     const normalized = normalizeRecord(row);
 
-    const result = definition.schema.safeParse(normalized);
+    const result = schema.safeParse(normalized);
 
     if (!result.success) {
       throw new CompileError(`Invalid record on row ${index + 2}.`, {
@@ -220,7 +220,6 @@ async function fetchAndValidateTable(
 
   return entities;
 }
-
 /**
  * Compiles the source data into the consumer-facing representation
  * for one locale.
@@ -280,8 +279,8 @@ function cloneDomainTables(store: PipelineStore): Map<string, TableData> {
  *
  *   arcanas.json
  *
- * The relation declared by the manifest tells us which field
- * identifies the corresponding parent record.
+ * The relation declared by the manifest identifies the corresponding
+ * parent record.
  */
 function mergeExtensions(store: PipelineStore, compiled: Map<string, TableData>): void {
   for (const manifest of store.manifests) {
@@ -291,94 +290,192 @@ function mergeExtensions(store: PipelineStore, compiled: Map<string, TableData>)
 
     const extensionData = compiled.get(manifest.table);
 
-    if (!extensionData) {
+    if (extensionData === undefined) {
       throw new CompileError(`No data found for extension table "${manifest.table}".`, {
         table: manifest.table,
       });
     }
 
-    /*
-     * The current architecture allows multiple parents/relations
-     * conceptually, but a normal extension merge needs a concrete
-     * join strategy. For now, enforce one parent/relation.
-     */
-    if (manifest.parents.length !== 1 || manifest.relations.length !== 1) {
+    if (manifest.parent === null) {
+      throw new CompileError(`Extension table "${manifest.table}" has no parent.`, {
+        table: manifest.table,
+      });
+    }
+
+    if (manifest.relations.length !== 1) {
       throw new CompileError(
-        `Extension table "${manifest.table}" must have exactly one parent and one relation for merging.`,
+        `Extension table "${manifest.table}" must have exactly one relation for merging.`,
         {
           table: manifest.table,
           val: {
-            parents: manifest.parents,
             relations: manifest.relations,
           },
         },
       );
     }
 
-    const [parentTable] = manifest.parents;
+    if (manifest.cardinality === null) {
+      throw new CompileError(`Extension table "${manifest.table}" has no cardinality.`, {
+        table: manifest.table,
+      });
+    }
+
+    const definition = TABLE_DEFINITIONS[manifest.table];
+
+    if (definition === undefined) {
+      throw new CompileError(`No table definition mapped for extension "${manifest.table}".`, {
+        table: manifest.table,
+      });
+    }
+
+    if (definition.target === undefined) {
+      throw new CompileError(`Extension table "${manifest.table}" has no assembly target.`, {
+        table: manifest.table,
+      });
+    }
+
     const [relation] = manifest.relations;
 
-    if (parentTable === undefined || relation === undefined) {
+    if (relation === undefined) {
+      throw new CompileError(`Invalid relation definition for extension "${manifest.table}".`, {
+        table: manifest.table,
+      });
+    }
+
+    const parentManifest = store.manifests.find((entry) => entry.table === manifest.parent);
+
+    if (parentManifest === undefined) {
       throw new CompileError(
-        `Invalid parent/relation definition for extension "${manifest.table}".`,
+        `Parent table "${manifest.parent}" not found for extension "${manifest.table}".`,
         {
           table: manifest.table,
         },
       );
     }
 
-    const parentData = compiled.get(parentTable);
-
-    if (!parentData) {
+    if (parentManifest.primaryKey.length !== 1) {
       throw new CompileError(
-        `Parent table "${parentTable}" not found for extension "${manifest.table}".`,
+        `Parent table "${manifest.parent}" must have exactly one primary key for extension "${manifest.table}".`,
+        {
+          table: manifest.table,
+          val: {
+            primaryKey: parentManifest.primaryKey,
+          },
+        },
+      );
+    }
+
+    const [parentKey] = parentManifest.primaryKey;
+
+    if (parentKey === undefined) {
+      throw new CompileError(
+        `Parent table "${manifest.parent}" has an invalid primary key definition.`,
         {
           table: manifest.table,
         },
       );
     }
 
-    const parentIndex = new Map<unknown, TableRecord>();
+    const parentData = compiled.get(manifest.parent);
+
+    if (parentData === undefined) {
+      throw new CompileError(
+        `Parent table "${manifest.parent}" not found for extension "${manifest.table}".`,
+        {
+          table: manifest.table,
+        },
+      );
+    }
+
+    const parentIndex = new Map<string, TableRecord>();
 
     for (const parentRecord of parentData) {
-      parentIndex.set(parentRecord[relation], parentRecord);
+      const parentKeyValue = parentRecord[parentKey];
+
+      if (typeof parentKeyValue !== "string") {
+        throw new CompileError(
+          `Parent table "${manifest.parent}" has an invalid primary key value.`,
+          {
+            table: manifest.parent,
+            val: {
+              field: parentKey,
+              value: parentKeyValue,
+            },
+          },
+        );
+      }
+
+      parentIndex.set(parentKeyValue, parentRecord);
     }
 
     for (const extensionRecord of extensionData) {
       const relationValue = extensionRecord[relation];
 
+      if (typeof relationValue !== "string") {
+        throw new CompileError(
+          `Extension table "${manifest.table}" has an invalid relation value.`,
+          {
+            table: manifest.table,
+            val: {
+              field: relation,
+              value: relationValue,
+            },
+          },
+        );
+      }
+
       const parentRecord = parentIndex.get(relationValue);
 
-      if (!parentRecord) {
+      if (parentRecord === undefined) {
         throw new CompileError(`Could not find parent record for extension "${manifest.table}".`, {
           table: manifest.table,
-          val: extensionRecord,
+          val: {
+            field: relation,
+            value: relationValue,
+          },
         });
       }
 
-      /*
-       * The relation field only identifies the parent.
-       * It should not be duplicated into the merged entity.
-       */
-      const extensionFields = {
-        ...extensionRecord,
-      };
+      const nestedRecord = { ...extensionRecord };
+      delete nestedRecord[relation];
 
-      delete extensionFields[relation];
+      if (manifest.cardinality === "one") {
+        parentRecord[definition.target] = nestedRecord;
+        continue;
+      }
 
-      Object.assign(parentRecord, extensionFields);
+      const existing = parentRecord[definition.target];
+
+      if (existing === undefined) {
+        parentRecord[definition.target] = [nestedRecord];
+        continue;
+      }
+
+      if (!Array.isArray(existing)) {
+        throw new CompileError(
+          `Assembly target "${definition.target}" on parent table "${manifest.parent}" is not an array.`,
+          {
+            table: manifest.table,
+            val: {
+              field: definition.target,
+              value: existing,
+            },
+          },
+        );
+      }
+
+      existing.push(nestedRecord);
     }
 
-    /*
-     * The extension has now become part of its parent.
-     * It must not be emitted independently.
-     */
     compiled.delete(manifest.table);
   }
 }
 
 /**
  * Resolves all i18n relationships for one locale.
+ *
+ * i18n relations may point to fields on the parent itself or to
+ * fields inside extension records that were already assembled.
  *
  * Example:
  *
@@ -408,7 +505,12 @@ function resolveI18n(store: PipelineStore, compiled: Map<string, TableData>, loc
         continue;
       }
 
-      parentData[index] = resolveI18nRecord(record, link.relations, dictionary, locale);
+      parentData[index] = resolveI18nValue(
+        record,
+        link.relations,
+        dictionary,
+        locale,
+      ) as TableRecord;
     }
   }
 }
@@ -435,26 +537,55 @@ function buildI18nDictionary(rows: TableData): Map<string, TableRecord> {
 }
 
 /**
- * Resolves *Key fields while preserving their original property
- * position in the object.
+ * Recursively resolves i18n fields throughout an assembled record.
+ *
+ * This allows an i18n relationship declared for an extension table
+ * to resolve fields inside nested objects and arrays.
  *
  * Example:
  *
  *   {
- *     arcanaId,
- *     colorId,
- *     nameKey,
- *     asset
+ *     equipmentId,
+ *     passives: [
+ *       {
+ *         nameKey,
+ *         descriptionKey
+ *       }
+ *     ]
  *   }
  *
  * becomes:
  *
  *   {
- *     arcanaId,
- *     colorId,
- *     name,
- *     asset
+ *     equipmentId,
+ *     passives: [
+ *       {
+ *         name,
+ *         description
+ *       }
+ *     ]
  *   }
+ */
+function resolveI18nValue(
+  value: unknown,
+  relations: readonly string[],
+  dictionary: Map<string, TableRecord>,
+  locale: Locale,
+): unknown {
+  if (Array.isArray(value)) {
+    return value.map((item) => resolveI18nValue(item, relations, dictionary, locale));
+  }
+
+  if (!isTableRecord(value)) {
+    return value;
+  }
+
+  return resolveI18nRecord(value, relations, dictionary, locale);
+}
+
+/**
+ * Resolves *Key fields while preserving their original property
+ * position in the object.
  */
 function resolveI18nRecord(
   record: TableRecord,
@@ -467,7 +598,7 @@ function resolveI18nRecord(
 
   for (const [key, value] of Object.entries(record)) {
     if (!relationSet.has(key)) {
-      result[key] = value;
+      result[key] = resolveI18nValue(value, relations, dictionary, locale);
       continue;
     }
 
@@ -482,24 +613,24 @@ function resolveI18nRecord(
     const translation = dictionary.get(value);
 
     /*
-     * Missing translations are simply omitted from the artifact.
+     * Missing translation keys are omitted from the artifact.
      */
     if (!translation) {
       continue;
     }
 
-    const translatedValue = translation[locale];
-
     /*
-     * A locale can legitimately have no translation yet.
-     * Do not emit null.
+     * Fall back to English when the requested locale has no
+     * translation for this key.
      */
+    const translatedValue = translation[locale] ?? translation.en;
+
     if (translatedValue === null || translatedValue === undefined) {
       continue;
     }
 
     /*
-     * nameKey       -> name
+     * nameKey        -> name
      * descriptionKey -> description
      * usageKey       -> usage
      *
@@ -515,7 +646,7 @@ function resolveI18nRecord(
 }
 
 /**
- * Removes null-valued properties from all final records.
+ * Removes null-valued properties recursively from all final records.
  */
 function omitNullsFromTables(compiled: Map<string, TableData>): void {
   for (const [tableName, records] of compiled) {
@@ -524,7 +655,26 @@ function omitNullsFromTables(compiled: Map<string, TableData>): void {
 }
 
 function omitNulls(record: TableRecord): TableRecord {
-  return Object.fromEntries(Object.entries(record).filter(([, value]) => value !== null));
+  return Object.fromEntries(
+    Object.entries(record)
+      .filter(([, value]) => value !== null)
+      .map(([key, value]) => [key, omitNullsValue(value)]),
+  );
+}
+
+function omitNullsValue(value: unknown): unknown {
+  if (Array.isArray(value)) {
+    return value.map(omitNullsValue);
+  }
+
+  if (!isTableRecord(value)) {
+    return value;
+  }
+
+  return omitNulls(value);
+}
+function isTableRecord(value: unknown): value is TableRecord {
+  return typeof value === "object" && value !== null && !Array.isArray(value);
 }
 
 /**
