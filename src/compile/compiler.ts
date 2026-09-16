@@ -1,6 +1,5 @@
 import * as fs from "node:fs/promises";
 import * as path from "node:path";
-
 import { LOCALES, type Locale } from "../config/locales.js";
 import {
   buildPublishedTsvUrl,
@@ -39,6 +38,11 @@ interface I18nRelationship {
   readonly i18nTable: string;
   readonly parentTable: string;
   readonly relations: readonly string[];
+}
+
+interface I18nParent {
+  readonly data: TableData;
+  readonly target: string | null;
 }
 
 class PipelineStore {
@@ -187,7 +191,6 @@ async function fetchAndValidateTable(
   console.log(`${`[fetch]·${config.name}·${manifest.table}`.padEnd(35)}☑`);
 
   const rows = parseTsv(rawTsv);
-
   const [firstRow] = rows;
 
   if (!firstRow) {
@@ -203,7 +206,6 @@ async function fetchAndValidateTable(
 
   for (const [index, row] of rows.entries()) {
     const normalized = normalizeRecord(row);
-
     const result = schema.safeParse(normalized);
 
     if (!result.success) {
@@ -220,6 +222,7 @@ async function fetchAndValidateTable(
 
   return entities;
 }
+
 /**
  * Compiles the source data into the consumer-facing representation
  * for one locale.
@@ -474,45 +477,125 @@ function mergeExtensions(store: PipelineStore, compiled: Map<string, TableData>)
 /**
  * Resolves all i18n relationships for one locale.
  *
- * i18n relations may point to fields on the parent itself or to
- * fields inside extension records that were already assembled.
+ * An i18n relationship's parent may refer to either:
+ *
+ *   1. a main/domain table that still exists directly in `compiled`, or
+ *   2. an extension table that has already been assembled into its
+ *      parent's `target` field.
  *
  * Example:
  *
- *   nameKey: "arcana.red_wise.name"
+ *   11_i18n-heroes
+ *     parent = 1_heroes
  *
- * becomes:
+ * resolves directly on hero records.
  *
- *   name: "Wise"
+ * Whereas:
  *
- * The original nameKey is removed.
+ *   23_i18n-equipment-passives
+ *     parent = 3_equipment-passives
+ *
+ * resolves inside:
+ *
+ *   1_equipments[].passives[]
+ *
+ * because `3_equipment-passives` has already been assembled into
+ * `1_equipments.passives`.
  */
 function resolveI18n(store: PipelineStore, compiled: Map<string, TableData>, locale: Locale): void {
   for (const link of store.i18nLinks) {
-    const parentData = compiled.get(link.parentTable);
+    const parent = resolveI18nParent(store, compiled, link.parentTable);
     const i18nData = store.tables.get(link.i18nTable);
 
-    if (!parentData || !i18nData) {
+    if (parent === undefined || i18nData === undefined) {
       continue;
     }
 
     const dictionary = buildI18nDictionary(i18nData);
 
-    for (const index of parentData.keys()) {
-      const record = parentData[index];
+    for (const index of parent.data.keys()) {
+      const record = parent.data[index];
 
       if (!record) {
         continue;
       }
 
-      parentData[index] = resolveI18nValue(
-        record,
-        link.relations,
-        dictionary,
-        locale,
-      ) as TableRecord;
+      if (parent.target === null) {
+        parent.data[index] = resolveI18nValue(
+          record,
+          link.relations,
+          dictionary,
+          locale,
+        ) as TableRecord;
+
+        continue;
+      }
+
+      const nestedValue = record[parent.target];
+
+      if (nestedValue === undefined) {
+        continue;
+      }
+
+      record[parent.target] = resolveI18nValue(nestedValue, link.relations, dictionary, locale);
     }
   }
+}
+
+/**
+ * Resolves the compiled location represented by an i18n relationship.
+ *
+ * Direct parent:
+ *
+ *   parentTable = 1_equipments
+ *   -> compiled["1_equipments"]
+ *   -> target = null
+ *
+ * Extension parent:
+ *
+ *   parentTable = 3_equipment-passives
+ *   -> extension.parent = 1_equipments
+ *   -> extension target = passives
+ *   -> compiled["1_equipments"].passives
+ */
+function resolveI18nParent(
+  store: PipelineStore,
+  compiled: Map<string, TableData>,
+  parentTable: string,
+): I18nParent | undefined {
+  const directData = compiled.get(parentTable);
+
+  if (directData !== undefined) {
+    return {
+      data: directData,
+      target: null,
+    };
+  }
+
+  const extension = store.manifests.find(
+    (manifest) => manifest.table === parentTable && manifest.type === "extension",
+  );
+
+  if (extension === undefined || extension.parent === null) {
+    return undefined;
+  }
+
+  const parentData = compiled.get(extension.parent);
+
+  if (parentData === undefined) {
+    return undefined;
+  }
+
+  const definition = TABLE_DEFINITIONS[extension.table];
+
+  if (definition === undefined || definition.target === undefined) {
+    return undefined;
+  }
+
+  return {
+    data: parentData,
+    target: definition.target,
+  };
 }
 
 /**
@@ -599,6 +682,7 @@ function resolveI18nRecord(
   for (const [key, value] of Object.entries(record)) {
     if (!relationSet.has(key)) {
       result[key] = resolveI18nValue(value, relations, dictionary, locale);
+
       continue;
     }
 
@@ -673,6 +757,7 @@ function omitNullsValue(value: unknown): unknown {
 
   return omitNulls(value);
 }
+
 function isTableRecord(value: unknown): value is TableRecord {
   return typeof value === "object" && value !== null && !Array.isArray(value);
 }
