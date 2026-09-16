@@ -17,6 +17,11 @@ function parseList(value: string): string[] {
     .filter(Boolean);
 }
 
+function parseNullableString(value: string): string | null {
+  const trimmed = value.trim();
+  return trimmed === "" ? null : trimmed;
+}
+
 export function parseManifestRow(row: RawRow, index: number): ManifestEntry {
   const isEnabledRaw = requiredField(row, "isEnabled").trim().toUpperCase();
   if (isEnabledRaw !== "TRUE" && isEnabledRaw !== "FALSE") {
@@ -35,6 +40,7 @@ export function parseManifestRow(row: RawRow, index: number): ManifestEntry {
     parents: parseList(requiredField(row, "parents")),
     relations: parseList(requiredField(row, "relations")),
     headers: parseList(requiredField(row, "headers")),
+    cardinality: parseNullableString(requiredField(row, "cardinality")),
     isEnabled: isEnabledRaw === "TRUE",
   });
 }

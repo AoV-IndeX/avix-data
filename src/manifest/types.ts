@@ -8,6 +8,7 @@ export const ManifestEntrySchema = z
     primaryKey: z.array(z.string()).min(1),
     parents: z.array(z.string()),
     relations: z.array(z.string()),
+    cardinality: z.enum(["one", "many"]).nullable(),
     headers: z.array(z.string()).min(1),
     isEnabled: z.boolean(),
   })
@@ -33,6 +34,14 @@ export const ManifestEntrySchema = z
     }
 
     if (entry.type === "extension") {
+      if (entry.cardinality === null) {
+        ctx.addIssue({
+          code: "custom",
+          message: "[manifest] Extension table must specify cardinality.",
+          path: ["cardinality"],
+        });
+      }
+
       if (entry.parents.length === 0 || entry.relations.length === 0) {
         ctx.addIssue({
           code: "custom",
@@ -56,6 +65,12 @@ export const ManifestEntrySchema = z
           });
         }
       }
+    } else if (entry.cardinality !== null) {
+      ctx.addIssue({
+        code: "custom",
+        message: `[manifest] Table of type "${entry.type}" must not specify cardinality.`,
+        path: ["cardinality"],
+      });
     }
 
     if (entry.type === "i18n") {
