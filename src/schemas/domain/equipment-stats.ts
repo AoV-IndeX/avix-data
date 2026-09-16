@@ -1,8 +1,7 @@
 import { z } from "zod";
 
-import { StatsSchema } from "./stats.js";
+import { StatsFieldsSchema } from "./stats.js";
 
-export const EquipmentStatsSchema = z.object({
+export const EquipmentStatsSchema = StatsFieldsSchema.extend({
   equipmentId: z.string().min(1, "Equipment ID must not be empty."),
-  stats: StatsSchema.partial().optional(),
 });
