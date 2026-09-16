@@ -1,33 +1,65 @@
 import type { ZodType } from "zod";
-import { ArcanaSchema } from "./domain/arcana.js";
 import { ArcanaStatsSchema } from "./domain/arcana-stats.js";
+import { ArcanaSchema } from "./domain/arcana.js";
 import { EnchantmentSchema } from "./domain/enchantment.js";
+import { EquipmentPassiveSchema } from "./domain/equipment-passive.js";
+import { EquipmentStatsSchema } from "./domain/equipment-stats.js";
 import { EquipmentSchema } from "./domain/equipment.js";
 import { HeroSchema } from "./domain/hero.js";
 import { TalentSchema } from "./domain/talent.js";
-import { TranslationRowSchema } from "./i18n/translation.js";
 
-export const TABLE_SCHEMAS: Record<string, ZodType | null> = {
-  "1_heroes": HeroSchema,
-  "2_hero-stats": null,
-  "3_hero-stats-growth": null,
-  "4_skills": null,
-  "5_hero-skills": null,
+type TableDefinition = {
+  schema: ZodType | null;
+  target?: string;
+};
 
-  "1_equipments": EquipmentSchema,
-  "2_equipment-stats": null,
-  "3_equipment-passives": null,
+export const TABLE_DEFINITIONS: Record<string, TableDefinition> = {
+  // HERO
+  "1_heroes": {
+    schema: HeroSchema,
+  },
+  "2_hero-stats": {
+    schema: null,
+  },
+  "3_hero-stats-growth": {
+    schema: null,
+  },
+  "4_skills": {
+    schema: null,
+  },
+  "5_hero-skills": {
+    schema: null,
+  },
 
-  "1_arcanas": ArcanaSchema,
-  "2_arcana-stats": ArcanaStatsSchema,
+  // EQUIPMENT
+  "1_equipments": {
+    schema: EquipmentSchema,
+  },
+  "2_equipment-stats": {
+    schema: EquipmentStatsSchema,
+    target: "stats",
+  },
+  "3_equipment-passives": {
+    schema: EquipmentPassiveSchema,
+    target: "passives",
+  },
 
-  "1_enchantments": EnchantmentSchema,
+  // ARCANA
+  "1_arcanas": {
+    schema: ArcanaSchema,
+  },
+  "2_arcana-stats": {
+    schema: ArcanaStatsSchema,
+    target: "stats",
+  },
 
-  "1_talents": TalentSchema,
+  // ENCHANTMENT
+  "1_enchantments": {
+    schema: EnchantmentSchema,
+  },
 
-  "11_i18n-heroes": TranslationRowSchema,
-  "21_i18n-equipments": TranslationRowSchema,
-  "31_i18n-arcanas": TranslationRowSchema,
-  "41_i18n-enchantments": TranslationRowSchema,
-  "51_i18n-talents": TranslationRowSchema,
+  // TALENT
+  "1_talents": {
+    schema: TalentSchema,
+  },
 };

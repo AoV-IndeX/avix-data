@@ -13,7 +13,7 @@ import { loadManifest } from "../manifest/loader.js";
 import type { ManifestEntry } from "../manifest/types.js";
 import { normalizeRecord } from "../normalize/normalizer.js";
 import { parseTsv } from "../parse/tsv-parser.js";
-import { TABLE_SCHEMAS } from "../schemas/schema-registry.js";
+import { TABLE_DEFINITIONS } from "../schemas/schema-registry.js";
 
 export class CompileError extends Error {
   constructor(
@@ -164,16 +164,16 @@ async function fetchAndValidateTable(
     });
   }
 
-  const schema = TABLE_SCHEMAS[manifest.table];
+  const definition = TABLE_DEFINITIONS[manifest.table];
 
-  if (schema === undefined) {
-    throw new CompileError(`No schema mapped for table "${manifest.table}".`, {
+  if (definition === undefined) {
+    throw new CompileError(`No table definition mapped for table "${manifest.table}".`, {
       workbook: config.name,
       table: manifest.table,
     });
   }
 
-  if (schema === null) {
+  if (definition.schema === null) {
     throw new CompileError(`Schema for table "${manifest.table}" is not implemented.`, {
       workbook: config.name,
       table: manifest.table,
@@ -204,7 +204,7 @@ async function fetchAndValidateTable(
   for (const [index, row] of rows.entries()) {
     const normalized = normalizeRecord(row);
 
-    const result = schema.safeParse(normalized);
+    const result = definition.schema.safeParse(normalized);
 
     if (!result.success) {
       throw new CompileError(`Invalid record on row ${index + 2}.`, {
