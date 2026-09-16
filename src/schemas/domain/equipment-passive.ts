@@ -6,6 +6,6 @@ export const EquipmentPassiveSchema = z.object({
   index: z.number(),
   nameKey: z.string(),
   descriptionKey: z.string(),
-  cooldown: z.number().optional(),
-  uniqueGroup: z.string().optional(),
+  cooldown: z.number().nullable().optional(),
+  uniqueGroup: z.string().nullable().optional(),
 });

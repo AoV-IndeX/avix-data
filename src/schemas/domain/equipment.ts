@@ -7,8 +7,17 @@ export const EquipmentSchema = z.object({
   level: z.number(),
   number: z.number(),
   price: z.number(),
-  recipe: z.array(z.string()).optional(),
-  isActive: z.boolean(),
+  recipe: z
+    .union([z.string(), z.array(z.string())])
+    .nullable()
+    .transform((value) => {
+      if (value === null) {
+        return undefined;
+      }
+
+      return Array.isArray(value) ? value : [value];
+    }),
+  isActive: z.union([z.literal("active"), z.null()]).transform((value) => value === "active"),
   nameKey: z.string(),
   asset: z.string(),
 
