@@ -9,5 +9,6 @@ export const TranslationRowSchema = z
     // Optional locales
     vi: z.string().nullable().optional(),
     zh: z.string().nullable().optional(),
+    th: z.string().nullable().optional(),
   })
   .catchall(z.string().nullable());
