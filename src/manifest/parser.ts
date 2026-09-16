@@ -37,7 +37,7 @@ export function parseManifestRow(row: RawRow, index: number): ManifestEntry {
     gid: gidStr === "" ? null : gidStr,
     type: requiredField(row, "type").trim(),
     primaryKey: parseList(requiredField(row, "primaryKey")),
-    parents: parseList(requiredField(row, "parents")),
+    parent: parseNullableString(requiredField(row, "parent")),
     relations: parseList(requiredField(row, "relations")),
     headers: parseList(requiredField(row, "headers")),
     cardinality: parseNullableString(requiredField(row, "cardinality")),

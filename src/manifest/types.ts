@@ -6,7 +6,7 @@ export const ManifestEntrySchema = z
     gid: z.string().nullable(),
     type: z.enum(["main", "extension", "i18n"]),
     primaryKey: z.array(z.string()).min(1),
-    parents: z.array(z.string()),
+    parent: z.string().nullable(),
     relations: z.array(z.string()),
     cardinality: z.enum(["one", "many"]).nullable(),
     headers: z.array(z.string()).min(1),
@@ -24,10 +24,10 @@ export const ManifestEntrySchema = z
     }
 
     if (entry.type === "main") {
-      if (entry.parents.length > 0 || entry.relations.length > 0) {
+      if (entry.parent !== null || entry.relations.length > 0) {
         ctx.addIssue({
           code: "custom",
-          message: `[manifest] Main table cannot have parents or relations.`,
+          message: `[manifest] Main table cannot have a parent or relations.`,
           path: ["type"],
         });
       }
@@ -42,20 +42,22 @@ export const ManifestEntrySchema = z
         });
       }
 
-      if (entry.parents.length === 0 || entry.relations.length === 0) {
+      if (entry.parent === null) {
         ctx.addIssue({
           code: "custom",
-          message: `[manifest] Extension table must have at least one parent and relation.`,
-          path: ["parents"],
+          message: `[manifest] Extension table must have a parent.`,
+          path: ["parent"],
         });
       }
-      if (entry.parents.length !== entry.relations.length) {
+
+      if (entry.relations.length !== 1) {
         ctx.addIssue({
           code: "custom",
-          message: `[manifest] Extension table parents and relations must have the same length.`,
+          message: `[manifest] Extension table must have exactly one relation.`,
           path: ["relations"],
         });
       }
+
       for (const relation of entry.relations) {
         if (!entry.headers.includes(relation)) {
           ctx.addIssue({
@@ -81,13 +83,15 @@ export const ManifestEntrySchema = z
           path: ["primaryKey"],
         });
       }
-      if (entry.parents.length !== 1) {
+
+      if (entry.parent === null) {
         ctx.addIssue({
           code: "custom",
-          message: `[manifest] i18n table must have exactly one parent.`,
-          path: ["parents"],
+          message: `[manifest] i18n table must have a parent.`,
+          path: ["parent"],
         });
       }
+
       if (entry.relations.length === 0) {
         ctx.addIssue({
           code: "custom",
