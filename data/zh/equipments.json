@@ -1,0 +1,3201 @@
+[
+  {
+    "equipmentId": "short-sword",
+    "categoryId": "attack",
+    "level": 1,
+    "number": 1,
+    "price": 250,
+    "isActive": false,
+    "name": "Short Sword",
+    "asset": "equipments/A101_SS_Short-Sword.webp",
+    "stats": {
+      "attackDamage": 20
+    }
+  },
+  {
+    "equipmentId": "dagger",
+    "categoryId": "attack",
+    "level": 1,
+    "number": 2,
+    "price": 290,
+    "isActive": false,
+    "name": "Dagger",
+    "asset": "equipments/A102_DG_Dagger.webp",
+    "stats": {
+      "attackSpeed": 10
+    }
+  },
+  {
+    "equipmentId": "gloves",
+    "categoryId": "attack",
+    "level": 1,
+    "number": 3,
+    "price": 300,
+    "isActive": false,
+    "name": "Gloves",
+    "asset": "equipments/A103_GL_Gloves.webp",
+    "stats": {
+      "criticalRate": 8
+    }
+  },
+  {
+    "equipmentId": "bloodied-club",
+    "categoryId": "attack",
+    "level": 1,
+    "number": 4,
+    "price": 410,
+    "isActive": false,
+    "name": "Bloodied Club",
+    "asset": "equipments/A104_BC_Bloodied-Club.webp",
+    "stats": {
+      "attackDamage": 10,
+      "physicalLifesteal": 8
+    }
+  },
+  {
+    "equipmentId": "chain-hammer",
+    "categoryId": "attack",
+    "level": 1,
+    "number": 5,
+    "price": 450,
+    "isActive": false,
+    "name": "Chain Hammer",
+    "asset": "equipments/A105_CH_Chain-Hammer.webp",
+    "stats": {
+      "attackDamage": 40
+    }
+  },
+  {
+    "equipmentId": "cleaving-claymore",
+    "categoryId": "attack",
+    "level": 2,
+    "number": 1,
+    "price": 910,
+    "recipe": [
+      "short-sword"
+    ],
+    "isActive": false,
+    "name": "Cleaving Claymore",
+    "asset": "equipments/A201_CC_Cleaving-Claymore.webp",
+    "stats": {
+      "attackDamage": 80
+    }
+  },
+  {
+    "equipmentId": "arcane-hammer",
+    "categoryId": "attack",
+    "level": 2,
+    "number": 2,
+    "price": 740,
+    "recipe": [
+      "short-sword",
+      "dagger"
+    ],
+    "isActive": false,
+    "name": "Arcane Hammer",
+    "asset": "equipments/A202_AH_Arcane-Hammer.webp",
+    "stats": {
+      "attackDamage": 25,
+      "attackSpeed": 15
+    },
+    "passives": [
+      {
+        "passiveId": "arcane-hammer-p1",
+        "index": 1,
+        "description": "Normal attacks increase Movement Speed by 10%.",
+        "uniqueGroup": "speed-up"
+      }
+    ]
+  },
+  {
+    "equipmentId": "tempest-blades",
+    "categoryId": "attack",
+    "level": 2,
+    "number": 3,
+    "price": 780,
+    "recipe": [
+      "dagger",
+      "dagger"
+    ],
+    "isActive": false,
+    "name": "Tempest Blades",
+    "asset": "equipments/A203_TB_Tempest-Blades.webp",
+    "stats": {
+      "attackSpeed": 25,
+      "movementSpeed": 5
+    }
+  },
+  {
+    "equipmentId": "astral-spear",
+    "categoryId": "attack",
+    "level": 2,
+    "number": 4,
+    "price": 830,
+    "recipe": [
+      "short-sword",
+      "short-sword"
+    ],
+    "isActive": false,
+    "name": "Astral Spear",
+    "asset": "equipments/A204_AS_Astral-Spear.webp",
+    "stats": {
+      "attackDamage": 50
+    },
+    "passives": [
+      {
+        "passiveId": "astral-spear-p1",
+        "index": 1,
+        "description": "+60 Armor Pierce",
+        "uniqueGroup": "physical-pierce"
+      }
+    ]
+  },
+  {
+    "equipmentId": "shuriken",
+    "categoryId": "attack",
+    "level": 2,
+    "number": 5,
+    "price": 750,
+    "recipe": [
+      "dagger",
+      "dagger"
+    ],
+    "isActive": false,
+    "name": "Shuriken",
+    "asset": "equipments/A205_SRK_Shuriken.webp",
+    "stats": {
+      "attackSpeed": 20
+    },
+    "passives": [
+      {
+        "passiveId": "shuriken-p1",
+        "index": 1,
+        "description": "Normal attacks deal 21–35 (melee) or 42–70 (ranged) additional physical damage.",
+        "cooldown": 0.3
+      }
+    ]
+  },
+  {
+    "equipmentId": "bloodthirsty-blade",
+    "categoryId": "attack",
+    "level": 2,
+    "number": 6,
+    "price": 830,
+    "recipe": [
+      "bloodied-club",
+      "short-sword"
+    ],
+    "isActive": false,
+    "name": "Bloodthirsty Blade",
+    "asset": "equipments/A206_BB_BloodthirstyBlade.webp",
+    "stats": {
+      "attackDamage": 30,
+      "physicalLifesteal": 10
+    },
+    "passives": [
+      {
+        "passiveId": "bloodthirsty-blade-p1",
+        "index": 1,
+        "description": "When HP drops below 30%, restores 400–610 HP over 5s.",
+        "cooldown": 20,
+        "uniqueGroup": "blood-feast"
+      }
+    ]
+  },
+  {
+    "equipmentId": "chaos-bow",
+    "categoryId": "attack",
+    "level": 2,
+    "number": 7,
+    "price": 1100,
+    "recipe": [
+      "chain-hammer",
+      "dagger"
+    ],
+    "isActive": false,
+    "name": "Chaos Bow",
+    "asset": "equipments/A207_CB_Chaos-Bow.webp",
+    "stats": {
+      "attackDamage": 40,
+      "attackSpeed": 10
+    },
+    "passives": [
+      {
+        "passiveId": "chaos-bow-p1",
+        "index": 1,
+        "description": "Increases Armor Penetration by 10% (doubled for ranged heroes).",
+        "uniqueGroup": "stab"
+      }
+    ]
+  },
+  {
+    "equipmentId": "uriels-brand",
+    "categoryId": "attack",
+    "level": 2,
+    "number": 8,
+    "price": 2000,
+    "recipe": [
+      "arcane-hammer",
+      "short-sword",
+      "gladiators-gauntlets"
+    ],
+    "isActive": false,
+    "name": "Uriel's Brand",
+    "asset": "equipments/A208_UB_Uriels-Brand.webp",
+    "stats": {
+      "attackDamage": 80,
+      "attackSpeed": 25,
+      "magicArmor": 200
+    },
+    "passives": [
+      {
+        "passiveId": "uriels-brand-p1",
+        "index": 1,
+        "description": "When HP falls below 40%, grants a shield that absorbs 600–2000 magic damage, and increases Resistance by 25% and Movement Speed by 30% for 5s.",
+        "cooldown": 75
+      },
+      {
+        "passiveId": "uriels-brand-p2",
+        "index": 2,
+        "description": "Normal attacks increase Movement Speed by 10%.",
+        "uniqueGroup": "speed-up"
+      }
+    ]
+  },
+  {
+    "equipmentId": "death-curse",
+    "categoryId": "attack",
+    "level": 2,
+    "number": 9,
+    "price": 1900,
+    "recipe": [
+      "cleaving-claymore",
+      "magic-ring",
+      "necklace-of-vitality"
+    ],
+    "isActive": false,
+    "name": "Death Curse",
+    "asset": "equipments/A209_DC_Death-Curse.webp",
+    "stats": {
+      "attackDamage": 80,
+      "maxHp": 800,
+      "cooldownReduction": 10
+    },
+    "passives": [
+      {
+        "passiveId": "death-curse-p1",
+        "index": 1,
+        "description": "Damage dealt by normal attacks and skills reduces the target's healing by 40% for 3s.",
+        "uniqueGroup": "anti-heal"
+      }
+    ]
+  },
+  {
+    "equipmentId": "death-sickle",
+    "categoryId": "attack",
+    "level": 2,
+    "number": 10,
+    "price": 2000,
+    "recipe": [
+      "chain-hammer",
+      "dagger",
+      "ring-of-vitality"
+    ],
+    "isActive": false,
+    "name": "Death Sickle",
+    "asset": "equipments/A210_DS_Death-Sickle.webp",
+    "stats": {
+      "attackDamage": 75,
+      "attackSpeed": 15,
+      "maxHp": 500
+    },
+    "passives": [
+      {
+        "passiveId": "death-sickle-p1",
+        "index": 1,
+        "description": "Grants invincibility and temporary damage immunity, and increases Attack Speed and Movement Speed by 25% for 0.75s. After holding the item for 4 minutes, the effect lasts for 1.5s.",
+        "cooldown": 120
+      }
+    ]
+  },
+  {
+    "equipmentId": "bow-of-slaughter",
+    "categoryId": "attack",
+    "level": 2,
+    "number": 11,
+    "price": 2250,
+    "recipe": [
+      "bloodied-club",
+      "gloves",
+      "cleaving-claymore"
+    ],
+    "isActive": true,
+    "name": "Bow of Slaughter",
+    "asset": "equipments/A211_BoS_Bow-of-Slaughter.webp",
+    "stats": {
+      "attackDamage": 90,
+      "criticalRate": 10,
+      "physicalLifesteal": 10
+    },
+    "passives": [
+      {
+        "passiveId": "bow-of-slaughter-p1",
+        "index": 1,
+        "description": "Active: Increases Life Steal by 60% for 3s. Only usable by ranged heroes.",
+        "cooldown": 60
+      }
+    ]
+  },
+  {
+    "equipmentId": "the-diminisher",
+    "categoryId": "attack",
+    "level": 2,
+    "number": 12,
+    "price": 2120,
+    "recipe": [
+      "cleaving-claymore",
+      "magic-ring",
+      "ring-of-vitality"
+    ],
+    "isActive": true,
+    "name": "The Diminisher",
+    "asset": "equipments/A212_TD_The-Diminisher.webp",
+    "stats": {
+      "attackDamage": 100,
+      "maxHp": 500,
+      "cooldownReduction": 10
+    },
+    "passives": [
+      {
+        "passiveId": "the-diminisher-p1",
+        "index": 1,
+        "description": "Active: Grants 40% damage reduction for 2s. Can be used under control effects.",
+        "cooldown": 90
+      },
+      {
+        "passiveId": "the-diminisher-p2",
+        "index": 2,
+        "description": "Skills cause the first enemy hero struck to slow by 30% and reduce their damage dealt by 20% for 3s.",
+        "cooldown": 8
+      }
+    ]
+  },
+  {
+    "equipmentId": "eclipsing-bow",
+    "categoryId": "attack",
+    "level": 2,
+    "number": 13,
+    "price": 2000,
+    "recipe": [
+      "shuriken",
+      "gloves",
+      "dagger"
+    ],
+    "isActive": true,
+    "name": "Eclipsing Bow",
+    "asset": "equipments/A213_EB_Eclipsing-Bow.webp",
+    "stats": {
+      "attackSpeed": 30,
+      "criticalRate": 10,
+      "movementSpeed": 5
+    },
+    "passives": [
+      {
+        "passiveId": "eclipsing-bow-p1",
+        "index": 1,
+        "description": "Active: Increases normal attack range by 150 and Movement Speed by 20% for 5s. Increased range only applicable to ranged heroes.",
+        "cooldown": 60
+      },
+      {
+        "passiveId": "eclipsing-bow-p2",
+        "index": 2,
+        "description": "Normal attacks deal 50 additional physical damage (doubled for ranged heroes).",
+        "cooldown": 0.35
+      }
+    ]
+  },
+  {
+    "equipmentId": "longinus-spear",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 1,
+    "price": 2030,
+    "recipe": [
+      "astral-spear",
+      "magic-ring",
+      "ring-of-vitality"
+    ],
+    "isActive": false,
+    "name": "Longinus Spear",
+    "asset": "equipments/A301_LS_Longinus-Spear.webp",
+    "stats": {
+      "attackDamage": 80,
+      "maxHp": 500,
+      "cooldownReduction": 15
+    },
+    "passives": [
+      {
+        "passiveId": "longinus-spear-p1",
+        "index": 1,
+        "description": "+60 Armor Pierce",
+        "uniqueGroup": "physical-pierce"
+      },
+      {
+        "passiveId": "longinus-spear-p2",
+        "index": 2,
+        "description": "Each attack reduces target's Armor by 6% for 5s. Stacks up to 4 times.",
+        "cooldown": 0.3
+      }
+    ]
+  },
+  {
+    "equipmentId": "fafnirs-talon",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 2,
+    "price": 2040,
+    "recipe": [
+      "shuriken",
+      "bloodied-club",
+      "chain-hammer"
+    ],
+    "isActive": false,
+    "name": "Fafnir's Talon",
+    "asset": "equipments/A302_FT_Fafnirs-Talon.webp",
+    "stats": {
+      "attackDamage": 60,
+      "attackSpeed": 30,
+      "physicalLifesteal": 10
+    },
+    "passives": [
+      {
+        "passiveId": "fafnirs-talon-p1",
+        "index": 1,
+        "description": "Normal attacks deal additional physical damage equal to 8% of target's current HP (max damage to wildlings: 80).",
+        "cooldown": 0.3
+      }
+    ]
+  },
+  {
+    "equipmentId": "claves-sancti",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 3,
+    "price": 2120,
+    "recipe": [
+      "cleaving-claymore",
+      "gloves",
+      "gloves"
+    ],
+    "isActive": false,
+    "name": "Claves Sancti",
+    "asset": "equipments/A303_CS_Claves-Sancti.webp",
+    "stats": {
+      "attackDamage": 100
+    },
+    "passives": [
+      {
+        "passiveId": "claves-sancti-p1",
+        "index": 1,
+        "description": "Increases Movement Speed by 3–45 for 1.5s after landing a critical hit. Only usable by ranged heroes."
+      },
+      {
+        "passiveId": "claves-sancti-p2",
+        "index": 2,
+        "description": "+25% Critical Rate"
+      },
+      {
+        "passiveId": "claves-sancti-p3",
+        "index": 3,
+        "description": "+40% Critical Damage"
+      }
+    ]
+  },
+  {
+    "equipmentId": "muramasa",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 4,
+    "price": 2020,
+    "recipe": [
+      "astral-spear",
+      "magic-ring",
+      "ring-of-vitality"
+    ],
+    "isActive": false,
+    "name": "Muramasa",
+    "asset": "equipments/A304_MR_Muramasa.webp",
+    "stats": {
+      "attackDamage": 80,
+      "maxHp": 500,
+      "cooldownReduction": 10
+    },
+    "passives": [
+      {
+        "passiveId": "muramasa-p1",
+        "index": 1,
+        "description": "+35% Armor Penetration",
+        "uniqueGroup": "stab"
+      }
+    ]
+  },
+  {
+    "equipmentId": "the-beast",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 5,
+    "price": 1800,
+    "recipe": [
+      "bloodthirsty-blade",
+      "bloodied-club",
+      "ring-of-vitality"
+    ],
+    "isActive": false,
+    "name": "The Beast",
+    "asset": "equipments/A305_TB_The-Beast.webp",
+    "stats": {
+      "attackDamage": 100,
+      "physicalLifesteal": 25,
+      "maxHp": 600
+    },
+    "passives": [
+      {
+        "passiveId": "the-beast-p1",
+        "index": 1,
+        "description": "When HP drops below 30%, restores 400–610 HP over 5s.",
+        "cooldown": 20,
+        "uniqueGroup": "blood-feast"
+      }
+    ]
+  },
+  {
+    "equipmentId": "omni-arms",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 6,
+    "price": 2150,
+    "recipe": [
+      "arcane-hammer",
+      "chain-hammer",
+      "ring-of-vitality"
+    ],
+    "isActive": false,
+    "name": "Omni Arms",
+    "asset": "equipments/A306_OA_Omni-Arms.webp",
+    "stats": {
+      "attackDamage": 70,
+      "attackSpeed": 15,
+      "maxHp": 600,
+      "cooldownReduction": 10
+    },
+    "passives": [
+      {
+        "passiveId": "omni-arms-p1",
+        "index": 1,
+        "description": "After using a skill, the next normal attack within 5s deals additional physical damage equal to 100% AD.",
+        "cooldown": 2,
+        "uniqueGroup": "elemental-power"
+      },
+      {
+        "passiveId": "omni-arms-p2",
+        "index": 2,
+        "description": "Normal attacks increase Movement Speed by 10%.",
+        "uniqueGroup": "speed-up"
+      }
+    ]
+  },
+  {
+    "equipmentId": "slikks-sting",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 7,
+    "price": 1920,
+    "recipe": [
+      "tempest-blades",
+      "gloves",
+      "gloves"
+    ],
+    "isActive": false,
+    "name": "Slikk's Sting",
+    "asset": "equipments/A307_SS_Slikks-Sting.webp",
+    "stats": {
+      "attackSpeed": 35,
+      "criticalRate": 25,
+      "movementSpeed": 7
+    },
+    "passives": [
+      {
+        "passiveId": "slikks-sting-p1",
+        "index": 1,
+        "description": "Increases Resistance by 35% for 2s after landing a critical hit.",
+        "uniqueGroup": "resistance"
+      }
+    ]
+  },
+  {
+    "equipmentId": "fenrirs-tooth",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 8,
+    "price": 2800,
+    "recipe": [
+      "cleaving-claymore",
+      "cleaving-claymore"
+    ],
+    "isActive": false,
+    "name": "Fenrir's Tooth",
+    "asset": "equipments/A308_FT_Fenrirs-Tooth.webp",
+    "stats": {
+      "attackDamage": 180,
+      "cooldownReduction": 5
+    },
+    "passives": [
+      {
+        "passiveId": "fenrirs-tooth-p1",
+        "index": 1,
+        "description": "Deals 30% additional damage when target's HP is below 50%."
+      }
+    ]
+  },
+  {
+    "equipmentId": "blitz-blade",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 9,
+    "price": 1840,
+    "recipe": [
+      "shuriken",
+      "dagger"
+    ],
+    "isActive": false,
+    "name": "Blitz Blade",
+    "asset": "equipments/A309_BB_Blitz-Blade.webp",
+    "stats": {
+      "attackSpeed": 35,
+      "movementSpeed": 8
+    },
+    "passives": [
+      {
+        "passiveId": "blitz-blade-p1",
+        "index": 1,
+        "description": "Normal attacks deal 40–82 additional magic damage. Every 3 normal attacks triggers a chain lightning, dealing 140–420 magic damage.",
+        "cooldown": 0.3
+      }
+    ]
+  },
+  {
+    "equipmentId": "devils-handshake",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 10,
+    "price": 1960,
+    "recipe": [
+      "tempest-blades",
+      "gloves"
+    ],
+    "isActive": false,
+    "name": "Devil's Handshake",
+    "asset": "equipments/A310_DH_Devils-Handshake.webp",
+    "stats": {
+      "attackSpeed": 30,
+      "criticalRate": 20,
+      "movementSpeed": 5
+    },
+    "passives": [
+      {
+        "passiveId": "devils-handshake-p1",
+        "index": 1,
+        "description": "Normal attacks increase Attack Speed by 10% for 2s. Stacks up to 5 times."
+      }
+    ]
+  },
+  {
+    "equipmentId": "rankbreaker",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 11,
+    "price": 1900,
+    "recipe": [
+      "astral-spear",
+      "short-sword",
+      "chain-hammer"
+    ],
+    "isActive": false,
+    "name": "Rankbreaker",
+    "asset": "equipments/A311_RB_Rankbreaker.webp",
+    "stats": {
+      "attackDamage": 110
+    },
+    "passives": [
+      {
+        "passiveId": "rankbreaker-p1",
+        "index": 1,
+        "description": "Increases Movement Speed by 10% after exiting battle."
+      },
+      {
+        "passiveId": "rankbreaker-p2",
+        "index": 2,
+        "description": "Grants 40–1800 Armor Pierce."
+      }
+    ]
+  },
+  {
+    "equipmentId": "frost-hammer",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 12,
+    "price": 2060,
+    "recipe": [
+      "shuriken",
+      "chain-hammer",
+      "ring-of-vitality"
+    ],
+    "isActive": false,
+    "name": "Frost Hammer",
+    "asset": "equipments/A312_FH_FrostHammer.webp",
+    "stats": {
+      "attackDamage": 60,
+      "attackSpeed": 30,
+      "maxHp": 900
+    },
+    "passives": [
+      {
+        "passiveId": "frost-hammer-p1",
+        "index": 1,
+        "description": "Normal attacks and skills reduce Movement Speed by 5%–10% for 1.5s. Stacks up to 2 times."
+      },
+      {
+        "passiveId": "frost-hammer-p2",
+        "index": 2,
+        "description": "Normal attacks and skills deal 140–280 (+45% additional AD) additional physical damage to targets.",
+        "cooldown": 3
+      }
+    ]
+  },
+  {
+    "equipmentId": "dawning-star",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 13,
+    "price": 2980,
+    "recipe": [
+      "chaos-bow",
+      "shuriken",
+      "gloves"
+    ],
+    "isActive": false,
+    "name": "Dawning Star",
+    "asset": "equipments/A313_DS_Dawning-Star.webp",
+    "stats": {
+      "attackDamage": 50,
+      "attackSpeed": 40,
+      "criticalRate": 10
+    },
+    "passives": [
+      {
+        "passiveId": "dawning-star-p1",
+        "index": 1,
+        "description": "Normal attacks deal 50 additional physical damage (doubled for ranged heroes).",
+        "cooldown": 0.35
+      },
+      {
+        "passiveId": "dawning-star-p2",
+        "index": 2,
+        "description": "Increases Armor Penetration by 20% (doubled for ranged heroes).",
+        "uniqueGroup": "stab"
+      }
+    ]
+  },
+  {
+    "equipmentId": "spell-tome",
+    "categoryId": "magic",
+    "level": 1,
+    "number": 1,
+    "price": 300,
+    "isActive": false,
+    "name": "Spell Tome",
+    "asset": "equipments/B101_ST_Spell-Tome.webp",
+    "stats": {
+      "abilityPower": 40
+    }
+  },
+  {
+    "equipmentId": "lapis-ring",
+    "categoryId": "magic",
+    "level": 1,
+    "number": 2,
+    "price": 220,
+    "isActive": false,
+    "name": "Lapis Ring",
+    "asset": "equipments/B102_LR_Lapis-Ring.webp",
+    "stats": {
+      "maxMana": 300
+    }
+  },
+  {
+    "equipmentId": "pendant-of-faith",
+    "categoryId": "magic",
+    "level": 1,
+    "number": 3,
+    "price": 120,
+    "isActive": false,
+    "name": "Pendant of Faith",
+    "asset": "equipments/B103_PoF_Pendant-of-Faith.webp",
+    "stats": {
+      "manaRegen": 10
+    }
+  },
+  {
+    "equipmentId": "ancient-scriptures",
+    "categoryId": "magic",
+    "level": 1,
+    "number": 4,
+    "price": 540,
+    "isActive": false,
+    "name": "Ancient Scriptures",
+    "asset": "equipments/B104_AS_Ancient-Scriptures.webp",
+    "stats": {
+      "abilityPower": 80
+    }
+  },
+  {
+    "equipmentId": "magic-ring",
+    "categoryId": "magic",
+    "level": 1,
+    "number": 5,
+    "price": 300,
+    "isActive": false,
+    "name": "Magic Ring",
+    "asset": "equipments/B105_MR_Magic-Ring.webp",
+    "stats": {},
+    "passives": [
+      {
+        "passiveId": "magic-ring-p1",
+        "index": 1,
+        "description": "+5% Cooldown Reduction"
+      }
+    ]
+  },
+  {
+    "equipmentId": "enchanted-scroll",
+    "categoryId": "magic",
+    "level": 2,
+    "number": 1,
+    "price": 820,
+    "recipe": [
+      "spell-tome",
+      "spell-tome"
+    ],
+    "isActive": false,
+    "name": "Enchanted Scroll",
+    "asset": "equipments/B201_ES_Enchanted-Scroll.webp",
+    "stats": {
+      "abilityPower": 120
+    }
+  },
+  {
+    "equipmentId": "trick-blade",
+    "categoryId": "magic",
+    "level": 2,
+    "number": 2,
+    "price": 820,
+    "recipe": [
+      "spell-tome",
+      "magic-ring"
+    ],
+    "isActive": false,
+    "name": "Trick Blade",
+    "asset": "equipments/B202_TB_Trick-Blade.webp",
+    "stats": {
+      "abilityPower": 40,
+      "cooldownReduction": 10
+    },
+    "passives": [
+      {
+        "passiveId": "trick-blade-p1",
+        "index": 1,
+        "description": "After using a skill, the next normal attack within 5s deals additional magic damage equal to (30% AD + 18% AP).",
+        "cooldown": 3,
+        "uniqueGroup": "elemental-power"
+      }
+    ]
+  },
+  {
+    "equipmentId": "spooky-mask",
+    "categoryId": "magic",
+    "level": 2,
+    "number": 3,
+    "price": 960,
+    "recipe": [
+      "spell-tome",
+      "spell-tome"
+    ],
+    "isActive": false,
+    "name": "Spooky Mask",
+    "asset": "equipments/B203_SM_Spooky-Mask.webp",
+    "stats": {
+      "abilityPower": 100
+    },
+    "passives": [
+      {
+        "passiveId": "spooky-mask-p1",
+        "index": 1,
+        "description": "+75 Magic Penetration",
+        "uniqueGroup": "extermination"
+      }
+    ]
+  },
+  {
+    "equipmentId": "phoenix-tear",
+    "categoryId": "magic",
+    "level": 2,
+    "number": 4,
+    "price": 500,
+    "recipe": [
+      "spell-tome",
+      "pendant-of-faith"
+    ],
+    "isActive": false,
+    "name": "Phoenix Tear",
+    "asset": "equipments/B204_PT_Phoenix-Tear.webp",
+    "stats": {
+      "abilityPower": 50
+    },
+    "passives": [
+      {
+        "passiveId": "phoenix-tear-p1",
+        "index": 1,
+        "description": "Leveling up restores 20% HP and 10% Mana over 3s.",
+        "uniqueGroup": "from-the-ashes"
+      }
+    ]
+  },
+  {
+    "equipmentId": "virtues-bracelet",
+    "categoryId": "magic",
+    "level": 2,
+    "number": 5,
+    "price": 720,
+    "recipe": [
+      "spell-tome",
+      "pendant-of-faith"
+    ],
+    "isActive": false,
+    "name": "Virtue's Bracelet",
+    "asset": "equipments/B205_VB_Virtues-Bracelet.webp",
+    "stats": {
+      "abilityPower": 60,
+      "manaRegen": 20,
+      "cooldownReduction": 5
+    }
+  },
+  {
+    "equipmentId": "vlads-impaler",
+    "categoryId": "magic",
+    "level": 2,
+    "number": 6,
+    "price": 800,
+    "recipe": [
+      "spell-tome",
+      "spell-tome"
+    ],
+    "isActive": false,
+    "name": "Vlad's Impaler",
+    "asset": "equipments/B206_VI_Vlads-Impaler.webp",
+    "stats": {
+      "abilityPower": 80,
+      "magicLifesteal": 12
+    }
+  },
+  {
+    "equipmentId": "staff-of-nuul",
+    "categoryId": "magic",
+    "level": 2,
+    "number": 7,
+    "price": 2050,
+    "recipe": [
+      "spooky-mask",
+      "magic-ring",
+      "spell-tome"
+    ],
+    "isActive": false,
+    "name": "Staff of Nuul",
+    "asset": "equipments/B207_SoN_Staff-of-Nuul.webp",
+    "stats": {
+      "abilityPower": 180,
+      "cooldownReduction": 10
+    },
+    "passives": [
+      {
+        "passiveId": "staff-of-nuul-p1",
+        "index": 1,
+        "description": "+40% Magic Penetration"
+      }
+    ]
+  },
+  {
+    "equipmentId": "virtues-necklace",
+    "categoryId": "magic",
+    "level": 2,
+    "number": 8,
+    "price": 1800,
+    "recipe": [
+      "ancient-scriptures",
+      "virtues-bracelet",
+      "magic-ring"
+    ],
+    "isActive": false,
+    "name": "Virtue's Necklace",
+    "asset": "equipments/B208_VN_Virtues-Necklace.webp",
+    "stats": {
+      "abilityPower": 160,
+      "manaRegen": 25,
+      "cooldownReduction": 15
+    },
+    "passives": [
+      {
+        "passiveId": "virtues-necklace-p1",
+        "index": 1,
+        "description": "Restores 1% Mana every second."
+      }
+    ]
+  },
+  {
+    "equipmentId": "astrolobe",
+    "categoryId": "magic",
+    "level": 2,
+    "number": 9,
+    "price": 800,
+    "recipe": [
+      "spell-tome",
+      "spell-tome"
+    ],
+    "isActive": false,
+    "name": "Astrolobe",
+    "asset": "equipments/B209_AT_Astrolobe.webp",
+    "stats": {
+      "abilityPower": 80
+    },
+    "passives": [
+      {
+        "passiveId": "astrolobe-p1",
+        "index": 1,
+        "description": "When a skill hits an enemy, it triggers a small explosion that deals 180 magic damage to nearby enemies.",
+        "cooldown": 5,
+        "uniqueGroup": "explosion"
+      }
+    ]
+  },
+  {
+    "equipmentId": "evil-secrets",
+    "categoryId": "magic",
+    "level": 2,
+    "number": 10,
+    "price": 1980,
+    "recipe": [
+      "spooky-mask",
+      "spell-tome",
+      "ring-of-vitality"
+    ],
+    "isActive": false,
+    "name": "Evil Secrets",
+    "asset": "equipments/B210_ES_Evil-Secrets.webp",
+    "stats": {
+      "abilityPower": 140,
+      "maxHp": 500
+    },
+    "passives": [
+      {
+        "passiveId": "evil-secrets-p1",
+        "index": 1,
+        "description": "Skills reduce target's Ability Power by 10% and Magic Defense by 100 for 3s."
+      }
+    ]
+  },
+  {
+    "equipmentId": "tome-of-the-reaper",
+    "categoryId": "magic",
+    "level": 2,
+    "number": 11,
+    "price": 1900,
+    "recipe": [
+      "enchanted-scroll",
+      "magic-ring",
+      "necklace-of-vitality"
+    ],
+    "isActive": false,
+    "name": "Tome of the Reaper",
+    "asset": "equipments/B211_TotR_Tome-of-the-Reaper.webp",
+    "stats": {
+      "abilityPower": 140,
+      "maxHp": 600,
+      "cooldownReduction": 10
+    },
+    "passives": [
+      {
+        "passiveId": "tome-of-the-reaper-p1",
+        "index": 1,
+        "description": "Damage dealt by normal attacks and skills reduces target's healing by 40% for 3s.",
+        "uniqueGroup": "anti-heal"
+      }
+    ]
+  },
+  {
+    "equipmentId": "caranos-vow",
+    "categoryId": "magic",
+    "level": 2,
+    "number": 12,
+    "price": 2050,
+    "recipe": [
+      "vlads-impaler",
+      "ancient-scriptures"
+    ],
+    "isActive": false,
+    "name": "Carano's Vow",
+    "asset": "equipments/B212_CV_CaranosVow.webp",
+    "stats": {
+      "abilityPower": 180,
+      "magicLifesteal": 12,
+      "movementSpeed": 5
+    },
+    "passives": [
+      {
+        "passiveId": "caranos-vow-p1",
+        "index": 1,
+        "description": "Removes control effects when HP drops below 30%, grants a 510–1000 (+100% Magic Bonus + 8% Bonus HP) shield for 4s, and increases Movement Speed by 30% for the duration.",
+        "cooldown": 4
+      }
+    ]
+  },
+  {
+    "equipmentId": "boomstick",
+    "categoryId": "magic",
+    "level": 3,
+    "number": 1,
+    "price": 1800,
+    "recipe": [
+      "astrolobe",
+      "spell-tome",
+      "spell-tome"
+    ],
+    "isActive": false,
+    "name": "Boomstick",
+    "asset": "equipments/B301_BS_Boomstick.webp",
+    "stats": {
+      "abilityPower": 200,
+      "movementSpeed": 5
+    },
+    "passives": [
+      {
+        "passiveId": "boomstick-p1",
+        "index": 1,
+        "description": "Skills trigger a small explosion when they hit, dealing 120 (+40% AP) magic damage.",
+        "cooldown": 5,
+        "uniqueGroup": "explosion"
+      }
+    ]
+  },
+  {
+    "equipmentId": "hecates-diadem",
+    "categoryId": "magic",
+    "level": 3,
+    "number": 2,
+    "price": 2400,
+    "recipe": [
+      "enchanted-scroll",
+      "enchanted-scroll"
+    ],
+    "isActive": false,
+    "name": "Hecate's Diadem",
+    "asset": "equipments/B302_HD_Hecates-Diadem.webp",
+    "stats": {
+      "abilityPower": 240
+    },
+    "passives": [
+      {
+        "passiveId": "hecates-diadem-p1",
+        "index": 1,
+        "description": "+35% Ability Power"
+      }
+    ]
+  },
+  {
+    "equipmentId": "orb-of-the-magi",
+    "categoryId": "magic",
+    "level": 3,
+    "number": 3,
+    "price": 1800,
+    "recipe": [
+      "phoenix-tear",
+      "magic-ring",
+      "spell-tome"
+    ],
+    "isActive": false,
+    "name": "Orb of the Magi",
+    "asset": "equipments/B303_OotM_Orb-of-the-Magi.webp",
+    "stats": {
+      "abilityPower": 140,
+      "cooldownReduction": 10
+    },
+    "passives": [
+      {
+        "passiveId": "orb-of-the-magi-p1",
+        "index": 1,
+        "description": "Grants 12 Ability Power and 120 Max HP every 30s. Stacks up to 10 times.",
+        "cooldown": 30
+      },
+      {
+        "passiveId": "orb-of-the-magi-p2",
+        "index": 2,
+        "description": "Leveling up restores 20% HP and 10% Mana over 3s.",
+        "uniqueGroup": "from-the-ashes"
+      }
+    ]
+  },
+  {
+    "equipmentId": "rheas-blessing",
+    "categoryId": "magic",
+    "level": 3,
+    "number": 4,
+    "price": 2050,
+    "recipe": [
+      "vlads-impaler",
+      "vlads-impaler",
+      "ring-of-vitality"
+    ],
+    "isActive": false,
+    "name": "Rhea's Blessing",
+    "asset": "equipments/B304_RB_Rheas-Blessing.webp",
+    "stats": {
+      "abilityPower": 160,
+      "magicLifesteal": 24,
+      "maxHp": 800
+    },
+    "passives": [
+      {
+        "passiveId": "rheas-blessing-p1",
+        "index": 1,
+        "description": "Increases Cooldown Reduction by 1% for every 2% Magic Vamp."
+      }
+    ]
+  },
+  {
+    "equipmentId": "zweihander",
+    "categoryId": "magic",
+    "level": 3,
+    "number": 5,
+    "price": 1900,
+    "recipe": [
+      "shuriken",
+      "enchanted-scroll"
+    ],
+    "isActive": false,
+    "name": "Zweihander",
+    "asset": "equipments/B305_Zw_Zweihander.webp",
+    "stats": {
+      "abilityPower": 180,
+      "attackSpeed": 20,
+      "movementSpeed": 5
+    },
+    "passives": [
+      {
+        "passiveId": "zweihander-p1",
+        "index": 1,
+        "description": "Normal attacks increase Attack Speed by 15% for 4s. Stacks up to 2 times."
+      },
+      {
+        "passiveId": "zweihander-p2",
+        "index": 2,
+        "description": "Normal attacks deal 40 (+20% AP) additional magic damage.",
+        "cooldown": 0.35
+      }
+    ]
+  },
+  {
+    "equipmentId": "frostys-revenge",
+    "categoryId": "magic",
+    "level": 3,
+    "number": 6,
+    "price": 2020,
+    "recipe": [
+      "enchanted-scroll",
+      "necklace-of-vitality"
+    ],
+    "isActive": false,
+    "name": "Frosty's Revenge",
+    "asset": "equipments/B306_FR_Frostys-Revenge.webp",
+    "stats": {
+      "abilityPower": 140,
+      "maxHp": 850,
+      "movementSpeed": 5
+    },
+    "passives": [
+      {
+        "passiveId": "frostys-revenge-p1",
+        "index": 1,
+        "description": "Abilities that deal damage also reduce enemy Movement Speed by 20% for 2s."
+      }
+    ]
+  },
+  {
+    "equipmentId": "beriths-agony",
+    "categoryId": "magic",
+    "level": 3,
+    "number": 7,
+    "price": 1800,
+    "recipe": [
+      "astrolobe",
+      "magic-ring",
+      "necklace-of-vitality"
+    ],
+    "isActive": false,
+    "name": "Berith's Agony",
+    "asset": "equipments/B307_BA_Beriths-Agony.webp",
+    "stats": {
+      "abilityPower": 140,
+      "maxHp": 600,
+      "cooldownReduction": 10
+    },
+    "passives": [
+      {
+        "passiveId": "beriths-agony-p1",
+        "index": 1,
+        "description": "Skills deal magic damage to enemies at a rate of 80 (+2% of their current HP) per second for 3s (max damage against wildlings: 200)."
+      }
+    ]
+  },
+  {
+    "equipmentId": "apocalypse",
+    "categoryId": "magic",
+    "level": 3,
+    "number": 8,
+    "price": 1800,
+    "recipe": [
+      "trick-blade",
+      "ancient-scriptures",
+      "spell-tome"
+    ],
+    "isActive": false,
+    "name": "Apocalypse",
+    "asset": "equipments/B308_Apo_Apocalypse.webp",
+    "stats": {
+      "abilityPower": 180,
+      "movementSpeed": 5,
+      "cooldownReduction": 10
+    },
+    "passives": [
+      {
+        "passiveId": "apocalypse-p1",
+        "index": 1,
+        "description": "After using a skill, the next normal attack within 5s deals additional magic damage equal to (30% AD + 80% AP).",
+        "cooldown": 2,
+        "uniqueGroup": "elemental-power"
+      }
+    ]
+  },
+  {
+    "equipmentId": "soaring-aura",
+    "categoryId": "magic",
+    "level": 3,
+    "number": 9,
+    "price": 2100,
+    "recipe": [
+      "spooky-mask",
+      "magic-ring",
+      "ring-of-vitality"
+    ],
+    "isActive": false,
+    "name": "Soaring Aura",
+    "asset": "equipments/B309_SA_Soaring-Aura.webp",
+    "stats": {
+      "abilityPower": 140,
+      "maxHp": 600,
+      "cooldownReduction": 10
+    },
+    "passives": [
+      {
+        "passiveId": "soaring-aura-p1",
+        "index": 1,
+        "description": "Skills and normal attacks that hit enemies stack 10–24 Magic Penetration. Stacks up to 10 times, lasts 3s.",
+        "uniqueGroup": "extermination"
+      }
+    ]
+  },
+  {
+    "equipmentId": "holy-of-holies",
+    "categoryId": "magic",
+    "level": 3,
+    "number": 10,
+    "price": 2610,
+    "recipe": [
+      "enchanted-scroll",
+      "enchanted-scroll",
+      "ancient-scriptures"
+    ],
+    "isActive": false,
+    "name": "Holy of Holies",
+    "asset": "equipments/B310_HoH_Holy-of-Holies.webp",
+    "stats": {
+      "abilityPower": 350,
+      "cooldownReduction": 10
+    },
+    "passives": [
+      {
+        "passiveId": "holy-of-holies-p1",
+        "index": 1,
+        "description": "For every 100 Ability Power, increases damage dealt by 0.5% and decreases damage taken by 0.5%."
+      }
+    ]
+  },
+  {
+    "equipmentId": "arctic-orb",
+    "categoryId": "magic",
+    "level": 3,
+    "number": 11,
+    "price": 2200,
+    "recipe": [
+      "vlads-impaler",
+      "enchanted-scroll"
+    ],
+    "isActive": true,
+    "name": "Arctic Orb",
+    "asset": "equipments/B311_AO_Arctic-Orb.webp",
+    "stats": {
+      "abilityPower": 200,
+      "magicLifesteal": 12
+    },
+    "passives": [
+      {
+        "passiveId": "arctic-orb-p1",
+        "index": 1,
+        "description": "Active: Immune to all effects for 1.5s, but cannot move, attack, or use skills. Grants a shield that absorbs 500 (+40/Lv.) (+50% AP) damage for 1s after the effect ends.",
+        "cooldown": 75
+      }
+    ]
+  },
+  {
+    "equipmentId": "frost-guard",
+    "categoryId": "magic",
+    "level": 3,
+    "number": 12,
+    "price": 2100,
+    "recipe": [
+      "enchanted-scroll",
+      "magic-ring",
+      "necklace-of-vitality"
+    ],
+    "isActive": false,
+    "name": "Frost Guard",
+    "asset": "equipments/B312_FG_Frost-Guard.webp",
+    "stats": {
+      "abilityPower": 140,
+      "maxHp": 600,
+      "movementSpeed": 5
+    },
+    "passives": [
+      {
+        "passiveId": "frost-guard-p1",
+        "index": 1,
+        "description": "Grants (+50% AP) extra Physical and Magic Defense, up to a maximum of 230."
+      }
+    ]
+  },
+  {
+    "equipmentId": "carano-robe",
+    "categoryId": "magic",
+    "level": 3,
+    "number": 13,
+    "price": 2160,
+    "recipe": [
+      "spooky-mask",
+      "ancient-scriptures"
+    ],
+    "isActive": false,
+    "name": "Carano Robe",
+    "asset": "equipments/B313_CR_CaranoRobe.webp",
+    "stats": {
+      "abilityPower": 120,
+      "maxHp": 900
+    },
+    "passives": [
+      {
+        "passiveId": "carano-robe-p1",
+        "index": 1,
+        "description": "Grants 26–40 (+2% Bonus HP) AP, up to a maximum of 100."
+      },
+      {
+        "passiveId": "carano-robe-p2",
+        "index": 2,
+        "description": "Grants 32–60 (+3% Bonus HP) Magic Penetration, up to a maximum of 150."
+      }
+    ]
+  },
+  {
+    "equipmentId": "ring-of-vitality",
+    "categoryId": "defense",
+    "level": 1,
+    "number": 1,
+    "price": 300,
+    "isActive": false,
+    "name": "Ring of Vitality",
+    "asset": "equipments/C101_RoV_Ring-of-Vitality.webp",
+    "stats": {
+      "maxHp": 300
+    }
+  },
+  {
+    "equipmentId": "light-armor",
+    "categoryId": "defense",
+    "level": 1,
+    "number": 2,
+    "price": 220,
+    "isActive": false,
+    "name": "Light Armor",
+    "asset": "equipments/C102_LA_Light-Armor.webp",
+    "stats": {
+      "physicalArmor": 90
+    }
+  },
+  {
+    "equipmentId": "gladiators-gauntlets",
+    "categoryId": "defense",
+    "level": 1,
+    "number": 3,
+    "price": 220,
+    "isActive": false,
+    "name": "Gladiator's Gauntlets",
+    "asset": "equipments/C103_GG_Gladiators-Gauntlets.webp",
+    "stats": {
+      "magicArmor": 90
+    }
+  },
+  {
+    "equipmentId": "talisman-of-strength",
+    "categoryId": "defense",
+    "level": 1,
+    "number": 4,
+    "price": 140,
+    "isActive": false,
+    "name": "Talisman of Strength",
+    "asset": "equipments/C104_ToS_Talisman-of-Strength.webp",
+    "stats": {
+      "hpRegen": 30
+    }
+  },
+  {
+    "equipmentId": "necklace-of-vitality",
+    "categoryId": "defense",
+    "level": 1,
+    "number": 5,
+    "price": 540,
+    "isActive": false,
+    "name": "Necklace of Vitality",
+    "asset": "equipments/C105_NoV_Necklace-of-Vitality.webp",
+    "stats": {
+      "maxHp": 600
+    }
+  },
+  {
+    "equipmentId": "greaves-of-protection",
+    "categoryId": "defense",
+    "level": 2,
+    "number": 1,
+    "price": 900,
+    "recipe": [
+      "ring-of-vitality",
+      "ring-of-vitality"
+    ],
+    "isActive": false,
+    "name": "Greaves of Protection",
+    "asset": "equipments/C201_GoP_Greaves-of-Protection.webp",
+    "stats": {
+      "maxHp": 1000
+    }
+  },
+  {
+    "equipmentId": "heart-of-incubus",
+    "categoryId": "defense",
+    "level": 2,
+    "number": 2,
+    "price": 720,
+    "recipe": [
+      "light-armor"
+    ],
+    "isActive": false,
+    "name": "Heart of Incubus",
+    "asset": "equipments/C202_HoI_Heart-of-Incubus.webp",
+    "stats": {
+      "physicalArmor": 150
+    },
+    "passives": [
+      {
+        "passiveId": "heart-of-incubus-p1",
+        "index": 1,
+        "description": "Deals 50–78 magic damage per second to nearby enemies (deals 50% more damage to minions and wildlings).",
+        "cooldown": 1,
+        "uniqueGroup": "burn"
+      }
+    ]
+  },
+  {
+    "equipmentId": "belt-of-clarity",
+    "categoryId": "defense",
+    "level": 2,
+    "number": 3,
+    "price": 1000,
+    "recipe": [
+      "gladiators-gauntlets",
+      "ring-of-vitality"
+    ],
+    "isActive": false,
+    "name": "Belt of Clarity",
+    "asset": "equipments/C203_BoC_Belt-of-Clarity.webp",
+    "stats": {
+      "magicArmor": 110,
+      "maxHp": 700
+    },
+    "passives": [
+      {
+        "passiveId": "belt-of-clarity-p1",
+        "index": 1,
+        "description": "When taking damage, restores 4% Max HP over 2s.",
+        "cooldown": 15,
+        "uniqueGroup": "restore"
+      }
+    ]
+  },
+  {
+    "equipmentId": "platinum-gauntlets",
+    "categoryId": "defense",
+    "level": 2,
+    "number": 4,
+    "price": 660,
+    "recipe": [
+      "light-armor",
+      "magic-ring"
+    ],
+    "isActive": false,
+    "name": "Platinum Gauntlets",
+    "asset": "equipments/C204_PG_Platinum-Gauntlets.webp",
+    "stats": {
+      "physicalArmor": 110,
+      "cooldownReduction": 10
+    }
+  },
+  {
+    "equipmentId": "knights-plate",
+    "categoryId": "defense",
+    "level": 2,
+    "number": 5,
+    "price": 730,
+    "recipe": [
+      "light-armor",
+      "light-armor"
+    ],
+    "isActive": false,
+    "name": "Knight's Plate",
+    "asset": "equipments/C205_KP_Knights-Plate.webp",
+    "stats": {
+      "physicalArmor": 210
+    },
+    "passives": [
+      {
+        "passiveId": "knights-plate-p1",
+        "index": 1,
+        "description": "When taking damage, reduces attacker's Attack Speed by 15%.",
+        "uniqueGroup": "spirit-bond"
+      }
+    ]
+  },
+  {
+    "equipmentId": "mail-of-pain",
+    "categoryId": "defense",
+    "level": 2,
+    "number": 6,
+    "price": 1940,
+    "recipe": [
+      "greaves-of-protection",
+      "light-armor",
+      "light-armor"
+    ],
+    "isActive": false,
+    "name": "Mail of Pain",
+    "asset": "equipments/C206_MoP_Mail-of-Pain.webp",
+    "stats": {
+      "physicalArmor": 300,
+      "maxHp": 1200
+    },
+    "passives": [
+      {
+        "passiveId": "mail-of-pain-p1",
+        "index": 1,
+        "description": "15% of physical damage taken is deflected to the enemy as magic damage (calculation is based on damage before damage reduction)."
+      }
+    ]
+  },
+  {
+    "equipmentId": "hecules-madness",
+    "categoryId": "defense",
+    "level": 2,
+    "number": 7,
+    "price": 2000,
+    "recipe": [
+      "light-armor",
+      "light-armor",
+      "chain-hammer"
+    ],
+    "isActive": false,
+    "name": "Hecule's Madness",
+    "asset": "equipments/C207_HM_Hecules-Madness.webp",
+    "stats": {
+      "attackDamage": 80,
+      "physicalArmor": 240
+    },
+    "passives": [
+      {
+        "passiveId": "hecules-madness-p1",
+        "index": 1,
+        "description": "When HP is below 40%, grants Bloody Rage: increases Life Steal by 20% and grants a shield that absorbs 880–2000 damage for 8s (Life Steal only applies to melee heroes).",
+        "cooldown": 60
+      }
+    ]
+  },
+  {
+    "equipmentId": "odins-will",
+    "categoryId": "defense",
+    "level": 2,
+    "number": 8,
+    "price": 1900,
+    "recipe": [
+      "greaves-of-protection",
+      "light-armor",
+      "light-armor"
+    ],
+    "isActive": false,
+    "name": "Odin's Will",
+    "asset": "equipments/C208_OW_Odins-Will.webp",
+    "stats": {
+      "physicalArmor": 225,
+      "maxHp": 1200,
+      "movementSpeed": 5
+    },
+    "passives": [
+      {
+        "passiveId": "odins-will-p1",
+        "index": 1,
+        "description": "Grants 1 stack of buff after taking damage. Each stack increases Movement Speed by 1% and damage by 2%. Stacks up to 5 times, lasts 3s."
+      }
+    ]
+  },
+  {
+    "equipmentId": "mantle-of-ra",
+    "categoryId": "defense",
+    "level": 3,
+    "number": 1,
+    "price": 2060,
+    "recipe": [
+      "heart-of-incubus",
+      "talisman-of-strength",
+      "necklace-of-vitality"
+    ],
+    "isActive": false,
+    "name": "Mantle of Ra",
+    "asset": "equipments/C301_MoR_Mantle-of-Ra.webp",
+    "stats": {
+      "physicalArmor": 225,
+      "maxHp": 1000,
+      "hpRegen": 60
+    },
+    "passives": [
+      {
+        "passiveId": "mantle-of-ra-p1",
+        "index": 1,
+        "description": "Deals magic damage equal to 2% of the hero's Max HP to nearby enemies every second (deals 50% more damage to minions and wildlings).",
+        "cooldown": 1,
+        "uniqueGroup": "burn"
+      },
+      {
+        "passiveId": "mantle-of-ra-p2",
+        "index": 2,
+        "description": "Enemies damaged by this item's Burn passive have their healing effects reduced by 40% for 3s.",
+        "uniqueGroup": "anti-heal"
+      }
+    ]
+  },
+  {
+    "equipmentId": "shield-of-the-lost",
+    "categoryId": "defense",
+    "level": 3,
+    "number": 2,
+    "price": 2100,
+    "recipe": [
+      "knights-plate",
+      "greaves-of-protection"
+    ],
+    "isActive": false,
+    "name": "Shield of the Lost",
+    "asset": "equipments/C302_SotL_Shield-of-the-Lost.webp",
+    "stats": {
+      "physicalArmor": 275,
+      "maxHp": 1200
+    },
+    "passives": [
+      {
+        "passiveId": "shield-of-the-lost-p1",
+        "index": 1,
+        "description": "When taking damage, reduces attacker's Attack Speed by 30% and Movement Speed by 15% for 2s.",
+        "uniqueGroup": "spirit-bond"
+      }
+    ]
+  },
+  {
+    "equipmentId": "the-aegis",
+    "categoryId": "defense",
+    "level": 3,
+    "number": 3,
+    "price": 2180,
+    "recipe": [
+      "knights-plate",
+      "platinum-gauntlets",
+      "lapis-ring"
+    ],
+    "isActive": false,
+    "name": "The Aegis",
+    "asset": "equipments/C303_TA_The-Aegis.webp",
+    "stats": {
+      "physicalArmor": 360,
+      "maxMana": 400,
+      "cooldownReduction": 20
+    },
+    "passives": [
+      {
+        "passiveId": "the-aegis-p1",
+        "index": 1,
+        "description": "Reduces Attack Speed of enemies within 5m by 30%."
+      }
+    ]
+  },
+  {
+    "equipmentId": "gaias-standard",
+    "categoryId": "defense",
+    "level": 3,
+    "number": 4,
+    "price": 2180,
+    "recipe": [
+      "belt-of-clarity",
+      "ring-of-vitality",
+      "talisman-of-strength"
+    ],
+    "isActive": false,
+    "name": "Gaia's Standard",
+    "asset": "equipments/C304_GS_Gaias-Standard.webp",
+    "stats": {
+      "magicArmor": 200,
+      "maxHp": 1200
+    },
+    "passives": [
+      {
+        "passiveId": "gaias-standard-p1",
+        "index": 1,
+        "description": "When taking damage, restores 4% self Max HP over 2s.",
+        "uniqueGroup": "restore"
+      },
+      {
+        "passiveId": "gaias-standard-p2",
+        "index": 2,
+        "description": "For every 10% HP lost, the effect of the buff and restoration increases by 5%."
+      }
+    ]
+  },
+  {
+    "equipmentId": "medallion-of-troy",
+    "categoryId": "defense",
+    "level": 3,
+    "number": 5,
+    "price": 2320,
+    "recipe": [
+      "belt-of-clarity",
+      "gladiators-gauntlets",
+      "ring-of-vitality"
+    ],
+    "isActive": false,
+    "name": "Medallion of Troy",
+    "asset": "equipments/C305_MoT_Medallion-of-Troy.webp",
+    "stats": {
+      "cooldownReduction": 10
+    },
+    "passives": [
+      {
+        "passiveId": "medallion-of-troy-p1",
+        "index": 1,
+        "description": "Grants a shield that absorbs 460–1300 magic damage when out of battle."
+      },
+      {
+        "passiveId": "medallion-of-troy-p2",
+        "index": 2,
+        "description": "Grants 8–112 Magic Defense (increases with hero level)."
+      }
+    ]
+  },
+  {
+    "equipmentId": "blade-of-eternity",
+    "categoryId": "defense",
+    "level": 3,
+    "number": 7,
+    "price": 2400,
+    "recipe": [
+      "cleaving-claymore",
+      "light-armor"
+    ],
+    "isActive": false,
+    "name": "Blade of Eternity",
+    "asset": "equipments/C307_BoE_Blade-of-Eternity.webp",
+    "stats": {
+      "physicalArmor": 120
+    },
+    "passives": [
+      {
+        "passiveId": "blade-of-eternity-p1",
+        "index": 1,
+        "description": "Resurrects 2s after death and returns with 2000–3500 HP. (This effect can only be triggered up to 2 times per match.)",
+        "cooldown": 150
+      },
+      {
+        "passiveId": "blade-of-eternity-p2",
+        "index": 2,
+        "description": "Increases damage dealt by 10%."
+      }
+    ]
+  },
+  {
+    "equipmentId": "frost-cape",
+    "categoryId": "defense",
+    "level": 3,
+    "number": 8,
+    "price": 1970,
+    "recipe": [
+      "platinum-gauntlets",
+      "ring-of-vitality",
+      "ring-of-vitality"
+    ],
+    "isActive": false,
+    "name": "Frost Cape",
+    "asset": "equipments/C308_FC_Frost-Cape.webp",
+    "stats": {
+      "physicalArmor": 200,
+      "maxHp": 800,
+      "cooldownReduction": 10
+    },
+    "passives": [
+      {
+        "passiveId": "frost-cape-p1",
+        "index": 1,
+        "description": "After using a skill, the next normal attack slows by 30% (only 20% for ranged heroes) for 0.5s and deals 100 (+30% AD) physical damage to an area.",
+        "cooldown": 0.65,
+        "uniqueGroup": "elemental-power"
+      }
+    ]
+  },
+  {
+    "equipmentId": "amulet-of-longetivity",
+    "categoryId": "defense",
+    "level": 3,
+    "number": 9,
+    "price": 2190,
+    "recipe": [
+      "greaves-of-protection",
+      "light-armor",
+      "gladiators-gauntlets"
+    ],
+    "isActive": false,
+    "name": "Amulet of Longevity",
+    "asset": "equipments/C309_AoL_Amulet-of-Longetivity.webp",
+    "stats": {
+      "physicalArmor": 150,
+      "magicArmor": 100,
+      "maxHp": 1500
+    },
+    "passives": [
+      {
+        "passiveId": "amulet-of-longetivity-p1",
+        "index": 1,
+        "description": "Restores 1% Max HP every 2s. Restoration becomes 4% when not attacked by heroes or towers for 3s.",
+        "cooldown": 2
+      }
+    ]
+  },
+  {
+    "equipmentId": "rock-shield",
+    "categoryId": "defense",
+    "level": 3,
+    "number": 10,
+    "price": 1980,
+    "recipe": [
+      "necklace-of-vitality",
+      "light-armor",
+      "light-armor"
+    ],
+    "isActive": true,
+    "name": "Rock Shield",
+    "asset": "equipments/C310_RS_Rock-Shield.webp",
+    "stats": {
+      "physicalArmor": 240,
+      "maxHp": 1200
+    },
+    "passives": [
+      {
+        "passiveId": "rock-shield-p1",
+        "index": 1,
+        "description": "Active: Grants a shield (30% self Max HP + 10% self Lost HP) for 3s. While shield is active, damage dealt is reduced by 70%.",
+        "cooldown": 60
+      }
+    ]
+  },
+  {
+    "equipmentId": "speed-boots",
+    "categoryId": "movement",
+    "level": 1,
+    "number": 1,
+    "price": 250,
+    "isActive": false,
+    "name": "Speed Boots",
+    "asset": "equipments/D101_SB_Speed-Boots.webp",
+    "stats": {},
+    "passives": [
+      {
+        "passiveId": "speed-boots-p1",
+        "index": 1,
+        "description": "+30 Movement Speed",
+        "uniqueGroup": "mvsp"
+      }
+    ]
+  },
+  {
+    "equipmentId": "sonic-boots",
+    "categoryId": "movement",
+    "level": 2,
+    "number": 1,
+    "price": 700,
+    "recipe": [
+      "speed-boots",
+      "light-armor"
+    ],
+    "isActive": false,
+    "name": "Sonic Boots",
+    "asset": "equipments/D201_SB_Sonic-Boots.webp",
+    "stats": {
+      "physicalArmor": 110
+    },
+    "passives": [
+      {
+        "passiveId": "sonic-boots-p1",
+        "index": 1,
+        "description": "+60 Movement Speed",
+        "uniqueGroup": "mvsp"
+      },
+      {
+        "passiveId": "sonic-boots-p2",
+        "index": 2,
+        "description": "Reduces 10% physical damage taken."
+      }
+    ]
+  },
+  {
+    "equipmentId": "gilded-greaves",
+    "categoryId": "movement",
+    "level": 2,
+    "number": 2,
+    "price": 700,
+    "recipe": [
+      "speed-boots",
+      "gladiators-gauntlets"
+    ],
+    "isActive": false,
+    "name": "Gilded Greaves",
+    "asset": "equipments/D202_GG_Gilded-Greaves.webp",
+    "stats": {
+      "magicArmor": 90
+    },
+    "passives": [
+      {
+        "passiveId": "gilded-greaves-p1",
+        "index": 1,
+        "description": "+60 Movement Speed",
+        "uniqueGroup": "mvsp"
+      },
+      {
+        "passiveId": "gilded-greaves-p2",
+        "index": 2,
+        "description": "+35% Resistance",
+        "uniqueGroup": "resistance"
+      }
+    ]
+  },
+  {
+    "equipmentId": "flashy-boots",
+    "categoryId": "movement",
+    "level": 2,
+    "number": 3,
+    "price": 700,
+    "recipe": [
+      "speed-boots",
+      "magic-ring"
+    ],
+    "isActive": false,
+    "name": "Flashy Boots",
+    "asset": "equipments/D203_FB_Flashy-Boots.webp",
+    "stats": {
+      "cooldownReduction": 15
+    },
+    "passives": [
+      {
+        "passiveId": "flashy-boots-p1",
+        "index": 1,
+        "description": "+60 Movement Speed",
+        "uniqueGroup": "mvsp"
+      },
+      {
+        "passiveId": "flashy-boots-p2",
+        "index": 2,
+        "description": "Reduces additional 15% Talent CD."
+      }
+    ]
+  },
+  {
+    "equipmentId": "enchanted-kicks",
+    "categoryId": "movement",
+    "level": 2,
+    "number": 4,
+    "price": 700,
+    "recipe": [
+      "speed-boots"
+    ],
+    "isActive": false,
+    "name": "Enchanted Kicks",
+    "asset": "equipments/D204_EK_Enchanted-Kicks.webp",
+    "stats": {},
+    "passives": [
+      {
+        "passiveId": "enchanted-kicks-p1",
+        "index": 1,
+        "description": "+60 Movement Speed",
+        "uniqueGroup": "mvsp"
+      },
+      {
+        "passiveId": "enchanted-kicks-p2",
+        "index": 2,
+        "description": "+100 Magic Penetration."
+      }
+    ]
+  },
+  {
+    "equipmentId": "war-boots",
+    "categoryId": "movement",
+    "level": 2,
+    "number": 5,
+    "price": 700,
+    "recipe": [
+      "dagger"
+    ],
+    "isActive": false,
+    "name": "War Boots",
+    "asset": "equipments/D205_WB_War-Boots.webp",
+    "stats": {
+      "attackSpeed": 20
+    },
+    "passives": [
+      {
+        "passiveId": "war-boots-p1",
+        "index": 1,
+        "description": "+60 Movement Speed",
+        "uniqueGroup": "mvsp"
+      },
+      {
+        "passiveId": "war-boots-p2",
+        "index": 2,
+        "description": "Hitting an enemy restores 20 HP per hit (half for non-hero targets).",
+        "cooldown": 0.3
+      }
+    ]
+  },
+  {
+    "equipmentId": "hermes-select",
+    "categoryId": "movement",
+    "level": 2,
+    "number": 6,
+    "price": 700,
+    "recipe": [
+      "speed-boots"
+    ],
+    "isActive": false,
+    "name": "Hermes Select",
+    "asset": "equipments/D206_HS_Hermes-Select.webp",
+    "stats": {
+      "maxHp": 300
+    },
+    "passives": [
+      {
+        "passiveId": "hermes-select-p1",
+        "index": 1,
+        "description": "+70 Movement Speed",
+        "uniqueGroup": "mvsp"
+      },
+      {
+        "passiveId": "hermes-select-p2",
+        "index": 2,
+        "description": "Increases Movement Speed by 70 when out of battle."
+      }
+    ]
+  },
+  {
+    "equipmentId": "kukri",
+    "categoryId": "jungling",
+    "level": 1,
+    "number": 1,
+    "price": 250,
+    "isActive": false,
+    "name": "Kukri",
+    "asset": "equipments/E101_KR_Kukri.webp",
+    "stats": {},
+    "passives": [
+      {
+        "passiveId": "kukri-p1",
+        "index": 1,
+        "description": "Once 2nd or 3rd tier jungling equipment is purchased, the Punish talent becomes Frostbite."
+      },
+      {
+        "passiveId": "kukri-p2",
+        "index": 2,
+        "description": "Normal attacks / skills hitting wildlings deal 50–120 additional true damage every 0.5s for 2s, and receive 20% more EXP from killing monsters."
+      },
+      {
+        "passiveId": "kukri-p3",
+        "index": 3,
+        "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
+      }
+    ]
+  },
+  {
+    "equipmentId": "monsters-bane",
+    "categoryId": "jungling",
+    "level": 2,
+    "number": 1,
+    "price": 700,
+    "recipe": [
+      "kukri"
+    ],
+    "isActive": false,
+    "name": "Monster's Bane",
+    "asset": "equipments/E201_MB_Monsters-Bane.webp",
+    "stats": {
+      "abilityPower": 40
+    },
+    "passives": [
+      {
+        "passiveId": "monsters-bane-p1",
+        "index": 1,
+        "description": "Grants Frostbite effect."
+      },
+      {
+        "passiveId": "monsters-bane-p2",
+        "index": 2,
+        "description": "Grants 4 AP and 0.2% CDR for every monster killed. Stacks up to 15 times."
+      },
+      {
+        "passiveId": "monsters-bane-p3",
+        "index": 3,
+        "description": "Normal attacks / skills hitting wildlings deal 60–172 additional true damage every 0.5s for 2s, and receive 35% more EXP from killing monsters."
+      },
+      {
+        "passiveId": "monsters-bane-p4",
+        "index": 4,
+        "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
+      }
+    ]
+  },
+  {
+    "equipmentId": "gnoll-cleaver",
+    "categoryId": "jungling",
+    "level": 2,
+    "number": 2,
+    "price": 700,
+    "recipe": [
+      "kukri"
+    ],
+    "isActive": false,
+    "name": "Gnoll Cleaver",
+    "asset": "equipments/E202_GC_Gnoll-Cleaver.webp",
+    "stats": {
+      "maxHp": 400
+    },
+    "passives": [
+      {
+        "passiveId": "gnoll-cleaver-p1",
+        "index": 1,
+        "description": "Grants Frostbite effect."
+      },
+      {
+        "passiveId": "gnoll-cleaver-p2",
+        "index": 2,
+        "description": "Deals 50–78 magic damage to nearby enemies within 2.5m every second (deals 100% more damage to minions and monsters).",
+        "cooldown": 1,
+        "uniqueGroup": "burn"
+      },
+      {
+        "passiveId": "gnoll-cleaver-p3",
+        "index": 3,
+        "description": "Increases Max HP by 25 and CDR by 0.2% for every monster killed. Stacks up to 15 times."
+      },
+      {
+        "passiveId": "gnoll-cleaver-p4",
+        "index": 4,
+        "description": "Normal attacks / skills hitting wildlings deal 60–172 additional true damage every 0.5s for 2s, and receive 35% more EXP from killing monsters."
+      },
+      {
+        "passiveId": "gnoll-cleaver-p5",
+        "index": 5,
+        "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
+      }
+    ]
+  },
+  {
+    "equipmentId": "mr-stabby",
+    "categoryId": "jungling",
+    "level": 2,
+    "number": 3,
+    "price": 700,
+    "recipe": [
+      "kukri"
+    ],
+    "isActive": false,
+    "name": "Mr. Stabby",
+    "asset": "equipments/E203_MS_Mr.-Stabby.webp",
+    "stats": {
+      "attackDamage": 25
+    },
+    "passives": [
+      {
+        "passiveId": "mr-stabby-p1",
+        "index": 1,
+        "description": "Grants Frostbite effect."
+      },
+      {
+        "passiveId": "mr-stabby-p2",
+        "index": 2,
+        "description": "Increases AD by 2 and CDR by 0.2% for every monster killed. Stacks up to 15 times."
+      },
+      {
+        "passiveId": "mr-stabby-p3",
+        "index": 3,
+        "description": "Normal attacks / skills hitting wildlings deal 60–172 additional true damage every 0.5s for 2s, and receive 35% more EXP from killing monsters."
+      },
+      {
+        "passiveId": "mr-stabby-p4",
+        "index": 4,
+        "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
+      }
+    ]
+  },
+  {
+    "equipmentId": "whispering-wind",
+    "categoryId": "jungling",
+    "level": 2,
+    "number": 4,
+    "price": 700,
+    "recipe": [
+      "kukri"
+    ],
+    "isActive": false,
+    "name": "Whispering Wind",
+    "asset": "equipments/E204_WW_Whispering-Wind.webp",
+    "stats": {
+      "attackSpeed": 12
+    },
+    "passives": [
+      {
+        "passiveId": "whispering-wind-p1",
+        "index": 1,
+        "description": "Grants Frostbite effect."
+      },
+      {
+        "passiveId": "whispering-wind-p2",
+        "index": 2,
+        "description": "Increases Attack Speed by 0.8% and Life Steal by 0.2% for every monster killed. Stacks up to 15 times."
+      },
+      {
+        "passiveId": "whispering-wind-p3",
+        "index": 3,
+        "description": "Normal attacks / skills hitting wildlings deal 60–172 additional true damage every 0.5s for 2s, and receive 35% more EXP from killing monsters."
+      },
+      {
+        "passiveId": "whispering-wind-p4",
+        "index": 4,
+        "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
+      }
+    ]
+  },
+  {
+    "equipmentId": "lokis-curse",
+    "categoryId": "jungling",
+    "level": 3,
+    "number": 1,
+    "price": 2000,
+    "recipe": [
+      "monsters-bane",
+      "trick-blade"
+    ],
+    "isActive": false,
+    "name": "Loki's Curse",
+    "asset": "equipments/E301_LC_Lokis-Curse.webp",
+    "stats": {
+      "abilityPower": 150,
+      "movementSpeed": 7,
+      "cooldownReduction": 5
+    },
+    "passives": [
+      {
+        "passiveId": "lokis-curse-p1",
+        "index": 1,
+        "description": "Grants Frostbite effect."
+      },
+      {
+        "passiveId": "lokis-curse-p2",
+        "index": 2,
+        "description": "After using a skill, the next normal attack within 5s deals additional magic damage equal to (+35% AD) (+50% AP).",
+        "cooldown": 2,
+        "uniqueGroup": "elemental-power"
+      },
+      {
+        "passiveId": "lokis-curse-p3",
+        "index": 3,
+        "description": "Grants 4 AP and 0.2% CDR for every monster killed. Stacks up to 25 times."
+      },
+      {
+        "passiveId": "lokis-curse-p4",
+        "index": 4,
+        "description": "Normal attacks / skills hitting wildlings deal 60–172 additional true damage every 0.5s for 2s, and receive 35% more EXP from killing monsters."
+      },
+      {
+        "passiveId": "lokis-curse-p5",
+        "index": 5,
+        "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
+      }
+    ]
+  },
+  {
+    "equipmentId": "leviathan",
+    "categoryId": "jungling",
+    "level": 3,
+    "number": 2,
+    "price": 2000,
+    "recipe": [
+      "gnoll-cleaver",
+      "greaves-of-protection"
+    ],
+    "isActive": false,
+    "name": "Leviathan",
+    "asset": "equipments/E302_LVT_Leviathan.webp",
+    "stats": {
+      "maxHp": 1200,
+      "movementSpeed": 6,
+      "cooldownReduction": 5
+    },
+    "passives": [
+      {
+        "passiveId": "leviathan-p1",
+        "index": 1,
+        "description": "Grants Frostbite effect."
+      },
+      {
+        "passiveId": "leviathan-p2",
+        "index": 2,
+        "description": "Deals (+2% self Max HP) magic damage to nearby enemies within 2.5m every second (deals 100% more damage to minions and monsters).",
+        "cooldown": 1,
+        "uniqueGroup": "burn"
+      },
+      {
+        "passiveId": "leviathan-p3",
+        "index": 3,
+        "description": "Increases Max HP by 25 and CDR by 0.2% for every monster killed. Stacks up to 25 times."
+      },
+      {
+        "passiveId": "leviathan-p4",
+        "index": 4,
+        "description": "Normal attacks / skills hitting wildlings deal 60–172 additional true damage every 0.5s for 2s, and receive 35% more EXP from killing monsters."
+      },
+      {
+        "passiveId": "leviathan-p5",
+        "index": 5,
+        "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
+      }
+    ]
+  },
+  {
+    "equipmentId": "soulreaver",
+    "categoryId": "jungling",
+    "level": 3,
+    "number": 3,
+    "price": 2000,
+    "recipe": [
+      "mr-stabby",
+      "cleaving-claymore"
+    ],
+    "isActive": false,
+    "name": "Soulreaver",
+    "asset": "equipments/E303_SR_Soulreaver.webp",
+    "stats": {
+      "attackDamage": 90,
+      "movementSpeed": 8,
+      "cooldownReduction": 5
+    },
+    "passives": [
+      {
+        "passiveId": "soulreaver-p1",
+        "index": 1,
+        "description": "Grants Frostbite effect."
+      },
+      {
+        "passiveId": "soulreaver-p2",
+        "index": 2,
+        "description": "+60 Armor Pierce"
+      },
+      {
+        "passiveId": "soulreaver-p3",
+        "index": 3,
+        "description": "Increases AD by 2 and CDR by 0.2% for every monster killed. Stacks up to 25 times."
+      },
+      {
+        "passiveId": "soulreaver-p4",
+        "index": 4,
+        "description": "Normal attacks / skills hitting wildlings deal 60–172 additional true damage every 0.5s for 2s, and receive 35% more EXP from killing monsters."
+      },
+      {
+        "passiveId": "soulreaver-p5",
+        "index": 5,
+        "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
+      }
+    ]
+  },
+  {
+    "equipmentId": "scorching-wind",
+    "categoryId": "jungling",
+    "level": 3,
+    "number": 4,
+    "price": 2000,
+    "recipe": [
+      "whispering-wind",
+      "tempest-blades"
+    ],
+    "isActive": false,
+    "name": "Scorching Wind",
+    "asset": "equipments/E304_SW_Scorching-Wind.webp",
+    "stats": {
+      "attackSpeed": 30,
+      "physicalLifesteal": 15,
+      "movementSpeed": 7
+    },
+    "passives": [
+      {
+        "passiveId": "scorching-wind-p1",
+        "index": 1,
+        "description": "Grants Frostbite effect."
+      },
+      {
+        "passiveId": "scorching-wind-p2",
+        "index": 2,
+        "description": "Normal attacks place a mark on the target, dealing 15–19 magic damage per stack, up to 6 stacks.",
+        "cooldown": 0.3
+      },
+      {
+        "passiveId": "scorching-wind-p3",
+        "index": 3,
+        "description": "Increases Attack Speed by 0.8% and Life Steal by 0.2% for every monster killed. Stacks up to 25 times."
+      },
+      {
+        "passiveId": "scorching-wind-p4",
+        "index": 4,
+        "description": "Normal attacks / skills hitting wildlings deal 60–172 additional true damage every 0.5s for 2s, and receive 35% more EXP from killing monsters."
+      },
+      {
+        "passiveId": "scorching-wind-p5",
+        "index": 5,
+        "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
+      }
+    ]
+  },
+  {
+    "equipmentId": "elemental-gem",
+    "categoryId": "support",
+    "level": 1,
+    "number": 1,
+    "price": 300,
+    "isActive": false,
+    "name": "Elemental Gem",
+    "asset": "equipments/G101_EG_ElementalGem.webp",
+    "stats": {
+      "movementSpeed": 5
+    },
+    "passives": [
+      {
+        "passiveId": "elemental-gem-p1",
+        "index": 1,
+        "description": "Every 3s, grants 6 EXP and 6 Gold to the teammate with the lowest Gold on the team."
+      },
+      {
+        "passiveId": "elemental-gem-p2",
+        "index": 2,
+        "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
+      }
+    ]
+  },
+  {
+    "equipmentId": "earth-gem",
+    "categoryId": "support",
+    "level": 2,
+    "number": 1,
+    "price": 900,
+    "recipe": [
+      "elemental-gem",
+      "ring-of-vitality"
+    ],
+    "isActive": false,
+    "name": "Earth Gem",
+    "asset": "equipments/G201_EG_Earth-Gem.webp",
+    "stats": {
+      "maxHp": 600,
+      "movementSpeed": 5
+    },
+    "passives": [
+      {
+        "passiveId": "earth-gem-p1",
+        "index": 1,
+        "description": "Grants 16–30 (+1 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+      },
+      {
+        "passiveId": "earth-gem-p2",
+        "index": 2,
+        "description": "Increases Physical and Magic Defense by 32–60 to self and allies within 8m."
+      },
+      {
+        "passiveId": "earth-gem-p3",
+        "index": 3,
+        "description": "Every 3s, grants 6 EXP and 6 Gold to the teammate with the lowest Gold on the team."
+      },
+      {
+        "passiveId": "earth-gem-p4",
+        "index": 4,
+        "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
+      }
+    ]
+  },
+  {
+    "equipmentId": "fire-gem",
+    "categoryId": "support",
+    "level": 2,
+    "number": 2,
+    "price": 900,
+    "recipe": [
+      "elemental-gem",
+      "ring-of-vitality"
+    ],
+    "isActive": false,
+    "name": "Fire Gem",
+    "asset": "equipments/G202_FG_Fire-Gem.webp",
+    "stats": {
+      "maxHp": 600,
+      "movementSpeed": 5
+    },
+    "passives": [
+      {
+        "passiveId": "fire-gem-p1",
+        "index": 1,
+        "description": "Grants 16–30 (+1 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+      },
+      {
+        "passiveId": "fire-gem-p2",
+        "index": 2,
+        "description": "Increases CDR by 5% and Attack Speed by 5% to self and allies within 8m."
+      },
+      {
+        "passiveId": "fire-gem-p3",
+        "index": 3,
+        "description": "Every 3s, grants 6 EXP and 6 Gold to the teammate with the lowest Gold on the team."
+      },
+      {
+        "passiveId": "fire-gem-p4",
+        "index": 4,
+        "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
+      }
+    ]
+  },
+  {
+    "equipmentId": "mother-earth-barrier",
+    "categoryId": "support",
+    "level": 3,
+    "number": 1,
+    "price": 1900,
+    "recipe": [
+      "earth-gem",
+      "ring-of-vitality",
+      "ring-of-vitality"
+    ],
+    "isActive": true,
+    "name": "Mother Earth: Barrier",
+    "asset": "equipments/G301_ME-B_Mother-Earth-Barrier.webp",
+    "stats": {
+      "maxHp": 1200,
+      "movementSpeed": 8
+    },
+    "passives": [
+      {
+        "passiveId": "mother-earth-barrier-p1",
+        "index": 1,
+        "description": "Active: Grants you and ally heroes within 8m a shield that absorbs 680–1800 damage for 3s.",
+        "cooldown": 60
+      },
+      {
+        "passiveId": "mother-earth-barrier-p2",
+        "index": 2,
+        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+      },
+      {
+        "passiveId": "mother-earth-barrier-p3",
+        "index": 3,
+        "description": "Increases Physical and Magic Defense by 32–60 to self and allies within 8m."
+      },
+      {
+        "passiveId": "mother-earth-barrier-p4",
+        "index": 4,
+        "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
+      },
+      {
+        "passiveId": "mother-earth-barrier-p5",
+        "index": 5,
+        "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
+      }
+    ]
+  },
+  {
+    "equipmentId": "mother-earth-magic-eye",
+    "categoryId": "support",
+    "level": 3,
+    "number": 2,
+    "price": 1900,
+    "recipe": [
+      "earth-gem",
+      "ring-of-vitality",
+      "ring-of-vitality"
+    ],
+    "isActive": true,
+    "name": "Mother Earth: Magic Eye",
+    "asset": "equipments/G302_ME-ME_Mother-Earth-Magic-Eye.webp",
+    "stats": {
+      "maxHp": 1200,
+      "movementSpeed": 8
+    },
+    "passives": [
+      {
+        "passiveId": "mother-earth-magic-eye-p1",
+        "index": 1,
+        "description": "Active: Grants True Vision of your surroundings for 4s, and instantly deals 8% of targets' current HP as magic damage twice and slows them by 50% for a total of 2s.",
+        "cooldown": 45
+      },
+      {
+        "passiveId": "mother-earth-magic-eye-p2",
+        "index": 2,
+        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+      },
+      {
+        "passiveId": "mother-earth-magic-eye-p3",
+        "index": 3,
+        "description": "Increases Physical and Magic Defense by 32–60 to self and allies within 8m."
+      },
+      {
+        "passiveId": "mother-earth-magic-eye-p4",
+        "index": 4,
+        "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
+      },
+      {
+        "passiveId": "mother-earth-magic-eye-p5",
+        "index": 5,
+        "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
+      }
+    ]
+  },
+  {
+    "equipmentId": "mother-earth-surge",
+    "categoryId": "support",
+    "level": 3,
+    "number": 3,
+    "price": 1900,
+    "recipe": [
+      "earth-gem",
+      "ring-of-vitality",
+      "ring-of-vitality"
+    ],
+    "isActive": true,
+    "name": "Mother Earth: Surge",
+    "asset": "equipments/G303_ME-S_Mother-Earth-Surge.webp",
+    "stats": {
+      "maxHp": 1200,
+      "movementSpeed": 8
+    },
+    "passives": [
+      {
+        "passiveId": "mother-earth-surge-p1",
+        "index": 1,
+        "description": "Active: Gradually increases Movement Speed of yourself and teammates by 20–100% over 2s, max 4s. When passing by an unboosted teammate, they are also accelerated. Attacking or being attacked reduces the effect to a fixed 20%.",
+        "cooldown": 75
+      },
+      {
+        "passiveId": "mother-earth-surge-p2",
+        "index": 2,
+        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+      },
+      {
+        "passiveId": "mother-earth-surge-p3",
+        "index": 3,
+        "description": "Increases Physical and Magic Defense by 32–60 to self and allies within 8m."
+      },
+      {
+        "passiveId": "mother-earth-surge-p4",
+        "index": 4,
+        "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
+      },
+      {
+        "passiveId": "mother-earth-surge-p5",
+        "index": 5,
+        "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
+      }
+    ]
+  },
+  {
+    "equipmentId": "mother-earth-cleansing",
+    "categoryId": "support",
+    "level": 3,
+    "number": 4,
+    "price": 1900,
+    "recipe": [
+      "earth-gem",
+      "ring-of-vitality",
+      "ring-of-vitality"
+    ],
+    "isActive": true,
+    "name": "Mother Earth: Cleansing",
+    "asset": "equipments/G304_ME-C_Mother-Earth-Cleansing.webp",
+    "stats": {
+      "maxHp": 1200,
+      "movementSpeed": 8
+    },
+    "passives": [
+      {
+        "passiveId": "mother-earth-cleansing-p1",
+        "index": 1,
+        "description": "Active: Dissolves control effects from nearby allies, also grants them immunity to control for 0.5s.",
+        "cooldown": 90
+      },
+      {
+        "passiveId": "mother-earth-cleansing-p2",
+        "index": 2,
+        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+      },
+      {
+        "passiveId": "mother-earth-cleansing-p3",
+        "index": 3,
+        "description": "Increases Physical and Magic Defense by 32–60 to self and allies within 8m."
+      },
+      {
+        "passiveId": "mother-earth-cleansing-p4",
+        "index": 4,
+        "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
+      },
+      {
+        "passiveId": "mother-earth-cleansing-p5",
+        "index": 5,
+        "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
+      }
+    ]
+  },
+  {
+    "equipmentId": "mother-earth-spout",
+    "categoryId": "support",
+    "level": 3,
+    "number": 5,
+    "price": 1900,
+    "recipe": [
+      "earth-gem",
+      "ring-of-vitality",
+      "ring-of-vitality"
+    ],
+    "isActive": true,
+    "name": "Mother Earth: Spout",
+    "asset": "equipments/G305_ME-SP_Mother-Earth-Spout.webp",
+    "stats": {
+      "maxHp": 1200,
+      "movementSpeed": 8
+    },
+    "passives": [
+      {
+        "passiveId": "mother-earth-spout-p1",
+        "index": 1,
+        "description": "Active: Links 1 ally (lowest HP priority), within 5s restores 500–1000 (+20% Max HP) HP and 25% Mana to both. Link exceeding range interrupts the effect. Attacking or being attacked reduces effectiveness to 20%. Can be stored once every 50s, max up to 2. The interval between 2 uses is 5s.",
+        "cooldown": 50
+      },
+      {
+        "passiveId": "mother-earth-spout-p2",
+        "index": 2,
+        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+      },
+      {
+        "passiveId": "mother-earth-spout-p3",
+        "index": 3,
+        "description": "Increases Physical and Magic Defense by 32–60 to self and allies within 8m."
+      },
+      {
+        "passiveId": "mother-earth-spout-p4",
+        "index": 4,
+        "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
+      },
+      {
+        "passiveId": "mother-earth-spout-p5",
+        "index": 5,
+        "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
+      }
+    ]
+  },
+  {
+    "equipmentId": "wildfire-barrier",
+    "categoryId": "support",
+    "level": 3,
+    "number": 6,
+    "price": 1900,
+    "recipe": [
+      "fire-gem",
+      "ring-of-vitality",
+      "ring-of-vitality"
+    ],
+    "isActive": true,
+    "name": "Wildfire: Barrier",
+    "asset": "equipments/G306_WF-B_Wildfire-Barrier.webp",
+    "stats": {
+      "maxHp": 1200,
+      "movementSpeed": 8
+    },
+    "passives": [
+      {
+        "passiveId": "wildfire-barrier-p1",
+        "index": 1,
+        "description": "Active: Grants you and ally heroes within 8m a shield that absorbs 680–1800 damage for 3s.",
+        "cooldown": 60
+      },
+      {
+        "passiveId": "wildfire-barrier-p2",
+        "index": 2,
+        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+      },
+      {
+        "passiveId": "wildfire-barrier-p3",
+        "index": 3,
+        "description": "Increases CDR by 5% and Attack Speed by 5% to self and allies within 8m."
+      },
+      {
+        "passiveId": "wildfire-barrier-p4",
+        "index": 4,
+        "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
+      },
+      {
+        "passiveId": "wildfire-barrier-p5",
+        "index": 5,
+        "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
+      }
+    ]
+  },
+  {
+    "equipmentId": "wildfire-magic-eye",
+    "categoryId": "support",
+    "level": 3,
+    "number": 7,
+    "price": 1900,
+    "recipe": [
+      "fire-gem",
+      "ring-of-vitality",
+      "ring-of-vitality"
+    ],
+    "isActive": true,
+    "name": "Wildfire: Magic Eye",
+    "asset": "equipments/G307_WF-ME_Wildfire-Magic-Eye.webp",
+    "stats": {
+      "maxHp": 1200,
+      "movementSpeed": 8
+    },
+    "passives": [
+      {
+        "passiveId": "wildfire-magic-eye-p1",
+        "index": 1,
+        "description": "Active: Grants True Vision of your surroundings for 4s, and instantly deals 8% of targets' current HP as magic damage twice and slows them by 50% for a total of 2s.",
+        "cooldown": 45
+      },
+      {
+        "passiveId": "wildfire-magic-eye-p2",
+        "index": 2,
+        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+      },
+      {
+        "passiveId": "wildfire-magic-eye-p3",
+        "index": 3,
+        "description": "Increases CDR by 5% and Attack Speed by 5% to self and allies within 8m."
+      },
+      {
+        "passiveId": "wildfire-magic-eye-p4",
+        "index": 4,
+        "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
+      },
+      {
+        "passiveId": "wildfire-magic-eye-p5",
+        "index": 5,
+        "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
+      }
+    ]
+  },
+  {
+    "equipmentId": "wildfire-surge",
+    "categoryId": "support",
+    "level": 3,
+    "number": 8,
+    "price": 1900,
+    "recipe": [
+      "fire-gem",
+      "ring-of-vitality",
+      "ring-of-vitality"
+    ],
+    "isActive": true,
+    "name": "Wildfire: Surge",
+    "asset": "equipments/G308_WF-S_Wildfire-Surge.webp",
+    "stats": {
+      "maxHp": 1200,
+      "movementSpeed": 8
+    },
+    "passives": [
+      {
+        "passiveId": "wildfire-surge-p1",
+        "index": 1,
+        "description": "Active: Gradually increases Movement Speed of yourself and teammates by 20–100% over 2s, max 4s. When passing by an unboosted teammate, they are also accelerated. Attacking or being attacked reduces the effect to a fixed 20%.",
+        "cooldown": 75
+      },
+      {
+        "passiveId": "wildfire-surge-p2",
+        "index": 2,
+        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+      },
+      {
+        "passiveId": "wildfire-surge-p3",
+        "index": 3,
+        "description": "Increases CDR by 5% and Attack Speed by 5% to self and allies within 8m."
+      },
+      {
+        "passiveId": "wildfire-surge-p4",
+        "index": 4,
+        "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
+      },
+      {
+        "passiveId": "wildfire-surge-p5",
+        "index": 5,
+        "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
+      }
+    ]
+  },
+  {
+    "equipmentId": "wildfire-cleansing",
+    "categoryId": "support",
+    "level": 3,
+    "number": 9,
+    "price": 1900,
+    "recipe": [
+      "fire-gem",
+      "ring-of-vitality",
+      "ring-of-vitality"
+    ],
+    "isActive": true,
+    "name": "Wildfire: Cleansing",
+    "asset": "equipments/G309_WF-C_Wildfire-Cleansing.webp",
+    "stats": {
+      "maxHp": 1200,
+      "movementSpeed": 8
+    },
+    "passives": [
+      {
+        "passiveId": "wildfire-cleansing-p1",
+        "index": 1,
+        "description": "Active: Dissolves control effects from nearby allies, also grants them immunity to control for 0.5s.",
+        "cooldown": 90
+      },
+      {
+        "passiveId": "wildfire-cleansing-p2",
+        "index": 2,
+        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+      },
+      {
+        "passiveId": "wildfire-cleansing-p3",
+        "index": 3,
+        "description": "Increases CDR by 5% and Attack Speed by 5% to self and allies within 8m."
+      },
+      {
+        "passiveId": "wildfire-cleansing-p4",
+        "index": 4,
+        "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
+      },
+      {
+        "passiveId": "wildfire-cleansing-p5",
+        "index": 5,
+        "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
+      }
+    ]
+  },
+  {
+    "equipmentId": "wildfire-spout",
+    "categoryId": "support",
+    "level": 3,
+    "number": 10,
+    "price": 1900,
+    "recipe": [
+      "fire-gem",
+      "ring-of-vitality",
+      "ring-of-vitality"
+    ],
+    "isActive": true,
+    "name": "Wildfire: Spout",
+    "asset": "equipments/G310_WF-SP_Wildfire-Spout.webp",
+    "stats": {
+      "maxHp": 1200,
+      "movementSpeed": 8
+    },
+    "passives": [
+      {
+        "passiveId": "wildfire-spout-p1",
+        "index": 1,
+        "description": "Active: Links 1 ally (lowest HP priority), within 5s restores 500–1000 (+20% Max HP) HP and 25% Mana to both. Link exceeding range interrupts the effect. Attacking or being attacked reduces effectiveness to 20%. Can be stored once every 50s, max up to 2. The interval between 2 uses is 5s.",
+        "cooldown": 50
+      },
+      {
+        "passiveId": "wildfire-spout-p2",
+        "index": 2,
+        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+      },
+      {
+        "passiveId": "wildfire-spout-p3",
+        "index": 3,
+        "description": "Increases CDR by 5% and Attack Speed by 5% to self and allies within 8m."
+      },
+      {
+        "passiveId": "wildfire-spout-p4",
+        "index": 4,
+        "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
+      },
+      {
+        "passiveId": "wildfire-spout-p5",
+        "index": 5,
+        "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
+      }
+    ]
+  }
+]
