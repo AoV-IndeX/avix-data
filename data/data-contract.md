@@ -1,3 +1,4 @@
+
 # AVIX Data Contract
 
 This document describes the public JSON data contract produced by `avix-data`.
@@ -7,14 +8,19 @@ It defines the structure consumed by downstream AVIX clients.
 ## General
 
 * Release data is emitted as JSON under `data/<locale>/`.
+
 * Each locale contains the same domain structure.
+
 * Localized `*Key` fields are resolved into their corresponding fields:
 
   * `nameKey` → `name`
   * `descriptionKey` → `description`
   * `usageKey` → `usage`
+
 * Missing translations fall back to English.
+
 * Fields with `null` values are omitted from the released JSON.
+
 * Asset fields contain relative paths. The asset base URL is provided separately through `data/config.json`.
 
 ## Stats
@@ -54,11 +60,11 @@ Only stats that have a value are present in the released JSON.
 
 | Field    |  Type  | Required | Description                       |
 | :------- | :----: | :------: | :-------------------------------- |
-| arcanaId | string |  &check; | Stable Arcana identifier          |
-| colorId  | string |  &check; | Arcana color: Red / Purple / Teal |
-| name     | string |  &check; | Localized name                    |
+| arcanaId | string |     ✓    | Stable Arcana identifier          |
+| colorId  | string |     ✓    | Arcana color: Red / Purple / Teal |
+| name     | string |     ✓    | Localized name                    |
 | asset    | string |          | Asset path                        |
-| stats    | object |  &check; | Stat modifiers                    |
+| stats    | object |     ✓    | Stat modifiers                    |
 
 ### Arcana `stats`
 
@@ -68,8 +74,8 @@ See [Stats](#stats).
 
 | Field         |  Type  | Required | Description                                  |
 | :------------ | :----: | :------: | :------------------------------------------- |
-| enchantmentId | string |  &check; | Stable enchantment identifier                |
-| categoryId    | string |  &check; | Veda / Lokheim / Afata / League of Humans    |
+| enchantmentId | string |     ✓    | Stable enchantment identifier                |
+| categoryId    | string |     ✓    | Veda / Lokheim / Afata / League of Humans    |
 | level         | number |          | Enchantment level                            |
 | number        | number |          | Cardinal number, primarily used for ordering |
 | usage         | string |          | Localized usage text                         |
@@ -81,8 +87,8 @@ See [Stats](#stats).
 
 | Field       |   Type   | Required | Description                                              |
 | :---------- | :------: | :------: | :------------------------------------------------------- |
-| equipmentId |  string  |  &check; | Stable equipment identifier                              |
-| categoryId  |  string  |  &check; | Attack / Magic / Defense / Movement / Jungling / Support |
+| equipmentId |  string  |     ✓    | Stable equipment identifier                              |
+| categoryId  |  string  |     ✓    | Attack / Magic / Defense / Movement / Jungling / Support |
 | level       |  number  |          | Equipment level                                          |
 | number      |  number  |          | Cardinal number, primarily used for ordering             |
 | price       |  number  |          | Purchase price                                           |
@@ -90,18 +96,20 @@ See [Stats](#stats).
 | recipe      | string[] |          | Component equipment identifiers                          |
 | name        |  string  |          | Localized name                                           |
 | asset       |  string  |          | Asset path                                               |
-| stats       |  object  |  &check; | Stat modifiers                                           |
+| stats       |  object  |          | Stat modifiers                                           |
 | passives    | object[] |          | Equipment passive effects                                |
 
 ### Equipment `stats`
 
 See [Stats](#stats).
 
+An equipment may have no stat modifiers. In this case, `stats` may be an empty object.
+
 ### Equipment `passives`
 
 | Field       |  Type  | Required | Description                                      |
 | :---------- | :----: | :------: | :----------------------------------------------- |
-| passiveId   | string |  &check; | Stable passive identifier                        |
+| passiveId   | string |     ✓    | Stable passive identifier                        |
 | index       | number |          | Passive ordering                                 |
 | name        | string |          | Localized passive name                           |
 | description | string |          | Localized passive description                    |
@@ -113,11 +121,11 @@ An equipment may contain multiple passive records.
 ## Hero
 
 | Field        |   Type   | Required | Description            |
-| :----------- | :------: | :------: | :----------------------|
-| heroId       |  string  |  &check; | Stable hero identifier |
-| roleId_1     |  string  |  &check; | Primary role           |
+| :----------- | :------: | :------: | :--------------------- |
+| heroId       |  string  |     ✓    | Stable hero identifier |
+| roleId_1     |  string  |     ✓    | Primary role           |
 | roleId_2     |  string  |          | Secondary role         |
-| laneId_1     |  string  |  &check; | First lane*            |
+| laneId_1     |  string  |     ✓    | First lane*            |
 | laneId_2     |  string  |          | Second lane*           |
 | laneId_3     |  string  |          | Third lane*            |
 | name         |  string  |          | Localized name         |
@@ -127,8 +135,10 @@ An equipment may contain multiple passive records.
 | stats-growth |  object  |          | Per-level stat growth  |
 | skills       | object[] |          | Hero skills            |
 
-[!Note]
-> (*) Lanes classifications are opinionated. Doesnt' reflect ingame default labels.
+> [!NOTE]
+>
+> * Lane classifications are opinionated and don't reflect in-game default labels.
+>
 > Credits: [AoV Tactics & Guides](https://www.facebook.com/aovtacticsguides)
 
 ### Hero `stats`
@@ -153,7 +163,7 @@ The exact skill contract is defined by the enabled skill data source.
 
 | Field       |  Type  | Required | Description                                  |
 | :---------- | :----: | :------: | :------------------------------------------- |
-| talentId    | string |  &check; | Stable talent identifier                     |
+| talentId    | string |     ✓    | Stable talent identifier                     |
 | number      | number |          | Cardinal number, primarily used for ordering |
 | cooldown    | number |          | Cooldown                                     |
 | name        | string |          | Localized name                               |
