@@ -6,7 +6,7 @@
     "number": 1,
     "price": 250,
     "isActive": false,
-    "name": "Short Sword",
+    "name": "Kiếm Ngắn",
     "asset": "equipments/A101_SS_Short-Sword.webp",
     "stats": {
       "attackDamage": 20
@@ -19,7 +19,7 @@
     "number": 2,
     "price": 290,
     "isActive": false,
-    "name": "Dagger",
+    "name": "Dao Găm",
     "asset": "equipments/A102_DG_Dagger.webp",
     "stats": {
       "attackSpeed": 10
@@ -32,7 +32,7 @@
     "number": 3,
     "price": 300,
     "isActive": false,
-    "name": "Gloves",
+    "name": "Găng Tay",
     "asset": "equipments/A103_GL_Gloves.webp",
     "stats": {
       "criticalRate": 8
@@ -45,7 +45,7 @@
     "number": 4,
     "price": 410,
     "isActive": false,
-    "name": "Bloodied Club",
+    "name": "Chuỳ Máu",
     "asset": "equipments/A104_BC_Bloodied-Club.webp",
     "stats": {
       "attackDamage": 10,
@@ -59,7 +59,7 @@
     "number": 5,
     "price": 450,
     "isActive": false,
-    "name": "Chain Hammer",
+    "name": "Chuỳ Xích",
     "asset": "equipments/A105_CH_Chain-Hammer.webp",
     "stats": {
       "attackDamage": 40
@@ -75,7 +75,7 @@
       "short-sword"
     ],
     "isActive": false,
-    "name": "Cleaving Claymore",
+    "name": "Kiếm Dài",
     "asset": "equipments/A201_CC_Cleaving-Claymore.webp",
     "stats": {
       "attackDamage": 80
@@ -92,7 +92,7 @@
       "dagger"
     ],
     "isActive": false,
-    "name": "Arcane Hammer",
+    "name": "Chuỳ Cổ",
     "asset": "equipments/A202_AH_Arcane-Hammer.webp",
     "stats": {
       "attackDamage": 25,
@@ -118,7 +118,7 @@
       "dagger"
     ],
     "isActive": false,
-    "name": "Tempest Blades",
+    "name": "Song Đao",
     "asset": "equipments/A203_TB_Tempest-Blades.webp",
     "stats": {
       "attackSpeed": 25,
@@ -136,7 +136,7 @@
       "short-sword"
     ],
     "isActive": false,
-    "name": "Astral Spear",
+    "name": "Thương Đấu Sĩ",
     "asset": "equipments/A204_AS_Astral-Spear.webp",
     "stats": {
       "attackDamage": 50
@@ -161,7 +161,7 @@
       "dagger"
     ],
     "isActive": false,
-    "name": "Shuriken",
+    "name": "Phi Tiêu",
     "asset": "equipments/A205_SRK_Shuriken.webp",
     "stats": {
       "attackSpeed": 20
@@ -186,7 +186,7 @@
       "short-sword"
     ],
     "isActive": false,
-    "name": "Bloodthirsty Blade",
+    "name": "Huyết Ảnh Đao",
     "asset": "equipments/A206_BB_BloodthirstyBlade.webp",
     "stats": {
       "attackDamage": 30,
@@ -213,7 +213,7 @@
       "dagger"
     ],
     "isActive": false,
-    "name": "Chaos Bow",
+    "name": "Huyết Cung",
     "asset": "equipments/A207_CB_Chaos-Bow.webp",
     "stats": {
       "attackDamage": 40,
@@ -240,7 +240,7 @@
       "gladiators-gauntlets"
     ],
     "isActive": false,
-    "name": "Uriel's Brand",
+    "name": "Gươm Uriel",
     "asset": "equipments/A208_UB_Uriels-Brand.webp",
     "stats": {
       "attackDamage": 80,
@@ -274,7 +274,7 @@
       "necklace-of-vitality"
     ],
     "isActive": false,
-    "name": "Death Curse",
+    "name": "Đao Truy Hồn",
     "asset": "equipments/A209_DC_Death-Curse.webp",
     "stats": {
       "attackDamage": 80,
@@ -302,7 +302,7 @@
       "ring-of-vitality"
     ],
     "isActive": false,
-    "name": "Death Sickle",
+    "name": "Liềm Đoạt Mệnh",
     "asset": "equipments/A210_DS_Death-Sickle.webp",
     "stats": {
       "attackDamage": 75,
@@ -330,7 +330,7 @@
       "cleaving-claymore"
     ],
     "isActive": true,
-    "name": "Bow of Slaughter",
+    "name": "Cung Tà Ma",
     "asset": "equipments/A211_BoS_Bow-of-Slaughter.webp",
     "stats": {
       "attackDamage": 90,
@@ -358,7 +358,7 @@
       "ring-of-vitality"
     ],
     "isActive": true,
-    "name": "The Diminisher",
+    "name": "Thương Khung Kiếm",
     "asset": "equipments/A212_TD_The-Diminisher.webp",
     "stats": {
       "attackDamage": 100,
@@ -392,7 +392,7 @@
       "dagger"
     ],
     "isActive": true,
-    "name": "Eclipsing Bow",
+    "name": "Xạ Nhật Cung",
     "asset": "equipments/A213_EB_Eclipsing-Bow.webp",
     "stats": {
       "attackSpeed": 30,
@@ -426,7 +426,7 @@
       "ring-of-vitality"
     ],
     "isActive": false,
-    "name": "Longinus Spear",
+    "name": "Thương Longinus",
     "asset": "equipments/A301_LS_Longinus-Spear.webp",
     "stats": {
       "attackDamage": 80,
@@ -460,7 +460,7 @@
       "chain-hammer"
     ],
     "isActive": false,
-    "name": "Fafnir's Talon",
+    "name": "Kiếm Fafnir",
     "asset": "equipments/A302_FT_Fafnirs-Talon.webp",
     "stats": {
       "attackDamage": 60,
@@ -488,7 +488,7 @@
       "gloves"
     ],
     "isActive": false,
-    "name": "Claves Sancti",
+    "name": "Thánh Kiếm",
     "asset": "equipments/A303_CS_Claves-Sancti.webp",
     "stats": {
       "attackDamage": 100
@@ -523,7 +523,7 @@
       "ring-of-vitality"
     ],
     "isActive": false,
-    "name": "Muramasa",
+    "name": "Kiếm Muramasa",
     "asset": "equipments/A304_MR_Muramasa.webp",
     "stats": {
       "attackDamage": 80,
@@ -551,7 +551,7 @@
       "ring-of-vitality"
     ],
     "isActive": false,
-    "name": "The Beast",
+    "name": "Quỷ Kiếm",
     "asset": "equipments/A305_TB_The-Beast.webp",
     "stats": {
       "attackDamage": 100,
@@ -580,7 +580,7 @@
       "ring-of-vitality"
     ],
     "isActive": false,
-    "name": "Omni Arms",
+    "name": "Phức Hợp Kiếm",
     "asset": "equipments/A306_OA_Omni-Arms.webp",
     "stats": {
       "attackDamage": 70,
@@ -616,7 +616,7 @@
       "gloves"
     ],
     "isActive": false,
-    "name": "Slikk's Sting",
+    "name": "Song Đao Bão Táp",
     "asset": "equipments/A307_SS_Slikks-Sting.webp",
     "stats": {
       "attackSpeed": 35,
@@ -643,7 +643,7 @@
       "cleaving-claymore"
     ],
     "isActive": false,
-    "name": "Fenrir's Tooth",
+    "name": "Nanh Fenrir",
     "asset": "equipments/A308_FT_Fenrirs-Tooth.webp",
     "stats": {
       "attackDamage": 180,
@@ -668,7 +668,7 @@
       "dagger"
     ],
     "isActive": false,
-    "name": "Blitz Blade",
+    "name": "Gươm Sấm Sét",
     "asset": "equipments/A309_BB_Blitz-Blade.webp",
     "stats": {
       "attackSpeed": 35,
@@ -694,7 +694,7 @@
       "gloves"
     ],
     "isActive": false,
-    "name": "Devil's Handshake",
+    "name": "Vuốt Hung Tàn",
     "asset": "equipments/A310_DH_Devils-Handshake.webp",
     "stats": {
       "attackSpeed": 30,
@@ -721,7 +721,7 @@
       "chain-hammer"
     ],
     "isActive": false,
-    "name": "Rankbreaker",
+    "name": "Thương Xuyên Phá",
     "asset": "equipments/A311_RB_Rankbreaker.webp",
     "stats": {
       "attackDamage": 110
@@ -751,7 +751,7 @@
       "ring-of-vitality"
     ],
     "isActive": false,
-    "name": "Frost Hammer",
+    "name": "Chuỳ Băng",
     "asset": "equipments/A312_FH_FrostHammer.webp",
     "stats": {
       "attackDamage": 60,
@@ -784,7 +784,7 @@
       "gloves"
     ],
     "isActive": false,
-    "name": "Dawning Star",
+    "name": "Diệt Thần Cung",
     "asset": "equipments/A313_DS_Dawning-Star.webp",
     "stats": {
       "attackDamage": 50,
@@ -813,7 +813,7 @@
     "number": 1,
     "price": 300,
     "isActive": false,
-    "name": "Spell Tome",
+    "name": "Sách Phép",
     "asset": "equipments/B101_ST_Spell-Tome.webp",
     "stats": {
       "abilityPower": 40
@@ -826,7 +826,7 @@
     "number": 2,
     "price": 220,
     "isActive": false,
-    "name": "Lapis Ring",
+    "name": "Nhẫn Lapis",
     "asset": "equipments/B102_LR_Lapis-Ring.webp",
     "stats": {
       "maxMana": 300
@@ -839,7 +839,7 @@
     "number": 3,
     "price": 120,
     "isActive": false,
-    "name": "Pendant of Faith",
+    "name": "Dây Chuyền Ma Thuật",
     "asset": "equipments/B103_PoF_Pendant-of-Faith.webp",
     "stats": {
       "manaRegen": 10
@@ -852,7 +852,7 @@
     "number": 4,
     "price": 540,
     "isActive": false,
-    "name": "Ancient Scriptures",
+    "name": "Sách Cổ",
     "asset": "equipments/B104_AS_Ancient-Scriptures.webp",
     "stats": {
       "abilityPower": 80
@@ -865,7 +865,7 @@
     "number": 5,
     "price": 300,
     "isActive": false,
-    "name": "Magic Ring",
+    "name": "Nhẫn Ma Pháp",
     "asset": "equipments/B105_MR_Magic-Ring.webp",
     "stats": {},
     "passives": [
@@ -887,7 +887,7 @@
       "spell-tome"
     ],
     "isActive": false,
-    "name": "Enchanted Scroll",
+    "name": "Sớ Ma Thuật",
     "asset": "equipments/B201_ES_Enchanted-Scroll.webp",
     "stats": {
       "abilityPower": 120
@@ -904,7 +904,7 @@
       "magic-ring"
     ],
     "isActive": false,
-    "name": "Trick Blade",
+    "name": "Gươm Nguyên Tố",
     "asset": "equipments/B202_TB_Trick-Blade.webp",
     "stats": {
       "abilityPower": 40,
@@ -931,7 +931,7 @@
       "spell-tome"
     ],
     "isActive": false,
-    "name": "Spooky Mask",
+    "name": "Mặt Nạ Ma Quái",
     "asset": "equipments/B203_SM_Spooky-Mask.webp",
     "stats": {
       "abilityPower": 100
@@ -956,7 +956,7 @@
       "pendant-of-faith"
     ],
     "isActive": false,
-    "name": "Phoenix Tear",
+    "name": "Phượng Hoàng Lệ",
     "asset": "equipments/B204_PT_Phoenix-Tear.webp",
     "stats": {
       "abilityPower": 50
@@ -981,7 +981,7 @@
       "pendant-of-faith"
     ],
     "isActive": false,
-    "name": "Virtue's Bracelet",
+    "name": "Vòng Đức Hạnh",
     "asset": "equipments/B205_VB_Virtues-Bracelet.webp",
     "stats": {
       "abilityPower": 60,
@@ -1000,7 +1000,7 @@
       "spell-tome"
     ],
     "isActive": false,
-    "name": "Vlad's Impaler",
+    "name": "Huyết Trượng",
     "asset": "equipments/B206_VI_Vlads-Impaler.webp",
     "stats": {
       "abilityPower": 80,
@@ -1019,7 +1019,7 @@
       "spell-tome"
     ],
     "isActive": false,
-    "name": "Staff of Nuul",
+    "name": "Trượng Hỗn Mang",
     "asset": "equipments/B207_SoN_Staff-of-Nuul.webp",
     "stats": {
       "abilityPower": 180,
@@ -1045,7 +1045,7 @@
       "magic-ring"
     ],
     "isActive": false,
-    "name": "Virtue's Necklace",
+    "name": "Dây Chuyền Lục Bảo",
     "asset": "equipments/B208_VN_Virtues-Necklace.webp",
     "stats": {
       "abilityPower": 160,
@@ -1071,7 +1071,7 @@
       "spell-tome"
     ],
     "isActive": false,
-    "name": "Astrolobe",
+    "name": "Cầu Chiêm Tinh",
     "asset": "equipments/B209_AT_Astrolobe.webp",
     "stats": {
       "abilityPower": 80
@@ -1098,7 +1098,7 @@
       "ring-of-vitality"
     ],
     "isActive": false,
-    "name": "Evil Secrets",
+    "name": "Xuyên Tâm Lệnh",
     "asset": "equipments/B210_ES_Evil-Secrets.webp",
     "stats": {
       "abilityPower": 140,
@@ -1124,7 +1124,7 @@
       "necklace-of-vitality"
     ],
     "isActive": false,
-    "name": "Tome of the Reaper",
+    "name": "Sách Truy Hồn",
     "asset": "equipments/B211_TotR_Tome-of-the-Reaper.webp",
     "stats": {
       "abilityPower": 140,
@@ -1151,7 +1151,7 @@
       "ancient-scriptures"
     ],
     "isActive": false,
-    "name": "Carano's Vow",
+    "name": "Thệ Ước Carano",
     "asset": "equipments/B212_CV_CaranosVow.webp",
     "stats": {
       "abilityPower": 180,
@@ -1179,7 +1179,7 @@
       "spell-tome"
     ],
     "isActive": false,
-    "name": "Boomstick",
+    "name": "Trượng Bùng Nổ",
     "asset": "equipments/B301_BS_Boomstick.webp",
     "stats": {
       "abilityPower": 200,
@@ -1206,7 +1206,7 @@
       "enchanted-scroll"
     ],
     "isActive": false,
-    "name": "Hecate's Diadem",
+    "name": "Vương Miện Hecate",
     "asset": "equipments/B302_HD_Hecates-Diadem.webp",
     "stats": {
       "abilityPower": 240
@@ -1231,7 +1231,7 @@
       "spell-tome"
     ],
     "isActive": false,
-    "name": "Orb of the Magi",
+    "name": "Ngọc Đại Pháp Sư",
     "asset": "equipments/B303_OotM_Orb-of-the-Magi.webp",
     "stats": {
       "abilityPower": 140,
@@ -1264,7 +1264,7 @@
       "ring-of-vitality"
     ],
     "isActive": false,
-    "name": "Rhea's Blessing",
+    "name": "Trượng Rhea",
     "asset": "equipments/B304_RB_Rheas-Blessing.webp",
     "stats": {
       "abilityPower": 160,
@@ -1290,7 +1290,7 @@
       "enchanted-scroll"
     ],
     "isActive": false,
-    "name": "Zweihander",
+    "name": "Thập Tự Kiếm",
     "asset": "equipments/B305_Zw_Zweihander.webp",
     "stats": {
       "abilityPower": 180,
@@ -1322,7 +1322,7 @@
       "necklace-of-vitality"
     ],
     "isActive": false,
-    "name": "Frosty's Revenge",
+    "name": "Trương Băng",
     "asset": "equipments/B306_FR_Frostys-Revenge.webp",
     "stats": {
       "abilityPower": 140,
@@ -1349,7 +1349,7 @@
       "necklace-of-vitality"
     ],
     "isActive": false,
-    "name": "Berith's Agony",
+    "name": "Mặt Nạ Berith",
     "asset": "equipments/B307_BA_Beriths-Agony.webp",
     "stats": {
       "abilityPower": 140,
@@ -1376,7 +1376,7 @@
       "spell-tome"
     ],
     "isActive": false,
-    "name": "Apocalypse",
+    "name": "Gươm Tận Thế",
     "asset": "equipments/B308_Apo_Apocalypse.webp",
     "stats": {
       "abilityPower": 180,
@@ -1405,7 +1405,7 @@
       "ring-of-vitality"
     ],
     "isActive": false,
-    "name": "Soaring Aura",
+    "name": "Gươm Hiền Triết",
     "asset": "equipments/B309_SA_Soaring-Aura.webp",
     "stats": {
       "abilityPower": 140,
@@ -1433,7 +1433,7 @@
       "ancient-scriptures"
     ],
     "isActive": false,
-    "name": "Holy of Holies",
+    "name": "Sách Thánh",
     "asset": "equipments/B310_HoH_Holy-of-Holies.webp",
     "stats": {
       "abilityPower": 350,
@@ -1458,7 +1458,7 @@
       "enchanted-scroll"
     ],
     "isActive": true,
-    "name": "Arctic Orb",
+    "name": "Quả Cầu Băng Sương",
     "asset": "equipments/B311_AO_Arctic-Orb.webp",
     "stats": {
       "abilityPower": 200,
@@ -1485,7 +1485,7 @@
       "necklace-of-vitality"
     ],
     "isActive": false,
-    "name": "Frost Guard",
+    "name": "Băng Nhẫn Skadi",
     "asset": "equipments/B312_FG_Frost-Guard.webp",
     "stats": {
       "abilityPower": 140,
@@ -1511,7 +1511,7 @@
       "ancient-scriptures"
     ],
     "isActive": false,
-    "name": "Carano Robe",
+    "name": "Ma Pháp Trường Bào",
     "asset": "equipments/B313_CR_CaranoRobe.webp",
     "stats": {
       "abilityPower": 120,
@@ -1537,7 +1537,7 @@
     "number": 1,
     "price": 300,
     "isActive": false,
-    "name": "Ring of Vitality",
+    "name": "Nhẫn Hồng Ngọc",
     "asset": "equipments/C101_RoV_Ring-of-Vitality.webp",
     "stats": {
       "maxHp": 300
@@ -1550,7 +1550,7 @@
     "number": 2,
     "price": 220,
     "isActive": false,
-    "name": "Light Armor",
+    "name": "Giáp Nhẹ",
     "asset": "equipments/C102_LA_Light-Armor.webp",
     "stats": {
       "physicalArmor": 90
@@ -1563,7 +1563,7 @@
     "number": 3,
     "price": 220,
     "isActive": false,
-    "name": "Gladiator's Gauntlets",
+    "name": "Găng Giác Đấu",
     "asset": "equipments/C103_GG_Gladiators-Gauntlets.webp",
     "stats": {
       "magicArmor": 90
@@ -1576,7 +1576,7 @@
     "number": 4,
     "price": 140,
     "isActive": false,
-    "name": "Talisman of Strength",
+    "name": "Bùa Sức Mạnh",
     "asset": "equipments/C104_ToS_Talisman-of-Strength.webp",
     "stats": {
       "hpRegen": 30
@@ -1589,7 +1589,7 @@
     "number": 5,
     "price": 540,
     "isActive": false,
-    "name": "Necklace of Vitality",
+    "name": "Dây Chuyền Hồng Ngọc",
     "asset": "equipments/C105_NoV_Necklace-of-Vitality.webp",
     "stats": {
       "maxHp": 600
@@ -1606,7 +1606,7 @@
       "ring-of-vitality"
     ],
     "isActive": false,
-    "name": "Greaves of Protection",
+    "name": "Giáp Chân",
     "asset": "equipments/C201_GoP_Greaves-of-Protection.webp",
     "stats": {
       "maxHp": 1000
@@ -1622,7 +1622,7 @@
       "light-armor"
     ],
     "isActive": false,
-    "name": "Heart of Incubus",
+    "name": "Tim Incubus",
     "asset": "equipments/C202_HoI_Heart-of-Incubus.webp",
     "stats": {
       "physicalArmor": 150
@@ -1648,7 +1648,7 @@
       "ring-of-vitality"
     ],
     "isActive": false,
-    "name": "Belt of Clarity",
+    "name": "Đai Kháng Phép",
     "asset": "equipments/C203_BoC_Belt-of-Clarity.webp",
     "stats": {
       "magicArmor": 110,
@@ -1675,7 +1675,7 @@
       "magic-ring"
     ],
     "isActive": false,
-    "name": "Platinum Gauntlets",
+    "name": "Găng Bạch Kim",
     "asset": "equipments/C204_PG_Platinum-Gauntlets.webp",
     "stats": {
       "physicalArmor": 110,
@@ -1693,7 +1693,7 @@
       "light-armor"
     ],
     "isActive": false,
-    "name": "Knight's Plate",
+    "name": "Giáp Hiệp Sĩ",
     "asset": "equipments/C205_KP_Knights-Plate.webp",
     "stats": {
       "physicalArmor": 210
@@ -1719,7 +1719,7 @@
       "light-armor"
     ],
     "isActive": false,
-    "name": "Mail of Pain",
+    "name": "Giáp Thống Khổ",
     "asset": "equipments/C206_MoP_Mail-of-Pain.webp",
     "stats": {
       "physicalArmor": 300,
@@ -1745,7 +1745,7 @@
       "chain-hammer"
     ],
     "isActive": false,
-    "name": "Hecule's Madness",
+    "name": "Hercule Thịnh Nộ",
     "asset": "equipments/C207_HM_Hecules-Madness.webp",
     "stats": {
       "attackDamage": 80,
@@ -1772,7 +1772,7 @@
       "light-armor"
     ],
     "isActive": false,
-    "name": "Odin's Will",
+    "name": "Giáp Cuồng Nộ",
     "asset": "equipments/C208_OW_Odins-Will.webp",
     "stats": {
       "physicalArmor": 225,
@@ -1799,7 +1799,7 @@
       "necklace-of-vitality"
     ],
     "isActive": false,
-    "name": "Mantle of Ra",
+    "name": "Áo Choàng Thần Ra",
     "asset": "equipments/C301_MoR_Mantle-of-Ra.webp",
     "stats": {
       "physicalArmor": 225,
@@ -1833,7 +1833,7 @@
       "greaves-of-protection"
     ],
     "isActive": false,
-    "name": "Shield of the Lost",
+    "name": "Khiên Thất Truyền",
     "asset": "equipments/C302_SotL_Shield-of-the-Lost.webp",
     "stats": {
       "physicalArmor": 275,
@@ -1860,7 +1860,7 @@
       "lapis-ring"
     ],
     "isActive": false,
-    "name": "The Aegis",
+    "name": "Khiên Huyền Thoại",
     "asset": "equipments/C303_TA_The-Aegis.webp",
     "stats": {
       "physicalArmor": 360,
@@ -1887,7 +1887,7 @@
       "talisman-of-strength"
     ],
     "isActive": false,
-    "name": "Gaia's Standard",
+    "name": "Giáp Gaia",
     "asset": "equipments/C304_GS_Gaias-Standard.webp",
     "stats": {
       "magicArmor": 200,
@@ -1919,7 +1919,7 @@
       "ring-of-vitality"
     ],
     "isActive": false,
-    "name": "Medallion of Troy",
+    "name": "Huân Chương Troy",
     "asset": "equipments/C305_MoT_Medallion-of-Troy.webp",
     "stats": {
       "cooldownReduction": 10
@@ -1948,7 +1948,7 @@
       "light-armor"
     ],
     "isActive": false,
-    "name": "Blade of Eternity",
+    "name": "Giáp Hộ Mệnh",
     "asset": "equipments/C307_BoE_Blade-of-Eternity.webp",
     "stats": {
       "physicalArmor": 120
@@ -1979,7 +1979,7 @@
       "ring-of-vitality"
     ],
     "isActive": false,
-    "name": "Frost Cape",
+    "name": "Áo Choàng Băng Giá",
     "asset": "equipments/C308_FC_Frost-Cape.webp",
     "stats": {
       "physicalArmor": 200,
@@ -2008,7 +2008,7 @@
       "gladiators-gauntlets"
     ],
     "isActive": false,
-    "name": "Amulet of Longevity",
+    "name": "Phù Chú Trường Sinh",
     "asset": "equipments/C309_AoL_Amulet-of-Longetivity.webp",
     "stats": {
       "physicalArmor": 150,
@@ -2036,7 +2036,7 @@
       "light-armor"
     ],
     "isActive": true,
-    "name": "Rock Shield",
+    "name": "Nham Thuẫn",
     "asset": "equipments/C310_RS_Rock-Shield.webp",
     "stats": {
       "physicalArmor": 240,
@@ -2058,7 +2058,7 @@
     "number": 1,
     "price": 250,
     "isActive": false,
-    "name": "Speed Boots",
+    "name": "Giày Thép",
     "asset": "equipments/D101_SB_Speed-Boots.webp",
     "stats": {},
     "passives": [
@@ -2081,7 +2081,7 @@
       "light-armor"
     ],
     "isActive": false,
-    "name": "Sonic Boots",
+    "name": "Giày Hộ Vệ",
     "asset": "equipments/D201_SB_Sonic-Boots.webp",
     "stats": {
       "physicalArmor": 110
@@ -2111,7 +2111,7 @@
       "gladiators-gauntlets"
     ],
     "isActive": false,
-    "name": "Gilded Greaves",
+    "name": "Giày Kiên Cường",
     "asset": "equipments/D202_GG_Gilded-Greaves.webp",
     "stats": {
       "magicArmor": 90
@@ -2142,7 +2142,7 @@
       "magic-ring"
     ],
     "isActive": false,
-    "name": "Flashy Boots",
+    "name": "Giày Thuật Sĩ",
     "asset": "equipments/D203_FB_Flashy-Boots.webp",
     "stats": {
       "cooldownReduction": 15
@@ -2171,7 +2171,7 @@
       "speed-boots"
     ],
     "isActive": false,
-    "name": "Enchanted Kicks",
+    "name": "Giày Phù Thuỷ",
     "asset": "equipments/D204_EK_Enchanted-Kicks.webp",
     "stats": {},
     "passives": [
@@ -2198,7 +2198,7 @@
       "dagger"
     ],
     "isActive": false,
-    "name": "War Boots",
+    "name": "Giày Du Mục",
     "asset": "equipments/D205_WB_War-Boots.webp",
     "stats": {
       "attackSpeed": 20
@@ -2228,7 +2228,7 @@
       "speed-boots"
     ],
     "isActive": false,
-    "name": "Hermes Select",
+    "name": "Giày Hermes",
     "asset": "equipments/D206_HS_Hermes-Select.webp",
     "stats": {
       "maxHp": 300
@@ -2254,7 +2254,7 @@
     "number": 1,
     "price": 250,
     "isActive": false,
-    "name": "Kukri",
+    "name": "Rựa Thợ Săn",
     "asset": "equipments/E101_KR_Kukri.webp",
     "stats": {},
     "passives": [
@@ -2285,7 +2285,7 @@
       "kukri"
     ],
     "isActive": false,
-    "name": "Monster's Bane",
+    "name": "Gươm Hiến Tế",
     "asset": "equipments/E201_MB_Monsters-Bane.webp",
     "stats": {
       "abilityPower": 40
@@ -2323,7 +2323,7 @@
       "kukri"
     ],
     "isActive": false,
-    "name": "Gnoll Cleaver",
+    "name": "Rìu Gnoll",
     "asset": "equipments/E202_GC_Gnoll-Cleaver.webp",
     "stats": {
       "maxHp": 400
@@ -2368,7 +2368,7 @@
       "kukri"
     ],
     "isActive": false,
-    "name": "Mr. Stabby",
+    "name": "Đao Truy Kích",
     "asset": "equipments/E203_MS_Mr.-Stabby.webp",
     "stats": {
       "attackDamage": 25
@@ -2406,7 +2406,7 @@
       "kukri"
     ],
     "isActive": false,
-    "name": "Whispering Wind",
+    "name": "Cung Gió Lốc",
     "asset": "equipments/E204_WW_Whispering-Wind.webp",
     "stats": {
       "attackSpeed": 12
@@ -2445,7 +2445,7 @@
       "trick-blade"
     ],
     "isActive": false,
-    "name": "Loki's Curse",
+    "name": "Gươm Loki",
     "asset": "equipments/E301_LC_Lokis-Curse.webp",
     "stats": {
       "abilityPower": 150,
@@ -2493,7 +2493,7 @@
       "greaves-of-protection"
     ],
     "isActive": false,
-    "name": "Leviathan",
+    "name": "Rìu Leviathan",
     "asset": "equipments/E302_LVT_Leviathan.webp",
     "stats": {
       "maxHp": 1200,
@@ -2541,7 +2541,7 @@
       "cleaving-claymore"
     ],
     "isActive": false,
-    "name": "Soulreaver",
+    "name": "Kiếm Truy Hồn",
     "asset": "equipments/E303_SR_Soulreaver.webp",
     "stats": {
       "attackDamage": 90,
@@ -2587,7 +2587,7 @@
       "tempest-blades"
     ],
     "isActive": false,
-    "name": "Scorching Wind",
+    "name": "Cung Bão Tố",
     "asset": "equipments/E304_SW_Scorching-Wind.webp",
     "stats": {
       "attackSpeed": 30,
@@ -2630,7 +2630,7 @@
     "number": 1,
     "price": 300,
     "isActive": false,
-    "name": "Elemental Gem",
+    "name": "Nguyên Tố Bảo Thạch",
     "asset": "equipments/G101_EG_ElementalGem.webp",
     "stats": {
       "movementSpeed": 5
@@ -2659,7 +2659,7 @@
       "ring-of-vitality"
     ],
     "isActive": false,
-    "name": "Earth Gem",
+    "name": "Thổ Hệ Bảo Thạch",
     "asset": "equipments/G201_EG_Earth-Gem.webp",
     "stats": {
       "maxHp": 600,
@@ -2699,7 +2699,7 @@
       "ring-of-vitality"
     ],
     "isActive": false,
-    "name": "Fire Gem",
+    "name": "Hoả Hệ Bảo Thạch",
     "asset": "equipments/G202_FG_Fire-Gem.webp",
     "stats": {
       "maxHp": 600,
@@ -2740,7 +2740,7 @@
       "ring-of-vitality"
     ],
     "isActive": true,
-    "name": "Mother Earth: Barrier",
+    "name": "Đại Địa Thần Khiên",
     "asset": "equipments/G301_ME-B_Mother-Earth-Barrier.webp",
     "stats": {
       "maxHp": 1200,
@@ -2787,7 +2787,7 @@
       "ring-of-vitality"
     ],
     "isActive": true,
-    "name": "Mother Earth: Magic Eye",
+    "name": "Đại Địa Ma Nhãn",
     "asset": "equipments/G302_ME-ME_Mother-Earth-Magic-Eye.webp",
     "stats": {
       "maxHp": 1200,
@@ -2834,7 +2834,7 @@
       "ring-of-vitality"
     ],
     "isActive": true,
-    "name": "Mother Earth: Surge",
+    "name": "Đại Địa Thần Tốc",
     "asset": "equipments/G303_ME-S_Mother-Earth-Surge.webp",
     "stats": {
       "maxHp": 1200,
@@ -2881,7 +2881,7 @@
       "ring-of-vitality"
     ],
     "isActive": true,
-    "name": "Mother Earth: Cleansing",
+    "name": "Đại Địa Mở Trói",
     "asset": "equipments/G304_ME-C_Mother-Earth-Cleansing.webp",
     "stats": {
       "maxHp": 1200,
@@ -2928,7 +2928,7 @@
       "ring-of-vitality"
     ],
     "isActive": true,
-    "name": "Mother Earth: Spout",
+    "name": "Đại Địa Hồi Huyết",
     "asset": "equipments/G305_ME-SP_Mother-Earth-Spout.webp",
     "stats": {
       "maxHp": 1200,
@@ -2975,7 +2975,7 @@
       "ring-of-vitality"
     ],
     "isActive": true,
-    "name": "Wildfire: Barrier",
+    "name": "Liệt Hoả Thần Khiên",
     "asset": "equipments/G306_WF-B_Wildfire-Barrier.webp",
     "stats": {
       "maxHp": 1200,
@@ -3022,7 +3022,7 @@
       "ring-of-vitality"
     ],
     "isActive": true,
-    "name": "Wildfire: Magic Eye",
+    "name": "Liệt Hoả Ma Nhãn",
     "asset": "equipments/G307_WF-ME_Wildfire-Magic-Eye.webp",
     "stats": {
       "maxHp": 1200,
@@ -3069,7 +3069,7 @@
       "ring-of-vitality"
     ],
     "isActive": true,
-    "name": "Wildfire: Surge",
+    "name": "Liệt Hoả Thần Tốc",
     "asset": "equipments/G308_WF-S_Wildfire-Surge.webp",
     "stats": {
       "maxHp": 1200,
@@ -3116,7 +3116,7 @@
       "ring-of-vitality"
     ],
     "isActive": true,
-    "name": "Wildfire: Cleansing",
+    "name": "Liệt Hoả Mở Trói",
     "asset": "equipments/G309_WF-C_Wildfire-Cleansing.webp",
     "stats": {
       "maxHp": 1200,
@@ -3163,7 +3163,7 @@
       "ring-of-vitality"
     ],
     "isActive": true,
-    "name": "Wildfire: Spout",
+    "name": "Liệt Hoả Hồi Huyết",
     "asset": "equipments/G310_WF-SP_Wildfire-Spout.webp",
     "stats": {
       "maxHp": 1200,
