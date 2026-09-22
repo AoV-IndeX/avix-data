@@ -521,7 +521,7 @@ function resolveI18n(store: PipelineStore, compiled: Map<string, TableData>, loc
       }
 
       if (parent.target === null) {
-        parent.data[index] = resolveI18nValue(
+        parent.data[index] = resolveI18nRecord(
           record,
           link.relations,
           dictionary,
@@ -536,7 +536,6 @@ function resolveI18n(store: PipelineStore, compiled: Map<string, TableData>, loc
       if (nestedValue === undefined) {
         continue;
       }
-
       record[parent.target] = resolveI18nValue(nestedValue, link.relations, dictionary, locale);
     }
   }
@@ -666,69 +665,33 @@ function resolveI18nValue(
   return resolveI18nRecord(value, relations, dictionary, locale);
 }
 
-/**
- * Resolves *Key fields while preserving their original property
- * position in the object.
- */
 function resolveI18nRecord(
   record: TableRecord,
   relations: readonly string[],
   dictionary: Map<string, TableRecord>,
   locale: Locale,
 ): TableRecord {
-  const relationSet = new Set(relations);
-  const result: TableRecord = {};
+  const resolved: TableRecord = {};
 
   for (const [key, value] of Object.entries(record)) {
-    if (!relationSet.has(key)) {
-      result[key] = resolveI18nValue(value, relations, dictionary, locale);
-
-      continue;
-    }
-
-    /*
-     * A *Key field should contain the string identifying the
-     * translation row.
-     */
-    if (typeof value !== "string") {
+    if (!relations.includes(key) || typeof value !== "string") {
+      resolved[key] = value;
       continue;
     }
 
     const translation = dictionary.get(value);
 
-    /*
-     * Missing translation keys are omitted from the artifact.
-     */
-    if (!translation) {
+    if (translation === undefined) {
+      resolved[key] = value;
       continue;
     }
 
-    /*
-     * Fall back to English when the requested locale has no
-     * translation for this key.
-     */
-    const translatedValue = translation[locale] ?? translation.en;
-
-    if (translatedValue === null || translatedValue === undefined) {
-      continue;
-    }
-
-    /*
-     * nameKey        -> name
-     * descriptionKey -> description
-     * usageKey       -> usage
-     *
-     * Because this assignment happens at the point where the
-     * original *Key field occurred, its property order is preserved.
-     */
-    const outputKey = key.replace(/Key$/, "");
-
-    result[outputKey] = translatedValue;
+    const target = key.replace(/Key$/, "");
+    resolved[target] = translation[locale] ?? translation.en;
   }
 
-  return result;
+  return resolved;
 }
-
 /**
  * Removes null-valued properties recursively from all final records.
  */
