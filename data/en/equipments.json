@@ -102,6 +102,7 @@
       {
         "passiveId": "arcane-hammer-p1",
         "index": 1,
+        "name": "Speed Up",
         "description": "Normal attacks increase Movement Speed by 10%.",
         "uniqueGroup": "speed-up"
       }
@@ -145,6 +146,7 @@
       {
         "passiveId": "astral-spear-p1",
         "index": 1,
+        "name": "Armor Reduction",
         "description": "+60 Armor Pierce",
         "uniqueGroup": "physical-pierce"
       }
@@ -170,6 +172,7 @@
       {
         "passiveId": "shuriken-p1",
         "index": 1,
+        "name": "Vital Point",
         "description": "Normal attacks deal 21–35 (melee) or 42–70 (ranged) additional physical damage.",
         "cooldown": 0.3
       }
@@ -196,6 +199,7 @@
       {
         "passiveId": "bloodthirsty-blade-p1",
         "index": 1,
+        "name": "Blood Feast",
         "description": "When HP drops below 30%, restores 400–610 HP over 5s.",
         "cooldown": 20,
         "uniqueGroup": "blood-feast"
@@ -223,6 +227,7 @@
       {
         "passiveId": "chaos-bow-p1",
         "index": 1,
+        "name": "Stab",
         "description": "Increases Armor Penetration by 10% (doubled for ranged heroes).",
         "uniqueGroup": "stab"
       }
@@ -251,12 +256,14 @@
       {
         "passiveId": "uriels-brand-p1",
         "index": 1,
+        "name": "Magic Guardian",
         "description": "When HP falls below 40%, grants a shield that absorbs 600–2000 magic damage, and increases Resistance by 25% and Movement Speed by 30% for 5s.",
         "cooldown": 75
       },
       {
         "passiveId": "uriels-brand-p2",
         "index": 2,
+        "name": "Speed Up",
         "description": "Normal attacks increase Movement Speed by 10%.",
         "uniqueGroup": "speed-up"
       }
@@ -285,6 +292,7 @@
       {
         "passiveId": "death-curse-p1",
         "index": 1,
+        "name": "Soul Prison",
         "description": "Damage dealt by normal attacks and skills reduces the target's healing by 40% for 3s.",
         "uniqueGroup": "anti-heal"
       }
@@ -313,6 +321,7 @@
       {
         "passiveId": "death-sickle-p1",
         "index": 1,
+        "name": "Insatiable",
         "description": "Grants invincibility and temporary damage immunity, and increases Attack Speed and Movement Speed by 25% for 0.75s. After holding the item for 4 minutes, the effect lasts for 1.5s.",
         "cooldown": 120
       }
@@ -341,6 +350,7 @@
       {
         "passiveId": "bow-of-slaughter-p1",
         "index": 1,
+        "name": "Bloodthirst",
         "description": "Active: Increases Life Steal by 60% for 3s. Only usable by ranged heroes.",
         "cooldown": 60
       }
@@ -369,12 +379,14 @@
       {
         "passiveId": "the-diminisher-p1",
         "index": 1,
+        "name": "Sturdy",
         "description": "Active: Grants 40% damage reduction for 2s. Can be used under control effects.",
         "cooldown": 90
       },
       {
         "passiveId": "the-diminisher-p2",
         "index": 2,
+        "name": "Cripple",
         "description": "Skills cause the first enemy hero struck to slow by 30% and reduce their damage dealt by 20% for 3s.",
         "cooldown": 8
       }
@@ -403,12 +415,14 @@
       {
         "passiveId": "eclipsing-bow-p1",
         "index": 1,
+        "name": "Reach",
         "description": "Active: Increases normal attack range by 150 and Movement Speed by 20% for 5s. Increased range only applicable to ranged heroes.",
         "cooldown": 60
       },
       {
         "passiveId": "eclipsing-bow-p2",
         "index": 2,
+        "name": "Wound",
         "description": "Normal attacks deal 50 additional physical damage (doubled for ranged heroes).",
         "cooldown": 0.35
       }
@@ -437,12 +451,14 @@
       {
         "passiveId": "longinus-spear-p1",
         "index": 1,
+        "name": "Armor Reduction",
         "description": "+60 Armor Pierce",
         "uniqueGroup": "physical-pierce"
       },
       {
         "passiveId": "longinus-spear-p2",
         "index": 2,
+        "name": "Shatter",
         "description": "Each attack reduces target's Armor by 6% for 5s. Stacks up to 4 times.",
         "cooldown": 0.3
       }
@@ -471,6 +487,7 @@
       {
         "passiveId": "fafnirs-talon-p1",
         "index": 1,
+        "name": "Dragon's Breath",
         "description": "Normal attacks deal additional physical damage equal to 8% of target's current HP (max damage to wildlings: 80).",
         "cooldown": 0.3
       }
@@ -497,16 +514,19 @@
       {
         "passiveId": "claves-sancti-p1",
         "index": 1,
+        "name": "Gift of the Swift",
         "description": "Increases Movement Speed by 3–45 for 1.5s after landing a critical hit. Only usable by ranged heroes."
       },
       {
         "passiveId": "claves-sancti-p2",
         "index": 2,
+        "name": "Unique Passive",
         "description": "+25% Critical Rate"
       },
       {
         "passiveId": "claves-sancti-p3",
         "index": 3,
+        "name": "Unique Passive",
         "description": "+40% Critical Damage"
       }
     ]
@@ -534,6 +554,7 @@
       {
         "passiveId": "muramasa-p1",
         "index": 1,
+        "name": "Stab",
         "description": "+35% Armor Penetration",
         "uniqueGroup": "stab"
       }
@@ -562,6 +583,7 @@
       {
         "passiveId": "the-beast-p1",
         "index": 1,
+        "name": "Blood Feast",
         "description": "When HP drops below 30%, restores 400–610 HP over 5s.",
         "cooldown": 20,
         "uniqueGroup": "blood-feast"
@@ -592,6 +614,7 @@
       {
         "passiveId": "omni-arms-p1",
         "index": 1,
+        "name": "Elemental Power",
         "description": "After using a skill, the next normal attack within 5s deals additional physical damage equal to 100% AD.",
         "cooldown": 2,
         "uniqueGroup": "elemental-power"
@@ -599,6 +622,7 @@
       {
         "passiveId": "omni-arms-p2",
         "index": 2,
+        "name": "Speed Up",
         "description": "Normal attacks increase Movement Speed by 10%.",
         "uniqueGroup": "speed-up"
       }
@@ -627,6 +651,7 @@
       {
         "passiveId": "slikks-sting-p1",
         "index": 1,
+        "name": "Wind's Blessing",
         "description": "Increases Resistance by 35% for 2s after landing a critical hit.",
         "uniqueGroup": "resistance"
       }
@@ -653,6 +678,7 @@
       {
         "passiveId": "fenrirs-tooth-p1",
         "index": 1,
+        "name": "Fenrir's Tooth",
         "description": "Deals 30% additional damage when target's HP is below 50%."
       }
     ]
@@ -678,7 +704,8 @@
       {
         "passiveId": "blitz-blade-p1",
         "index": 1,
-        "description": "Normal attacks deal 40–82 additional magic damage. Every 3 normal attacks triggers a chain lightning, dealing 140–420 magic damage.",
+        "name": "Chain Lightning",
+        "description": "Normal attacks deal 45–87 additional magic damage. Every 3 normal attacks triggers a chain lightning, dealing 150–430 magic damage.",
         "cooldown": 0.3
       }
     ]
@@ -705,6 +732,7 @@
       {
         "passiveId": "devils-handshake-p1",
         "index": 1,
+        "name": "Flame Wrath",
         "description": "Normal attacks increase Attack Speed by 10% for 2s. Stacks up to 5 times."
       }
     ]
@@ -730,12 +758,14 @@
       {
         "passiveId": "rankbreaker-p1",
         "index": 1,
+        "name": "Wind Walk",
         "description": "Increases Movement Speed by 10% after exiting battle."
       },
       {
         "passiveId": "rankbreaker-p2",
         "index": 2,
-        "description": "Grants 40–1800 Armor Pierce."
+        "name": "Break",
+        "description": "Grants 40–180 Armor Pierce."
       }
     ]
   },
@@ -762,11 +792,13 @@
       {
         "passiveId": "frost-hammer-p1",
         "index": 1,
+        "name": "Frostbite",
         "description": "Normal attacks and skills reduce Movement Speed by 5%–10% for 1.5s. Stacks up to 2 times."
       },
       {
         "passiveId": "frost-hammer-p2",
         "index": 2,
+        "name": "Numbing Cold",
         "description": "Normal attacks and skills deal 140–280 (+45% additional AD) additional physical damage to targets.",
         "cooldown": 3
       }
@@ -795,12 +827,14 @@
       {
         "passiveId": "dawning-star-p1",
         "index": 1,
+        "name": "Dawning Star",
         "description": "Normal attacks deal 50 additional physical damage (doubled for ranged heroes).",
         "cooldown": 0.35
       },
       {
         "passiveId": "dawning-star-p2",
         "index": 2,
+        "name": "Stab",
         "description": "Increases Armor Penetration by 20% (doubled for ranged heroes).",
         "uniqueGroup": "stab"
       }
@@ -872,6 +906,7 @@
       {
         "passiveId": "magic-ring-p1",
         "index": 1,
+        "name": "Unique Passive",
         "description": "+5% Cooldown Reduction"
       }
     ]
@@ -914,6 +949,7 @@
       {
         "passiveId": "trick-blade-p1",
         "index": 1,
+        "name": "Elemental Power",
         "description": "After using a skill, the next normal attack within 5s deals additional magic damage equal to (30% AD + 18% AP).",
         "cooldown": 3,
         "uniqueGroup": "elemental-power"
@@ -940,6 +976,7 @@
       {
         "passiveId": "spooky-mask-p1",
         "index": 1,
+        "name": "Extermination",
         "description": "+75 Magic Penetration",
         "uniqueGroup": "extermination"
       }
@@ -965,6 +1002,7 @@
       {
         "passiveId": "phoenix-tear-p1",
         "index": 1,
+        "name": "From the Ashes",
         "description": "Leveling up restores 20% HP and 10% Mana over 3s.",
         "uniqueGroup": "from-the-ashes"
       }
@@ -1029,6 +1067,7 @@
       {
         "passiveId": "staff-of-nuul-p1",
         "index": 1,
+        "name": "Tranquil Soul",
         "description": "+40% Magic Penetration"
       }
     ]
@@ -1056,6 +1095,7 @@
       {
         "passiveId": "virtues-necklace-p1",
         "index": 1,
+        "name": "Wise",
         "description": "Restores 1% Mana every second."
       }
     ]
@@ -1080,6 +1120,7 @@
       {
         "passiveId": "astrolobe-p1",
         "index": 1,
+        "name": "Explosion",
         "description": "When a skill hits an enemy, it triggers a small explosion that deals 180 magic damage to nearby enemies.",
         "cooldown": 5,
         "uniqueGroup": "explosion"
@@ -1108,6 +1149,7 @@
       {
         "passiveId": "evil-secrets-p1",
         "index": 1,
+        "name": "Curse",
         "description": "Skills reduce target's Ability Power by 10% and Magic Defense by 100 for 3s."
       }
     ]
@@ -1135,6 +1177,7 @@
       {
         "passiveId": "tome-of-the-reaper-p1",
         "index": 1,
+        "name": "Soul Prison",
         "description": "Damage dealt by normal attacks and skills reduces target's healing by 40% for 3s.",
         "uniqueGroup": "anti-heal"
       }
@@ -1162,6 +1205,7 @@
       {
         "passiveId": "caranos-vow-p1",
         "index": 1,
+        "name": "Urgent Protection",
         "description": "Removes control effects when HP drops below 30%, grants a 510–1000 (+100% Magic Bonus + 8% Bonus HP) shield for 4s, and increases Movement Speed by 30% for the duration.",
         "cooldown": 4
       }
@@ -1189,6 +1233,7 @@
       {
         "passiveId": "boomstick-p1",
         "index": 1,
+        "name": "Explosion",
         "description": "Skills trigger a small explosion when they hit, dealing 120 (+40% AP) magic damage.",
         "cooldown": 5,
         "uniqueGroup": "explosion"
@@ -1215,6 +1260,7 @@
       {
         "passiveId": "hecates-diadem-p1",
         "index": 1,
+        "name": "Warlock",
         "description": "+35% Ability Power"
       }
     ]
@@ -1241,12 +1287,14 @@
       {
         "passiveId": "orb-of-the-magi-p1",
         "index": 1,
+        "name": "Dynamize",
         "description": "Grants 12 Ability Power and 120 Max HP every 30s. Stacks up to 10 times.",
         "cooldown": 30
       },
       {
         "passiveId": "orb-of-the-magi-p2",
         "index": 2,
+        "name": "From the Ashes",
         "description": "Leveling up restores 20% HP and 10% Mana over 3s.",
         "uniqueGroup": "from-the-ashes"
       }
@@ -1275,6 +1323,7 @@
       {
         "passiveId": "rheas-blessing-p1",
         "index": 1,
+        "name": "Magic Transformation",
         "description": "Increases Cooldown Reduction by 1% for every 2% Magic Vamp."
       }
     ]
@@ -1301,11 +1350,13 @@
       {
         "passiveId": "zweihander-p1",
         "index": 1,
+        "name": "Rapid Blade",
         "description": "Normal attacks increase Attack Speed by 15% for 4s. Stacks up to 2 times."
       },
       {
         "passiveId": "zweihander-p2",
         "index": 2,
+        "name": "Twilight",
         "description": "Normal attacks deal 40 (+20% AP) additional magic damage.",
         "cooldown": 0.35
       }
@@ -1333,6 +1384,7 @@
       {
         "passiveId": "frostys-revenge-p1",
         "index": 1,
+        "name": "Frozen Heart",
         "description": "Abilities that deal damage also reduce enemy Movement Speed by 20% for 2s."
       }
     ]
@@ -1360,6 +1412,7 @@
       {
         "passiveId": "beriths-agony-p1",
         "index": 1,
+        "name": "Torture",
         "description": "Skills deal magic damage to enemies at a rate of 80 (+2% of their current HP) per second for 3s (max damage against wildlings: 200)."
       }
     ]
@@ -1387,6 +1440,7 @@
       {
         "passiveId": "apocalypse-p1",
         "index": 1,
+        "name": "Elemental Power",
         "description": "After using a skill, the next normal attack within 5s deals additional magic damage equal to (30% AD + 80% AP).",
         "cooldown": 2,
         "uniqueGroup": "elemental-power"
@@ -1416,6 +1470,7 @@
       {
         "passiveId": "soaring-aura-p1",
         "index": 1,
+        "name": "Extermination",
         "description": "Skills and normal attacks that hit enemies stack 10–24 Magic Penetration. Stacks up to 10 times, lasts 3s.",
         "uniqueGroup": "extermination"
       }
@@ -1443,6 +1498,7 @@
       {
         "passiveId": "holy-of-holies-p1",
         "index": 1,
+        "name": "Enlightenment",
         "description": "For every 100 Ability Power, increases damage dealt by 0.5% and decreases damage taken by 0.5%."
       }
     ]
@@ -1468,7 +1524,8 @@
       {
         "passiveId": "arctic-orb-p1",
         "index": 1,
-        "description": "Active: Immune to all effects for 1.5s, but cannot move, attack, or use skills. Grants a shield that absorbs 500 (+40/Lv.) (+50% AP) damage for 1s after the effect ends.",
+        "name": "Impervious",
+        "description": "Active: Immune to all effects for 1.5s, but cannot move, attack, or use skills. Grants a shield that absorbs 540-1100 (+50% AP) damage for 1s after the effect ends.",
         "cooldown": 75
       }
     ]
@@ -1496,6 +1553,7 @@
       {
         "passiveId": "frost-guard-p1",
         "index": 1,
+        "name": "Diamond",
         "description": "Grants (+50% AP) extra Physical and Magic Defense, up to a maximum of 230."
       }
     ]
@@ -1521,11 +1579,13 @@
       {
         "passiveId": "carano-robe-p1",
         "index": 1,
+        "name": "Replenishment",
         "description": "Grants 26–40 (+2% Bonus HP) AP, up to a maximum of 100."
       },
       {
         "passiveId": "carano-robe-p2",
         "index": 2,
+        "name": "Magic Pierce",
         "description": "Grants 32–60 (+3% Bonus HP) Magic Penetration, up to a maximum of 150."
       }
     ]
@@ -1631,6 +1691,7 @@
       {
         "passiveId": "heart-of-incubus-p1",
         "index": 1,
+        "name": "Burn",
         "description": "Deals 50–78 magic damage per second to nearby enemies (deals 50% more damage to minions and wildlings).",
         "cooldown": 1,
         "uniqueGroup": "burn"
@@ -1658,6 +1719,7 @@
       {
         "passiveId": "belt-of-clarity-p1",
         "index": 1,
+        "name": "Restore",
         "description": "When taking damage, restores 4% Max HP over 2s.",
         "cooldown": 15,
         "uniqueGroup": "restore"
@@ -1702,6 +1764,7 @@
       {
         "passiveId": "knights-plate-p1",
         "index": 1,
+        "name": "Spirit Bond",
         "description": "When taking damage, reduces attacker's Attack Speed by 15%.",
         "uniqueGroup": "spirit-bond"
       }
@@ -1729,6 +1792,7 @@
       {
         "passiveId": "mail-of-pain-p1",
         "index": 1,
+        "name": "Malice",
         "description": "15% of physical damage taken is deflected to the enemy as magic damage (calculation is based on damage before damage reduction)."
       }
     ]
@@ -1755,6 +1819,7 @@
       {
         "passiveId": "hecules-madness-p1",
         "index": 1,
+        "name": "Berserk",
         "description": "When HP is below 40%, grants Bloody Rage: increases Life Steal by 20% and grants a shield that absorbs 880–2000 damage for 8s (Life Steal only applies to melee heroes).",
         "cooldown": 60
       }
@@ -1783,6 +1848,7 @@
       {
         "passiveId": "odins-will-p1",
         "index": 1,
+        "name": "Adrenaline",
         "description": "Grants 1 stack of buff after taking damage. Each stack increases Movement Speed by 1% and damage by 2%. Stacks up to 5 times, lasts 3s."
       }
     ]
@@ -1810,6 +1876,7 @@
       {
         "passiveId": "mantle-of-ra-p1",
         "index": 1,
+        "name": "Burn",
         "description": "Deals magic damage equal to 2% of the hero's Max HP to nearby enemies every second (deals 50% more damage to minions and wildlings).",
         "cooldown": 1,
         "uniqueGroup": "burn"
@@ -1817,6 +1884,7 @@
       {
         "passiveId": "mantle-of-ra-p2",
         "index": 2,
+        "name": "Incinerate",
         "description": "Enemies damaged by this item's Burn passive have their healing effects reduced by 40% for 3s.",
         "uniqueGroup": "anti-heal"
       }
@@ -1843,6 +1911,7 @@
       {
         "passiveId": "shield-of-the-lost-p1",
         "index": 1,
+        "name": "Spirit Bond",
         "description": "When taking damage, reduces attacker's Attack Speed by 30% and Movement Speed by 15% for 2s.",
         "uniqueGroup": "spirit-bond"
       }
@@ -1871,6 +1940,7 @@
       {
         "passiveId": "the-aegis-p1",
         "index": 1,
+        "name": "Enhanced Spirit Bond",
         "description": "Reduces Attack Speed of enemies within 5m by 30%."
       }
     ]
@@ -1897,12 +1967,14 @@
       {
         "passiveId": "gaias-standard-p1",
         "index": 1,
+        "name": "Restore",
         "description": "When taking damage, restores 4% self Max HP over 2s.",
         "uniqueGroup": "restore"
       },
       {
         "passiveId": "gaias-standard-p2",
         "index": 2,
+        "name": "Lineage",
         "description": "For every 10% HP lost, the effect of the buff and restoration increases by 5%."
       }
     ]
@@ -1928,12 +2000,14 @@
       {
         "passiveId": "medallion-of-troy-p1",
         "index": 1,
+        "name": "Riposte",
         "description": "Grants a shield that absorbs 460–1300 magic damage when out of battle."
       },
       {
         "passiveId": "medallion-of-troy-p2",
         "index": 2,
-        "description": "Grants 8–112 Magic Defense (increases with hero level)."
+        "name": "Reconciliation",
+        "description": "Grants 0–112 Magic Defense (increases with hero level)."
       }
     ]
   },
@@ -1957,12 +2031,14 @@
       {
         "passiveId": "blade-of-eternity-p1",
         "index": 1,
+        "name": "Nirvana",
         "description": "Resurrects 2s after death and returns with 2000–3500 HP. (This effect can only be triggered up to 2 times per match.)",
         "cooldown": 150
       },
       {
         "passiveId": "blade-of-eternity-p2",
         "index": 2,
+        "name": "Fighting Spirit",
         "description": "Increases damage dealt by 10%."
       }
     ]
@@ -1990,7 +2066,8 @@
       {
         "passiveId": "frost-cape-p1",
         "index": 1,
-        "description": "After using a skill, the next normal attack slows by 30% (only 20% for ranged heroes) for 0.5s and deals 100 (+30% AD) physical damage to an area.",
+        "name": "Elemental Power",
+        "description": "After using a skill, the next normal attack within 5s slows by 30% (only 20% for ranged heroes) for 0.5s and deals 100 (+30% AD) physical damage to an area.",
         "cooldown": 0.65,
         "uniqueGroup": "elemental-power"
       }
@@ -2019,6 +2096,7 @@
       {
         "passiveId": "amulet-of-longetivity-p1",
         "index": 1,
+        "name": "Longevity",
         "description": "Restores 1% Max HP every 2s. Restoration becomes 4% when not attacked by heroes or towers for 3s.",
         "cooldown": 2
       }
@@ -2046,6 +2124,7 @@
       {
         "passiveId": "rock-shield-p1",
         "index": 1,
+        "name": "Rock Shield",
         "description": "Active: Grants a shield (30% self Max HP + 10% self Lost HP) for 3s. While shield is active, damage dealt is reduced by 70%.",
         "cooldown": 60
       }
@@ -2065,6 +2144,7 @@
       {
         "passiveId": "speed-boots-p1",
         "index": 1,
+        "name": "Unique Passive",
         "description": "+30 Movement Speed",
         "uniqueGroup": "mvsp"
       }
@@ -2090,12 +2170,14 @@
       {
         "passiveId": "sonic-boots-p1",
         "index": 1,
+        "name": "Unique Passive",
         "description": "+60 Movement Speed",
         "uniqueGroup": "mvsp"
       },
       {
         "passiveId": "sonic-boots-p2",
         "index": 2,
+        "name": "Unique Passive",
         "description": "Reduces 10% physical damage taken."
       }
     ]
@@ -2120,12 +2202,14 @@
       {
         "passiveId": "gilded-greaves-p1",
         "index": 1,
+        "name": "Unique Passive",
         "description": "+60 Movement Speed",
         "uniqueGroup": "mvsp"
       },
       {
         "passiveId": "gilded-greaves-p2",
         "index": 2,
+        "name": "Unique Passive",
         "description": "+35% Resistance",
         "uniqueGroup": "resistance"
       }
@@ -2151,12 +2235,14 @@
       {
         "passiveId": "flashy-boots-p1",
         "index": 1,
+        "name": "Unique Passive",
         "description": "+60 Movement Speed",
         "uniqueGroup": "mvsp"
       },
       {
         "passiveId": "flashy-boots-p2",
         "index": 2,
+        "name": "Unique Passive",
         "description": "Reduces additional 15% Talent CD."
       }
     ]
@@ -2178,12 +2264,14 @@
       {
         "passiveId": "enchanted-kicks-p1",
         "index": 1,
+        "name": "Unique Passive",
         "description": "+60 Movement Speed",
         "uniqueGroup": "mvsp"
       },
       {
         "passiveId": "enchanted-kicks-p2",
         "index": 2,
+        "name": "Unique Passive",
         "description": "+100 Magic Penetration."
       }
     ]
@@ -2207,12 +2295,14 @@
       {
         "passiveId": "war-boots-p1",
         "index": 1,
+        "name": "Unique Passive",
         "description": "+60 Movement Speed",
         "uniqueGroup": "mvsp"
       },
       {
         "passiveId": "war-boots-p2",
         "index": 2,
+        "name": "Unique Passive",
         "description": "Hitting an enemy restores 20 HP per hit (half for non-hero targets).",
         "cooldown": 0.3
       }
@@ -2237,12 +2327,14 @@
       {
         "passiveId": "hermes-select-p1",
         "index": 1,
+        "name": "Unique Passive",
         "description": "+70 Movement Speed",
         "uniqueGroup": "mvsp"
       },
       {
         "passiveId": "hermes-select-p2",
         "index": 2,
+        "name": "Swift",
         "description": "Increases Movement Speed by 70 when out of battle."
       }
     ]
@@ -2261,16 +2353,19 @@
       {
         "passiveId": "kukri-p1",
         "index": 1,
+        "name": "Unique Passive",
         "description": "Once 2nd or 3rd tier jungling equipment is purchased, the Punish talent becomes Frostbite."
       },
       {
         "passiveId": "kukri-p2",
         "index": 2,
+        "name": "Hunter",
         "description": "Normal attacks / skills hitting wildlings deal 50–120 additional true damage every 0.5s for 2s, and receive 20% more EXP from killing monsters."
       },
       {
         "passiveId": "kukri-p3",
         "index": 3,
+        "name": "Modest",
         "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
       }
     ]
@@ -2294,21 +2389,25 @@
       {
         "passiveId": "monsters-bane-p1",
         "index": 1,
+        "name": "Unique Passive",
         "description": "Grants Frostbite effect."
       },
       {
         "passiveId": "monsters-bane-p2",
         "index": 2,
+        "name": "Wild",
         "description": "Grants 4 AP and 0.2% CDR for every monster killed. Stacks up to 15 times."
       },
       {
         "passiveId": "monsters-bane-p3",
         "index": 3,
+        "name": "Hunter",
         "description": "Normal attacks / skills hitting wildlings deal 60–172 additional true damage every 0.5s for 2s, and receive 35% more EXP from killing monsters."
       },
       {
         "passiveId": "monsters-bane-p4",
         "index": 4,
+        "name": "Modest",
         "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
       }
     ]
@@ -2332,11 +2431,13 @@
       {
         "passiveId": "gnoll-cleaver-p1",
         "index": 1,
+        "name": "Unique Passive",
         "description": "Grants Frostbite effect."
       },
       {
         "passiveId": "gnoll-cleaver-p2",
         "index": 2,
+        "name": "Burn",
         "description": "Deals 50–78 magic damage to nearby enemies within 2.5m every second (deals 100% more damage to minions and monsters).",
         "cooldown": 1,
         "uniqueGroup": "burn"
@@ -2344,16 +2445,19 @@
       {
         "passiveId": "gnoll-cleaver-p3",
         "index": 3,
+        "name": "Wild",
         "description": "Increases Max HP by 25 and CDR by 0.2% for every monster killed. Stacks up to 15 times."
       },
       {
         "passiveId": "gnoll-cleaver-p4",
         "index": 4,
+        "name": "Hunter",
         "description": "Normal attacks / skills hitting wildlings deal 60–172 additional true damage every 0.5s for 2s, and receive 35% more EXP from killing monsters."
       },
       {
         "passiveId": "gnoll-cleaver-p5",
         "index": 5,
+        "name": "Modest",
         "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
       }
     ]
@@ -2377,21 +2481,25 @@
       {
         "passiveId": "mr-stabby-p1",
         "index": 1,
+        "name": "Unique Passive",
         "description": "Grants Frostbite effect."
       },
       {
         "passiveId": "mr-stabby-p2",
         "index": 2,
+        "name": "Wild",
         "description": "Increases AD by 2 and CDR by 0.2% for every monster killed. Stacks up to 15 times."
       },
       {
         "passiveId": "mr-stabby-p3",
         "index": 3,
+        "name": "Hunter",
         "description": "Normal attacks / skills hitting wildlings deal 60–172 additional true damage every 0.5s for 2s, and receive 35% more EXP from killing monsters."
       },
       {
         "passiveId": "mr-stabby-p4",
         "index": 4,
+        "name": "Modest",
         "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
       }
     ]
@@ -2415,21 +2523,25 @@
       {
         "passiveId": "whispering-wind-p1",
         "index": 1,
+        "name": "Unique Passive",
         "description": "Grants Frostbite effect."
       },
       {
         "passiveId": "whispering-wind-p2",
         "index": 2,
+        "name": "Wild",
         "description": "Increases Attack Speed by 0.8% and Life Steal by 0.2% for every monster killed. Stacks up to 15 times."
       },
       {
         "passiveId": "whispering-wind-p3",
         "index": 3,
+        "name": "Hunter",
         "description": "Normal attacks / skills hitting wildlings deal 60–172 additional true damage every 0.5s for 2s, and receive 35% more EXP from killing monsters."
       },
       {
         "passiveId": "whispering-wind-p4",
         "index": 4,
+        "name": "Modest",
         "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
       }
     ]
@@ -2456,11 +2568,13 @@
       {
         "passiveId": "lokis-curse-p1",
         "index": 1,
+        "name": "Unique Passive",
         "description": "Grants Frostbite effect."
       },
       {
         "passiveId": "lokis-curse-p2",
         "index": 2,
+        "name": "Elemental Power",
         "description": "After using a skill, the next normal attack within 5s deals additional magic damage equal to (+35% AD) (+50% AP).",
         "cooldown": 2,
         "uniqueGroup": "elemental-power"
@@ -2468,16 +2582,19 @@
       {
         "passiveId": "lokis-curse-p3",
         "index": 3,
+        "name": "Wild",
         "description": "Grants 4 AP and 0.2% CDR for every monster killed. Stacks up to 25 times."
       },
       {
         "passiveId": "lokis-curse-p4",
         "index": 4,
+        "name": "Hunter",
         "description": "Normal attacks / skills hitting wildlings deal 60–172 additional true damage every 0.5s for 2s, and receive 35% more EXP from killing monsters."
       },
       {
         "passiveId": "lokis-curse-p5",
         "index": 5,
+        "name": "Modest",
         "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
       }
     ]
@@ -2504,11 +2621,13 @@
       {
         "passiveId": "leviathan-p1",
         "index": 1,
+        "name": "Unique Passive",
         "description": "Grants Frostbite effect."
       },
       {
         "passiveId": "leviathan-p2",
         "index": 2,
+        "name": "Burn",
         "description": "Deals (+2% self Max HP) magic damage to nearby enemies within 2.5m every second (deals 100% more damage to minions and monsters).",
         "cooldown": 1,
         "uniqueGroup": "burn"
@@ -2516,16 +2635,19 @@
       {
         "passiveId": "leviathan-p3",
         "index": 3,
+        "name": "Wild",
         "description": "Increases Max HP by 25 and CDR by 0.2% for every monster killed. Stacks up to 25 times."
       },
       {
         "passiveId": "leviathan-p4",
         "index": 4,
+        "name": "Hunter",
         "description": "Normal attacks / skills hitting wildlings deal 60–172 additional true damage every 0.5s for 2s, and receive 35% more EXP from killing monsters."
       },
       {
         "passiveId": "leviathan-p5",
         "index": 5,
+        "name": "Modest",
         "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
       }
     ]
@@ -2552,26 +2674,31 @@
       {
         "passiveId": "soulreaver-p1",
         "index": 1,
+        "name": "Unique Passive",
         "description": "Grants Frostbite effect."
       },
       {
         "passiveId": "soulreaver-p2",
         "index": 2,
+        "name": "Armor Smasher",
         "description": "+60 Armor Pierce"
       },
       {
         "passiveId": "soulreaver-p3",
         "index": 3,
+        "name": "Wild",
         "description": "Increases AD by 2 and CDR by 0.2% for every monster killed. Stacks up to 25 times."
       },
       {
         "passiveId": "soulreaver-p4",
         "index": 4,
+        "name": "Hunter",
         "description": "Normal attacks / skills hitting wildlings deal 60–172 additional true damage every 0.5s for 2s, and receive 35% more EXP from killing monsters."
       },
       {
         "passiveId": "soulreaver-p5",
         "index": 5,
+        "name": "Modest",
         "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
       }
     ]
@@ -2598,27 +2725,32 @@
       {
         "passiveId": "scorching-wind-p1",
         "index": 1,
+        "name": "Unique Passive",
         "description": "Grants Frostbite effect."
       },
       {
         "passiveId": "scorching-wind-p2",
         "index": 2,
+        "name": "Fire Storm",
         "description": "Normal attacks place a mark on the target, dealing 15–19 magic damage per stack, up to 6 stacks.",
         "cooldown": 0.3
       },
       {
         "passiveId": "scorching-wind-p3",
         "index": 3,
+        "name": "Wild",
         "description": "Increases Attack Speed by 0.8% and Life Steal by 0.2% for every monster killed. Stacks up to 25 times."
       },
       {
         "passiveId": "scorching-wind-p4",
         "index": 4,
+        "name": "Hunter",
         "description": "Normal attacks / skills hitting wildlings deal 60–172 additional true damage every 0.5s for 2s, and receive 35% more EXP from killing monsters."
       },
       {
         "passiveId": "scorching-wind-p5",
         "index": 5,
+        "name": "Modest",
         "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
       }
     ]
@@ -2639,11 +2771,13 @@
       {
         "passiveId": "elemental-gem-p1",
         "index": 1,
+        "name": "Up-and-Coming",
         "description": "Every 3s, grants 6 EXP and 6 Gold to the teammate with the lowest Gold on the team."
       },
       {
         "passiveId": "elemental-gem-p2",
         "index": 2,
+        "name": "Modest",
         "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
       }
     ]
@@ -2669,21 +2803,25 @@
       {
         "passiveId": "earth-gem-p1",
         "index": 1,
+        "name": "Reward",
         "description": "Grants 16–30 (+1 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
       },
       {
         "passiveId": "earth-gem-p2",
         "index": 2,
+        "name": "Genesis",
         "description": "Increases Physical and Magic Defense by 32–60 to self and allies within 8m."
       },
       {
         "passiveId": "earth-gem-p3",
         "index": 3,
+        "name": "Up-and-Coming",
         "description": "Every 3s, grants 6 EXP and 6 Gold to the teammate with the lowest Gold on the team."
       },
       {
         "passiveId": "earth-gem-p4",
         "index": 4,
+        "name": "Modest",
         "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
       }
     ]
@@ -2709,21 +2847,25 @@
       {
         "passiveId": "fire-gem-p1",
         "index": 1,
+        "name": "Reward",
         "description": "Grants 16–30 (+1 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
       },
       {
         "passiveId": "fire-gem-p2",
         "index": 2,
+        "name": "Arrowing Shadow",
         "description": "Increases CDR by 5% and Attack Speed by 5% to self and allies within 8m."
       },
       {
         "passiveId": "fire-gem-p3",
         "index": 3,
+        "name": "Up-and-Coming",
         "description": "Every 3s, grants 6 EXP and 6 Gold to the teammate with the lowest Gold on the team."
       },
       {
         "passiveId": "fire-gem-p4",
         "index": 4,
+        "name": "Modest",
         "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
       }
     ]
@@ -2750,27 +2892,32 @@
       {
         "passiveId": "mother-earth-barrier-p1",
         "index": 1,
+        "name": "Barrier",
         "description": "Active: Grants you and ally heroes within 8m a shield that absorbs 680–1800 damage for 3s.",
         "cooldown": 60
       },
       {
         "passiveId": "mother-earth-barrier-p2",
         "index": 2,
-        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+        "name": "Reward",
+        "description": "Grants 32–60 (+2 per hero level) Attack Force. Grants 400-820 Max HP. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
       },
       {
         "passiveId": "mother-earth-barrier-p3",
         "index": 3,
+        "name": "Genesis",
         "description": "Increases Physical and Magic Defense by 32–60 to self and allies within 8m."
       },
       {
         "passiveId": "mother-earth-barrier-p4",
         "index": 4,
+        "name": "Up-and-Coming",
         "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
       },
       {
         "passiveId": "mother-earth-barrier-p5",
         "index": 5,
+        "name": "Modest",
         "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
       }
     ]
@@ -2797,27 +2944,32 @@
       {
         "passiveId": "mother-earth-magic-eye-p1",
         "index": 1,
+        "name": "Magic Eye",
         "description": "Active: Grants True Vision of your surroundings for 4s, and instantly deals 8% of targets' current HP as magic damage twice and slows them by 50% for a total of 2s.",
         "cooldown": 45
       },
       {
         "passiveId": "mother-earth-magic-eye-p2",
         "index": 2,
-        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+        "name": "Reward",
+        "description": "Grants 32–60 (+2 per hero level) Attack Force. Grants 400-820 Max HP. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
       },
       {
         "passiveId": "mother-earth-magic-eye-p3",
         "index": 3,
+        "name": "Genesis",
         "description": "Increases Physical and Magic Defense by 32–60 to self and allies within 8m."
       },
       {
         "passiveId": "mother-earth-magic-eye-p4",
         "index": 4,
+        "name": "Up-and-Coming",
         "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
       },
       {
         "passiveId": "mother-earth-magic-eye-p5",
         "index": 5,
+        "name": "Modest",
         "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
       }
     ]
@@ -2844,27 +2996,32 @@
       {
         "passiveId": "mother-earth-surge-p1",
         "index": 1,
+        "name": "Surge",
         "description": "Active: Gradually increases Movement Speed of yourself and teammates by 20–100% over 2s, max 4s. When passing by an unboosted teammate, they are also accelerated. Attacking or being attacked reduces the effect to a fixed 20%.",
         "cooldown": 75
       },
       {
         "passiveId": "mother-earth-surge-p2",
         "index": 2,
-        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+        "name": "Reward",
+        "description": "Grants 32–60 (+2 per hero level) Attack Force. Grants 400-820 Max HP. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
       },
       {
         "passiveId": "mother-earth-surge-p3",
         "index": 3,
+        "name": "Genesis",
         "description": "Increases Physical and Magic Defense by 32–60 to self and allies within 8m."
       },
       {
         "passiveId": "mother-earth-surge-p4",
         "index": 4,
+        "name": "Up-and-Coming",
         "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
       },
       {
         "passiveId": "mother-earth-surge-p5",
         "index": 5,
+        "name": "Modest",
         "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
       }
     ]
@@ -2891,27 +3048,32 @@
       {
         "passiveId": "mother-earth-cleansing-p1",
         "index": 1,
+        "name": "Cleansing",
         "description": "Active: Dissolves control effects from nearby allies, also grants them immunity to control for 0.5s.",
         "cooldown": 90
       },
       {
         "passiveId": "mother-earth-cleansing-p2",
         "index": 2,
-        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+        "name": "Reward",
+        "description": "Grants 32–60 (+2 per hero level) Attack Force. Grants 400-820 Max HP. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
       },
       {
         "passiveId": "mother-earth-cleansing-p3",
         "index": 3,
+        "name": "Genesis",
         "description": "Increases Physical and Magic Defense by 32–60 to self and allies within 8m."
       },
       {
         "passiveId": "mother-earth-cleansing-p4",
         "index": 4,
+        "name": "Up-and-Coming",
         "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
       },
       {
         "passiveId": "mother-earth-cleansing-p5",
         "index": 5,
+        "name": "Modest",
         "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
       }
     ]
@@ -2938,27 +3100,32 @@
       {
         "passiveId": "mother-earth-spout-p1",
         "index": 1,
+        "name": "Spout",
         "description": "Active: Links 1 ally (lowest HP priority), within 5s restores 500–1000 (+20% Max HP) HP and 25% Mana to both. Link exceeding range interrupts the effect. Attacking or being attacked reduces effectiveness to 20%. Can be stored once every 50s, max up to 2. The interval between 2 uses is 5s.",
         "cooldown": 50
       },
       {
         "passiveId": "mother-earth-spout-p2",
         "index": 2,
-        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+        "name": "Reward",
+        "description": "Grants 32–60 (+2 per hero level) Attack Force. Grants 400-820 Max HP. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
       },
       {
         "passiveId": "mother-earth-spout-p3",
         "index": 3,
+        "name": "Genesis",
         "description": "Increases Physical and Magic Defense by 32–60 to self and allies within 8m."
       },
       {
         "passiveId": "mother-earth-spout-p4",
         "index": 4,
+        "name": "Up-and-Coming",
         "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
       },
       {
         "passiveId": "mother-earth-spout-p5",
         "index": 5,
+        "name": "Modest",
         "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
       }
     ]
@@ -2985,27 +3152,32 @@
       {
         "passiveId": "wildfire-barrier-p1",
         "index": 1,
+        "name": "Barrier",
         "description": "Active: Grants you and ally heroes within 8m a shield that absorbs 680–1800 damage for 3s.",
         "cooldown": 60
       },
       {
         "passiveId": "wildfire-barrier-p2",
         "index": 2,
-        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+        "name": "Reward",
+        "description": "Grants 32–60 (+2 per hero level) Attack Force. Grants 400-820 Max HP. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
       },
       {
         "passiveId": "wildfire-barrier-p3",
         "index": 3,
+        "name": "Arrowing Shadow",
         "description": "Increases CDR by 5% and Attack Speed by 5% to self and allies within 8m."
       },
       {
         "passiveId": "wildfire-barrier-p4",
         "index": 4,
+        "name": "Up-and-Coming",
         "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
       },
       {
         "passiveId": "wildfire-barrier-p5",
         "index": 5,
+        "name": "Modest",
         "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
       }
     ]
@@ -3032,27 +3204,32 @@
       {
         "passiveId": "wildfire-magic-eye-p1",
         "index": 1,
+        "name": "Magic Eye",
         "description": "Active: Grants True Vision of your surroundings for 4s, and instantly deals 8% of targets' current HP as magic damage twice and slows them by 50% for a total of 2s.",
         "cooldown": 45
       },
       {
         "passiveId": "wildfire-magic-eye-p2",
         "index": 2,
-        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+        "name": "Reward",
+        "description": "Grants 32–60 (+2 per hero level) Attack Force.  Grants 400-820 Max HP.  1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
       },
       {
         "passiveId": "wildfire-magic-eye-p3",
         "index": 3,
+        "name": "Arrowing Shadow",
         "description": "Increases CDR by 5% and Attack Speed by 5% to self and allies within 8m."
       },
       {
         "passiveId": "wildfire-magic-eye-p4",
         "index": 4,
+        "name": "Up-and-Coming",
         "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
       },
       {
         "passiveId": "wildfire-magic-eye-p5",
         "index": 5,
+        "name": "Modest",
         "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
       }
     ]
@@ -3079,27 +3256,32 @@
       {
         "passiveId": "wildfire-surge-p1",
         "index": 1,
+        "name": "Surge",
         "description": "Active: Gradually increases Movement Speed of yourself and teammates by 20–100% over 2s, max 4s. When passing by an unboosted teammate, they are also accelerated. Attacking or being attacked reduces the effect to a fixed 20%.",
         "cooldown": 75
       },
       {
         "passiveId": "wildfire-surge-p2",
         "index": 2,
-        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+        "name": "Reward",
+        "description": "Grants 32–60 (+2 per hero level) Attack Force. Grants 400-820 Max HP. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
       },
       {
         "passiveId": "wildfire-surge-p3",
         "index": 3,
+        "name": "Arrowing Shadow",
         "description": "Increases CDR by 5% and Attack Speed by 5% to self and allies within 8m."
       },
       {
         "passiveId": "wildfire-surge-p4",
         "index": 4,
+        "name": "Up-and-Coming",
         "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
       },
       {
         "passiveId": "wildfire-surge-p5",
         "index": 5,
+        "name": "Modest",
         "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
       }
     ]
@@ -3126,27 +3308,32 @@
       {
         "passiveId": "wildfire-cleansing-p1",
         "index": 1,
+        "name": "Cleansing",
         "description": "Active: Dissolves control effects from nearby allies, also grants them immunity to control for 0.5s.",
         "cooldown": 90
       },
       {
         "passiveId": "wildfire-cleansing-p2",
         "index": 2,
-        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+        "name": "Reward",
+        "description": "Grants 32–60 (+2 per hero level) Attack Force. Grants 400-820 Max HP. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
       },
       {
         "passiveId": "wildfire-cleansing-p3",
         "index": 3,
+        "name": "Arrowing Shadow",
         "description": "Increases CDR by 5% and Attack Speed by 5% to self and allies within 8m."
       },
       {
         "passiveId": "wildfire-cleansing-p4",
         "index": 4,
+        "name": "Up-and-Coming",
         "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
       },
       {
         "passiveId": "wildfire-cleansing-p5",
         "index": 5,
+        "name": "Modest",
         "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
       }
     ]
@@ -3173,27 +3360,32 @@
       {
         "passiveId": "wildfire-spout-p1",
         "index": 1,
+        "name": "Spout",
         "description": "Active: Links 1 ally (lowest HP priority), within 5s restores 500–1000 (+20% Max HP) HP and 25% Mana to both. Link exceeding range interrupts the effect. Attacking or being attacked reduces effectiveness to 20%. Can be stored once every 50s, max up to 2. The interval between 2 uses is 5s.",
         "cooldown": 50
       },
       {
         "passiveId": "wildfire-spout-p2",
         "index": 2,
-        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+        "name": "Reward",
+        "description": "Grants 32–60 (+2 per hero level) Attack Force. Grants 400-820 Max HP. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
       },
       {
         "passiveId": "wildfire-spout-p3",
         "index": 3,
+        "name": "Arrowing Shadow",
         "description": "Increases CDR by 5% and Attack Speed by 5% to self and allies within 8m."
       },
       {
         "passiveId": "wildfire-spout-p4",
         "index": 4,
+        "name": "Up-and-Coming",
         "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
       },
       {
         "passiveId": "wildfire-spout-p5",
         "index": 5,
+        "name": "Modest",
         "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
       }
     ]

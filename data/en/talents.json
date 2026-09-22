@@ -52,7 +52,7 @@
     "number": 7,
     "cooldown": "90s",
     "name": "Daze",
-    "description": "Stuns all nearby enemies for 0.75s Then, reduces Targets' 20% Movement Speed, (28 + Lv*2) Armor, and (14 + Lv) Magic Armor for 2.5s",
+    "description": "Stuns all nearby enemies for 0.75s Then, reduces Targets' 20% Movement Speed, 30-58 Armor, and 15-29 Magic Armor for 2.5s",
     "asset": "talents/Talent07_Daze.webp"
   },
   {

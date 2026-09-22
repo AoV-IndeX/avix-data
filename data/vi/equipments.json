@@ -102,7 +102,8 @@
       {
         "passiveId": "arcane-hammer-p1",
         "index": 1,
-        "description": "Normal attacks increase Movement Speed by 10%.",
+        "name": "Cuồng bạo",
+        "description": "Đòn đánh thường tăng 10% tốc chạy.",
         "uniqueGroup": "speed-up"
       }
     ]
@@ -145,7 +146,8 @@
       {
         "passiveId": "astral-spear-p1",
         "index": 1,
-        "description": "+60 Armor Pierce",
+        "name": "Phá giáp",
+        "description": "+60 Xuyên giáp",
         "uniqueGroup": "physical-pierce"
       }
     ]
@@ -170,7 +172,8 @@
       {
         "passiveId": "shuriken-p1",
         "index": 1,
-        "description": "Normal attacks deal 21–35 (melee) or 42–70 (ranged) additional physical damage.",
+        "name": "Điểm yếu",
+        "description": "Đòn đánh thường sẽ được tăng sát thương vật lý thêm 21-35 với tướng đánh gần hoặc 42-70 với tướng đánh xa.",
         "cooldown": 0.3
       }
     ]
@@ -196,7 +199,8 @@
       {
         "passiveId": "bloodthirsty-blade-p1",
         "index": 1,
-        "description": "When HP drops below 30%, restores 400–610 HP over 5s.",
+        "name": "Huyết yến",
+        "description": "Khi bản thân thấp hơn 30% máu, trong 5 giây tích lũy hồi 400-610 máu tối đa.",
         "cooldown": 20,
         "uniqueGroup": "blood-feast"
       }
@@ -223,7 +227,8 @@
       {
         "passiveId": "chaos-bow-p1",
         "index": 1,
-        "description": "Increases Armor Penetration by 10% (doubled for ranged heroes).",
+        "name": "Xuyên thấu",
+        "description": "Tăng 10% xuyên giáp (gấp đôi với tướng đánh xa).",
         "uniqueGroup": "stab"
       }
     ]
@@ -251,13 +256,15 @@
       {
         "passiveId": "uriels-brand-p1",
         "index": 1,
-        "description": "When HP falls below 40%, grants a shield that absorbs 600–2000 magic damage, and increases Resistance by 25% and Movement Speed by 30% for 5s.",
+        "name": "Bảo hộ ma pháp",
+        "description": "Khi máu của tướng còn dưới 40%, Phong Ấn Uriel giúp tăng lá chắn trong 5 giây giúp chặn 600-2000 sát thương phép và 25% kháng hiệu ứng, tăng 30% tốc chạy trong 5 giây.",
         "cooldown": 75
       },
       {
         "passiveId": "uriels-brand-p2",
         "index": 2,
-        "description": "Normal attacks increase Movement Speed by 10%.",
+        "name": "Cuồng bạo",
+        "description": "Đòn đánh thường tăng 10% tốc chạy.",
         "uniqueGroup": "speed-up"
       }
     ]
@@ -285,7 +292,8 @@
       {
         "passiveId": "death-curse-p1",
         "index": 1,
-        "description": "Damage dealt by normal attacks and skills reduces the target's healing by 40% for 3s.",
+        "name": "Tróc nã",
+        "description": "Đòn đánh thường / tung chiêu gây sát thương sẽ khiến mục tiêu bị giảm 40% hiệu quả hồi máu, kéo dài 3 giây.",
         "uniqueGroup": "anti-heal"
       }
     ]
@@ -313,7 +321,8 @@
       {
         "passiveId": "death-sickle-p1",
         "index": 1,
-        "description": "Grants invincibility and temporary damage immunity, and increases Attack Speed and Movement Speed by 25% for 0.75s. After holding the item for 4 minutes, the effect lasts for 1.5s.",
+        "name": "Thần linh can thiệp",
+        "description": "Miễn nhiễm sát thương chí tử và vô địch 0.75s đồng thời tăng 25% tốc chạy & 25% tốc đánh. Sau 4 phút mang theo, thời gian hiệu ứng vô địch sẽ kéo dài đến 1.5s.",
         "cooldown": 120
       }
     ]
@@ -341,7 +350,8 @@
       {
         "passiveId": "bow-of-slaughter-p1",
         "index": 1,
-        "description": "Active: Increases Life Steal by 60% for 3s. Only usable by ranged heroes.",
+        "name": "Hấp huyết",
+        "description": "Kích hoạt: Tăng 60% hút máu trong 3 giây; 60 giây hồi chiêu (chỉ hữu hiệu với tướng đánh xa)",
         "cooldown": 60
       }
     ]
@@ -369,13 +379,15 @@
       {
         "passiveId": "the-diminisher-p1",
         "index": 1,
-        "description": "Active: Grants 40% damage reduction for 2s. Can be used under control effects.",
+        "name": "Bất khuất",
+        "description": "Nhận 35% miễn thương trong 3 giây, có thể dùng khi bị khống chế.",
         "cooldown": 90
       },
       {
         "passiveId": "the-diminisher-p2",
         "index": 2,
-        "description": "Skills cause the first enemy hero struck to slow by 30% and reduce their damage dealt by 20% for 3s.",
+        "name": "Trì trệ",
+        "description": "Tung chiêu trúng sẽ làm chậm tướng địch đầu tiên 30% và giảm 20% sát thương hắn gây ra trong 3 giây.",
         "cooldown": 8
       }
     ]
@@ -403,13 +415,15 @@
       {
         "passiveId": "eclipsing-bow-p1",
         "index": 1,
-        "description": "Active: Increases normal attack range by 150 and Movement Speed by 20% for 5s. Increased range only applicable to ranged heroes.",
+        "name": "Xạ nhật",
+        "description": "Kích hoạt: Tăng phạm vi tầm bắn của đòn đánh thường thêm 150 và 20% tốc chạy trong 5 giây (chỉ có tác dụng với tướng đánh xa).",
         "cooldown": 60
       },
       {
         "passiveId": "eclipsing-bow-p2",
         "index": 2,
-        "description": "Normal attacks deal 50 additional physical damage (doubled for ranged heroes).",
+        "name": "Ngắm chuẩn",
+        "description": "Đòn đánh thường gây thêm 50 sát thương vật lý (tăng gấp đôi với tướng đánh xa).",
         "cooldown": 0.35
       }
     ]
@@ -437,13 +451,15 @@
       {
         "passiveId": "longinus-spear-p1",
         "index": 1,
-        "description": "+60 Armor Pierce",
+        "name": "Phá giáp",
+        "description": "+60 Xuyên giáp",
         "uniqueGroup": "physical-pierce"
       },
       {
         "passiveId": "longinus-spear-p2",
         "index": 2,
-        "description": "Each attack reduces target's Armor by 6% for 5s. Stacks up to 4 times.",
+        "name": "Toái giáp",
+        "description": "Gây sát thương sẽ trừ 6% Giáp của nạn nhân, cộng dồn lên đến 4 lần, kéo dài 5 giây.",
         "cooldown": 0.3
       }
     ]
@@ -471,7 +487,8 @@
       {
         "passiveId": "fafnirs-talon-p1",
         "index": 1,
-        "description": "Normal attacks deal additional physical damage equal to 8% of target's current HP (max damage to wildlings: 80).",
+        "name": "Hơi thở rồng",
+        "description": "Đòn đánh thường gây thêm sát thương vật lý tương đương 8% Máu hiện tại của mục tiêu (tối đa lên 80 quái rừng).",
         "cooldown": 0.3
       }
     ]
@@ -497,17 +514,20 @@
       {
         "passiveId": "claves-sancti-p1",
         "index": 1,
-        "description": "Increases Movement Speed by 3–45 for 1.5s after landing a critical hit. Only usable by ranged heroes."
+        "name": "Thánh kiếm",
+        "description": "Sau khi đánh chí mạng giúp tăng (3-45) tốc chạy trong 1.5 giây (chỉ hữu hiệu khi dùng bởi tướng đánh xa)."
       },
       {
         "passiveId": "claves-sancti-p2",
         "index": 2,
-        "description": "+25% Critical Rate"
+        "name": "Nội tại Duy nhất",
+        "description": "+25% Tỷ lệ chí mạng"
       },
       {
         "passiveId": "claves-sancti-p3",
         "index": 3,
-        "description": "+40% Critical Damage"
+        "name": "Nội tại Duy nhất",
+        "description": "Sát thương chí mạng tăng 40%"
       }
     ]
   },
@@ -534,7 +554,8 @@
       {
         "passiveId": "muramasa-p1",
         "index": 1,
-        "description": "+35% Armor Penetration",
+        "name": "Xuyên thấu",
+        "description": "+35% Xuyên giáp",
         "uniqueGroup": "stab"
       }
     ]
@@ -562,7 +583,8 @@
       {
         "passiveId": "the-beast-p1",
         "index": 1,
-        "description": "When HP drops below 30%, restores 400–610 HP over 5s.",
+        "name": "Huyết yến",
+        "description": "Khi bản thân thấp hơn 30% máu, trong 5 giây tích lũy hồi 400-610 máu tối đa.",
         "cooldown": 20,
         "uniqueGroup": "blood-feast"
       }
@@ -592,14 +614,16 @@
       {
         "passiveId": "omni-arms-p1",
         "index": 1,
-        "description": "After using a skill, the next normal attack within 5s deals additional physical damage equal to 100% AD.",
+        "name": "Sức mạnh nguyên tố",
+        "description": "Trong vòng 5 giây sau khi tung chiêu, đòn đánh thường tiếp theo của tướng gây thêm 100% công vật lý sát thương vật lý.",
         "cooldown": 2,
         "uniqueGroup": "elemental-power"
       },
       {
         "passiveId": "omni-arms-p2",
         "index": 2,
-        "description": "Normal attacks increase Movement Speed by 10%.",
+        "name": "Cuồng bạo",
+        "description": "Đòn đánh thường tăng 10% tốc chạy.",
         "uniqueGroup": "speed-up"
       }
     ]
@@ -627,7 +651,8 @@
       {
         "passiveId": "slikks-sting-p1",
         "index": 1,
-        "description": "Increases Resistance by 35% for 2s after landing a critical hit.",
+        "name": "Cuồng phong",
+        "description": "Tăng 35% Kháng hiệu ứng trong 2 giây sau khi đánh chí mạng.",
         "uniqueGroup": "resistance"
       }
     ]
@@ -653,7 +678,8 @@
       {
         "passiveId": "fenrirs-tooth-p1",
         "index": 1,
-        "description": "Deals 30% additional damage when target's HP is below 50%."
+        "name": "Chinh Phạt",
+        "description": "Khi máu của mục tiêu xuống dưới 50% sẽ chịu thêm 30% sát thương."
       }
     ]
   },
@@ -678,7 +704,8 @@
       {
         "passiveId": "blitz-blade-p1",
         "index": 1,
-        "description": "Normal attacks deal 40–82 additional magic damage. Every 3 normal attacks triggers a chain lightning, dealing 140–420 magic damage.",
+        "name": "Chớp giật",
+        "description": "Đòn đánh thường gây thêm 45-87 sát thương phép. Mỗi 3 đòn đánh thường sé phóng một chùm sét gây 150-430 sát thương phép lên 1 mục tiêu và lan ra các mục tiêu khác trong phạm vi.",
         "cooldown": 0.3
       }
     ]
@@ -705,7 +732,8 @@
       {
         "passiveId": "devils-handshake-p1",
         "index": 1,
-        "description": "Normal attacks increase Attack Speed by 10% for 2s. Stacks up to 5 times."
+        "name": "Hung bạo",
+        "description": "Các đòn đánh thường trúng giúp tăng tốc đánh thêm 10%, kéo dài 2 giây, cộng dồn tối đa 5 lần."
       }
     ]
   },
@@ -730,12 +758,14 @@
       {
         "passiveId": "rankbreaker-p1",
         "index": 1,
-        "description": "Increases Movement Speed by 10% after exiting battle."
+        "name": "Khinh công",
+        "description": "Rời khỏi trạng thái giao tranh giúp tăng 10% tốc chạy."
       },
       {
         "passiveId": "rankbreaker-p2",
         "index": 2,
-        "description": "Grants 40–1800 Armor Pierce."
+        "name": "Nghiền ép",
+        "description": "Tăng 40-180 chỉ số xuyên giáp."
       }
     ]
   },
@@ -762,12 +792,14 @@
       {
         "passiveId": "frost-hammer-p1",
         "index": 1,
-        "description": "Normal attacks and skills reduce Movement Speed by 5%–10% for 1.5s. Stacks up to 2 times."
+        "name": "Đóng băng",
+        "description": "Đòn đánh thường và tung chiêu khiến địch giảm 5%-10% tốc chạy trong 1.5 giây, cộng dồn 2 lần."
       },
       {
         "passiveId": "frost-hammer-p2",
         "index": 2,
-        "description": "Normal attacks and skills deal 140–280 (+45% additional AD) additional physical damage to targets.",
+        "name": "Hàn khí",
+        "description": "Đánh thường và tung chiêu gây thêm 140-280 (+45% công vật lý thêm) sát thương vật lý lên mục tiêu; hồi chiêu 3 giây.",
         "cooldown": 3
       }
     ]
@@ -795,13 +827,15 @@
       {
         "passiveId": "dawning-star-p1",
         "index": 1,
-        "description": "Normal attacks deal 50 additional physical damage (doubled for ranged heroes).",
+        "name": "Phá thần",
+        "description": "Đòn đánh thường kèm 50 sát thương vật lý (gấp đôi với tướng đánh xa).",
         "cooldown": 0.35
       },
       {
         "passiveId": "dawning-star-p2",
         "index": 2,
-        "description": "Increases Armor Penetration by 20% (doubled for ranged heroes).",
+        "name": "Xuyên thấu",
+        "description": "Tăng 20% xuyên giáp (gấp đôi với tướng đánh xa).",
         "uniqueGroup": "stab"
       }
     ]
@@ -872,7 +906,8 @@
       {
         "passiveId": "magic-ring-p1",
         "index": 1,
-        "description": "+5% Cooldown Reduction"
+        "name": "Nội tại duy nhất",
+        "description": "+5% Giảm hồi chiêu"
       }
     ]
   },
@@ -914,7 +949,8 @@
       {
         "passiveId": "trick-blade-p1",
         "index": 1,
-        "description": "After using a skill, the next normal attack within 5s deals additional magic damage equal to (30% AD + 18% AP).",
+        "name": "Sức mạnh nguyên tố",
+        "description": "Trong vòng 5 giây sau khi tung chiêu, đòn đánh thường tiếp theo của tướng gây thêm (30% công vật lý + 18% công phép) sát thương phép.",
         "cooldown": 3,
         "uniqueGroup": "elemental-power"
       }
@@ -940,7 +976,8 @@
       {
         "passiveId": "spooky-mask-p1",
         "index": 1,
-        "description": "+75 Magic Penetration",
+        "name": "Diệt thần",
+        "description": "+75 Xuyên giáp phép",
         "uniqueGroup": "extermination"
       }
     ]
@@ -965,7 +1002,8 @@
       {
         "passiveId": "phoenix-tear-p1",
         "index": 1,
-        "description": "Leveling up restores 20% HP and 10% Mana over 3s.",
+        "name": "Tưởng thưởng anh hùng",
+        "description": "Khi tướng lên cấp, hồi phục 20% Máu và 10% Năng lượng trong 3 giây.",
         "uniqueGroup": "from-the-ashes"
       }
     ]
@@ -1029,7 +1067,8 @@
       {
         "passiveId": "staff-of-nuul-p1",
         "index": 1,
-        "description": "+40% Magic Penetration"
+        "name": "Nội tại duy nhất",
+        "description": "+40% Xuyên giáp phép"
       }
     ]
   },
@@ -1056,7 +1095,8 @@
       {
         "passiveId": "virtues-necklace-p1",
         "index": 1,
-        "description": "Restores 1% Mana every second."
+        "name": "Hiền giả",
+        "description": "Mỗi giây hồi 1% năng lượng."
       }
     ]
   },
@@ -1080,7 +1120,8 @@
       {
         "passiveId": "astrolobe-p1",
         "index": 1,
-        "description": "When a skill hits an enemy, it triggers a small explosion that deals 180 magic damage to nearby enemies.",
+        "name": "Vang vọng",
+        "description": "Tung chiêu bùng nổ trong phạm vi gây 180 sát thương phép.",
         "cooldown": 5,
         "uniqueGroup": "explosion"
       }
@@ -1108,7 +1149,8 @@
       {
         "passiveId": "evil-secrets-p1",
         "index": 1,
-        "description": "Skills reduce target's Ability Power by 10% and Magic Defense by 100 for 3s."
+        "name": "Oán chú",
+        "description": "Tung chiêu thức trúng đích sẽ giảm 10% công phép và 100 giáp phép của mục tiêu trong 3 giây."
       }
     ]
   },
@@ -1135,7 +1177,8 @@
       {
         "passiveId": "tome-of-the-reaper-p1",
         "index": 1,
-        "description": "Damage dealt by normal attacks and skills reduces target's healing by 40% for 3s.",
+        "name": "Tróc nã",
+        "description": "Đòn đánh thường / tung chiêu gây sát thương sẽ khiến mục tiêu bị giảm 40% hiệu quả hồi máu, kéo dài 3 giây.",
         "uniqueGroup": "anti-heal"
       }
     ]
@@ -1162,7 +1205,8 @@
       {
         "passiveId": "caranos-vow-p1",
         "index": 1,
-        "description": "Removes control effects when HP drops below 30%, grants a 510–1000 (+100% Magic Bonus + 8% Bonus HP) shield for 4s, and increases Movement Speed by 30% for the duration.",
+        "name": "Bảo hộ khẩn cấp",
+        "description": "Khi máu dưới 30%, lập tức hóa giải khống chế đồng thời nhận lá chắn chặn 510-1000 (+100% công phép + 8% máu thêm) sát thương trong 4 giây và tăng 30% tốc chạy trong thời gian hiệu lực.",
         "cooldown": 4
       }
     ]
@@ -1189,7 +1233,8 @@
       {
         "passiveId": "boomstick-p1",
         "index": 1,
-        "description": "Skills trigger a small explosion when they hit, dealing 120 (+40% AP) magic damage.",
+        "name": "Vang vọng",
+        "description": "Tạo nên một vùng nổ nhỏ gây 120 (+40% công phép) sát thương phép xung quanh mục tiêu bị trúng chiêu.",
         "cooldown": 5,
         "uniqueGroup": "explosion"
       }
@@ -1215,7 +1260,8 @@
       {
         "passiveId": "hecates-diadem-p1",
         "index": 1,
-        "description": "+35% Ability Power"
+        "name": "Thuật sư",
+        "description": "+35% Công phép"
       }
     ]
   },
@@ -1241,13 +1287,15 @@
       {
         "passiveId": "orb-of-the-magi-p1",
         "index": 1,
-        "description": "Grants 12 Ability Power and 120 Max HP every 30s. Stacks up to 10 times.",
+        "name": "Trường tồn",
+        "description": "Mỗi 30 giây nhận thêm 12 Công phép, và 120 Máu. Hiệu ứng cộng dồn tối đa 10 lần.",
         "cooldown": 30
       },
       {
         "passiveId": "orb-of-the-magi-p2",
         "index": 2,
-        "description": "Leveling up restores 20% HP and 10% Mana over 3s.",
+        "name": "Tưởng thưởng anh hùng",
+        "description": "Khi tướng lên cấp, hồi phục 20% Máu và 10% Năng lượng trong 3 giây.",
         "uniqueGroup": "from-the-ashes"
       }
     ]
@@ -1275,7 +1323,8 @@
       {
         "passiveId": "rheas-blessing-p1",
         "index": 1,
-        "description": "Increases Cooldown Reduction by 1% for every 2% Magic Vamp."
+        "name": "Chuyển hóa",
+        "description": "Mỗi 2% hút máu phép giúp tăng 1% giảm hồi chiêu."
       }
     ]
   },
@@ -1301,12 +1350,14 @@
       {
         "passiveId": "zweihander-p1",
         "index": 1,
-        "description": "Normal attacks increase Attack Speed by 15% for 4s. Stacks up to 2 times."
+        "name": "Cấp nhận",
+        "description": "Đòn đánh thường kế tiếp tăng 15% tốc đánh cộng thêm trong 4 giây; cộng dồn 2 lần."
       },
       {
         "passiveId": "zweihander-p2",
         "index": 2,
-        "description": "Normal attacks deal 40 (+20% AP) additional magic damage.",
+        "name": "Thánh quang",
+        "description": "Đòn đánh thường gây 40 (+20% công phép) sát thương phép.",
         "cooldown": 0.35
       }
     ]
@@ -1333,7 +1384,8 @@
       {
         "passiveId": "frostys-revenge-p1",
         "index": 1,
-        "description": "Abilities that deal damage also reduce enemy Movement Speed by 20% for 2s."
+        "name": "Giá băng",
+        "description": "Chiêu thức gây sát thương đồng thời làm chậm 20% Tốc chạy của đối thủ trong 2 giây."
       }
     ]
   },
@@ -1360,7 +1412,8 @@
       {
         "passiveId": "beriths-agony-p1",
         "index": 1,
-        "description": "Skills deal magic damage to enemies at a rate of 80 (+2% of their current HP) per second for 3s (max damage against wildlings: 200)."
+        "name": "Thống khổ",
+        "description": "Chiêu thức trúng đích khiến kẻ địch chịu 80 (+2% máu hiện tại mục tiêu) thành sát thương phép mỗi giây, hiệu ứng kéo dài trong 3 giây. (Sát thương tối đa lên Quái rừng: 200)"
       }
     ]
   },
@@ -1387,7 +1440,8 @@
       {
         "passiveId": "apocalypse-p1",
         "index": 1,
-        "description": "After using a skill, the next normal attack within 5s deals additional magic damage equal to (30% AD + 80% AP).",
+        "name": "Sức mạnh nguyên tố",
+        "description": "Trong vòng 5 giây sau khi tung chiêu, đòn đánh kế tiếp gây thêm (30% công vật lý + 80% công phép) sát thương phép.",
         "cooldown": 2,
         "uniqueGroup": "elemental-power"
       }
@@ -1416,7 +1470,8 @@
       {
         "passiveId": "soaring-aura-p1",
         "index": 1,
-        "description": "Skills and normal attacks that hit enemies stack 10–24 Magic Penetration. Stacks up to 10 times, lasts 3s.",
+        "name": "Diệt thần",
+        "description": "Tung chiêu hoặc đánh thường trúng tướng địch sẽ cộng dồn 10-24 xuyên giáp phép, tối đa cộng dồn 10 lần, kéo dài 3 giây.",
         "uniqueGroup": "extermination"
       }
     ]
@@ -1443,7 +1498,8 @@
       {
         "passiveId": "holy-of-holies-p1",
         "index": 1,
-        "description": "For every 100 Ability Power, increases damage dealt by 0.5% and decreases damage taken by 0.5%."
+        "name": "Pháp thế",
+        "description": "Mỗi 100 công phép tăng 0.5% tỷ lệ sát thương và 0.5% tỷ lệ miễn thương,"
       }
     ]
   },
@@ -1468,7 +1524,8 @@
       {
         "passiveId": "arctic-orb-p1",
         "index": 1,
-        "description": "Active: Immune to all effects for 1.5s, but cannot move, attack, or use skills. Grants a shield that absorbs 500 (+40/Lv.) (+50% AP) damage for 1s after the effect ends.",
+        "name": "Phong ấn",
+        "description": "Kích hoạt: Trở thành bất khả xâm phạm và bất động trong 1.5 giây; Sau khi kết thúc sẽ nhận 1 lá chắn giúp chặn 540-1100 (+50% công phép) trong 1 giây.",
         "cooldown": 75
       }
     ]
@@ -1496,7 +1553,8 @@
       {
         "passiveId": "frost-guard-p1",
         "index": 1,
-        "description": "Grants (+50% AP) extra Physical and Magic Defense, up to a maximum of 230."
+        "name": "Giáp băng",
+        "description": "Nhận (+50% công phép) giáp, giáp phép, nhưng không vượt quá 230 điểm."
       }
     ]
   },
@@ -1521,12 +1579,14 @@
       {
         "passiveId": "carano-robe-p1",
         "index": 1,
-        "description": "Grants 26–40 (+2% Bonus HP) AP, up to a maximum of 100."
+        "name": "Linh thế",
+        "description": "Nhận 26-40 (+2% máu bản thân) công phép, tối đa không vượt quá 100 điểm."
       },
       {
         "passiveId": "carano-robe-p2",
         "index": 2,
-        "description": "Grants 32–60 (+3% Bonus HP) Magic Penetration, up to a maximum of 150."
+        "name": "Phá phép",
+        "description": "Nhận 32-60 (+3% máu bản thân thêm) xuyên giáp phép, tối đa không vượt quá 150 điểm."
       }
     ]
   },
@@ -1631,7 +1691,8 @@
       {
         "passiveId": "heart-of-incubus-p1",
         "index": 1,
-        "description": "Deals 50–78 magic damage per second to nearby enemies (deals 50% more damage to minions and wildlings).",
+        "name": "Hỏa diệm",
+        "description": "Gây 50-78 sát thương phép mỗi giây lên những kẻ địch cạnh bên (tăng 50% sát thương lên quái và lính).",
         "cooldown": 1,
         "uniqueGroup": "burn"
       }
@@ -1658,7 +1719,8 @@
       {
         "passiveId": "belt-of-clarity-p1",
         "index": 1,
-        "description": "When taking damage, restores 4% Max HP over 2s.",
+        "name": "Hồi phục",
+        "description": "Nếu chịu sát thương, tướng sẽ hồi 4% máu tối đa trong 2 giây; 15 giây hồi chiêu.",
         "cooldown": 15,
         "uniqueGroup": "restore"
       }
@@ -1702,7 +1764,8 @@
       {
         "passiveId": "knights-plate-p1",
         "index": 1,
-        "description": "When taking damage, reduces attacker's Attack Speed by 15%.",
+        "name": "Lính gác",
+        "description": "Nếu tướng chịu sát thương, giảm 15% tốc đánh của những đối thủ đã ra đòn đánh.",
         "uniqueGroup": "spirit-bond"
       }
     ]
@@ -1729,7 +1792,8 @@
       {
         "passiveId": "mail-of-pain-p1",
         "index": 1,
-        "description": "15% of physical damage taken is deflected to the enemy as magic damage (calculation is based on damage before damage reduction)."
+        "name": "Phản pháo",
+        "description": "Phản lại 15% sát thương vật lý đã gánh chịu thành sát thương phép lên mục tiêu (sát thương chưa trải qua các cơ chế giảm trừ theo giáp)."
       }
     ]
   },
@@ -1755,7 +1819,8 @@
       {
         "passiveId": "hecules-madness-p1",
         "index": 1,
-        "description": "When HP is below 40%, grants Bloody Rage: increases Life Steal by 20% and grants a shield that absorbs 880–2000 damage for 8s (Life Steal only applies to melee heroes).",
+        "name": "Cuồng Nộ",
+        "description": "Khi máu của tướng xuống dưới 40%, tăng 20% hút máu (chỉ đánh gần) và tạo ra một lớp lá chắn 880-2000 trong liên tục 8 giây, 60 giây hồi chiêu.",
         "cooldown": 60
       }
     ]
@@ -1783,7 +1848,8 @@
       {
         "passiveId": "odins-will-p1",
         "index": 1,
-        "description": "Grants 1 stack of buff after taking damage. Each stack increases Movement Speed by 1% and damage by 2%. Stacks up to 5 times, lasts 3s."
+        "name": "Điên cuồng",
+        "description": "Sau khi chịu sát thương, gia tăng 1% tốc chạy và sát thương gây ra thêm 2%, hiệu ứng có thể cộng dồn 5 lần, kéo dài 3 giây."
       }
     ]
   },
@@ -1810,14 +1876,16 @@
       {
         "passiveId": "mantle-of-ra-p1",
         "index": 1,
-        "description": "Deals magic damage equal to 2% of the hero's Max HP to nearby enemies every second (deals 50% more damage to minions and wildlings).",
+        "name": "Hỏa diệm",
+        "description": "Gây 2% máu tối đa thành sát thương phép mỗi giây lên những kẻ địch cạnh bên (tăng 50% sát thương lên quái và lính).",
         "cooldown": 1,
         "uniqueGroup": "burn"
       },
       {
         "passiveId": "mantle-of-ra-p2",
         "index": 2,
-        "description": "Enemies damaged by this item's Burn passive have their healing effects reduced by 40% for 3s.",
+        "name": "Tróc nã",
+        "description": "Hỏa diệm gây sát thương thiêu đốt và giảm 40% hiệu ứng hồi máu của địch trong 3 giây,",
         "uniqueGroup": "anti-heal"
       }
     ]
@@ -1843,7 +1911,8 @@
       {
         "passiveId": "shield-of-the-lost-p1",
         "index": 1,
-        "description": "When taking damage, reduces attacker's Attack Speed by 30% and Movement Speed by 15% for 2s.",
+        "name": "Lính gác",
+        "description": "Nếu tướng chịu sát thương, giảm 30% Tốc đánh và 15% Tốc chạy của những đối thủ đã ra đòn.",
         "uniqueGroup": "spirit-bond"
       }
     ]
@@ -1871,7 +1940,8 @@
       {
         "passiveId": "the-aegis-p1",
         "index": 1,
-        "description": "Reduces Attack Speed of enemies within 5m by 30%."
+        "name": "Trói buộc tinh thần",
+        "description": "Giảm 30% tốc đánh của kẻ địch lân cận trong phạm vi 5m."
       }
     ]
   },
@@ -1897,13 +1967,15 @@
       {
         "passiveId": "gaias-standard-p1",
         "index": 1,
-        "description": "When taking damage, restores 4% self Max HP over 2s.",
+        "name": "Hồi phục",
+        "description": "Nếu chịu sát thương, tướng sẽ hồi 4% máu tối đa trong 2 giây; 10 giây hồi chiêu.",
         "uniqueGroup": "restore"
       },
       {
         "passiveId": "gaias-standard-p2",
         "index": 2,
-        "description": "For every 10% HP lost, the effect of the buff and restoration increases by 5%."
+        "name": "Huyết thống",
+        "description": "Mỗi 10% máu bị mất sẽ tăng 5% hiệu ứng hồi phục."
       }
     ]
   },
@@ -1928,12 +2000,14 @@
       {
         "passiveId": "medallion-of-troy-p1",
         "index": 1,
-        "description": "Grants a shield that absorbs 460–1300 magic damage when out of battle."
+        "name": "Hộ thân",
+        "description": "Rời khỏi giao tranh nhận được một lớp bảo hộ giúp hấp thu 460-1300 sát thương phép."
       },
       {
         "passiveId": "medallion-of-troy-p2",
         "index": 2,
-        "description": "Grants 8–112 Magic Defense (increases with hero level)."
+        "name": "Nội lực",
+        "description": "Nhận 0-112 giáp phép (tăng theo cấp)."
       }
     ]
   },
@@ -1957,13 +2031,15 @@
       {
         "passiveId": "blade-of-eternity-p1",
         "index": 1,
-        "description": "Resurrects 2s after death and returns with 2000–3500 HP. (This effect can only be triggered up to 2 times per match.)",
+        "name": "Phục sinh",
+        "description": "Tướng sẽ sống lại sau 2 giây tại nơi bị hạ gục với 2100-3500 Máu. Đặc biệt mỗi trận chỉ có tác dụng 2 lần.",
         "cooldown": 150
       },
       {
         "passiveId": "blade-of-eternity-p2",
         "index": 2,
-        "description": "Increases damage dealt by 10%."
+        "name": "Chiến khí",
+        "description": "Tăng sát thương bản thân gây ra thêm 10%."
       }
     ]
   },
@@ -1990,7 +2066,8 @@
       {
         "passiveId": "frost-cape-p1",
         "index": 1,
-        "description": "After using a skill, the next normal attack slows by 30% (only 20% for ranged heroes) for 0.5s and deals 100 (+30% AD) physical damage to an area.",
+        "name": "Sức mạnh nguyên tố",
+        "description": "Sau khi tung chiêu, trong 5 giây sẽ khiến đòn đánh kế gây thêm 100 (+30% công vật lý) sát thương vật lý lan trong phạm vi 3m quanh mục tiêu kèm 30% làm chậm địch (tướng đánh xa làm chậm chỉ được 20%) trong 0.5 giây.",
         "cooldown": 0.65,
         "uniqueGroup": "elemental-power"
       }
@@ -2019,7 +2096,8 @@
       {
         "passiveId": "amulet-of-longetivity-p1",
         "index": 1,
-        "description": "Restores 1% Max HP every 2s. Restoration becomes 4% when not attacked by heroes or towers for 3s.",
+        "name": "Trường sinh",
+        "description": "Mỗi 2 giây hồi 1% máu tối đa. Nếu trong 3 giây không bị tướng địch hoặc trụ tấn công, hiệu quả hồi phục sẽ trở thành 4%.",
         "cooldown": 2
       }
     ]
@@ -2046,7 +2124,8 @@
       {
         "passiveId": "rock-shield-p1",
         "index": 1,
-        "description": "Active: Grants a shield (30% self Max HP + 10% self Lost HP) for 3s. While shield is active, damage dealt is reduced by 70%.",
+        "name": "Tích tụ",
+        "description": "Kích hoạt: Nhận lá chắn tương đương (30% máu tối đa + 10% máu đã mất) trong 3 giây và giảm 70% sát thương gây ra trong thời gian này. Hồi chiêu 60 giây (ó thể dùng khi bị khống chế)",
         "cooldown": 60
       }
     ]
@@ -2065,7 +2144,8 @@
       {
         "passiveId": "speed-boots-p1",
         "index": 1,
-        "description": "+30 Movement Speed",
+        "name": "Nội tại duy nhất",
+        "description": "+30 Tốc chạy",
         "uniqueGroup": "mvsp"
       }
     ]
@@ -2090,13 +2170,15 @@
       {
         "passiveId": "sonic-boots-p1",
         "index": 1,
-        "description": "+60 Movement Speed",
+        "name": "Nội tại duy nhất",
+        "description": "+60 Tốc chạy",
         "uniqueGroup": "mvsp"
       },
       {
         "passiveId": "sonic-boots-p2",
         "index": 2,
-        "description": "Reduces 10% physical damage taken."
+        "name": "Nội tại duy nhất",
+        "description": "Giảm 10% sát thương vật lý phải chịu."
       }
     ]
   },
@@ -2120,13 +2202,15 @@
       {
         "passiveId": "gilded-greaves-p1",
         "index": 1,
-        "description": "+60 Movement Speed",
+        "name": "Nội tại duy nhất",
+        "description": "+60 Tốc chạy",
         "uniqueGroup": "mvsp"
       },
       {
         "passiveId": "gilded-greaves-p2",
         "index": 2,
-        "description": "+35% Resistance",
+        "name": "Nội tại duy nhất",
+        "description": "+35% Kháng hiệu ứng",
         "uniqueGroup": "resistance"
       }
     ]
@@ -2151,13 +2235,15 @@
       {
         "passiveId": "flashy-boots-p1",
         "index": 1,
-        "description": "+60 Movement Speed",
+        "name": "Nội tại duy nhất",
+        "description": "+60 Tốc chạy",
         "uniqueGroup": "mvsp"
       },
       {
         "passiveId": "flashy-boots-p2",
         "index": 2,
-        "description": "Reduces additional 15% Talent CD."
+        "name": "Nội tại duy nhất",
+        "description": "Giảm 15% hồi chiêu tối đa kỹ năng phụ trợ."
       }
     ]
   },
@@ -2178,13 +2264,15 @@
       {
         "passiveId": "enchanted-kicks-p1",
         "index": 1,
-        "description": "+60 Movement Speed",
+        "name": "Nội tại duy nhất",
+        "description": "+60 Tốc chạy",
         "uniqueGroup": "mvsp"
       },
       {
         "passiveId": "enchanted-kicks-p2",
         "index": 2,
-        "description": "+100 Magic Penetration."
+        "name": "Nội tại duy nhất",
+        "description": "+100 Xuyên giáp phép"
       }
     ]
   },
@@ -2207,13 +2295,15 @@
       {
         "passiveId": "war-boots-p1",
         "index": 1,
-        "description": "+60 Movement Speed",
+        "name": "Nội tại duy nhất",
+        "description": "+60 Tốc chạy",
         "uniqueGroup": "mvsp"
       },
       {
         "passiveId": "war-boots-p2",
         "index": 2,
-        "description": "Hitting an enemy restores 20 HP per hit (half for non-hero targets).",
+        "name": "Nội tại duy nhất",
+        "description": "Đánh thường hồi 20 máu (hồi chiêu: 0.3 giây) (Giảm một nửa hiệu ứng đối với đơn vị không phải tướng).",
         "cooldown": 0.3
       }
     ]
@@ -2237,13 +2327,15 @@
       {
         "passiveId": "hermes-select-p1",
         "index": 1,
-        "description": "+70 Movement Speed",
+        "name": "Nội tại duy nhất",
+        "description": "+70 Tốc chạy",
         "uniqueGroup": "mvsp"
       },
       {
         "passiveId": "hermes-select-p2",
         "index": 2,
-        "description": "Increases Movement Speed by 70 when out of battle."
+        "name": "Nhanh nhạy",
+        "description": "Tăng 60 Tốc chạy khi thoát khỏi trạng thái giao tranh."
       }
     ]
   },
@@ -2261,17 +2353,20 @@
       {
         "passiveId": "kukri-p1",
         "index": 1,
-        "description": "Once 2nd or 3rd tier jungling equipment is purchased, the Punish talent becomes Frostbite."
+        "name": "Nội tại duy nhất",
+        "description": "Khi trang bị đi rừng được nâng cấp, Trừng trị sẽ trở thành Tê Cóng. Tê Cóng có thể vừa gây sát thương vừa làm chậm tốc chạy của tướng địch."
       },
       {
         "passiveId": "kukri-p2",
         "index": 2,
-        "description": "Normal attacks / skills hitting wildlings deal 50–120 additional true damage every 0.5s for 2s, and receive 20% more EXP from killing monsters."
+        "name": "Thợ săn",
+        "description": "Hạ quái rừng giúp tăng 20% EXP. Đòn đánh thường/chiêu trúng đích sẽ gây 50-120 ST chuẩn lên quái rừng mỗi 0.5 giây, kéo dài 2 giây."
       },
       {
         "passiveId": "kukri-p3",
         "index": 3,
-        "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, họ sẽ nhận toàn bộ vàng và EXP từ lính, bản thân chỉ nhận 50% vàng và EXP. Hiệu ứng này sẽ bị xóa vào phút thứ 4. Sát thương lên lính giảm 25% (cũng xóa vào phút thứ 4)."
       }
     ]
   },
@@ -2294,22 +2389,26 @@
       {
         "passiveId": "monsters-bane-p1",
         "index": 1,
-        "description": "Grants Frostbite effect."
+        "name": "Nội tại duy nhất",
+        "description": "Nhận hiệu ứng tê tái."
       },
       {
         "passiveId": "monsters-bane-p2",
         "index": 2,
-        "description": "Grants 4 AP and 0.2% CDR for every monster killed. Stacks up to 15 times."
+        "name": "Lùng diệt",
+        "description": "Bản thân hoặc đồng đội lân cận hạ mỗi con quái rừng giúp tăng 4 công phép và 0.2% giảm hồi chiêu, tối đa cộng dồn 15 lần."
       },
       {
         "passiveId": "monsters-bane-p3",
         "index": 3,
-        "description": "Normal attacks / skills hitting wildlings deal 60–172 additional true damage every 0.5s for 2s, and receive 35% more EXP from killing monsters."
+        "name": "Săn bắt",
+        "description": "Đòn đánh thường tung chiêu sẽ gây thêm 60-172 sát thương chuẩn lên quái rừng mỗi 0.5 giây, kéo dài 2 giây. Nhận thêm 35% kinh nghiệm khi tiêu diệt quái rừng."
       },
       {
         "passiveId": "monsters-bane-p4",
         "index": 4,
-        "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, họ sẽ nhận toàn bộ vàng và EXP từ lính, bản thân chỉ nhận 50% vàng và EXP. Hiệu ứng này sẽ bị xóa vào phút thứ 4. Sát thương lên lính giảm 25% (cũng xóa vào phút thứ 4)."
       }
     ]
   },
@@ -2332,29 +2431,34 @@
       {
         "passiveId": "gnoll-cleaver-p1",
         "index": 1,
-        "description": "Grants Frostbite effect."
+        "name": "Nội tại duy nhất",
+        "description": "Nhận hiệu ứng tê tái."
       },
       {
         "passiveId": "gnoll-cleaver-p2",
         "index": 2,
-        "description": "Deals 50–78 magic damage to nearby enemies within 2.5m every second (deals 100% more damage to minions and monsters).",
+        "name": "Hỏa diệm",
+        "description": "Gây 50-78 sát thương phép mỗi giây lên những kẻ địch cạnh bên (tăng 100% sát thương lên quái và lính).",
         "cooldown": 1,
         "uniqueGroup": "burn"
       },
       {
         "passiveId": "gnoll-cleaver-p3",
         "index": 3,
-        "description": "Increases Max HP by 25 and CDR by 0.2% for every monster killed. Stacks up to 15 times."
+        "name": "Lùng diệt",
+        "description": "Bản thân hoặc đồng đội lân cận hạ mỗi con quái rừng giúp tăng 25 máu và 0.2% giảm hồi chiêu, tối đa cộng dồn 15 lần."
       },
       {
         "passiveId": "gnoll-cleaver-p4",
         "index": 4,
-        "description": "Normal attacks / skills hitting wildlings deal 60–172 additional true damage every 0.5s for 2s, and receive 35% more EXP from killing monsters."
+        "name": "Săn bắt",
+        "description": "Đòn đánh thường hoặc tung chiêu sẽ gây thêm 60-172 sát thương chuẩn lên quái rừng mỗi 0.5 giây, kéo dài 2 giây. Nhận thêm 35% kinh nghiệm khi tiêu diệt quái rừng."
       },
       {
         "passiveId": "gnoll-cleaver-p5",
         "index": 5,
-        "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, họ sẽ nhận toàn bộ vàng và EXP từ lính, bản thân chỉ nhận 50% vàng và EXP. Hiệu ứng này sẽ bị xóa vào phút thứ 4. Sát thương lên lính giảm 25% (cũng xóa vào phút thứ 4)."
       }
     ]
   },
@@ -2377,22 +2481,26 @@
       {
         "passiveId": "mr-stabby-p1",
         "index": 1,
-        "description": "Grants Frostbite effect."
+        "name": "Nội tại duy nhất",
+        "description": "Nhận hiệu ứng tê tái."
       },
       {
         "passiveId": "mr-stabby-p2",
         "index": 2,
-        "description": "Increases AD by 2 and CDR by 0.2% for every monster killed. Stacks up to 15 times."
+        "name": "Lùng diệt",
+        "description": "Bản thân hoặc đồng đội lân cận hạ mỗi con quái rừng giúp tăng 2 công vật lý và 0.2% giảm hồi chiêu, tối đa cộng dồn 15 lần."
       },
       {
         "passiveId": "mr-stabby-p3",
         "index": 3,
-        "description": "Normal attacks / skills hitting wildlings deal 60–172 additional true damage every 0.5s for 2s, and receive 35% more EXP from killing monsters."
+        "name": "Săn bắt",
+        "description": "Đòn đánh thường hoặc tung chiêu sẽ gây thêm 60-172 sát thương chuẩn lên quái rừng mỗi 0.5 giây, kéo dài 2 giây. Nhận thêm 35% kinh nghiệm khi tiêu diệt quái rừng."
       },
       {
         "passiveId": "mr-stabby-p4",
         "index": 4,
-        "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, họ sẽ nhận toàn bộ vàng và EXP từ lính, bản thân chỉ nhận 50% vàng và EXP. Hiệu ứng này sẽ bị xóa vào phút thứ 4. Sát thương lên lính giảm 25% (cũng xóa vào phút thứ 4)."
       }
     ]
   },
@@ -2415,22 +2523,26 @@
       {
         "passiveId": "whispering-wind-p1",
         "index": 1,
-        "description": "Grants Frostbite effect."
+        "name": "Nội tại duy nhất",
+        "description": "Nhận hiệu ứng tê tái."
       },
       {
         "passiveId": "whispering-wind-p2",
         "index": 2,
-        "description": "Increases Attack Speed by 0.8% and Life Steal by 0.2% for every monster killed. Stacks up to 15 times."
+        "name": "Lùng diệt",
+        "description": "Bản thân hoặc đồng đội lân cận hạ mỗi con quái rừng giúp tăng 0.8% tốc đánh và 0.2% hút máu, tối đa cộng dồn 15 lần."
       },
       {
         "passiveId": "whispering-wind-p3",
         "index": 3,
-        "description": "Normal attacks / skills hitting wildlings deal 60–172 additional true damage every 0.5s for 2s, and receive 35% more EXP from killing monsters."
+        "name": "Săn bắt",
+        "description": "Đòn đánh thường hoặc tung chiêu sẽ gây thêm 60-172 sát thương chuẩn lên quái rừng mỗi 0.5 giây, kéo dài 2 giây. Nhận thêm 35% kinh nghiệm khi tiêu diệt quái rừng."
       },
       {
         "passiveId": "whispering-wind-p4",
         "index": 4,
-        "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, họ sẽ nhận toàn bộ vàng và EXP từ lính, bản thân chỉ nhận 50% vàng và EXP. Hiệu ứng này sẽ bị xóa vào phút thứ 4. Sát thương lên lính giảm 25% (cũng xóa vào phút thứ 4)."
       }
     ]
   },
@@ -2456,29 +2568,34 @@
       {
         "passiveId": "lokis-curse-p1",
         "index": 1,
-        "description": "Grants Frostbite effect."
+        "name": "Nội tại duy nhất",
+        "description": "Nhận hiệu ứng tê tái."
       },
       {
         "passiveId": "lokis-curse-p2",
         "index": 2,
-        "description": "After using a skill, the next normal attack within 5s deals additional magic damage equal to (+35% AD) (+50% AP).",
+        "name": "Sức mạnh nguyên tố",
+        "description": "Sau khi tung chiêu, đòn đánh thường tiếp theo gây thêm (35% công vật lý + 50% công phép) sát thương phép.",
         "cooldown": 2,
         "uniqueGroup": "elemental-power"
       },
       {
         "passiveId": "lokis-curse-p3",
         "index": 3,
-        "description": "Grants 4 AP and 0.2% CDR for every monster killed. Stacks up to 25 times."
+        "name": "Lùng diệt",
+        "description": "Bản thân hoặc đồng đội lân cận hạ mỗi con quái rừng giúp tăng 4 công phép và 0.2% giảm hồi chiêu, tối đa cộng dồn 25 lần."
       },
       {
         "passiveId": "lokis-curse-p4",
         "index": 4,
-        "description": "Normal attacks / skills hitting wildlings deal 60–172 additional true damage every 0.5s for 2s, and receive 35% more EXP from killing monsters."
+        "name": "Săn bắt",
+        "description": "Đòn đánh thường hoặc tung chiêu sẽ gây thêm 60-172 sát thương chuẩn lên quái rừng mỗi 0.5 giây, kéo dài 2 giây. Nhận thêm 35% kinh nghiệm khi tiêu diệt quái rừng."
       },
       {
         "passiveId": "lokis-curse-p5",
         "index": 5,
-        "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, họ sẽ nhận toàn bộ vàng và EXP từ lính, bản thân chỉ nhận 50% vàng và EXP. Hiệu ứng này sẽ bị xóa vào phút thứ 4. Sát thương lên lính giảm 25% (cũng xóa vào phút thứ 4)."
       }
     ]
   },
@@ -2504,29 +2621,34 @@
       {
         "passiveId": "leviathan-p1",
         "index": 1,
-        "description": "Grants Frostbite effect."
+        "name": "Nội tại duy nhất",
+        "description": "Nhận hiệu ứng tê tái."
       },
       {
         "passiveId": "leviathan-p2",
         "index": 2,
-        "description": "Deals (+2% self Max HP) magic damage to nearby enemies within 2.5m every second (deals 100% more damage to minions and monsters).",
+        "name": "Hỏa diệm",
+        "description": "Gây 2% máu tối đa thành sát thương phép mỗi giây lên những kẻ địch cạnh bên (tăng 100% sát thương lên quái).",
         "cooldown": 1,
         "uniqueGroup": "burn"
       },
       {
         "passiveId": "leviathan-p3",
         "index": 3,
-        "description": "Increases Max HP by 25 and CDR by 0.2% for every monster killed. Stacks up to 25 times."
+        "name": "Lùng diệt",
+        "description": "Bản thân hoặc đồng đội lân cận hạ mỗi con quái rừng giúp tăng 25 máu tối đa và 0.2% giảm hồi chiêu, tối đa cộng dồn 25 lần."
       },
       {
         "passiveId": "leviathan-p4",
         "index": 4,
-        "description": "Normal attacks / skills hitting wildlings deal 60–172 additional true damage every 0.5s for 2s, and receive 35% more EXP from killing monsters."
+        "name": "Săn bắt",
+        "description": "Đòn đánh thường hoặc tung chiêu sẽ gây thêm 60-172 sát thương chuẩn lên quái rừng mỗi 0.5 giây, kéo dài 2 giây. Nhận thêm 35% kinh nghiệm khi tiêu diệt quái rừng."
       },
       {
         "passiveId": "leviathan-p5",
         "index": 5,
-        "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, họ sẽ nhận toàn bộ vàng và EXP từ lính, bản thân chỉ nhận 50% vàng và EXP. Hiệu ứng này sẽ bị xóa vào phút thứ 4. Sát thương lên lính giảm 25% (cũng xóa vào phút thứ 4)."
       }
     ]
   },
@@ -2552,27 +2674,32 @@
       {
         "passiveId": "soulreaver-p1",
         "index": 1,
-        "description": "Grants Frostbite effect."
+        "name": "Nội tại duy nhất",
+        "description": "Nhận hiệu ứng tê tái."
       },
       {
         "passiveId": "soulreaver-p2",
         "index": 2,
-        "description": "+60 Armor Pierce"
+        "name": "Xuyên chắn",
+        "description": "+60 xuyên giáp"
       },
       {
         "passiveId": "soulreaver-p3",
         "index": 3,
-        "description": "Increases AD by 2 and CDR by 0.2% for every monster killed. Stacks up to 25 times."
+        "name": "Lùng diệt",
+        "description": "Bản thân hoặc đồng đội lân cận hạ mỗi con quái rừng giúp tăng 2 công vật lý và 0.2% giảm hồi chiêu, tối đa cộng dồn 25 lần."
       },
       {
         "passiveId": "soulreaver-p4",
         "index": 4,
-        "description": "Normal attacks / skills hitting wildlings deal 60–172 additional true damage every 0.5s for 2s, and receive 35% more EXP from killing monsters."
+        "name": "Săn bắt",
+        "description": "Đòn đánh thường hoặc tung chiêu sẽ gây thêm 60-172 sát thương chuẩn lên quái rừng mỗi 0.5 giây, kéo dài 2 giây. Nhận thêm 35% kinh nghiệm khi tiêu diệt quái rừng."
       },
       {
         "passiveId": "soulreaver-p5",
         "index": 5,
-        "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, họ sẽ nhận toàn bộ vàng và EXP từ lính, bản thân chỉ nhận 50% vàng và EXP. Hiệu ứng này sẽ bị xóa vào phút thứ 4. Sát thương lên lính giảm 25% (cũng xóa vào phút thứ 4)."
       }
     ]
   },
@@ -2598,28 +2725,33 @@
       {
         "passiveId": "scorching-wind-p1",
         "index": 1,
-        "description": "Grants Frostbite effect."
+        "name": "Nội tại duy nhất",
+        "description": "Nhận hiệu ứng tê tái."
       },
       {
         "passiveId": "scorching-wind-p2",
         "index": 2,
-        "description": "Normal attacks place a mark on the target, dealing 15–19 magic damage per stack, up to 6 stacks.",
+        "name": "Lốc xoáy",
+        "description": "Mỗi đòn đánh thường tích một điểm cộng dồn hiệu ứng lên nạn nhân, thứ sẽ gây thêm 15-19 sát thương phép; tối đa cộng dồn hiệu ứng 6 lần.",
         "cooldown": 0.3
       },
       {
         "passiveId": "scorching-wind-p3",
         "index": 3,
-        "description": "Increases Attack Speed by 0.8% and Life Steal by 0.2% for every monster killed. Stacks up to 25 times."
+        "name": "Lùng diệt",
+        "description": "Bản thân hoặc đồng đội lân cận hạ mỗi con quái rừng giúp tăng 0.8% tốc đánh và 0.2% hút máu, tối đa cộng dồn 25 lần."
       },
       {
         "passiveId": "scorching-wind-p4",
         "index": 4,
-        "description": "Normal attacks / skills hitting wildlings deal 60–172 additional true damage every 0.5s for 2s, and receive 35% more EXP from killing monsters."
+        "name": "Săn bắt",
+        "description": "Đòn đánh thường hoặc tung chiêu sẽ gây thêm 60-172 sát thương chuẩn lên quái rừng mỗi 0.5 giây, kéo dài 2 giây. Nhận thêm 35% kinh nghiệm khi tiêu diệt quái rừng."
       },
       {
         "passiveId": "scorching-wind-p5",
         "index": 5,
-        "description": "When near an ally hero, the ally gains 100% Gold and EXP from minions, while you only gain 50%. This effect is removed after 4 minutes. Also, damage dealt to enemy minions is reduced by 25% (removed after 4 minutes)."
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, họ sẽ nhận toàn bộ vàng và EXP từ lính, bản thân chỉ nhận 50% vàng và EXP. Hiệu ứng này sẽ bị xóa vào phút thứ 4. Sát thương lên lính giảm 25% (cũng xóa vào phút thứ 4)."
       }
     ]
   },
@@ -2639,12 +2771,14 @@
       {
         "passiveId": "elemental-gem-p1",
         "index": 1,
-        "description": "Every 3s, grants 6 EXP and 6 Gold to the teammate with the lowest Gold on the team."
+        "name": "Hậu cần",
+        "description": "Mỗi 3 giây tăng 6 kinh nghiệm và tăng 6 vàng cho tướng ít vàng nhất đội."
       },
       {
         "passiveId": "elemental-gem-p2",
         "index": 2,
-        "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, nếu lính và quái rừng bị tiêu diệt sẽ giúp đồng đội nhận toàn bộ vàng và kinh nghiệm còn bản thân sẽ nhận được 30%-50% vàng và kinh nghiệm (Tăng theo thời gian, đến 13 phút sẽ đạt tối đa)."
       }
     ]
   },
@@ -2669,22 +2803,26 @@
       {
         "passiveId": "earth-gem-p1",
         "index": 1,
-        "description": "Grants 16–30 (+1 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+        "name": "Tưởng thưởng",
+        "description": "Tăng 16-30 thuộc tính chủ đạo (1 thuộc tính chủ đạo = 1 công vật lý hoặc 2 công phép). Tăng 200-410 máu tối đa."
       },
       {
         "passiveId": "earth-gem-p2",
         "index": 2,
-        "description": "Increases Physical and Magic Defense by 32–60 to self and allies within 8m."
+        "name": "Nguyên lực",
+        "description": "Tăng 32-60 song giáp cho bản thân và đồng đội lân cận."
       },
       {
         "passiveId": "earth-gem-p3",
         "index": 3,
-        "description": "Every 3s, grants 6 EXP and 6 Gold to the teammate with the lowest Gold on the team."
+        "name": "Hậu cần",
+        "description": "Mỗi 3 giây tăng thêm 6 kinh nghiệm và tăng thêm 6 vàng cho tướng có vàng ít nhất đội. Nếu vàng rơi từ lính không được nhận, 50% số vàng đó sẽ rơi trên mặt đất. Có thể nhặt tối đa 450 vàng đồng thời có thể hút vàng trên toàn bản đồ 1 lần."
       },
       {
         "passiveId": "earth-gem-p4",
         "index": 4,
-        "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, nếu lính và quái rừng bị tiêu diệt sẽ giúp đồng đội nhận toàn bộ vàng và kinh nghiệm còn bản thân sẽ nhận được 30%-50% vàng và kinh nghiệm (Tăng theo thời gian, đến 13 phút sẽ đạt tối đa)."
       }
     ]
   },
@@ -2709,22 +2847,26 @@
       {
         "passiveId": "fire-gem-p1",
         "index": 1,
-        "description": "Grants 16–30 (+1 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+        "name": "Tưởng thưởng",
+        "description": "Tăng 16-30 thuộc tính chủ đạo (1 thuộc tính chủ đạo = 1 công vật lý hoặc 2 công phép). Tăng 200-410 máu tối đa."
       },
       {
         "passiveId": "fire-gem-p2",
         "index": 2,
-        "description": "Increases CDR by 5% and Attack Speed by 5% to self and allies within 8m."
+        "name": "Cực ảnh",
+        "description": "Tăng 5% tốc đánh và 5% giảm hồi chiêu cho bản thân và đồng đội."
       },
       {
         "passiveId": "fire-gem-p3",
         "index": 3,
-        "description": "Every 3s, grants 6 EXP and 6 Gold to the teammate with the lowest Gold on the team."
+        "name": "Hậu cần",
+        "description": "Mỗi 3 giây tăng thêm 6 kinh nghiệm và tăng thêm 6 vàng cho tướng có vàng ít nhất đội. Nếu vàng rơi từ lính không được nhận, 50% số vàng đó sẽ rơi trên mặt đất. Có thể nhặt tối đa 450 vàng đồng thời có thể hút vàng trên toàn bản đồ 1 lần."
       },
       {
         "passiveId": "fire-gem-p4",
         "index": 4,
-        "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, nếu lính và quái rừng bị tiêu diệt sẽ giúp đồng đội nhận toàn bộ vàng và kinh nghiệm còn bản thân sẽ nhận được 30%-50% vàng và kinh nghiệm (Tăng theo thời gian, đến 13 phút sẽ đạt tối đa)."
       }
     ]
   },
@@ -2750,28 +2892,33 @@
       {
         "passiveId": "mother-earth-barrier-p1",
         "index": 1,
-        "description": "Active: Grants you and ally heroes within 8m a shield that absorbs 680–1800 damage for 3s.",
+        "name": "Thần khiên",
+        "description": "Active: Lập tức tạo 1 lớp lá chắn giúp hấp thu 680-1800 sát thương cho bản thân và đồng đội trong 3 giây.",
         "cooldown": 60
       },
       {
         "passiveId": "mother-earth-barrier-p2",
         "index": 2,
-        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+        "name": "Tưởng thưởng",
+        "description": "Tăng 32-60 thuộc tính chủ đạo (1 thuộc tính chủ đạo = 1 công vật lý hoặc 2 công phép). Tăng 400-820 máu tối đa."
       },
       {
         "passiveId": "mother-earth-barrier-p3",
         "index": 3,
-        "description": "Increases Physical and Magic Defense by 32–60 to self and allies within 8m."
+        "name": "Nguyên lực",
+        "description": "Tăng 32-60 song giáp cho bản thân và đồng đội lân cận."
       },
       {
         "passiveId": "mother-earth-barrier-p4",
         "index": 4,
-        "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
+        "name": "Hậu cần",
+        "description": "Mỗi 3 giây tăng thêm 8 điểm kinh nghiệm và tăng thêm 8 vàng cho tướng có vàng ít nhất đội. Nếu vàng rơi từ lính không được nhận, 50% số vàng đó sẽ rơi trên mặt đất. Có thể nhặt tối đa 600 vàng đồng thời có thể hút vàng trên toàn bản đồ 1 lần. Khi tích lũy đủ 600 vàng từ việc nhặt vàng sẽ mở khóa chiêu \"Cộng hưởng\", kích hoạt chủ động giúp bản thân và một tướng đồng minh nhận được rất nhiều vàng và EXP (cả trận chỉ được dùng một lần)."
       },
       {
         "passiveId": "mother-earth-barrier-p5",
         "index": 5,
-        "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, nếu lính và quái rừng bị tiêu diệt sẽ giúp đồng đội nhận toàn bộ vàng và kinh nghiệm còn bản thân sẽ nhận được 30%-50% vàng và kinh nghiệm (Tăng theo thời gian, đến 13 phút sẽ đạt tối đa)."
       }
     ]
   },
@@ -2797,28 +2944,33 @@
       {
         "passiveId": "mother-earth-magic-eye-p1",
         "index": 1,
-        "description": "Active: Grants True Vision of your surroundings for 4s, and instantly deals 8% of targets' current HP as magic damage twice and slows them by 50% for a total of 2s.",
+        "name": "Ma nhãn",
+        "description": "Kích hoạt: Liên tục phát quang tầm nhìn chuẩn trong phạm vi xung quanh 4 giây và lập tức gây 2 lần sát thương phép cho tướng địch lân cận trong 2 giây. Mỗi lần gây sát thương tương đương với 8% máu tướng địch hiện tại kèm làm chậm 50%.",
         "cooldown": 45
       },
       {
         "passiveId": "mother-earth-magic-eye-p2",
         "index": 2,
-        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+        "name": "Tưởng thưởng",
+        "description": "Tăng 32-60 thuộc tính chủ đạo (1 thuộc tính chủ đạo = 1 công vật lý hoặc 2 công phép). Tăng 400-820 máu tối đa."
       },
       {
         "passiveId": "mother-earth-magic-eye-p3",
         "index": 3,
-        "description": "Increases Physical and Magic Defense by 32–60 to self and allies within 8m."
+        "name": "Nguyên lực",
+        "description": "Tăng 32-60 song giáp cho bản thân và đồng đội lân cận."
       },
       {
         "passiveId": "mother-earth-magic-eye-p4",
         "index": 4,
-        "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
+        "name": "Hậu cần",
+        "description": "Mỗi 3 giây tăng thêm 8 điểm kinh nghiệm và tăng thêm 8 vàng cho tướng có vàng ít nhất đội. Nếu vàng rơi từ lính không được nhận, 50% số vàng đó sẽ rơi trên mặt đất. Có thể nhặt tối đa 600 vàng đồng thời có thể hút vàng trên toàn bản đồ 1 lần. Khi tích lũy đủ 600 vàng từ việc nhặt vàng sẽ mở khóa chiêu \"Cộng hưởng\", kích hoạt chủ động giúp bản thân và một tướng đồng minh nhận được rất nhiều vàng và EXP (cả trận chỉ được dùng một lần)."
       },
       {
         "passiveId": "mother-earth-magic-eye-p5",
         "index": 5,
-        "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, nếu lính và quái rừng bị tiêu diệt sẽ giúp đồng đội nhận toàn bộ vàng và kinh nghiệm còn bản thân sẽ nhận được 30%-50% vàng và kinh nghiệm (Tăng theo thời gian, đến 13 phút sẽ đạt tối đa)."
       }
     ]
   },
@@ -2844,28 +2996,33 @@
       {
         "passiveId": "mother-earth-surge-p1",
         "index": 1,
-        "description": "Active: Gradually increases Movement Speed of yourself and teammates by 20–100% over 2s, max 4s. When passing by an unboosted teammate, they are also accelerated. Attacking or being attacked reduces the effect to a fixed 20%.",
+        "name": "Thần tốc",
+        "description": "Kích hoạt: Tốc chạy của các tướng đồng minh trong phạm vi sẽ tăng dần trong vòng 2 giây, lên tới 20%-100%, kéo dài 4 giây. Khi đi ngang qua một tướng đồng minh không được tăng tốc, hiệu ứng này sẽ được đồng bộ với tướng đồng minh. Khi tấn công hoặc bị tướng địch đánh trúng sẽ chỉ giữ lại 20% tốc độ tăng thêm.",
         "cooldown": 75
       },
       {
         "passiveId": "mother-earth-surge-p2",
         "index": 2,
-        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+        "name": "Tưởng thưởng",
+        "description": "Tăng 32-60 thuộc tính chủ đạo (1 thuộc tính chủ đạo = 1 công vật lý hoặc 2 công phép). Tăng 400-820 máu tối đa."
       },
       {
         "passiveId": "mother-earth-surge-p3",
         "index": 3,
-        "description": "Increases Physical and Magic Defense by 32–60 to self and allies within 8m."
+        "name": "Nguyên lực",
+        "description": "Tăng 32-60 song giáp cho bản thân và đồng đội lân cận."
       },
       {
         "passiveId": "mother-earth-surge-p4",
         "index": 4,
-        "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
+        "name": "Hậu cần",
+        "description": "Mỗi 3 giây tăng thêm 8 điểm kinh nghiệm và tăng thêm 8 vàng cho tướng có vàng ít nhất đội. Nếu vàng rơi từ lính không được nhận, 50% số vàng đó sẽ rơi trên mặt đất. Có thể nhặt tối đa 600 vàng đồng thời có thể hút vàng trên toàn bản đồ 1 lần. Khi tích lũy đủ 600 vàng từ việc nhặt vàng sẽ mở khóa chiêu \"Cộng hưởng\", kích hoạt chủ động giúp bản thân và một tướng đồng minh nhận được rất nhiều vàng và EXP (cả trận chỉ được dùng một lần)."
       },
       {
         "passiveId": "mother-earth-surge-p5",
         "index": 5,
-        "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, nếu lính và quái rừng bị tiêu diệt sẽ giúp đồng đội nhận toàn bộ vàng và kinh nghiệm còn bản thân sẽ nhận được 30%-50% vàng và kinh nghiệm (Tăng theo thời gian, đến 13 phút sẽ đạt tối đa)."
       }
     ]
   },
@@ -2891,28 +3048,33 @@
       {
         "passiveId": "mother-earth-cleansing-p1",
         "index": 1,
-        "description": "Active: Dissolves control effects from nearby allies, also grants them immunity to control for 0.5s.",
+        "name": "Mở trói",
+        "description": "Hóa giải tất cả hiệu ứng khống chế cho bản thân và đồng đội trong phạm vi đồng thời miễn khống trong 0.5 giây.",
         "cooldown": 90
       },
       {
         "passiveId": "mother-earth-cleansing-p2",
         "index": 2,
-        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+        "name": "Tưởng thưởng",
+        "description": "Tăng 32-60 thuộc tính chủ đạo (1 thuộc tính chủ đạo = 1 công vật lý hoặc 2 công phép). Tăng 400-820 máu tối đa."
       },
       {
         "passiveId": "mother-earth-cleansing-p3",
         "index": 3,
-        "description": "Increases Physical and Magic Defense by 32–60 to self and allies within 8m."
+        "name": "Nguyên lực",
+        "description": "Tăng 32-60 song giáp cho bản thân và đồng đội lân cận."
       },
       {
         "passiveId": "mother-earth-cleansing-p4",
         "index": 4,
-        "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
+        "name": "Hậu cần",
+        "description": "Mỗi 3 giây tăng thêm 8 điểm kinh nghiệm và tăng thêm 8 vàng cho tướng có vàng ít nhất đội. Nếu vàng rơi từ lính không được nhận, 50% số vàng đó sẽ rơi trên mặt đất. Có thể nhặt tối đa 600 vàng đồng thời có thể hút vàng trên toàn bản đồ 1 lần. Khi tích lũy đủ 600 vàng từ việc nhặt vàng sẽ mở khóa chiêu \"Cộng hưởng\", kích hoạt chủ động giúp bản thân và một tướng đồng minh nhận được rất nhiều vàng và EXP (cả trận chỉ được dùng một lần)."
       },
       {
         "passiveId": "mother-earth-cleansing-p5",
         "index": 5,
-        "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, nếu lính và quái rừng bị tiêu diệt sẽ giúp đồng đội nhận toàn bộ vàng và kinh nghiệm còn bản thân sẽ nhận được 30%-50% vàng và kinh nghiệm (Tăng theo thời gian, đến 13 phút sẽ đạt tối đa)."
       }
     ]
   },
@@ -2938,28 +3100,33 @@
       {
         "passiveId": "mother-earth-spout-p1",
         "index": 1,
-        "description": "Active: Links 1 ally (lowest HP priority), within 5s restores 500–1000 (+20% Max HP) HP and 25% Mana to both. Link exceeding range interrupts the effect. Attacking or being attacked reduces effectiveness to 20%. Can be stored once every 50s, max up to 2. The interval between 2 uses is 5s.",
+        "name": "Hồi huyết",
+        "description": "Kích hoạt: Bản thân gắn liên kết với 1 tướng đồng minh (ít máu nhất trong phạm vi) và trong 5 giây hồi 500-1000+20% máu tối đa cùng 25% năng lượng tối đa cho cả 2. Vượt quá cự ly nhất định liên kết sẽ đứt. Bị tướng địch tấn công hoặc tấn công tướng địch, hiêu quả hồi phục chỉ còn 20% hiệu lực. Mỗi 50 giây dự trữ 1 lần, tối đa dự trữ 2 lần.",
         "cooldown": 50
       },
       {
         "passiveId": "mother-earth-spout-p2",
         "index": 2,
-        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+        "name": "Tưởng thưởng",
+        "description": "Tăng 32-60 thuộc tính chủ đạo (1 thuộc tính chủ đạo = 1 công vật lý hoặc 2 công phép). Tăng 400-820 máu tối đa."
       },
       {
         "passiveId": "mother-earth-spout-p3",
         "index": 3,
-        "description": "Increases Physical and Magic Defense by 32–60 to self and allies within 8m."
+        "name": "Nguyên lực",
+        "description": "Tăng 32-60 song giáp cho bản thân và đồng đội lân cận."
       },
       {
         "passiveId": "mother-earth-spout-p4",
         "index": 4,
-        "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
+        "name": "Hậu cần",
+        "description": "Mỗi 3 giây tăng thêm 8 điểm kinh nghiệm và tăng thêm 8 vàng cho tướng có vàng ít nhất đội. Nếu vàng rơi từ lính không được nhận, 50% số vàng đó sẽ rơi trên mặt đất. Có thể nhặt tối đa 600 vàng đồng thời có thể hút vàng trên toàn bản đồ 1 lần. Khi tích lũy đủ 600 vàng từ việc nhặt vàng sẽ mở khóa chiêu \"Cộng hưởng\", kích hoạt chủ động giúp bản thân và một tướng đồng minh nhận được rất nhiều vàng và EXP (cả trận chỉ được dùng một lần)."
       },
       {
         "passiveId": "mother-earth-spout-p5",
         "index": 5,
-        "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, nếu lính và quái rừng bị tiêu diệt sẽ giúp đồng đội nhận toàn bộ vàng và kinh nghiệm còn bản thân sẽ nhận được 30%-50% vàng và kinh nghiệm (Tăng theo thời gian, đến 13 phút sẽ đạt tối đa)."
       }
     ]
   },
@@ -2985,28 +3152,33 @@
       {
         "passiveId": "wildfire-barrier-p1",
         "index": 1,
-        "description": "Active: Grants you and ally heroes within 8m a shield that absorbs 680–1800 damage for 3s.",
+        "name": "Thần khiên",
+        "description": "Kích hoạt: Lập tức tạo 1 lớp lá chắn giúp hấp thu 680-1800 sát thương cho bản thân và đồng đội trong 3 giây.",
         "cooldown": 60
       },
       {
         "passiveId": "wildfire-barrier-p2",
         "index": 2,
-        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+        "name": "Tưởng thưởng",
+        "description": "Tăng 32-60 thuộc tính chủ đạo (1 thuộc tính chủ đạo = 1 công vật lý hoặc 2 công phép). Tăng 400-820 máu tối đa."
       },
       {
         "passiveId": "wildfire-barrier-p3",
         "index": 3,
-        "description": "Increases CDR by 5% and Attack Speed by 5% to self and allies within 8m."
+        "name": "Cực ảnh",
+        "description": "Tăng 5% tốc đánh và 5% giảm hồi chiêu cho bản thân và đồng đội."
       },
       {
         "passiveId": "wildfire-barrier-p4",
         "index": 4,
-        "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
+        "name": "Hậu cần",
+        "description": "Mỗi 3 giây tăng thêm 8 điểm kinh nghiệm và tăng thêm 8 vàng cho tướng có vàng ít nhất đội. Nếu vàng rơi từ lính không được nhận, 50% số vàng đó sẽ rơi trên mặt đất. Có thể nhặt tối đa 600 vàng đồng thời có thể hút vàng trên toàn bản đồ 1 lần. Khi tích lũy đủ 600 vàng từ việc nhặt vàng sẽ mở khóa chiêu \"Cộng hưởng\", kích hoạt chủ động giúp bản thân và một tướng đồng minh nhận được rất nhiều vàng và EXP (cả trận chỉ được dùng một lần)."
       },
       {
         "passiveId": "wildfire-barrier-p5",
         "index": 5,
-        "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, nếu lính và quái rừng bị tiêu diệt sẽ giúp đồng đội nhận toàn bộ vàng và kinh nghiệm còn bản thân sẽ nhận được 30%-50% vàng và kinh nghiệm (Tăng theo thời gian, đến 13 phút sẽ đạt tối đa)."
       }
     ]
   },
@@ -3032,28 +3204,33 @@
       {
         "passiveId": "wildfire-magic-eye-p1",
         "index": 1,
-        "description": "Active: Grants True Vision of your surroundings for 4s, and instantly deals 8% of targets' current HP as magic damage twice and slows them by 50% for a total of 2s.",
+        "name": "Ma nhãn",
+        "description": "Kích hoạt: Liên tục phát quang tầm nhìn chuẩn trong phạm vi xung quanh 4 giây và lập tức gây 2 lần sát thương phép cho tướng địch lân cận trong 2 giây. Mỗi lần gây sát thương tương đương với 8% máu tướng địch hiện tại kèm làm chậm 50%.",
         "cooldown": 45
       },
       {
         "passiveId": "wildfire-magic-eye-p2",
         "index": 2,
-        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+        "name": "Tưởng thưởng",
+        "description": "Tăng 32-60 thuộc tính chủ đạo (1 thuộc tính chủ đạo = 1 công vật lý hoặc 2 công phép). Tăng 400-820 máu tối đa."
       },
       {
         "passiveId": "wildfire-magic-eye-p3",
         "index": 3,
-        "description": "Increases CDR by 5% and Attack Speed by 5% to self and allies within 8m."
+        "name": "Cực ảnh",
+        "description": "Tăng 5% tốc đánh và 5% giảm hồi chiêu cho bản thân và đồng đội."
       },
       {
         "passiveId": "wildfire-magic-eye-p4",
         "index": 4,
-        "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
+        "name": "Hậu cần",
+        "description": "Mỗi 3 giây tăng thêm 8 điểm kinh nghiệm và tăng thêm 8 vàng cho tướng có vàng ít nhất đội. Nếu vàng rơi từ lính không được nhận, 50% số vàng đó sẽ rơi trên mặt đất. Có thể nhặt tối đa 600 vàng đồng thời có thể hút vàng trên toàn bản đồ 1 lần. Khi tích lũy đủ 600 vàng từ việc nhặt vàng sẽ mở khóa chiêu \"Cộng hưởng\", kích hoạt chủ động giúp bản thân và một tướng đồng minh nhận được rất nhiều vàng và EXP (cả trận chỉ được dùng một lần)."
       },
       {
         "passiveId": "wildfire-magic-eye-p5",
         "index": 5,
-        "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, nếu lính và quái rừng bị tiêu diệt sẽ giúp đồng đội nhận toàn bộ vàng và kinh nghiệm còn bản thân sẽ nhận được 30%-50% vàng và kinh nghiệm (Tăng theo thời gian, đến 13 phút sẽ đạt tối đa)."
       }
     ]
   },
@@ -3079,28 +3256,33 @@
       {
         "passiveId": "wildfire-surge-p1",
         "index": 1,
-        "description": "Active: Gradually increases Movement Speed of yourself and teammates by 20–100% over 2s, max 4s. When passing by an unboosted teammate, they are also accelerated. Attacking or being attacked reduces the effect to a fixed 20%.",
+        "name": "Thần tốc",
+        "description": "Kích hoạt: Tốc chạy của các tướng đồng minh trong phạm vi sẽ tăng dần trong vòng 2 giây, lên tới 20%-100%, kéo dài 4 giây. Khi đi ngang qua một tướng đồng minh không được tăng tốc, hiệu ứng này sẽ được đồng bộ với tướng đồng minh. Khi tấn công hoặc bị tướng địch đánh trúng sẽ chỉ giữ lại 20% tốc độ tăng thêm.",
         "cooldown": 75
       },
       {
         "passiveId": "wildfire-surge-p2",
         "index": 2,
-        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+        "name": "Tưởng thưởng",
+        "description": "Tăng 32-60 thuộc tính chủ đạo (1 thuộc tính chủ đạo = 1 công vật lý hoặc 2 công phép). Tăng 400-820 máu tối đa."
       },
       {
         "passiveId": "wildfire-surge-p3",
         "index": 3,
-        "description": "Increases CDR by 5% and Attack Speed by 5% to self and allies within 8m."
+        "name": "Cực ảnh",
+        "description": "Tăng 5% tốc đánh và 5% giảm hồi chiêu cho bản thân và đồng đội."
       },
       {
         "passiveId": "wildfire-surge-p4",
         "index": 4,
-        "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
+        "name": "Hậu cần",
+        "description": "Mỗi 3 giây tăng thêm 8 điểm kinh nghiệm và tăng thêm 8 vàng cho tướng có vàng ít nhất đội. Nếu vàng rơi từ lính không được nhận, 50% số vàng đó sẽ rơi trên mặt đất. Có thể nhặt tối đa 600 vàng đồng thời có thể hút vàng trên toàn bản đồ 1 lần. Khi tích lũy đủ 600 vàng từ việc nhặt vàng sẽ mở khóa chiêu \"Cộng hưởng\", kích hoạt chủ động giúp bản thân và một tướng đồng minh nhận được rất nhiều vàng và EXP (cả trận chỉ được dùng một lần)."
       },
       {
         "passiveId": "wildfire-surge-p5",
         "index": 5,
-        "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, nếu lính và quái rừng bị tiêu diệt sẽ giúp đồng đội nhận toàn bộ vàng và kinh nghiệm còn bản thân sẽ nhận được 30%-50% vàng và kinh nghiệm (Tăng theo thời gian, đến 13 phút sẽ đạt tối đa)."
       }
     ]
   },
@@ -3126,28 +3308,33 @@
       {
         "passiveId": "wildfire-cleansing-p1",
         "index": 1,
-        "description": "Active: Dissolves control effects from nearby allies, also grants them immunity to control for 0.5s.",
+        "name": "Mở trói",
+        "description": "Hóa giải tất cả hiệu ứng khống chế cho bản thân và đồng đội trong phạm vi đồng thời miễn khống trong 0.5 giây.",
         "cooldown": 90
       },
       {
         "passiveId": "wildfire-cleansing-p2",
         "index": 2,
-        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+        "name": "Tưởng thưởng",
+        "description": "Tăng 32-60 thuộc tính chủ đạo (1 thuộc tính chủ đạo = 1 công vật lý hoặc 2 công phép). Tăng 400-820 máu tối đa."
       },
       {
         "passiveId": "wildfire-cleansing-p3",
         "index": 3,
-        "description": "Increases CDR by 5% and Attack Speed by 5% to self and allies within 8m."
+        "name": "Cực ảnh",
+        "description": "Tăng 5% tốc đánh và 5% giảm hồi chiêu cho bản thân và đồng đội."
       },
       {
         "passiveId": "wildfire-cleansing-p4",
         "index": 4,
-        "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
+        "name": "Hậu cần",
+        "description": "Mỗi 3 giây tăng thêm 8 điểm kinh nghiệm và tăng thêm 8 vàng cho tướng có vàng ít nhất đội. Nếu vàng rơi từ lính không được nhận, 50% số vàng đó sẽ rơi trên mặt đất. Có thể nhặt tối đa 600 vàng đồng thời có thể hút vàng trên toàn bản đồ 1 lần. Khi tích lũy đủ 600 vàng từ việc nhặt vàng sẽ mở khóa chiêu \"Cộng hưởng\", kích hoạt chủ động giúp bản thân và một tướng đồng minh nhận được rất nhiều vàng và EXP (cả trận chỉ được dùng một lần)."
       },
       {
         "passiveId": "wildfire-cleansing-p5",
         "index": 5,
-        "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, nếu lính và quái rừng bị tiêu diệt sẽ giúp đồng đội nhận toàn bộ vàng và kinh nghiệm còn bản thân sẽ nhận được 30%-50% vàng và kinh nghiệm (Tăng theo thời gian, đến 13 phút sẽ đạt tối đa)."
       }
     ]
   },
@@ -3173,28 +3360,33 @@
       {
         "passiveId": "wildfire-spout-p1",
         "index": 1,
-        "description": "Active: Links 1 ally (lowest HP priority), within 5s restores 500–1000 (+20% Max HP) HP and 25% Mana to both. Link exceeding range interrupts the effect. Attacking or being attacked reduces effectiveness to 20%. Can be stored once every 50s, max up to 2. The interval between 2 uses is 5s.",
+        "name": "Hồi huyết",
+        "description": "Active: Bản thân gắn liên kết với 1 tướng đồng minh (ít máu nhất trong phạm vi) và trong 5 giây hồi 500-1000+20% máu tối đa cùng 25% năng lượng tối đa cho cả 2. Vượt quá cự ly nhất định liên kết sẽ đứt. Bị tướng địch tấn công hoặc tấn công tướng địch, hiêu quả hồi phục chỉ còn 20% hiệu lực. Mỗi 50 giây dự trữ 1 lần, tối đa dự trữ 2 lần.",
         "cooldown": 50
       },
       {
         "passiveId": "wildfire-spout-p2",
         "index": 2,
-        "description": "Grants 32–60 (+2 per hero level) Attack Force. 1 Attack Force = 1 AD or 2 AP (determined based on each hero's main attribute)."
+        "name": "Tưởng thưởng",
+        "description": "Tăng 32-60 thuộc tính chủ đạo (1 thuộc tính chủ đạo = 1 công vật lý hoặc 2 công phép). Tăng 400-820 máu tối đa."
       },
       {
         "passiveId": "wildfire-spout-p3",
         "index": 3,
-        "description": "Increases CDR by 5% and Attack Speed by 5% to self and allies within 8m."
+        "name": "Cực ảnh",
+        "description": "Tăng 5% tốc đánh và 5% giảm hồi chiêu cho bản thân và đồng đội."
       },
       {
         "passiveId": "wildfire-spout-p4",
         "index": 4,
-        "description": "Every 3s, grants 8 EXP and 8 Gold to the teammate with the lowest Gold on the team."
+        "name": "Hậu cần",
+        "description": "Mỗi 3 giây tăng thêm 8 điểm kinh nghiệm và tăng thêm 8 vàng cho tướng có vàng ít nhất đội. Nếu vàng rơi từ lính không được nhận, 50% số vàng đó sẽ rơi trên mặt đất. Có thể nhặt tối đa 600 vàng đồng thời có thể hút vàng trên toàn bản đồ 1 lần. Khi tích lũy đủ 600 vàng từ việc nhặt vàng sẽ mở khóa chiêu \"Cộng hưởng\", kích hoạt chủ động giúp bản thân và một tướng đồng minh nhận được rất nhiều vàng và EXP (cả trận chỉ được dùng một lần)."
       },
       {
         "passiveId": "wildfire-spout-p5",
         "index": 5,
-        "description": "The nearby ally hero earns 100% Gold and EXP from minions and monsters, while you only get 30–50% (increases over time, reaching maximum at 13 minutes of match). This effect lasts throughout the match."
+        "name": "Khiêm nhường",
+        "description": "Khi xung quanh có đồng đội, nếu lính và quái rừng bị tiêu diệt sẽ giúp đồng đội nhận toàn bộ vàng và kinh nghiệm còn bản thân sẽ nhận được 30%-50% vàng và kinh nghiệm (Tăng theo thời gian, đến 13 phút sẽ đạt tối đa)."
       }
     ]
   }

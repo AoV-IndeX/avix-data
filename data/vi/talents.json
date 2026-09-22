@@ -4,7 +4,7 @@
     "number": 1,
     "cooldown": "120s",
     "name": "Cấp Cứu",
-    "description": "Nearby allies instantly restore 15% Max HP and increase 15% Movement Speed for 2s",
+    "description": "Hồi 15% máu cho bản thân và những đồng minh xung quanh, đồng thời tăng 15% tốc chạy cho cả nhóm trong 2 giây.",
     "asset": "talents/Talent01_Heal.webp"
   },
   {
@@ -12,7 +12,7 @@
     "number": 2,
     "cooldown": "90s",
     "name": "Tốc Hành",
-    "description": "Removes all Slow effects and gain a diminishing (70% - 30%) Movement Speed for 10s",
+    "description": "Tăng 30% tốc chạy trong 10 giây. Kích hoạt lập tức xoá trạng thái bị làm chậm đang gánh chịu đồng thời giảm 50% hiệu ứng bị làm chậm khi đang chạy nhanh. Ngoài ra khi rời giao tranh được tăng 20% tốc chạy.",
     "asset": "talents/Talent02_Sprint.webp"
   },
   {
@@ -20,7 +20,7 @@
     "number": 3,
     "cooldown": "120s",
     "name": "Trừng Trị",
-    "description": "Punish: Deals (1350 - 2750) True Damage to a nearby Wildling / Minion and stun them for 1s Frostbite: Simultaneously cast on a nearby enemy, dealing (200 - 410) True Damage with 50% Slow for 2s",
+    "description": "Gây 1350 sát thương chuẩn lên lính và quái rừng xung quanh đồng thời làm choáng chúng trong 1 giây. Lưu trữ mỗi 45 giây, tối đa lưu trữ 2 lần.",
     "asset": "talents/Talent03_Punish.webp"
   },
   {
@@ -28,7 +28,7 @@
     "number": 4,
     "cooldown": "90s",
     "name": "Bộc Phá",
-    "description": "Instantly attacks nearby enemies, deals True Damage equals Target's 16% Lost HP",
+    "description": "Chuyển 16% máu đã mất của tướng địch thành sát thương chuẩn lên chúng trong phạm vi.",
     "asset": "talents/Talent04_Execute.webp"
   },
   {
@@ -36,7 +36,7 @@
     "number": 5,
     "cooldown": "120s",
     "name": "Tốc Biến",
-    "description": "Teleports a certain distance in the target direction",
+    "description": "Lập tức biến theo hướng chỉ định một khoảng ngắn.",
     "asset": "talents/Talent05_Flicker.webp"
   },
   {
@@ -44,7 +44,7 @@
     "number": 6,
     "cooldown": "60s",
     "name": "Gầm Thét",
-    "description": "Increases 25% Resistance and 10% Damage Dealt, while healing 2% Max HP every second over 6s",
+    "description": "Tăng 15% kháng hiệu ứng, 10% sát thương và 15% hút máu, 30% hút máu phép, kéo dài 7 giây.",
     "asset": "talents/Talent06_Roar.webp"
   },
   {
@@ -52,7 +52,7 @@
     "number": 7,
     "cooldown": "90s",
     "name": "Ngất Ngư",
-    "description": "Stuns all nearby enemies for 0.75s Then, reduces Targets' 20% Movement Speed, (28 + Lv*2) Armor, and (14 + Lv) Magic Armor for 2.5s",
+    "description": "Làm choáng tất cả kẻ địch lân cận trong 0.75 giây và làm chậm chúng 20% đồng thời giảm 30-58 giáp, 15-29 giáp phép trong 2.5 giây.",
     "asset": "talents/Talent07_Daze.webp"
   },
   {
@@ -60,7 +60,7 @@
     "number": 8,
     "cooldown": "100s",
     "name": "Thanh Tẩy",
-    "description": "Removes all Debuffs and Control Effects. Gains Super Armor for 1.5s",
+    "description": "Hóa giải tất cả hiệu ứng bất lợi và khống chế, đồng thời miễn dịch với khống chế trong 1.5 giây.",
     "asset": "talents/Talent08_Purify.webp"
   },
   {
@@ -68,7 +68,7 @@
     "number": 9,
     "cooldown": "30s",
     "name": "Suy Nhược",
-    "description": "Reduces nearby enemies' 20% Damage Dealt and gains 20% Damage Reduction for 4s",
+    "description": "Giảm 20% sát thương của kẻ địch lân cận gây ra đồng thời tăng 20% miễn thương cho bản thân trong 4 giây.",
     "asset": "talents/Talent09_Enfeeble.webp"
   }
 ]

@@ -5,8 +5,8 @@
     "level": 1,
     "number": 1,
     "usage": "N/A",
-    "name": "Axe of Sacrifice",
-    "description": "Increases 3% Damage Dealt Increases 1% Damage Received (+1% for Ranged Heroes)",
+    "name": "Tương phản",
+    "description": "Sát thương gây ra cho tướng địch tăng 3% nhưng sát thương phải chịu cũng tăng lên 2% (tướng cận chiến chỉ thêm 1%)",
     "asset": "enchantments/A11_AxeofSacrifice.webp"
   },
   {
@@ -14,9 +14,9 @@
     "categoryId": "veda",
     "level": 1,
     "number": 2,
-    "usage": "5s",
-    "name": "Mana Refill",
-    "description": "Recovers 8% Mana when a Skill or Normal Attack hits an enemy",
+    "usage": "5 giây",
+    "name": "Sung mãn",
+    "description": "Tung chiêu hoặc đòn đánh thường trúng tướng địch sẽ được hồi 8% năng lượng tối đa",
     "asset": "enchantments/A12_ManaRefill.webp"
   },
   {
@@ -25,8 +25,8 @@
     "level": 1,
     "number": 3,
     "usage": "N/A",
-    "name": "Sacred Bead",
-    "description": "Gains 10% Cooldown Reduction for Ultimate only (subject to 40% CDR cap)",
+    "name": "Thánh châu",
+    "description": "Chiêu cuối được giảm thời gian hồi chiêu thêm 10% (nhưng không được vượt quá 40% tối đa)",
     "asset": "enchantments/A13_SacredBead.webp"
   },
   {
@@ -35,8 +35,8 @@
     "level": 2,
     "number": 1,
     "usage": "N/A",
-    "name": "Blessing",
-    "description": "Increases 16% Crit Chance from equipment Increases 8% Ability Power from equipment",
+    "name": "Bí quyết",
+    "description": "Bạn được nhận thêm 16% chí mạng và thêm 8% công phép từ trang bị",
     "asset": "enchantments/A21_Blessing.webp"
   },
   {
@@ -45,8 +45,8 @@
     "level": 2,
     "number": 2,
     "usage": "N/A",
-    "name": "Holy Verdict",
-    "description": "Gains (18 - 60) Armor Pierce and Magic Pierce",
+    "name": "Xuyên tâm",
+    "description": "Nhận 18-60 xuyên giáp / xuyên giáp phép",
     "asset": "enchantments/A22_HolyVerdict.webp"
   },
   {
@@ -54,9 +54,9 @@
     "categoryId": "veda",
     "level": 3,
     "number": 1,
-    "usage": "10s",
-    "name": "Holy Summoner",
-    "description": "Strike 3 consecutive Normal Attacks on an enemy will summon a Holy Spirit: Range: 9.5m Attack Speed: Equals to user's Attack Speed Power: True Damage = Target's 2% MaxHP Duration: 5s (Normal Attacks will replenish the duration)",
+    "usage": "10 giây",
+    "name": "Tinh linh",
+    "description": "Đòn đánh thường thứ 3 liên tiếp trúng một tướng địch sẽ nhận được một vòng sáng tiểu thiên thần quanh cơ thể trong 5 giây. Tiểu thiên thần sẽ tự động công kích kẻ địch bị chủ nhân tấn công trong phạm vi 9.5m. Tốc đánh bằng tốc đánh của chủ nhân và lực công kích bằng 2% máu tối đa của mục tiêu chuyển thành sát thương chuẩn",
     "asset": "enchantments/A31_HolySummoner.webp"
   },
   {
@@ -64,9 +64,9 @@
     "categoryId": "veda",
     "level": 3,
     "number": 2,
-    "usage": "12s",
-    "name": "Holy Thunder",
-    "description": "Next Normal Attack / Skill on enemy will deal additionally ((80 + (Lv*8)(30% AP)) Magic Damage Use Normal Attack / Skill on enemy to reduce 1s Cooldown (0.5s interval)",
+    "usage": "12 giây",
+    "name": "Thần quang",
+    "description": "Tung chiêu hoặc đánh thường đầu tiên trúng tướng địch sẽ tạo thành sát thương sấm sét gây 88-200 (+30% công phép) sát thương phép. Những chiêu hoặc đòn đánh thường tung sau đó sẽ giảm thời gian hồi chiêu 1 giây (khoảng cách giữa 2 lần giảm hồi chiêu phải lớn hơn 0.5 giây)",
     "asset": "enchantments/A32_HolyThunder.webp"
   },
   {
@@ -74,9 +74,9 @@
     "categoryId": "veda",
     "level": 3,
     "number": 3,
-    "usage": "30s",
-    "name": "Sacred Protection",
-    "description": "Taking damage ≥ 30% Max HP within 3s will activate: Gains a Shield absorbs (400 + Lv*30) Damage (lasts 6s) Gains 20% Magic Life Steal (lasts 6s, Kill / Assist to extend by 3s)",
+    "usage": "30 giây",
+    "name": "Thánh thuẫn",
+    "description": "Trong thời gian ngắn nhận sát thương vượt quá 30% máu của bản thân sẽ lập tức được nhận lá chắn miễn 430-850 sát thương và 20% hút máu phép trong 6 giây, hạ hoặc phụ hạ trong thời gian này sẽ kéo dài hút máu phép trong 3 giây",
     "asset": "enchantments/A33_SacredProtection.webp"
   },
   {
@@ -85,8 +85,8 @@
     "level": 1,
     "number": 1,
     "usage": "N/A",
-    "name": "Devourer",
-    "description": "Kill / Assist to restore 9% Max HP and 15% Max Mana",
+    "name": "Hấp huyết",
+    "description": "Hạ hoặc phụ sẽ được hồi 9% máu bản thân đã mất và 15 năng lượng·",
     "asset": "enchantments/B11_Devourer.webp"
   },
   {
@@ -95,8 +95,8 @@
     "level": 1,
     "number": 2,
     "usage": "N/A",
-    "name": "Shadow Blade",
-    "description": "On using Movement / Charge Skill, gain 1 Shadow Blade stack (up to x3, lasts 4s) Next Normal Attack on enemy will consume all stacks, dealing an additional (30 + Lv*5 + 10% BonusAD) Physical Damage per stack",
+    "name": "Dư ảnh",
+    "description": "Mỗi khi dùng lướt sẽ được cộng dồn 1 dư ảnh trong 4 giây, tối đa cộng dồn 3 dư ảnh. Đòn đánh thường sau đấy sẽ tiêu hao hết toàn bộ số dư ảnh. Mỗi dư ảnh gây 30 (+5 / cấp tướng) + (10% công vật lý thêm) sát thương vật lý",
     "asset": "enchantments/B12_ShadowBlade.webp"
   },
   {
@@ -104,9 +104,9 @@
     "categoryId": "lokheim",
     "level": 1,
     "number": 3,
-    "usage": "8s",
-    "name": "Raging Inferno",
-    "description": "Next Normal Attack / Skill on enemy will deal an additional (50 + Lv*5 + (15% AP)) Magic Damage",
+    "usage": "8 giây",
+    "name": "Ma hỏa",
+    "description": "Tung chiêu hoặc đòn đánh thường trúng tướng địch sẽ gây 50 (+5 mỗi cấp tướng) (15% công phép) sát thương phép",
     "asset": "enchantments/B13_RagingInferno.webp"
   },
   {
@@ -115,8 +115,8 @@
     "level": 2,
     "number": 1,
     "usage": "N/A",
-    "name": "Deadly Claw",
-    "description": "Gains (10 - 38) Attack Damage Gains (15 - 57) Ability Power",
+    "name": "Cường công",
+    "description": "Nhận 10-38 công vật lý và 15-57 công phép",
     "asset": "enchantments/B21_DeadlyClaw.webp"
   },
   {
@@ -125,8 +125,8 @@
     "level": 2,
     "number": 2,
     "usage": "N/A",
-    "name": "Bone Cutter",
-    "description": "Gains 12.5% Resistance",
+    "name": "Cố thủ",
+    "description": "Nhận được 12.5% kháng hiệu ứng",
     "asset": "enchantments/B22_BoneCutter.webp"
   },
   {
@@ -135,8 +135,8 @@
     "level": 3,
     "number": 1,
     "usage": "N/A",
-    "name": "Desperate Duel",
-    "description": "On striking an enemy with Normal Attack / Skill, gain 1 Desperate Duel stack (up to x10, lasts 3s) Each stack increases 2 Movement Speed At 10 stacks, restores 10% Lost HP, gains 15% Armor Pierce and Magic Pierce",
+    "name": "Đấu khí",
+    "description": "Tung chiêu hoặc đánh thường trúng tướng địch sẽ được tăng 2 tốc chạy trong 3 giây (tướng đánh xa mỗi đòn được cộng dồn 1 tầng. tướng đánh gần mỗi đòn được cộng dồn 2 tầng), tối đa cộng dồn được 10 tầng. Khi đủ 10 tầng sẽ được hồi 10% máu bản thân đã mất và nhận thêm 15% xuyên giáp & xuyên giáp phép",
     "asset": "enchantments/B31_DesperateDuel.webp"
   },
   {
@@ -144,9 +144,9 @@
     "categoryId": "lokheim",
     "level": 3,
     "number": 2,
-    "usage": "15s",
-    "name": "Curse of Death",
-    "description": "Normal Attacks / Skills will mark the target for 1.5s. At 3 marks will activate: Explode (40 + Lv*4 + 25%BonusAD + 15%BonusAP) Magic Damage within 2.5m from the target 1s later, explode Magic Damage = Target's 6% Lost HP (+1% per 100 AD / 200 AP) within the same area",
+    "usage": "15 giây",
+    "name": "Ma chú",
+    "description": "Tung chiêu hoặc đòn đánh thường trúng tướng địch sẽ cộng dồn 1.5 giây dấu ấn, đủ 3 dấu ấn sẽ gây trong phạm vi 2.5m quanh mục tiêu 44-100 (+25% cộng vật lý thêm) (+15% công phép) sát thương phép. Sau 1 giây gây tiếp trong phạm vi 2.5m quanh mục tiêu sát thương phép tương đương 6% máu đã mất của nạn nhân (mỗi 100 công vật lý thêm hoặc 200 công phép tăng 1%)",
     "asset": "enchantments/B32_CurseofDeath.webp"
   },
   {
@@ -154,9 +154,9 @@
     "categoryId": "lokheim",
     "level": 3,
     "number": 3,
-    "usage": "30s",
-    "name": "Devil's Awakening",
-    "description": "Activating Ultimate will immediately reduce Cooldown of Ultimate / Other Skills by 20% / 30% respectively",
+    "usage": "30 giây",
+    "name": "Ma tính",
+    "description": "Sau khi tung chiêu cuối lập tức giảm 30% thời gian hồi các chiêu khác và 20% giảm hồi chiêu cuối trong 6 giây. Hạ hoặc phụ hạ sẽ kéo dài hiệu ứng thêm 3 giây.",
     "asset": "enchantments/B33_DevilsAwakening.webp"
   },
   {
@@ -164,9 +164,9 @@
     "categoryId": "afata",
     "level": 1,
     "number": 1,
-    "usage": "While in River",
-    "name": "River Treader",
-    "description": "Gains 10 Movement Speed Gains 20 HP / 5s Gains 10 Mana / 5s",
+    "usage": "Trên đường sông",
+    "name": "Nhạy bén",
+    "description": "Được nhận thêm 10 tốc chạy và hồi thêm 20 máu cùng 10 năng lượng mỗi 5 giây",
     "asset": "enchantments/C11_RiverTreader.webp"
   },
   {
@@ -174,9 +174,9 @@
     "categoryId": "afata",
     "level": 1,
     "number": 2,
-    "usage": "10s",
-    "name": "Backstabbing",
-    "description": "After entering bushes, enhances next Normal Attack up to 4s after leaving the bush, dealing an additional True Damage = Target's 4% Current HP",
+    "usage": "10 giây",
+    "name": "Ám kích",
+    "description": "Ở trong bụi cỏ tung đòn đánh thường sẽ cộng thêm 4% sát thương chuẩn dựa trên lượng máu của kẻ địch khi đó. Rời khỏi bụi cỏ sau 4 giây vẫn nhận được hiệu quả này",
     "asset": "enchantments/C12_Backstabbing.webp"
   },
   {
@@ -184,9 +184,9 @@
     "categoryId": "afata",
     "level": 1,
     "number": 3,
-    "usage": "While within 6m of a tower",
-    "name": "Tower Blessing",
-    "description": "Gains 15% Resistance Gains 10% Damage Reduction",
+    "usage": "Khi đứng gần trụ (phạm vi 6m)",
+    "name": "Canh gác",
+    "description": "Bản thân được nhận 15% kháng hiệu ứng và 10% miễn thương",
     "asset": "enchantments/C13_TowerBlessing.webp"
   },
   {
@@ -195,8 +195,8 @@
     "level": 2,
     "number": 1,
     "usage": "N/A",
-    "name": "Regrowth",
-    "description": "Increases 10% Healing and Shield Effects (+10% for Targets with HP ≤ 50%)",
+    "name": "Bơm máu",
+    "description": "Hiệu quả hồi máu và lá chắn của bản thân tăng 10%. Nếu máu của mục tiêu thấp dưới 50%, hiệu quả này sẽ tăng thêm 10% nữa (bao gồm trang bị, kỹ năng phụ trợ)",
     "asset": "enchantments/C21_Regrowth.webp"
   },
   {
@@ -205,8 +205,8 @@
     "level": 2,
     "number": 2,
     "usage": "N/A",
-    "name": "Nature's Gift",
-    "description": "Each nearby killed Minions or Wildlings grants a permanent Max HP buff (max 800) Minions: +8 Max HP each Small wildlings: +16 Max HP each Large wildlings: +24 Max HP each",
+    "name": "Sinh tồn",
+    "description": "Lính và quái rừng bị hạ gục phụ cận khiến bản thân được tăng máu tối đa vĩnh viễn (lính cộng 1 tầng, quái rừng nhỏ cộng 2 tầng, quái rừng to cộng 3 tầng, mỗi tầng được 8 máu, tối đa được cộng 100 tầng)",
     "asset": "enchantments/C22_NaturesGift.webp"
   },
   {
@@ -214,9 +214,9 @@
     "categoryId": "afata",
     "level": 3,
     "number": 1,
-    "usage": "20s",
-    "name": "Nature's Rage",
-    "description": "On striking an enemy with a Crowd Control Skill (except Slow, Immobilize, Silence) will activate: Burns Magic Damage = 2% Max HP to nearby enemies every 0.5s for 3s Reduce burned enemies' (30 + Lv*3) Magic Armor",
+    "usage": "20 giây",
+    "name": "Trói buộc",
+    "description": "Khi tung chiêu khống chế trúng tướng địch (khiêu khích, hất tung, đánh lui, làm choáng, hóa đá...) sẽ giúp bản thân nhận hiệu quả thiêu đốt, mỗi 0.5 giây gây sát thương phép bằng 2% lượng máu tối đa trong 3 giây. Tướng địch bị thiêu đốt sẽ giảm 33-75 giáp phép",
     "asset": "enchantments/C31_NaturesRage.webp"
   },
   {
@@ -224,9 +224,9 @@
     "categoryId": "afata",
     "level": 3,
     "number": 2,
-    "usage": "10s",
-    "name": "Explosive Shield",
-    "description": "On taking damage from enemy each second, gain 1 stack for 3s. At 4 stacks will activate: Creates a 4m Shockwave, dealing Magic Damage = 2% Max HP Restores 5% Max HP (+ 2% / enemy hit)",
+    "usage": "10 giây",
+    "name": "Mộc giáp",
+    "description": "Gánh chịu sát thương sẽ cộng dồn (mỗi giây tính 1 lần) trong 3 giây, đủ 4 lần giúp bản thân gây sát thương phép bằng 2% máu tối đa của bản thân trong phạm vi 4m đồng thời hồi 5% máu tối đa, mỗi khi trúng thêm 1 tướng địch sẽ giúp hồi thêm 2% máu tối đa",
     "asset": "enchantments/C32_ExplosiveShield.webp"
   },
   {
@@ -234,9 +234,9 @@
     "categoryId": "afata",
     "level": 3,
     "number": 3,
-    "usage": "After exiting combat",
-    "name": "Forest Wanderer",
-    "description": "Enhances next Normal Attack: Reduces enemy's 30% Movement Speed for 1s, and marks them with a Stealth Energy Charge                           After 3s, detonates the Energy Charge, deals Magic Damage = Target's 8% Max HP",
+    "usage": "Sau khi rời khỏi giao tranh",
+    "name": "Du hiệp",
+    "description": "Rời khỏi giao tranh một lúc sẽ khiến đòn đánh thường kế tiếp làm chậm địch 30% trong 1 giây và gắn lên địch một dấu ấn bùng nổ. Sau 3 giây nó sẽ nổ tung gây 8% máu tối đa của bản thân thành ST phép",
     "asset": "enchantments/C33_ForestWanderer.webp"
   },
   {
@@ -244,9 +244,9 @@
     "categoryId": "leagueofhumans",
     "level": 1,
     "number": 1,
-    "usage": "Single Use",
-    "name": "Mark of Frost",
-    "description": "Grants Impervious 4 minutes into the match Impervious: Activate: Supress yourself and become Untargetable for 1.5s, then gain a Shield absorbing (500 + Lv*40 + 50% AP) Damage for 1s",
+    "usage": "Dùng 1 lần",
+    "name": "Quả cầu băng sương",
+    "description": "Sau khi trận đấu bắt đầu 4 phút, bạn sẽ nhận được Quả cầu băng sương. Sau khi sử dụng sẽ được miễn sát thương nhưng không thể công kích, di chuyển và khi kết thúc sẽ nhận được lá chắn 540-1100 (+50% Công Phép) Sát thương",
     "asset": "enchantments/D11_MarkOfFrost.webp"
   },
   {
@@ -254,9 +254,9 @@
     "categoryId": "leagueofhumans",
     "level": 1,
     "number": 2,
-    "usage": "60s",
-    "name": "Enhanced Restore",
-    "description": "(Replace Restore with Enhanced Restore) Instantly restores around 660 HP and 210 Energy",
+    "usage": "60 giây",
+    "name": "Siêu hồi máu",
+    "description": "Đổi hồi máu thành Siêu hồi máu: Lập tức hồi 660 máu và 210 năng lượng cho bản thân",
     "asset": "enchantments/D12_EnhancedRestore.webp"
   },
   {
@@ -265,8 +265,8 @@
     "level": 1,
     "number": 3,
     "usage": "N/A",
-    "name": "Arcane Whisper",
-    "description": "Gains 15% Cooldown Reduction on Talents",
+    "name": "Mật ngữ",
+    "description": "Kỹ năng phụ trợ của bạn được giảm hồi chiêu thêm 15%. (Trừng trị chỉ giảm thời gian dự trữ)",
     "asset": "enchantments/D13_ArcaneWhisper.webp"
   },
   {
@@ -274,9 +274,9 @@
     "categoryId": "leagueofhumans",
     "level": 2,
     "number": 1,
-    "usage": "25s",
-    "name": "Minion Kill",
-    "description": "Next Normal Attack / Skill will instantly kill a minion (not applicable to Siege Minion and Super Minion) After accumulating 10 minion kills using this enchantment, receive 200 Gold and reset the counter",
+    "usage": "25 giây",
+    "name": "Uy áp",
+    "description": "Tung chiêu hoặc tung đòn đánh thường và lính sẽ hạ 1 lính. Sau khi tích lũy hạ lính 10 lần, bản thân sẽ nhận được 200 vàng và làm mới phù hiệu này (vô hiệu hóa với Xe công thành và Lính siêu cấp)",
     "asset": "enchantments/D21_MinionKill.webp"
   },
   {
@@ -284,9 +284,9 @@
     "categoryId": "leagueofhumans",
     "level": 2,
     "number": 2,
-    "usage": "Spawn with a Gunslinger stack",
-    "name": "Gunslinger",
-    "description": "Kill / Assist different enemy heroes to gain an additional stack (up to 5 additional stack) Each stack grants 8 Attack Damage and 12 Ability Power",
+    "usage": "Nhận một cộng dồn khi vào trận",
+    "name": "Thợ săn",
+    "description": "Mỗi lần hạ hoặc phụ hạ một tướng khác nhau sẽ nhận thêm một cộng dồn, tối đa 6. Mỗi cộng dồn tăng 8 công vật lý và 12 công phép",
     "asset": "enchantments/D22_Gunslinger.webp"
   },
   {
@@ -295,8 +295,8 @@
     "level": 3,
     "number": 1,
     "usage": "N/A",
-    "name": "Alchemy",
-    "description": "Each 20s, gains 1 Alchemy stack (up to 3 stacks) Strike an Enemy / Tower to consume 1 stack and gain 16 Gold (max 800 Gold received)",
+    "name": "Luyện kim",
+    "description": "Mỗi 20 giây nhận một cộng dồn Luyện kim, tối đa nhận 3 cộng dồn. Tung chiêu / đánh thường lên tướng địch hoặc trụ sẽ giúp bản thân nhận 16 vàng và tiêu hao 1 cộng dồn Luyện kim. Hạn mức tối đa vàng nhận được là 800",
     "asset": "enchantments/D31_Alchemy.webp"
   },
   {
@@ -304,9 +304,9 @@
     "categoryId": "leagueofhumans",
     "level": 3,
     "number": 2,
-    "usage": "100s (+ Lv*15)",
-    "name": "Endless Cycle",
-    "description": "Grants Resurrect to instantly respawn at the altar (can only cast twice) After 12 mins into the match, exchange unused Resurrect for 300 Gold each (this is not optional)",
+    "usage": "100 giây - 310 giây",
+    "name": "Chuyển sinh",
+    "description": "Sau khi tử vong sẽ nhận được phù hiệu: \"Hồi sinh\". Sau khi sử dụng sẽ hồi sinh trong tế đàn. \"Hồi sinh\" càng về sau sẽ càng tăng thêm thời gian hồi chiêu. Tối đa dùng 2 lần. Sau 12 phút sẽ cấm sử dụng, số lần chưa dùng sẽ chuyển thành 300/600 vàng",
     "asset": "enchantments/D32_EndlessCycle.webp"
   }
 ]

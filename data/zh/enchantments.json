@@ -66,7 +66,7 @@
     "number": 2,
     "usage": "12s",
     "name": "Holy Thunder",
-    "description": "Next Normal Attack / Skill on enemy will deal additionally ((80 + (Lv*8)(30% AP)) Magic Damage Use Normal Attack / Skill on enemy to reduce 1s Cooldown (0.5s interval)",
+    "description": "Next Normal Attack / Skill on enemy will deal additionally 88-200 (+30% AP) Magic Damage Use Normal Attack / Skill on enemy to reduce 1s Cooldown (0.5s interval)",
     "asset": "enchantments/A32_HolyThunder.webp"
   },
   {
@@ -76,7 +76,7 @@
     "number": 3,
     "usage": "30s",
     "name": "Sacred Protection",
-    "description": "Taking damage ≥ 30% Max HP within 3s will activate: Gains a Shield absorbs (400 + Lv*30) Damage (lasts 6s) Gains 20% Magic Life Steal (lasts 6s, Kill / Assist to extend by 3s)",
+    "description": "Taking damage ≥ 30% Max HP within 3s will activate: Gains a Shield absorbs 430-850 Damage (lasts 6s) Gains 20% Magic Life Steal (lasts 6s, Kill / Assist to extend by 3s)",
     "asset": "enchantments/A33_SacredProtection.webp"
   },
   {
@@ -116,7 +116,7 @@
     "number": 1,
     "usage": "N/A",
     "name": "Deadly Claw",
-    "description": "Gains (10 - 38) Attack Damage Gains (15 - 57) Ability Power",
+    "description": "Gains 10-38 Attack Damage Gains 15-57 Ability Power",
     "asset": "enchantments/B21_DeadlyClaw.webp"
   },
   {
@@ -146,7 +146,7 @@
     "number": 2,
     "usage": "15s",
     "name": "Curse of Death",
-    "description": "Normal Attacks / Skills will mark the target for 1.5s. At 3 marks will activate: Explode (40 + Lv*4 + 25%BonusAD + 15%BonusAP) Magic Damage within 2.5m from the target 1s later, explode Magic Damage = Target's 6% Lost HP (+1% per 100 AD / 200 AP) within the same area",
+    "description": "Normal Attacks / Skills will mark the target for 1.5s. At 3 marks will activate: Explode 44-100 (+25%BonusAD) (+15%AP) Magic Damage within 2.5m from the target 1s later, explode Magic Damage = Target's 6% Lost HP (+1% per 100 AD / 200 AP) within the same area",
     "asset": "enchantments/B32_CurseofDeath.webp"
   },
   {
@@ -216,7 +216,7 @@
     "number": 1,
     "usage": "20s",
     "name": "Nature's Rage",
-    "description": "On striking an enemy with a Crowd Control Skill (except Slow, Immobilize, Silence) will activate: Burns Magic Damage = 2% Max HP to nearby enemies every 0.5s for 3s Reduce burned enemies' (30 + Lv*3) Magic Armor",
+    "description": "On striking an enemy with a Crowd Control Skill (except Slow, Immobilize, Silence) will activate: Burns Magic Damage = 2% Max HP to nearby enemies every 0.5s for 3s Reduce burned enemies' 33-75 Magic Armor",
     "asset": "enchantments/C31_NaturesRage.webp"
   },
   {
@@ -246,7 +246,7 @@
     "number": 1,
     "usage": "Single Use",
     "name": "Mark of Frost",
-    "description": "Grants Impervious 4 minutes into the match Impervious: Activate: Supress yourself and become Untargetable for 1.5s, then gain a Shield absorbing (500 + Lv*40 + 50% AP) Damage for 1s",
+    "description": "Grants Impervious 4 minutes into the match Impervious: Activate: Supress yourself and become Untargetable for 1.5s, then gain a Shield absorbing 540-1100 (+50% AP) Damage for 1s",
     "asset": "enchantments/D11_MarkOfFrost.webp"
   },
   {
@@ -304,7 +304,7 @@
     "categoryId": "leagueofhumans",
     "level": 3,
     "number": 2,
-    "usage": "100s (+ Lv*15)",
+    "usage": "115-250s",
     "name": "Endless Cycle",
     "description": "Grants Resurrect to instantly respawn at the altar (can only cast twice) After 12 mins into the match, exchange unused Resurrect for 300 Gold each (this is not optional)",
     "asset": "enchantments/D32_EndlessCycle.webp"
