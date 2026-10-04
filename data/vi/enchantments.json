@@ -14,7 +14,7 @@
     "categoryId": "veda",
     "level": 1,
     "number": 2,
-    "usage": "5 giây",
+    "usage": "Hồi chiêu: 5 giây",
     "name": "Sung mãn",
     "description": "Tung chiêu hoặc đòn đánh thường trúng tướng địch sẽ được hồi 8% năng lượng tối đa",
     "asset": "enchantments/A12_ManaRefill.webp"
@@ -54,7 +54,7 @@
     "categoryId": "veda",
     "level": 3,
     "number": 1,
-    "usage": "10 giây",
+    "usage": "Hồi chiêu: 10 giây",
     "name": "Tinh linh",
     "description": "Đòn đánh thường thứ 3 liên tiếp trúng một tướng địch sẽ nhận được một vòng sáng tiểu thiên thần quanh cơ thể trong 5 giây. Tiểu thiên thần sẽ tự động công kích kẻ địch bị chủ nhân tấn công trong phạm vi 9.5m. Tốc đánh bằng tốc đánh của chủ nhân và lực công kích bằng 2% máu tối đa của mục tiêu chuyển thành sát thương chuẩn",
     "asset": "enchantments/A31_HolySummoner.webp"
@@ -64,7 +64,7 @@
     "categoryId": "veda",
     "level": 3,
     "number": 2,
-    "usage": "12 giây",
+    "usage": "Hồi chiêu: 12 giây",
     "name": "Thần quang",
     "description": "Tung chiêu hoặc đánh thường đầu tiên trúng tướng địch sẽ tạo thành sát thương sấm sét gây 88-200 (+30% công phép) sát thương phép. Những chiêu hoặc đòn đánh thường tung sau đó sẽ giảm thời gian hồi chiêu 1 giây (khoảng cách giữa 2 lần giảm hồi chiêu phải lớn hơn 0.5 giây)",
     "asset": "enchantments/A32_HolyThunder.webp"
@@ -74,7 +74,7 @@
     "categoryId": "veda",
     "level": 3,
     "number": 3,
-    "usage": "30 giây",
+    "usage": "Hồi chiêu: 30 giây",
     "name": "Thánh thuẫn",
     "description": "Trong thời gian ngắn nhận sát thương vượt quá 30% máu của bản thân sẽ lập tức được nhận lá chắn miễn 430-850 sát thương và 20% hút máu phép trong 6 giây, hạ hoặc phụ hạ trong thời gian này sẽ kéo dài hút máu phép trong 3 giây",
     "asset": "enchantments/A33_SacredProtection.webp"
@@ -104,9 +104,9 @@
     "categoryId": "lokheim",
     "level": 1,
     "number": 3,
-    "usage": "8 giây",
+    "usage": "Hồi chiêu: 8 giây",
     "name": "Ma hỏa",
-    "description": "Tung chiêu hoặc đòn đánh thường trúng tướng địch sẽ gây 50 (+5 mỗi cấp tướng) (15% công phép) sát thương phép",
+    "description": "Tung chiêu hoặc đòn đánh thường trúng tướng địch sẽ gây 55-125 (+15% công phép) sát thương phép",
     "asset": "enchantments/B13_RagingInferno.webp"
   },
   {
@@ -130,6 +130,16 @@
     "asset": "enchantments/B22_BoneCutter.webp"
   },
   {
+    "enchantmentId": "hometurf",
+    "categoryId": "lokheim",
+    "level": 2,
+    "number": 3,
+    "usage": "Khi ở trong phạm vi nửa bản đồ phe ta",
+    "name": "Sân nhà",
+    "description": "Tăng 3% tốc chạy và 3% sát thương gây ra",
+    "asset": "enchantments/B23_HomeTurf.webp"
+  },
+  {
     "enchantmentId": "desperateduel",
     "categoryId": "lokheim",
     "level": 3,
@@ -144,7 +154,7 @@
     "categoryId": "lokheim",
     "level": 3,
     "number": 2,
-    "usage": "15 giây",
+    "usage": "Hồi chiêu: 15 giây",
     "name": "Ma chú",
     "description": "Tung chiêu hoặc đòn đánh thường trúng tướng địch sẽ cộng dồn 1.5 giây dấu ấn, đủ 3 dấu ấn sẽ gây trong phạm vi 2.5m quanh mục tiêu 44-100 (+25% cộng vật lý thêm) (+15% công phép) sát thương phép. Sau 1 giây gây tiếp trong phạm vi 2.5m quanh mục tiêu sát thương phép tương đương 6% máu đã mất của nạn nhân (mỗi 100 công vật lý thêm hoặc 200 công phép tăng 1%)",
     "asset": "enchantments/B32_CurseofDeath.webp"
@@ -154,9 +164,9 @@
     "categoryId": "lokheim",
     "level": 3,
     "number": 3,
-    "usage": "30 giây",
+    "usage": "Hồi chiêu: 30 giây",
     "name": "Ma tính",
-    "description": "Sau khi tung chiêu cuối lập tức giảm 30% thời gian hồi các chiêu khác và 20% giảm hồi chiêu cuối trong 6 giây. Hạ hoặc phụ hạ sẽ kéo dài hiệu ứng thêm 3 giây.",
+    "description": "Sau khi tung chiêu cuối lập tức giảm 30% thời gian hồi các chiêu khác và nhận 20% Giảm Hồi Chiêu trong 6 giây (thông số cơ bản, tính vào giới hạn 40% tối đa). Hạ hoặc phụ hạ sẽ kéo dài hiệu ứng thêm 3 giây.",
     "asset": "enchantments/B33_DevilsAwakening.webp"
   },
   {
@@ -174,7 +184,7 @@
     "categoryId": "afata",
     "level": 1,
     "number": 2,
-    "usage": "10 giây",
+    "usage": "Hồi chiêu: 10 giây",
     "name": "Ám kích",
     "description": "Ở trong bụi cỏ tung đòn đánh thường sẽ cộng thêm 4% sát thương chuẩn dựa trên lượng máu của kẻ địch khi đó. Rời khỏi bụi cỏ sau 4 giây vẫn nhận được hiệu quả này",
     "asset": "enchantments/C12_Backstabbing.webp"
@@ -210,11 +220,21 @@
     "asset": "enchantments/C22_NaturesGift.webp"
   },
   {
+    "enchantmentId": "vitalaid",
+    "categoryId": "afata",
+    "level": 2,
+    "number": 3,
+    "usage": "Hồi chiêu: 15 giây",
+    "name": "Cứu viện",
+    "description": "Tạo một gói máu nhỏ bay đến đồng minh thấp máu nhất lân cận, hồi 225-435 máu",
+    "asset": "enchantments/C23_VitalAid.webp"
+  },
+  {
     "enchantmentId": "naturesrage",
     "categoryId": "afata",
     "level": 3,
     "number": 1,
-    "usage": "20 giây",
+    "usage": "Hồi chiêu: 20 giây",
     "name": "Trói buộc",
     "description": "Khi tung chiêu khống chế trúng tướng địch (khiêu khích, hất tung, đánh lui, làm choáng, hóa đá...) sẽ giúp bản thân nhận hiệu quả thiêu đốt, mỗi 0.5 giây gây sát thương phép bằng 2% lượng máu tối đa trong 3 giây. Tướng địch bị thiêu đốt sẽ giảm 33-75 giáp phép",
     "asset": "enchantments/C31_NaturesRage.webp"
@@ -224,7 +244,7 @@
     "categoryId": "afata",
     "level": 3,
     "number": 2,
-    "usage": "10 giây",
+    "usage": "Hồi chiêu: 10 giây",
     "name": "Mộc giáp",
     "description": "Gánh chịu sát thương sẽ cộng dồn (mỗi giây tính 1 lần) trong 3 giây, đủ 4 lần giúp bản thân gây sát thương phép bằng 2% máu tối đa của bản thân trong phạm vi 4m đồng thời hồi 5% máu tối đa, mỗi khi trúng thêm 1 tướng địch sẽ giúp hồi thêm 2% máu tối đa",
     "asset": "enchantments/C32_ExplosiveShield.webp"
@@ -244,9 +264,9 @@
     "categoryId": "leagueofhumans",
     "level": 1,
     "number": 1,
-    "usage": "Dùng 1 lần",
+    "usage": "Dùng 1 lần / Sau khi trận đấu bắt đầu 4 phút",
     "name": "Quả cầu băng sương",
-    "description": "Sau khi trận đấu bắt đầu 4 phút, bạn sẽ nhận được Quả cầu băng sương. Sau khi sử dụng sẽ được miễn sát thương nhưng không thể công kích, di chuyển và khi kết thúc sẽ nhận được lá chắn 540-1100 (+50% Công Phép) Sát thương",
+    "description": "Nhận Quả cầu băng sương. Sau khi sử dụng sẽ được miễn sát thương nhưng không thể công kích, di chuyển và khi kết thúc sẽ nhận được lá chắn 540-1100 (+50% Công Phép) Sát thương",
     "asset": "enchantments/D11_MarkOfFrost.webp"
   },
   {
@@ -254,7 +274,7 @@
     "categoryId": "leagueofhumans",
     "level": 1,
     "number": 2,
-    "usage": "60 giây",
+    "usage": "Hồi chiêu: 60 giây",
     "name": "Siêu hồi máu",
     "description": "Đổi hồi máu thành Siêu hồi máu: Lập tức hồi 660 máu và 210 năng lượng cho bản thân",
     "asset": "enchantments/D12_EnhancedRestore.webp"
@@ -274,7 +294,7 @@
     "categoryId": "leagueofhumans",
     "level": 2,
     "number": 1,
-    "usage": "25 giây",
+    "usage": "Hồi chiêu: 25 giây",
     "name": "Uy áp",
     "description": "Tung chiêu hoặc tung đòn đánh thường và lính sẽ hạ 1 lính. Sau khi tích lũy hạ lính 10 lần, bản thân sẽ nhận được 200 vàng và làm mới phù hiệu này (vô hiệu hóa với Xe công thành và Lính siêu cấp)",
     "asset": "enchantments/D21_MinionKill.webp"
@@ -304,9 +324,9 @@
     "categoryId": "leagueofhumans",
     "level": 3,
     "number": 2,
-    "usage": "100 giây - 310 giây",
+    "usage": "100-310 giây / Tối đa dùng 2 lần",
     "name": "Chuyển sinh",
-    "description": "Sau khi tử vong sẽ nhận được phù hiệu: \"Hồi sinh\". Sau khi sử dụng sẽ hồi sinh trong tế đàn. \"Hồi sinh\" càng về sau sẽ càng tăng thêm thời gian hồi chiêu. Tối đa dùng 2 lần. Sau 12 phút sẽ cấm sử dụng, số lần chưa dùng sẽ chuyển thành 300/600 vàng",
+    "description": "Sau khi tử vong sẽ nhận được phù hiệu: \"Hồi sinh\". Sau khi sử dụng sẽ hồi sinh trong tế đàn. \"Hồi sinh\" càng về sau sẽ càng tăng thêm thời gian hồi chiêu. Sau 12 phút sẽ cấm sử dụng, số lần chưa dùng sẽ chuyển thành 300/600 vàng",
     "asset": "enchantments/D32_EndlessCycle.webp"
   }
 ]

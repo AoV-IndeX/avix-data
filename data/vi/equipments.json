@@ -820,7 +820,7 @@
     "asset": "equipments/A313_DS_Dawning-Star.webp",
     "stats": {
       "attackDamage": 50,
-      "attackSpeed": 40,
+      "attackSpeed": 30,
       "criticalRate": 10
     },
     "passives": [
@@ -837,6 +837,36 @@
         "name": "Xuyên thấu",
         "description": "Tăng 20% xuyên giáp (gấp đôi với tướng đánh xa).",
         "uniqueGroup": "stab"
+      }
+    ]
+  },
+  {
+    "equipmentId": "raid-hand-crossbow",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 14,
+    "price": 2040,
+    "recipe": [
+      "chain-hammer",
+      "dagger",
+      "gloves"
+    ],
+    "isActive": true,
+    "name": "Vô Ảnh Tiễn",
+    "asset": "equipments/A314_RHC_RaidHandCrossbow.webp",
+    "stats": {
+      "attackDamage": 40,
+      "attackSpeed": 20,
+      "criticalRate": 20,
+      "maxMana": 650
+    },
+    "passives": [
+      {
+        "passiveId": "raid-hand-crossbow-p1",
+        "index": 1,
+        "name": "Vô hình",
+        "description": "Lập tức tiến vào trạng thái tàng hình (kéo dài 2.5 giây, tướng đánh gần chỉ 1 giây) đồng thời tăng 30% tốc chạy và mỗi 0.5 giây hồi 120 - 260 máu (tung chiêu hoặc đánh thường sẽ bị lộ diện)",
+        "cooldown": 75
       }
     ]
   },
@@ -1775,13 +1805,13 @@
     "categoryId": "defense",
     "level": 2,
     "number": 6,
-    "price": 1940,
+    "price": 2020,
     "recipe": [
-      "greaves-of-protection",
-      "light-armor",
+      "necklace-of-vitality",
+      "short-sword",
       "light-armor"
     ],
-    "isActive": false,
+    "isActive": true,
     "name": "Giáp Thống Khổ",
     "asset": "equipments/C206_MoP_Mail-of-Pain.webp",
     "stats": {
@@ -1793,7 +1823,14 @@
         "passiveId": "mail-of-pain-p1",
         "index": 1,
         "name": "Phản pháo",
-        "description": "Phản lại 15% sát thương vật lý đã gánh chịu thành sát thương phép lên mục tiêu (sát thương chưa trải qua các cơ chế giảm trừ theo giáp)."
+        "description": "Kích hoạt: Tăng cường hiệu quả phản của [Phản phệ] lên 25%, kéo dài 3 giây",
+        "cooldown": 75
+      },
+      {
+        "passiveId": "mail-of-pain-p2",
+        "index": 2,
+        "name": "Phản phệ",
+        "description": "Chịu sát thương sẽ phản lại 5% thành Sát thương chuẩn lên kẻ địch. (Giảm đến tối đa 50% theo khoảng cách)"
       }
     ]
   },
@@ -2127,6 +2164,34 @@
         "name": "Tích tụ",
         "description": "Kích hoạt: Nhận lá chắn tương đương (30% máu tối đa + 10% máu đã mất) trong 3 giây và giảm 70% sát thương gây ra trong thời gian này. Hồi chiêu 60 giây (ó thể dùng khi bị khống chế)",
         "cooldown": 60
+      }
+    ]
+  },
+  {
+    "equipmentId": "radiant-round-shield",
+    "categoryId": "defense",
+    "level": 3,
+    "number": 11,
+    "price": 2040,
+    "recipe": [
+      "platinum-gauntlets",
+      "greaves-of-protection"
+    ],
+    "isActive": true,
+    "name": "Khiên Thánh Quang",
+    "asset": "equipments/C311_RRS_RadiantRoundShield.webp",
+    "stats": {
+      "physicalArmor": 180,
+      "maxHp": 1000,
+      "cooldownReduction": 10
+    },
+    "passives": [
+      {
+        "passiveId": "radiant-round-shield-p1",
+        "index": 1,
+        "name": "Quang Thuẫn",
+        "description": "Gây sát thương lên tướng địch bằng đòn đánh thường hoặc tung chiêu sẽ tạo lá chắn chặn 250 - 530 (+4% Máu tối đa) sát thương cho bản thân và tướng đồng đội thấp máu nhất lân cận (kéo dài 3 giây, tăng thêm 50% lá chắn nếu không có đồng đội xung quanh). Tướng đánh xa chịu thêm 2.5 giây hồi chiêu",
+        "cooldown": 10
       }
     ]
   },

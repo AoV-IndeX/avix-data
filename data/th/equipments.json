@@ -820,7 +820,7 @@
     "asset": "equipments/A313_DS_Dawning-Star.webp",
     "stats": {
       "attackDamage": 50,
-      "attackSpeed": 40,
+      "attackSpeed": 30,
       "criticalRate": 10
     },
     "passives": [
@@ -837,6 +837,36 @@
         "name": "Stab",
         "description": "Increases Armor Penetration by 20% (doubled for ranged heroes).",
         "uniqueGroup": "stab"
+      }
+    ]
+  },
+  {
+    "equipmentId": "raid-hand-crossbow",
+    "categoryId": "attack",
+    "level": 3,
+    "number": 14,
+    "price": 2040,
+    "recipe": [
+      "chain-hammer",
+      "dagger",
+      "gloves"
+    ],
+    "isActive": true,
+    "name": "Raid Hand Crossbow",
+    "asset": "equipments/A314_RHC_RaidHandCrossbow.webp",
+    "stats": {
+      "attackDamage": 40,
+      "attackSpeed": 20,
+      "criticalRate": 20,
+      "maxMana": 650
+    },
+    "passives": [
+      {
+        "passiveId": "raid-hand-crossbow-p1",
+        "index": 1,
+        "name": "Vanish",
+        "description": "Active: Immediately become Invisible (lasts 2.5s, 1s for melee heroes). Gain 30% Movement Speed and restore 130-260 HP every 0.5s (casting a skill or Normal Attack ends the effect immediately)",
+        "cooldown": 75
       }
     ]
   },
@@ -1775,13 +1805,13 @@
     "categoryId": "defense",
     "level": 2,
     "number": 6,
-    "price": 1940,
+    "price": 2020,
     "recipe": [
-      "greaves-of-protection",
-      "light-armor",
+      "necklace-of-vitality",
+      "short-sword",
       "light-armor"
     ],
-    "isActive": false,
+    "isActive": true,
     "name": "Mail of Pain",
     "asset": "equipments/C206_MoP_Mail-of-Pain.webp",
     "stats": {
@@ -1792,8 +1822,15 @@
       {
         "passiveId": "mail-of-pain-p1",
         "index": 1,
+        "name": "Riposte",
+        "description": "Active: Increases [Malice]'s reflected rate to 25%, lasts 3s",
+        "cooldown": 75
+      },
+      {
+        "passiveId": "mail-of-pain-p2",
+        "index": 2,
         "name": "Malice",
-        "description": "15% of physical damage taken is deflected to the enemy as magic damage (calculation is based on damage before damage reduction)."
+        "description": "When damaged, reflects 5% of the damage back as true damage. (Falls off with distance, down to 50%)"
       }
     ]
   },
@@ -2127,6 +2164,34 @@
         "name": "Rock Shield",
         "description": "Active: Grants a shield (30% self Max HP + 10% self Lost HP) for 3s. While shield is active, damage dealt is reduced by 70%.",
         "cooldown": 60
+      }
+    ]
+  },
+  {
+    "equipmentId": "radiant-round-shield",
+    "categoryId": "defense",
+    "level": 3,
+    "number": 11,
+    "price": 2040,
+    "recipe": [
+      "platinum-gauntlets",
+      "greaves-of-protection"
+    ],
+    "isActive": true,
+    "name": "Radiant Round Shield",
+    "asset": "equipments/C311_RRS_RadiantRoundShield.webp",
+    "stats": {
+      "physicalArmor": 180,
+      "maxHp": 1000,
+      "cooldownReduction": 10
+    },
+    "passives": [
+      {
+        "passiveId": "radiant-round-shield-p1",
+        "index": 1,
+        "name": "Dawnlight",
+        "description": "When a Normal Attack or skill damages an enemy hero, you and the lowest-HP nearby ally gain a 250-500 (+ 4% Max HP) shield. (lasts 3s; if no ally is nearby, the Shield value is increased by 50%). Cooldown is increased by 2.5s for Ranged heroes",
+        "cooldown": 10
       }
     ]
   },

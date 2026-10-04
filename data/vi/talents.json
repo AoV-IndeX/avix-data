@@ -70,5 +70,21 @@
     "name": "Suy Nhược",
     "description": "Giảm 20% sát thương của kẻ địch lân cận gây ra đồng thời tăng 20% miễn thương cho bản thân trong 4 giây.",
     "asset": "talents/Talent09_Enfeeble.webp"
+  },
+  {
+    "talentId": "teleport",
+    "number": 10,
+    "cooldown": "90s",
+    "name": "Dịch Chuyển",
+    "description": "Sau 2 giây niệm chú sẽ dịch chuyển đến công trình phe ta hoặc bên cạnh lính phe ta. Trong khi dịch chuyển, đơn vị đã chọn miễn nhiễm sát thương. Huỷ dịch chuyển hoặc sử dụng cổng dịch chuyển trong vòng 30 giây sẽ giảm 30 giây hồi chiêu.",
+    "asset": "talents/Talent10_Teleport.webp"
+  },
+  {
+    "talentId": "umbral-spawn",
+    "number": 11,
+    "cooldown": "100s",
+    "name": "Ma Chủng Hắc Ám",
+    "description": "Giảm 50% hồi chiêu của tất cả chiêu thức. Nhận 300-580 lá chắn và triệu hồi ma vật gây 300-580 sát thương phép kèm làm chậm địch",
+    "asset": "talents/Talent11_UmbralSpawn.webp"
   }
 ]

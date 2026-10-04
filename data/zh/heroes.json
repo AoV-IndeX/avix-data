@@ -347,6 +347,14 @@
     "assetSplash": "heroes/splashes/Errol.webp"
   },
   {
+    "heroId": "evita",
+    "roleId_1": "mage",
+    "laneId_1": "mid",
+    "name": "Evita",
+    "assetAvatar": "heroes/avatars/Evita.webp",
+    "assetSplash": "heroes/splashes/Evita.webp"
+  },
+  {
     "heroId": "fennik",
     "roleId_1": "marksman",
     "laneId_1": "dragon",

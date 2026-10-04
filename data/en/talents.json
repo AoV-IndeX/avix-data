@@ -70,5 +70,21 @@
     "name": "Enfeeble",
     "description": "Reduces nearby enemies' 20% Damage Dealt and gains 20% Damage Reduction for 4s",
     "asset": "talents/Talent09_Enfeeble.webp"
+  },
+  {
+    "talentId": "teleport",
+    "number": 10,
+    "cooldown": "90s",
+    "name": "Teleport",
+    "description": "Channel for 2s to teleport to an allied structure or minion. The target is immune to damage during the teleport. Cancelling Teleport or using within 30s of activating a Portal reduces its Cooldown by 30s.",
+    "asset": "talents/Talent10_Teleport.webp"
+  },
+  {
+    "talentId": "umbral-spawn",
+    "number": 11,
+    "cooldown": "100s",
+    "name": "Umbral Spawn",
+    "description": "Reduces the cooldown of all skills 50%. Gains a 300-580 shield and summons a beast that deals 300-580 magic damage and slows enemies",
+    "asset": "talents/Talent11_UmbralSpawn.webp"
   }
 ]
