@@ -1,0 +1,83 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Package release
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          VERSION="${GITHUB_REF_NAME#v}"
+          RELEASE_DIR="release"
+
+          mkdir -p "$RELEASE_DIR"
+
+          package() {
+            local suffix="$1"
+            shift
+
+            local root="avix-data-v${VERSION}-${suffix}"
+            local archive="${root}.zip"
+
+            mkdir -p "$RELEASE_DIR/$root"
+
+            cp manifest.yaml \
+              data/config.json \
+              data/data-contract.md \
+              "$RELEASE_DIR/$root/"
+
+            for locale in "$@"; do
+              cp -r "data/$locale" "$RELEASE_DIR/$root/"
+            done
+
+            (
+              cd "$RELEASE_DIR"
+              zip -qr "$archive" "$root"
+            )
+          }
+
+          package all en vi th zh
+
+          for locale in en vi th zh; do
+            package "$locale" "$locale"
+          done
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+
+          TAG="${GITHUB_REF_NAME}"
+          NOTES_FILE="$(mktemp)"
+
+          # Generate notes to file
+          gh release generate-notes --tag "$TAG" > "$NOTES_FILE"
+
+          # Append manifest content
+          {
+            cat "$NOTES_FILE"
+            printf '\n\n---\n\n'
+            cat manifest.yaml
+          } > "${NOTES_FILE}.final"
+
+          # Create release in a single step
+          gh release create "$TAG" \
+            --verify-tag \
+            --title "$TAG" \
+            --notes-file "${NOTES_FILE}.final" \
+            release/*.zip
