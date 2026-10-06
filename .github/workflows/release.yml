@@ -16,6 +16,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
+      - name: Install dependencies
+        uses: pnpm/action-setup@v4
+        with:
+          version: 12.9.1
+
+      - name: Validate schemas and data
+        run: pnpm schema:check
+
       - name: Package release
         shell: bash
         run: |
@@ -39,6 +47,8 @@ jobs:
               data/config.json \
               data/data-contract.md \
               "$RELEASE_DIR/$root/"
+
+            cp -r data/schema "$RELEASE_DIR/$root/"
 
             for locale in "$@"; do
               cp -r "data/$locale" "$RELEASE_DIR/$root/"
