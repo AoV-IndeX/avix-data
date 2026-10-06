@@ -1,0 +1,104 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Stats",
+  "type": "object",
+  "properties": {
+    "attackDamage": {
+      "type": "number",
+      "description": "Attack damage"
+    },
+    "abilityPower": {
+      "type": "number",
+      "description": "Ability power"
+    },
+    "attackSpeed": {
+      "type": "number",
+      "description": "Attack speed"
+    },
+    "criticalRate": {
+      "type": "number",
+      "description": "Critical rate"
+    },
+    "criticalDamage": {
+      "type": "number",
+      "description": "Critical damage"
+    },
+    "physicalPierce": {
+      "type": "number",
+      "description": "Flat physical pierce"
+    },
+    "physicalPiercePct": {
+      "type": "number",
+      "description": "Percentage physical pierce"
+    },
+    "magicPierce": {
+      "type": "number",
+      "description": "Flat magic pierce"
+    },
+    "magicPiercePct": {
+      "type": "number",
+      "description": "Percentage magic pierce"
+    },
+    "physicalLifesteal": {
+      "type": "number",
+      "description": "Physical lifesteal"
+    },
+    "magicLifesteal": {
+      "type": "number",
+      "description": "Magic lifesteal"
+    },
+    "physicalArmor": {
+      "type": "number",
+      "description": "Physical armor"
+    },
+    "magicArmor": {
+      "type": "number",
+      "description": "Magic armor"
+    },
+    "maxHp": {
+      "type": "number",
+      "description": "Maximum HP"
+    },
+    "hpRegen": {
+      "type": "number",
+      "description": "HP regeneration"
+    },
+    "maxMana": {
+      "type": "number",
+      "description": "Maximum mana"
+    },
+    "manaRegen": {
+      "type": "number",
+      "description": "Mana regeneration"
+    },
+    "movementSpeed": {
+      "type": "number",
+      "description": "Movement speed"
+    },
+    "cooldownReduction": {
+      "type": "number",
+      "description": "Cooldown reduction"
+    },
+    "resistance": {
+      "type": "number",
+      "description": "Resistance"
+    },
+    "damageDealt": {
+      "type": "number",
+      "description": "Damage dealt"
+    },
+    "damageReduction": {
+      "type": "number",
+      "description": "Damage reduction"
+    },
+    "healingEfficiency": {
+      "type": "number",
+      "description": "Healing efficiency"
+    },
+    "slowEfficiency": {
+      "type": "number",
+      "description": "Slow efficiency"
+    }
+  },
+  "additionalProperties": false
+}

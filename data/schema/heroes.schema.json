@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "HeroList",
+  "type": "array",
+  "items": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Hero",
+    "type": "object",
+    "properties": {
+      "heroId": {
+        "type": "string",
+        "description": "Stable hero identifier"
+      },
+      "roleId_1": {
+        "type": "string",
+        "description": "Primary role"
+      },
+      "roleId_2": {
+        "type": "string",
+        "description": "Secondary role"
+      },
+      "laneId_1": {
+        "type": "string",
+        "description": "Primary lane"
+      },
+      "laneId_2": {
+        "type": "string",
+        "description": "Secondary lane"
+      },
+      "laneId_3": {
+        "type": "string",
+        "description": "Third lane"
+      },
+      "name": {
+        "type": "string",
+        "description": "Localized name"
+      },
+      "assetAvatar": {
+        "type": "string",
+        "description": "Avatar asset path"
+      },
+      "assetSplash": {
+        "type": "string",
+        "description": "Splash asset path"
+      }
+    },
+    "required": [
+      "heroId",
+      "roleId_1",
+      "laneId_1"
+    ],
+    "additionalProperties": false
+  }
+}

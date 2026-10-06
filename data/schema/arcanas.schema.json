@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ArcanaList",
+  "type": "array",
+  "items": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Arcana",
+    "type": "object",
+    "properties": {
+      "arcanaId": {
+        "type": "string",
+        "description": "Stable Arcana identifier"
+      },
+      "colorId": {
+        "type": "string",
+        "description": "Arcana color"
+      },
+      "name": {
+        "type": "string",
+        "description": "Localized name"
+      },
+      "asset": {
+        "type": "string",
+        "description": "Asset path"
+      },
+      "stats": {
+        "$ref": "./stats.schema.json",
+        "description": "Stat modifiers"
+      }
+    },
+    "required": [
+      "arcanaId",
+      "colorId"
+    ],
+    "additionalProperties": false
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TalentList",
+  "type": "array",
+  "items": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Talent",
+    "type": "object",
+    "properties": {
+      "talentId": {
+        "type": "string",
+        "description": "Stable talent identifier"
+      },
+      "number": {
+        "type": "number",
+        "description": "Cardinal number used for ordering"
+      },
+      "cooldown": {
+        "type": "string",
+        "description": "Display cooldown text"
+      },
+      "name": {
+        "type": "string",
+        "description": "Localized name"
+      },
+      "description": {
+        "type": "string",
+        "description": "Localized description"
+      },
+      "asset": {
+        "type": "string",
+        "description": "Asset path"
+      }
+    },
+    "required": ["talentId", "number", "cooldown"],
+    "additionalProperties": false
+  }
+}

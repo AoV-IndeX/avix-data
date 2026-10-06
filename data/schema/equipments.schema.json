@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "EquipmentList",
+  "type": "array",
+  "items": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Equipment",
+    "type": "object",
+    "properties": {
+      "equipmentId": {
+        "type": "string",
+        "description": "Stable equipment identifier"
+      },
+      "categoryId": {
+        "type": "string",
+        "description": "Equipment category"
+      },
+      "level": {
+        "type": "number",
+        "description": "Equipment tier/level"
+      },
+      "number": {
+        "type": "number",
+        "description": "Cardinal number used for ordering within the source category"
+      },
+      "price": {
+        "type": "number",
+        "description": "Purchase price"
+      },
+      "isActive": {
+        "type": "boolean",
+        "description": "Whether the equipment has an active ability"
+      },
+      "recipe": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Component equipment identifiers"
+      },
+      "name": {
+        "type": "string",
+        "description": "Localized name"
+      },
+      "asset": {
+        "type": "string",
+        "description": "Asset path"
+      },
+      "stats": {
+        "$ref": "./stats.schema.json",
+        "description": "Stat modifiers"
+      },
+      "passives": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/EquipmentPassive"
+        },
+        "description": "Passive effects"
+      }
+    },
+    "required": [
+      "equipmentId",
+      "categoryId",
+      "level",
+      "number",
+      "price",
+      "isActive"
+    ],
+    "additionalProperties": false
+  },
+  "$defs": {
+    "EquipmentPassive": {
+      "type": "object",
+      "properties": {
+        "passiveId": {
+          "type": "string",
+          "description": "Stable passive identifier"
+        },
+        "index": {
+          "type": "number",
+          "description": "Passive ordering within the equipment"
+        },
+        "name": {
+          "type": "string",
+          "description": "Localized passive name"
+        },
+        "description": {
+          "type": "string",
+          "description": "Localized passive description"
+        },
+        "uniqueGroup": {
+          "type": "string",
+          "description": "Identifier for mutually exclusive unique effects"
+        },
+        "cooldown": {
+          "type": "number",
+          "description": "Cooldown, when applicable"
+        }
+      },
+      "required": [
+        "passiveId",
+        "index"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

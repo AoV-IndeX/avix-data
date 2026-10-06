@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "EnchantmentList",
+  "type": "array",
+  "items": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Enchantment",
+    "type": "object",
+    "properties": {
+      "enchantmentId": {
+        "type": "string",
+        "description": "Stable enchantment identifier"
+      },
+      "categoryId": {
+        "type": "string",
+        "description": "Enchantment category"
+      },
+      "level": {
+        "type": "number",
+        "description": "Enchantment level"
+      },
+      "number": {
+        "type": "number",
+        "description": "Cardinal number used for ordering"
+      },
+      "usage": {
+        "type": "string",
+        "description": "Localized usage text"
+      },
+      "name": {
+        "type": "string",
+        "description": "Localized name"
+      },
+      "description": {
+        "type": "string",
+        "description": "Localized description"
+      },
+      "asset": {
+        "type": "string",
+        "description": "Asset path"
+      }
+    },
+    "required": [
+      "enchantmentId",
+      "categoryId",
+      "level",
+      "number"
+    ],
+    "additionalProperties": false
+  }
+}
