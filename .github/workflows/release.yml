@@ -5,6 +5,20 @@ on:
     tags:
       - "v*.*.*"
 
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Skip publishing the GitHub Release"
+        required: true
+        type: boolean
+        default: true
+
+      version:
+        description: "Version for test archives (e.g. 0.0.0-test)"
+        required: true
+        type: string
+        default: "0.0.0-test"
+
 permissions:
   contents: write
 
@@ -26,10 +40,17 @@ jobs:
 
       - name: Package release
         shell: bash
+        env:
+          MANUAL_VERSION: ${{ inputs.version }}
         run: |
           set -euo pipefail
 
-          VERSION="${GITHUB_REF_NAME#v}"
+          if [[ "$GITHUB_EVENT_NAME" == "push" ]]; then
+            VERSION="${GITHUB_REF_NAME#v}"
+          else
+            VERSION="$MANUAL_VERSION"
+          fi
+
           RELEASE_DIR="release"
 
           mkdir -p "$RELEASE_DIR"
@@ -66,7 +87,19 @@ jobs:
             package "$locale" "$locale"
           done
 
+      - name: Inspect release archives
+        run: |
+          set -euo pipefail
+
+          ls -lh release/*.zip
+
+          for archive in release/*.zip; do
+            echo "=== $archive ==="
+            unzip -t "$archive"
+          done
+
       - name: Create GitHub Release
+        if: github.event_name == 'push' || inputs.dry_run == false
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -81,6 +114,7 @@ jobs:
             release/*.zip
 
       - name: Append manifest to release notes
+        if: github.event_name == 'push' || inputs.dry_run == false
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
